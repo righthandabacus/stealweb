@@ -1,0 +1,28 @@
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.expected_conditions import staleness_of
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+
+class phantomjs(object):
+    def __init__(self, width=1920, height=1080):
+        # PhantomJS config, override user agent string and bug workaround
+        DCAP = dict(DesiredCapabilities.PHANTOMJS)
+        DCAP.update({
+            "phantomjs.page.settings.userAgent":
+                "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 (KHTML, like Gecko) Chrome/15.0.87"
+           ,"phantomjs.page.settings.loadImages": True
+        })
+        self.browser = webdriver.PhantomJS(desired_capabilities=DCAP)
+        self.browser.set_window_size(width, height)
+        self.browser.implicitly_wait(10) # seconds
+
+    def __del__(self):
+        import signal
+        self.browser.service.process.send_signal(signal.SIGTERM) # kill the specific phantomjs child proc
+        self.browser.quit()     
+
+    def __getattr__(self, name):
+        return getattr(self.browser, name)
+
+    def wait_until_staled(self, element, timeout=30):
+        WebDriverWait(self.browser, timeout).until(staleness_of(element))
