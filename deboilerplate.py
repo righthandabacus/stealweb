@@ -4,6 +4,7 @@ import codecs
 import csv
 import subprocess
 import os
+import re
 
 from lxml import etree
 
@@ -12,8 +13,16 @@ def parseargs():
                 description='Remove boilerplate from file'
                ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("html", help="HTML file")
-    parser.add_argument("csv", help="CSV file provided XPath and goodness")
-    return parser.parse_args()
+    parser.add_argument("csv", nargs='?', help="CSV file provided XPath and goodness. Default is HTML file with .csv suffix")
+    args = parser.parse_args()
+    if not args.csv:
+        args.csv = args.html + '.csv'
+    return args
+
+def isempty(s):
+    if not s: return True
+    if isinstance(s,basestring) and not s.strip(): return True
+    return False
 
 prefixOfSomething = lambda prefix, strset: any(x.startswith(prefix) for x in strset)
 somethingIsPrefix = lambda prefix, strset: any(prefix.startswith(x) for x in strset)
@@ -54,6 +63,14 @@ def clean_html(csvfilename, htmlfilename):
         if not this_xpath:
             logging.debug('?? %s %s' % (elem, repr(this_xpath)))
             continue # no xpath found, probably deleted?
+        elif elem.tag in ['script','meta']:
+            # some element is removable for sure
+            parent = elem.getparent()
+            if parent is not None:
+                parent.remove(elem)
+                logging.debug('Removed %s' % this_xpath)
+            else:
+                logging.error('Cannot find parent of %s' % this_xpath)
         elif this_xpath in goodxpaths:
             logging.debug('Keep good element %s' % this_xpath)
             continue # this is not boilerplate, keep it
@@ -62,9 +79,7 @@ def clean_html(csvfilename, htmlfilename):
             parent = elem.getparent()
             if parent is not None:
                 parent.remove(elem)
-                if elem.tag == 'script':
-                    logging.debug('Removed %s' % this_xpath)
-                #logging.debug('Removed %s' % this_xpath)
+                logging.debug('Removed %s' % this_xpath)
             else:
                 logging.error('Cannot find parent of %s' % this_xpath)
         elif not prefixOfSomething(this_xpath, goodxpaths) and somethingIsPrefix(this_xpath, goodxpaths):
@@ -94,6 +109,36 @@ def clean_html(csvfilename, htmlfilename):
             logging.debug('Removed inner text of %s but keep children' % this_xpath)
         else:
             logging.error('Unhandled element %s' % this_xpath)
+
+    # more clean up: remove some elements
+    try_again = False
+    allow_empty = ['br','tr','img']
+    while True:
+        for elem in domtree.iter():
+            parent = elem.getparent()
+            if parent is None: continue
+            if len(elem) == 0 and isempty(elem.text) and elem.tag not in allow_empty:
+                if not isempty(elem.tail):
+                    previous = elem.getprevious()
+                    if previous is not None:
+                        previous.tail = ' '.join(filter(None, [previous.tail, elem.tail]))
+                    else:
+                        parent.text = ' '.join(filter(None, [parent.text, elem.tail]))
+                parent.remove(elem)
+                try_again = True
+                break
+            if len(elem) == 1 and elem.tag == 'div' and isempty(elem.text) and isempty(elem[0].tail):
+                elem[0].tail = elem.tail
+                parent.replace(elem, elem[0])
+                try_again = True
+                break
+            if elem.text and elem.tag not in ['pre','code']:
+                elem.text = re.sub(r'\s+',' ',elem.text)
+            if elem.tail and parent.tag not in ['pre','code']:
+                elem.tail = re.sub(r'\s+',' ',elem.tail)
+        if not try_again:
+            break
+        try_again = False
 
     # stringify cleaned HTML
     etree.strip_tags(domtree, 'span') # pandoc will keep span tag if not removed

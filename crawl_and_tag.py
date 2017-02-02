@@ -6,7 +6,7 @@ import os
 import urlparse
 import urllib
 
-from lxml import etree
+from lxml import etree, objectify
 from utf8csv import csv,UnicodeWriter
 from phantomjs import phantomjs
 import selenium.common.exceptions
@@ -78,11 +78,54 @@ gethost = lambda url: urlparse.urlparse(url).netloc
 ###################################
 # Site-specific items
 #
+def xpath_extractor_factory(css_selectors=[], xpath_selectors=[], bad_tags=[], bad_classes=[]):
+    # sanity checkers
+    assert(isinstance(xpath_selectors,(list,tuple)))
+    assert(isinstance(css_selectors,(list,tuple)))
+    assert(not xpath_selectors or not css_selectors)
+    assert(all(isinstance(x,basestring) for x in css_selectors))
+    assert(all(isinstance(x,basestring) for x in xpath_selectors))
+    if isinstance(bad_tags, basestring):
+        bad_tags = filter(None, bad_tags.split())
+    if isinstance(bad_classes, basestring):
+        bad_classes = filter(None, bad_classes.split())
+    assert(callable(bad_tags) or (isinstance(bad_tags,(list,tuple,set)) and all(isinstance(x,basestring) for x in bad_tags)))
+    assert(callable(bad_classes) or (isinstance(bad_classes,(list,tuple,set)) and all(isinstance(x,basestring) for x in bad_classes)))
+    if not callable(bad_tags):
+        bad_tags = set(bad_tags)
+    if not callable(bad_classes):
+        bad_classes = set(bad_classes)
+    # real function
+    def _xpath_extractor(browser, domtree=None):
+        xpaths = set([])
+        badxpaths = set([])
+        for xpath_selector in xpath_selectors:
+            main_elems = domtree.getroot().xpath(xpath_selector)
+            if len(main_elems): break
+        for css_selector in css_selectors:
+            main_elems = domtree.getroot().cssselect(css_selector)
+            if len(main_elems): break
+        for e in main_elems:
+            xpaths.add(domtree.getpath(e))
+            for x in e.iterdescendants():
+                classes = set(filter(None,(x.get('class') or "").split()))
+                this_xpath = domtree.getpath(x)
+                if any(this_xpath.startswith(p) for p in badxpaths):
+                    continue # inside known ignorable elements
+                if (bad_tags(x.tag) if callable(bad_tags) else x.tag in bad_tags) or \
+                   (bad_classes(classes) if callable(bad_classes) else (classes & bad_classes)):
+                        badxpaths.add(domtree.getpath(x))
+                        continue # these are surely not main text
+                xpaths.add(domtree.getpath(x))
+        logging.info('%d content elements found' % len(xpaths))
+        return xpaths
+    return _xpath_extractor
+
 def get_content_xpaths(browser, domtree=None):
     "diverter: return set of xpaths string that identifies as main content"
     url = browser.current_url
     host = gethost(url)
-    if host.endswith('medium.com'):
+    if host.endswith('medium.com') or host.startswith('medium.'):
         return medium_com(browser, domtree)
     if host.endswith('cliffsnotes.com'):
         return cliffsnotes_com(browser, domtree)
@@ -90,124 +133,63 @@ def get_content_xpaths(browser, domtree=None):
         return wordpress_com(browser, domtree)
     if host.endswith('theinitium.com'):
         return theinitium_com(browser, domtree)
+    if host == 'blog.mailgun.com':
+        return blog_mailgun_com(browser, domtree)
     if host.split('.')[-2] == 'blogspot' or host.endswith('commentshk.com'):
         return blogspot_com(browser, domtree)
     if host == 'opinion.udn.com':
         return opinion_udn_com(browser, domtree)
+    if host == 'hk.apple.nextmedia.com':
+        return hk_apple_nextmedia_com(browser, domtree)
+    if host == 'commondatastorage.googleapis.com' and 'commondatastorage.googleapis.com/letscorp_archive/archives' in url:
+        return wordpress_com(browser, domtree) # same as wordpress although it's not
+    if host == 'jcjc-dev.com':
+        return jcjcdev_com(browser, domtree)
     raise NotImplemented # all other are not known
 
-def medium_com(browser, domtree=None):
-    '''
-    Article on medium.com, this extract all WebElements that identifies main
-    content and return their XPath
-    '''
-    main_elems = browser.find_elements_by_css_selector("main .section-content .section-inner")
-    logging.info('%d container element found on medium.com' % len(main_elems))
-    xpaths = set([])
-    for e in main_elems:
-        xpaths.add(browser.get_xpath(e))
-        for x in e.find_elements_by_xpath("*|*//*"):
-            xpaths.add(browser.get_xpath(x))
-    logging.info('%d total elements found on medium.com' % len(xpaths))
-    return xpaths
+medium_com = xpath_extractor_factory(
+        css_selectors=["main .section-content .section-inner"]
+        ,bad_tags="style script meta")
 
-def opinion_udn_com(browser, domtree=None):
-    "Article on opinion.udn.com"
-    main_elems = browser.find_elements_by_css_selector("main")
-    xpaths = set([])
-    for e in main_elems:
-        for x in e.find_elements_by_xpath("*|*//*"):
-            if x.tag_name == 'script':
-                continue # skip tag: script
-            classes = (x.get_attribute('class') or "").split()
-            if any(c.startswith('fb_') or c.startswith('fb-') or c=='float_bar' for c in classes):
-                continue # skip class: fb_* fb-* float_bar
-            xpaths.add(browser.get_xpath(x))
-    logging.info('%d total elements found on opinion.udn.com' % len(xpaths))
-    return xpaths
+opinion_udn_com = xpath_extractor_factory(
+        css_selectors=["main"]
+        ,bad_tags="style script meta"
+        ,bad_classes=lambda classes: any(c.startswith('fb_') or c.startswith('fb-') or c=='float_bar' for c in classes))
 
-def cliffsnotes_com(browser, domtree=None):
-    "Article on cliffsnotes.com"
-    xpaths = set([])
-    if domtree:
-        main_elems = domtree.xpath("//article[.//p[@class='litNoteText']]")
-        for e in main_elems:
-            for x in e.iterchildren():
-                classes = (x.get('class') or "").split()
-                if x.tag not in "h1 h2 h3 h4 h5 h6".split() and 'litNoteText' not in classes:
-                    continue # these are surely not main text
-                xpaths.add(domtree.getpath(x))
-                for y in x.iterchildren():
-                    xpaths.add(domtree.getpath(y))
-    else:
-        main_elems = browser.find_elements_by_xpath("//article[.//p[@class='litNoteText']]")
-        for e in main_elems:
-            for x in e.find_elements_by_xpath("*"):
-                classes = (x.get_attribute('class') or "").split()
-                if x.tag_name not in "h1 h2 h3 h4 h5 h6".split() and 'litNoteText' not in classes:
-                    continue # these are surely not main text
-                xpaths.add(browser.get_xpath(x))
-                for y in x.find_elements_by_xpath("*|*//*"):
-                    xpaths.add(browser.get_xpath(y))
-    logging.info('%d total elements found on cliffsnotes.com' % len(xpaths))
-    return xpaths
+hk_apple_nextmedia_com = xpath_extractor_factory(
+        css_selectors=[".LHSContent h1 , .Article"]
+        ,bad_tags="style script meta fb:like")
 
-def blogspot_com(browser, domtree=None):
-    xpaths = set([])
-    badxpaths = set([])
-    main_elems = domtree.getroot().cssselect(".hentry .entry-title , .entry-content")
-    if not len(main_elems):
-        main_elems = domtree.getroot().cssselect(".hentry .post-title , .post-body")
-    for e in main_elems:
-        xpaths.add(domtree.getpath(e))
-        for x in e.iterdescendants():
-            this_xpath = domtree.getpath(x)
-            if any(this_xpath.startswith(p) for p in badxpaths):
-                continue # inside known ignorable elements
-            if x.tag in "style script meta".split():
-                badxpaths.add(domtree.getpath(x))
-                continue # these are surely not main text
-            xpaths.add(domtree.getpath(x))
-    logging.info('%d total elements found on blogspot.com' % len(xpaths))
-    return xpaths
+cliffsnotes_com = xpath_extractor_factory(
+        xpath_selectors=["//article//h2 | //article//*[@class='litNoteText']"]
+        ,bad_tags="style script meta")
 
-def wordpress_com(browser, domtree=None):
-    xpaths = set([])
-    badxpaths = set([])
-    main_elems = domtree.getroot().cssselect(".entry-title , .entry-meta , .entry-content")
-    if not len(main_elems):
-        main_elems = domtree.getroot().cssselect(".itemhead , .itemtext")
-    for e in main_elems:
-        xpaths.add(domtree.getpath(e))
-        for x in e.iterdescendants():
-            classes = set(filter(None,(x.get('class') or "").split()))
-            this_xpath = domtree.getpath(x)
-            if any(this_xpath.startswith(p) for p in badxpaths):
-                continue # inside known ignorable elements
-            if x.tag in "style script meta".split() or (set("wpa wpcnt sharedaddy comments".split()) & classes):
-                badxpaths.add(domtree.getpath(x))
-                continue # these are surely not main text
-            xpaths.add(domtree.getpath(x))
-    logging.info('%d total elements found on wordpress.com' % len(xpaths))
-    return xpaths
+jcjcdev_com = xpath_extractor_factory(
+        css_selectors=[".post"]
+        ,bad_tags="style script meta"
+        ,bad_classes="share-links post-sidebar post-comments")
 
-def theinitium_com(browser, domtree=None):
-    xpaths = set([])
-    badxpaths = set([])
-    main_elems = domtree.getroot().cssselect(".article-body h1 , .article-content")
-    for e in main_elems:
-        xpaths.add(domtree.getpath(e))
-        for x in e.iterdescendants():
-            classes = set(filter(None,(x.get('class') or "").split()))
-            this_xpath = domtree.getpath(x)
-            if any(this_xpath.startswith(p) for p in badxpaths):
-                continue # inside known ignorable elements
-            if x.tag in "form style script meta".split() or (set("ad-wrapper share-wrap related-content comments".split()) & classes):
-                badxpaths.add(domtree.getpath(x))
-                continue # these are surely not main text
-            xpaths.add(domtree.getpath(x))
-    logging.info('%d total elements found on theinitium.com' % len(xpaths))
-    return xpaths
+blog_mailgun_com = xpath_extractor_factory(
+        css_selectors=[".post-title , .byline , .post-body"]
+        ,bad_tags="style script meta"
+        ,bad_classes="share-links post-sidebar post-comments")
+
+blogspot_com = xpath_extractor_factory(
+        css_selectors=[".hentry .entry-title , .entry-content"
+                      ,".hentry .post-title , .post-body"]
+        ,bad_tags="style script meta"
+        ,bad_classes="similiar blog-pager")
+
+wordpress_com = xpath_extractor_factory(
+        css_selectors=[".entry-title , .entry-meta , .entry-content"
+                      ,".itemhead , .itemtext"]
+        ,bad_tags="style script meta"
+        ,bad_classes="wpa wpcnt sharedaddy comments")
+
+theinitium_com = xpath_extractor_factory(
+        css_selectors=[".article-body h1 , .article-content"]
+        ,bad_tags="form style script meta"
+        ,bad_classes="ad-wrapper share-wrap related-content comments")
 
 ###################################
 # Main modules
@@ -221,6 +203,7 @@ def collect_features(browser):
     all_elems = browser.get_everything()
     page_source = browser.page_source
     domtree = html2dom(page_source) # need to pretty format source before use
+    objectify.deannotate(domtree, cleanup_namespaces=True)
     linecount = len(page_source.split("\n"))
     winwidth = browser.get_window_size()['width']
     logging.info("%d web elements found" % len(all_elems))
@@ -246,11 +229,8 @@ def collect_features(browser):
     for i,attrs in enumerate(all_elems):
         if i and (i % 50 == 0):
             logging.info('...on element #%d' % i)
-        if len(attrs) != 10:
-            print i
-            print attrs
         elem, xpath, x, y, wid, hght, fgcolor, bgcolor, textonly, htmlcode = attrs
-        if not xpath or re.search(r'(?<!\w)(script|head)(?!\w)',xpath):
+        if not xpath or re.search(r'[^a-z0-9\[\]\/]',xpath) or re.search(r'(?<!\w)(script|head)(?!\w)',xpath):
             continue # skip these to avoid pollution by JS or HTML header
         etreenode  = domtree.xpath(xpath)
         if len(etreenode) != 1:
@@ -330,6 +310,8 @@ def main():
     logging.info('Wrote to %s' % csv)
 
 if __name__ == '__main__':
+    from debugger import debugExceptions
+    debugExceptions()
     logging.basicConfig(level=logging.INFO  # level DEBUG will be noisy with selenium
                        ,format='%(asctime)-15s %(levelname)s:%(name)s:%(message)s')
     main()
