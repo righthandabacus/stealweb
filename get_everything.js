@@ -4,16 +4,16 @@ function addpath(element, xpath) {
     var rect = element.getBoundingClientRect();
     var offsetx = window.pageXOffset;
     var offsety = window.pageYOffset;
-    var fgcolor = window.getComputedStyle(element, null).getPropertyValue('color');
+    var visible = (window.getComputedStyle(element, null).display != 'none')?1:0;
+    var fgcolor = window.getComputedStyle(element, null).color;
     var bgcolor = window.getComputedStyle(element, null).getPropertyValue('background-color');
     var text = element.innerText;
     var html = element.outerHTML;
-    nodepath.push([element, xpath, rect.left+offsetx, rect.top+offsety, rect.width, rect.height, fgcolor, bgcolor, text, html]);
+    nodepath.push([element, xpath, visible, rect.left+offsetx, rect.top+offsety, rect.width, rect.height, fgcolor, bgcolor, text, html]);
 };
-addpath(document.documentElement, '/');
 var pathwalker = function(element, basepath) {
     var children = element.childNodes;
-    var tagmap = {}
+    var tagmap = {} // offset list for each children's tag
     for (var i=0; i<children.length; i++) {
         if (!children[i].tagName) continue;
         var tag = children[i].tagName.toLowerCase();
@@ -28,6 +28,11 @@ var pathwalker = function(element, basepath) {
             continue // usually comment node
         };
         var tag = children[i].tagName.toLowerCase();
+        /*
+        if (tag.indexOf(':') >= 0) {
+            continue // ignore everything with a prefix or namespace
+        };
+        */
         var xpath = basepath+'/'+tag;
         if (tagmap[tag].length > 1) {
             xpath = xpath + '[' + (tagmap[tag].indexOf(i)+1) + ']';

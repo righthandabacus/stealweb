@@ -78,7 +78,7 @@ gethost = lambda url: urlparse.urlparse(url).netloc
 ###################################
 # Site-specific items
 #
-def xpath_extractor_factory(css_selectors=[], xpath_selectors=[], bad_tags=[], bad_classes=[]):
+def xpath_extractor_factory(css_selectors=[], xpath_selectors=[], bad_tags=[], bad_classes=[], is_bad=None):
     # sanity checkers
     assert(isinstance(xpath_selectors,(list,tuple)))
     assert(isinstance(css_selectors,(list,tuple)))
@@ -113,7 +113,8 @@ def xpath_extractor_factory(css_selectors=[], xpath_selectors=[], bad_tags=[], b
                 if any(this_xpath.startswith(p) for p in badxpaths):
                     continue # inside known ignorable elements
                 if (bad_tags(x.tag) if callable(bad_tags) else x.tag in bad_tags) or \
-                   (bad_classes(classes) if callable(bad_classes) else (classes & bad_classes)):
+                   (bad_classes(classes) if callable(bad_classes) else (classes & bad_classes)) or \
+                   (callable(is_bad) and is_bad(x)):
                         badxpaths.add(domtree.getpath(x))
                         continue # these are surely not main text
                 xpaths.add(domtree.getpath(x))
@@ -125,17 +126,19 @@ def get_content_xpaths(browser, domtree=None):
     "diverter: return set of xpaths string that identifies as main content"
     url = browser.current_url
     host = gethost(url)
-    if host.endswith('medium.com') or host.startswith('medium.'):
+    if host.endswith('.medium.com') or host.startswith('medium.'):
         return medium_com(browser, domtree)
-    if host.endswith('cliffsnotes.com'):
+    if host.endswith('.cliffsnotes.com'):
         return cliffsnotes_com(browser, domtree)
-    if host.endswith('wordpress.com'):
+    if any(host.endswith(x) for x in ['.wordpress.com']):
         return wordpress_com(browser, domtree)
-    if host.endswith('theinitium.com'):
+    if any(host.endswith(x) for x in ['.localpresshk.com']):
+        return localpresshk_com(browser, domtree)
+    if host.endswith('.theinitium.com'):
         return theinitium_com(browser, domtree)
     if host == 'blog.mailgun.com':
         return blog_mailgun_com(browser, domtree)
-    if host.split('.')[-2] == 'blogspot' or host.endswith('commentshk.com'):
+    if host.split('.')[-2] == 'blogspot' or host.endswith('.commentshk.com'):
         return blogspot_com(browser, domtree)
     if host == 'opinion.udn.com':
         return opinion_udn_com(browser, domtree)
@@ -143,8 +146,22 @@ def get_content_xpaths(browser, domtree=None):
         return hk_apple_nextmedia_com(browser, domtree)
     if host == 'commondatastorage.googleapis.com' and 'commondatastorage.googleapis.com/letscorp_archive/archives' in url:
         return wordpress_com(browser, domtree) # same as wordpress although it's not
-    if host == 'jcjc-dev.com':
+    if host == 'qz.com':
+        return qz_com(browser, domtree)
+    if host == 'jcjc-dev.com' or host == 'research.googleblog.com':
         return jcjcdev_com(browser, domtree)
+    if host.endswith('.thestandnews.com'):
+        return thestandnews_com(browser, domtree)
+    if host.endswith('.analyticsvidhya.com'):
+        return analyticsvidhya_com(browser, domtree)
+    if host.endswith('.epochtimes.com'):
+        return epochtimes_com(browser, domtree)
+    if host.endswith('.hk01.com'):
+        return hk01_com(browser, domtree)
+    if host.endswith('.letscorp.net'):
+        return letscorp_net(browser, domtree)
+    if host.endswith('.passiontimes.hk'):
+        return passiontimes_hk(browser, domtree)
     raise NotImplemented # all other are not known
 
 medium_com = xpath_extractor_factory(
@@ -157,7 +174,7 @@ opinion_udn_com = xpath_extractor_factory(
         ,bad_classes=lambda classes: any(c.startswith('fb_') or c.startswith('fb-') or c=='float_bar' for c in classes))
 
 hk_apple_nextmedia_com = xpath_extractor_factory(
-        css_selectors=[".LHSContent h1 , .Article"]
+        css_selectors=[".LHSContent h1 , .LHSContent .Article"]
         ,bad_tags="style script meta fb:like")
 
 cliffsnotes_com = xpath_extractor_factory(
@@ -167,7 +184,12 @@ cliffsnotes_com = xpath_extractor_factory(
 jcjcdev_com = xpath_extractor_factory(
         css_selectors=[".post"]
         ,bad_tags="style script meta"
-        ,bad_classes="share-links post-sidebar post-comments")
+        ,bad_classes="social-wrapper share-links post-sidebar post-comments")
+
+qz_com = xpath_extractor_factory(
+        css_selectors=['article.item *[itemprop~="headline"] , article.item *[itemprop~="image"], article.item *[itemprop~=""] , article.item .featured-image-caption ,  article.item .byline , article.item .item-timestamp , article.item .item-body']
+        ,bad_tags="style script meta"
+        ,bad_classes="item-share-tools article-aside")
 
 blog_mailgun_com = xpath_extractor_factory(
         css_selectors=[".post-title , .byline , .post-body"]
@@ -177,17 +199,52 @@ blog_mailgun_com = xpath_extractor_factory(
 blogspot_com = xpath_extractor_factory(
         css_selectors=[".hentry .entry-title , .entry-content"
                       ,".hentry .post-title , .post-body"]
-        ,bad_tags="style script meta"
+        ,bad_tags="style script meta ins"
         ,bad_classes="similiar blog-pager")
+
+localpresshk_com = xpath_extractor_factory(
+        css_selectors=[".gp-single .entry-header .entry-title , .gp-single .entry-header .entry-meta , .entry-content"]
+        ,bad_tags="style script meta ins aside"
+        ,bad_classes="wpa wpcnt sharedaddy comments gp-widget gp-comments gp-related-posts")
 
 wordpress_com = xpath_extractor_factory(
         css_selectors=[".entry-title , .entry-meta , .entry-content"
                       ,".itemhead , .itemtext"]
-        ,bad_tags="style script meta"
-        ,bad_classes="wpa wpcnt sharedaddy comments")
+        ,bad_tags="style script meta ins aside"
+        ,bad_classes="wpa wpcnt sharedaddy comments gp-widget gp-comments gp-related-posts")
 
 theinitium_com = xpath_extractor_factory(
         css_selectors=[".article-body h1 , .article-content"]
+        ,bad_tags="form style script meta"
+        ,bad_classes="ad-wrapper share-wrap related-content comments")
+
+thestandnews_com = xpath_extractor_factory(
+        css_selectors=[".article-content-wrap .article-name , .article-content-wrap .date , .article-media , .article-content-wrap .caption , .article-content"]
+        ,bad_tags="form style script meta"
+        ,bad_classes="article-ad mobile-ad social-wrap hidden-print article-nav artile-comments-heading article-comments")
+
+analyticsvidhya_com = xpath_extractor_factory(
+        css_selectors=["article.main-content .entry-title , article .text-content"]
+        ,bad_tags="style script meta ins"
+        ,bad_classes="wpa wpcnt sharedaddy comments jp-relatedposts")
+
+epochtimes_com = xpath_extractor_factory(
+        css_selectors=[".arttop , #artbody"]
+        ,bad_tags="style script meta ins aside"
+        ,bad_classes="articleBodyTopBar related-list related-news article_bottom")
+
+hk01_com = xpath_extractor_factory(
+        css_selectors=[".article__body__header , .article__body__content"]
+        ,bad_tags="style script meta ins aside"
+        ,bad_classes="nocontent tag_txt add_tag login")
+
+letscorp_net = xpath_extractor_factory(
+        css_selectors=[".post h1 , .post info , .post .content"]
+        ,bad_tags="style script meta ins aside"
+        ,bad_classes="font-resizer addcomment comments")
+
+passiontimes_hk = xpath_extractor_factory(
+        css_selectors=[".article-body , article h1 , article h2 , article h3 article h4 , article h5 , article h6"]
         ,bad_tags="form style script meta"
         ,bad_classes="ad-wrapper share-wrap related-content comments")
 
@@ -201,16 +258,17 @@ def collect_features(browser):
     TODO all webdriver calls are damn slow, lxml would be much faster
     '''
     all_elems = browser.get_everything()
-    page_source = browser.page_source
+    winwidth = browser.get_window_size()['width']
+    logging.info("%d web elements found" % len(all_elems))
+    page_source = next((x[-1] for x in all_elems if x[1]=='/html/body'),'')
+    assert(page_source) # there must be a body, right?
     domtree = html2dom(page_source) # need to pretty format source before use
     objectify.deannotate(domtree, cleanup_namespaces=True)
     linecount = len(page_source.split("\n"))
-    winwidth = browser.get_window_size()['width']
-    logging.info("%d web elements found" % len(all_elems))
 
     # populate DOM tree geometry data
     xpathHash = {attrs[1]:i for i,attrs in enumerate(all_elems)}
-    depthHash = {}
+    depthHash = {} # actually "height", distance from node to deepest leaf
     def findElementDepth(e):
         if e not in depthHash:
             if len(e):
@@ -229,12 +287,13 @@ def collect_features(browser):
     for i,attrs in enumerate(all_elems):
         if i and (i % 50 == 0):
             logging.info('...on element #%d' % i)
-        elem, xpath, x, y, wid, hght, fgcolor, bgcolor, textonly, htmlcode = attrs
+        elem, xpath, visible, x, y, wid, hght, fgcolor, bgcolor, textonly, htmlcode = attrs
         if not xpath or re.search(r'[^a-z0-9\[\]\/]',xpath) or re.search(r'(?<!\w)(script|head)(?!\w)',xpath):
             continue # skip these to avoid pollution by JS or HTML header
         etreenode  = domtree.xpath(xpath)
         if len(etreenode) != 1:
             if not etreenode:
+                logging.error('WebDriver reported XPath cannot be found in lxml: %s' % xpath)
                 continue
             else:
                 logging.error('XPath not unique for %s. %d elements found.' % (xpath, len(etreenode)))
@@ -264,7 +323,7 @@ def collect_features(browser):
         pospct     = float(i+1)/len(all_elems)
         area       = wid*hght
         #isgood     = 1 if any(xpath.startswith(x) for x in content_xpaths) else 0
-        isgood     = 1 if xpath in content_xpaths else 0
+        isgood     = 1 if visible and xpath in content_xpaths else 0
         # remember this
         attributes.append([i, parent, tagname, depth, childcount, sourceline, sourcepct, pospct, xpct, x, y,
             wid, hght, area, fgcolor, bgcolor, lumdiff, textlen, htmllen, textratio, xpath, textclip, isgood])
