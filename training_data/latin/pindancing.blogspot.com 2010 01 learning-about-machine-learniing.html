@@ -1,0 +1,1530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html dir="ltr"><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="blogger" name="generator">
+<link href="http://pindancing.blogspot.com/favicon.ico" rel="icon" type="image/x-icon">
+<link href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html" rel="canonical">
+<link rel="alternate" type="application/atom+xml" title="Pin Dancing - Atom" href="http://pindancing.blogspot.com/feeds/posts/default">
+<link rel="alternate" type="application/rss+xml" title="Pin Dancing - RSS" href="http://pindancing.blogspot.com/feeds/posts/default?alt=rss">
+<link rel="service.post" type="application/atom+xml" title="Pin Dancing - Atom" href="https://www.blogger.com/feeds/8993901435573921786/posts/default">
+
+<link rel="alternate" type="application/atom+xml" title="Pin Dancing - Atom" href="http://pindancing.blogspot.com/feeds/9128291344831069721/comments/default">
+<meta content="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html" property="og:url">
+<meta content="Learning about Machine Learning" property="og:title">
+<meta content="Bradford Cross has posted an awesome blog post (edit: removed link, since Bradford took down the post) titled &quot;Learning about Statistical Le..." property="og:description">
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Pin Dancing: Learning about Machine Learning</title>
+<link type="text/css" rel="stylesheet" href="https://www.blogger.com/static/v1/widgets/2422776291-widget_css_bundle.css">
+<link type="text/css" rel="stylesheet" href="https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8993901435573921786&amp;zx=ee1da1b4-d90d-4fa4-8bf4-a38677059827">
+<style id="page-skin-1" type="text/css"><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima
+Date:     26 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+body {
+background:#ffffff;
+margin:0;
+color:#333333;
+font:x-small Georgia Serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+text-align: center;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#999999;
+text-decoration:none;
+}
+a:hover {
+color:#cc6600;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+/* Header
+-----------------------------------------------
+*/
+#header-wrapper {
+width:660px;
+margin:0 auto 10px;
+border:1px solid #cccccc;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 5px;
+border: 1px solid #cccccc;
+text-align: center;
+color:#666666;
+}
+#header h1 {
+margin:5px 5px 0;
+padding:15px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font: normal normal 200% Georgia, Serif;
+}
+#header a {
+color:#666666;
+text-decoration:none;
+}
+#header a:hover {
+color:#666666;
+}
+#header .description {
+margin:0 5px 5px;
+padding:0 20px 15px;
+max-width:700px;
+text-transform:uppercase;
+letter-spacing:.2em;
+line-height: 1.4em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+}
+#header img {
+margin-left: auto;
+margin-right: auto;
+}
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+width: 660px;
+margin:0 auto;
+padding:10px;
+text-align:left;
+font: normal normal 100% Georgia, Serif;
+}
+#main-wrapper {
+width: 410px;
+float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+width: 220px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#999999;
+}
+/* Posts
+-----------------------------------------------
+*/
+h2.date-header {
+margin:1.5em 0 .5em;
+}
+.post {
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em;
+}
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 4px;
+font-size:140%;
+font-weight:normal;
+line-height:1.4em;
+color:#cc6600;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+display:block;
+text-decoration:none;
+color:#cc6600;
+font-weight:normal;
+}
+.post h3 strong, .post h3 a:hover {
+color:#333333;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+margin: .75em 0;
+color:#999999;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+line-height: 1.4em;
+}
+.comment-link {
+margin-left:.6em;
+}
+.post img, table.tr-caption-container {
+padding:4px;
+border:1px solid #cccccc;
+}
+.tr-caption-container img {
+border: none;
+padding: 0;
+}
+.post blockquote {
+margin:1em 20px;
+}
+.post blockquote p {
+margin:.75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin:1em 0;
+font-weight: bold;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color: #999999;
+}
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #666666;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:15px;
+text-indent:-15px;
+line-height:1.5em;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #cccccc;
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:660px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+
+--></style>
+<script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=gapi_iframes_style_slide_menu/exm=gapi_iframes,gapi_iframes_style_bubble,plusone,profile/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA/cb=gapi.loaded_3" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=profile/exm=gapi_iframes,gapi_iframes_style_bubble,plusone/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA/cb=gapi.loaded_2" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=gapi_iframes,gapi_iframes_style_bubble/exm=plusone/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA/cb=gapi.loaded_1" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=EQ/rs=AGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA/cb=gapi.loaded_0" async=""></script><script type="text/javascript">function a(){var b=window.location.href,c=b.split("?");switch(c.length){case 1:return b+"?m=1";case 2:return 0<=c[1].search("(^|&)m=")?null:b+"&m=1";default:return null}}var d=navigator.userAgent;if(-1!=d.indexOf("Mobile")&&-1!=d.indexOf("WebKit")&&-1==d.indexOf("iPad")||-1!=d.indexOf("Opera Mini")||-1!=d.indexOf("IEMobile")){var e=a();e&&window.location.replace(e)};
+</script><script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/js/google_top_exp.js"></script><style>.gc-bubbleDefault{background-color:transparent !important;text-align:left;padding:0 !important;margin:0 !important;border:0 !important;table-layout:auto !important}.gc-reset{background-color:transparent !important;border:0 !important;padding:0 !important;margin:0 !important;text-align:left}.pls-bubbleTop{border-bottom:1px solid #ccc !important}.pls-topTail,.pls-vertShimLeft,.pls-contentLeft{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/border_3.gif) !important}.pls-topTail{background-repeat:repeat-x !important;background-position:bottom !important}.pls-vertShim{background-color:#fff !important;text-align:right}.tbl-grey .pls-vertShim{background-color:#f5f5f5 !important}.pls-vertShimLeft{background-repeat:repeat-y !important;background-position:right !important;height:4px}.pls-vertShimRight{height:4px}.pls-confirm-container .pls-vertShim{background-color:#fff3c2 !important}.pls-contentWrap{background-color:#fff !important;position:relative !important;vertical-align:top}.pls-contentLeft{background-repeat:repeat-y;background-position:right;vertical-align:top}.pls-dropRight{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropR_3.png) !important;background-repeat:repeat-y !important;vertical-align:top}.pls-vert,.pls-tailleft,.pls-dropTR .pls-dropBR,.pls-dropBL,.pls-vert img{vertical-align:top}.pls-dropBottom{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleDropB_3.png) !important;background-repeat:repeat-x !important;width:100%;vertical-align:top}.pls-topLeft{background:inherit !important;text-align:right;vertical-align:bottom}.pls-topRight{background:inherit !important;text-align:left;vertical-align:bottom}.pls-bottomLeft{background:inherit !important;text-align:right}.pls-bottomRight{background:inherit !important;text-align:left;vertical-align:top}.pls-tailtop,.pls-tailright,.pls-tailbottom,.pls-tailleft{display:none;position:relative}.pls-tailbottom,.pls-tailtop,.pls-tailright,.pls-tailleft,.pls-dropTR,.pls-dropBR,.pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite_3.png) !important;background-repeat:no-repeat}.tbl-grey .pls-tailbottom,.tbl-grey .pls-tailtop,.tbl-grey .pls-tailright,.tbl-grey .pls-tailleft,.tbl-grey .pls-dropTR,.tbl-grey .pls-dropBR,.tbl-grey .pls-dropBL{background-image:url(//ssl.gstatic.com/s2/oz/images/stars/po/bubblev1/bubbleSprite-grey.png) !important}.pls-tailbottom{background-position:-23px 0}.pls-confirm-container .pls-tailbottom{background-position:-23px -10px}.pls-tailtop{background-position:-19px -20px}.pls-tailright{background-position:0 0}.pls-tailleft{background-position:-10px 0}.pls-tailtop{vertical-align:top}.gc-bubbleDefault td{line-height:0;font-size:0}.pls-topLeft img,.pls-topRight img,.pls-tailbottom{vertical-align:bottom}.pls-bottomLeft img,.bubbleDropTR,.pls-dropBottomL img,.pls-dropBottom img,.pls-dropBottomR img,.pls-bottomLeft{vertical-align:top}.pls-dropTR{background-position:0 -22px}.pls-dropBR{background-position:0 -27px}.pls-dropBL{background-position:0 -16px}.pls-spacertop,.pls-spacerright,.pls-spacerbottom,.pls-spacerleft{position:static !important}.pls-spinner{bottom:0;position:absolute;left:0;margin:auto;right:0;top:0} </style></head>
+<body>
+<div class="navbar section" id="navbar"><div class="widget Navbar" data-version="1" id="Navbar1"><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="" tabindex="0" vspace="0" width="100%" id="navbar-iframe" name="navbar-iframe" src="https://www.blogger.com/navbar.g?targetBlogID=8993901435573921786&amp;blogName=Pin+Dancing&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=BLUE&amp;layoutType=LAYOUTS&amp;searchRoot=http://pindancing.blogspot.com/search&amp;blogLocale=en&amp;v=2&amp;homepageUrl=http://pindancing.blogspot.com/&amp;targetPostID=9128291344831069721&amp;blogPostOrPageUrl=http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html&amp;vt=7273533682144177407&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.kAbubaVyYtA.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA#id=navbar-iframe&amp;parent=http%3A%2F%2Fpindancing.blogspot.com&amp;pfname=&amp;rpctoken=37904367"></iframe></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d8993901435573921786\x26blogName\x3dPin+Dancing\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dBLUE\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttp://pindancing.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://pindancing.blogspot.com/\x26targetPostID\x3d9128291344831069721\x26blogPostOrPageUrl\x3dhttp://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html\x26vt\x3d7273533682144177407',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id="outer-wrapper"><div id="wrap2">
+<!-- skip links for text browsers -->
+<span id="skiplinks" style="display:none;">
+<a href="#main">skip to main </a> |
+      <a href="#sidebar">skip to sidebar</a>
+</span>
+<div id="header-wrapper">
+<div class="header section" id="header"><div class="widget Header" data-version="1" id="Header1">
+<div id="header-inner">
+<div class="titlewrapper">
+<h1 class="title">
+<a href="http://pindancing.blogspot.com/">Pin Dancing</a>
+</h1>
+</div>
+<div class="descriptionwrapper">
+<p class="description"><span>Ravi Mohan's Blog</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id="content-wrapper">
+<div id="crosscol-wrapper" style="text-align:center">
+<div class="crosscol no-items section" id="crosscol"></div>
+</div>
+<div id="main-wrapper">
+<div class="main section" id="main"><div class="widget Blog" data-version="1" id="Blog1">
+<div class="blog-posts hfeed">
+
+          <div class="date-outer">
+        
+<h2 class="date-header"><span>Friday, January 15, 2010</span></h2>
+
+          <div class="date-posts">
+        
+<div class="post-outer">
+<div class="post hentry uncustomized-post-template" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<meta content="8993901435573921786" itemprop="blogId">
+<meta content="9128291344831069721" itemprop="postId">
+<a name="9128291344831069721"></a>
+<h3 class="post-title entry-title" itemprop="name">
+Learning about Machine Learning
+</h3>
+<div class="post-header">
+<div class="post-header-line-1"></div>
+</div>
+<div class="post-body entry-content" id="post-body-9128291344831069721" itemprop="description articleBody">
+Bradford Cross has posted an awesome blog post (edit: removed link, since Bradford took down the post) titled "Learning about Statistical Learning". If you  plan to  work in ML, read the post, buy some of the books and work through them. <br>
+<br>
+Could save you years of work if you are systematic from the beginning (I wasn't), especially if you are self taught (I am).<br>
+<br>
+<br>
+I work on  different domains (Robotics/Computer Vision/Simulation) from Bradford and so have a  different list of books. Please read Bradford's lists first. This is a supplement to his awesome post rather than a replacement. <br>
+<br>
+I assume you are a good developer and you have a solid grip on algorithm analysis etc.(though, that said, see reccomendations for Discrete Math books below)<br>
+<br>
+<span style="font-weight:bold;">The first step</span>..<br>
+<br>
+Learn proof techniques *first*. You'll make no serious progress till you do. The best book is <br>
+<br>
+Velleman's <a href="http://www.amazon.com/How-Prove-Structured-Daniel-Velleman/dp/0521675995/">"How to Prove It"</a> - reccomended by Bradford but I am repeating it here because this is <b><i>critical</i></b>.<br>
+<br>
+<span style="font-weight:bold;">Mathematics<br>
+</span><br>
+In my experience you need to be somewhat comfortable with 6 branches of Mathematics before you can tackle ML. Imo, best to take a year and get these right before venturing into ML proper. (I know, it sounds awfully boring. I wasted a lot of time trying to shorten this step. In this case, the long way is the real shortcut) <br>
+<br>
+(1) Calculus - best "lite" book - <a href="http://ocw.mit.edu/ans7870/resources/Strang/strangtext.htm">Calculus</a> by Strang (free download) , <br>
+<br>
+best "heavy" books - <a href="http://www.amazon.com/Calculus-Michael-Spivak/dp/0914098918/">Calculus</a> by  Spivak,<a href="http://www.amazon.com/Principles-Mathematical-Analysis-Third-Walter/dp/007054235X"> Principles of Mathematical Analysis</a> a.k.a "Baby Rudin"<br>
+<br>
+<br>
+(2) Some book on Discrete Math (don't know what to recommend here - I don't like Rosen's book)  + a good book on say Introduction to Algorithms by  Cormen et al  will do [*]  <br>
+<br>
+(3) Linear Algebra (First work through <a href="http://www.amazon.com/Introduction-Linear-Algebra-Fourth-Gilbert/dp/0980232716">Strang's book</a>, then <a href="http://www.amazon.com/Linear-Algebra-Right-Sheldon-Axler/dp/0387982582">Axler's</a>) <br>
+<br>
+(4) Probability (Bertsekas is a good book for those with no prior exp) and <br>
+<br>
+(5) Statistics (I would recommend  <a href="http://www.amazon.com/Introduction-Statistics-Data-Analysis-Roxy/dp/0495557838/">Devore and Peck</a> for the total beginner but it is a damn expensive book. So  hit a library or get a bootlegged copy to see if it suits you before buying a copy, see brad's list for advanced stuff.) <br>
+<br>
+(6) Information Theory (<a href="http://www.inference.phy.cam.ac.uk/mackay/itila/">MacKay's book</a> is freely available online)<br>
+<br>
+<span style="font-weight:bold;">Basic AI</span>.<br>
+<br>
+Brad suggests <a href="http://www.amazon.com/Machine-Learning-Tom-M-Mitchell/dp/0070428077">Mitchell's book</a>. <br>
+<br>
+I think <a href="http://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597">AIMA (3d Edition)</a> is much better. ( I am biased. I wrote and maintained the Java code for a long while -- children, don't do this. Java is an terrible  language to develop AI algorithms in. If you need the JVM use Scala or Clojure -- and I think it covers a lot more than Mitchell does. Take a look at both. Pick one).<br>
+<br>
+<br>
+<span style="font-weight:bold;">Machine Learning</span>.<br>
+<br>
+NB: you need all the linear algebra, calculus etc  worked through before you hit this point<br>
+<br>
+In order, <br>
+<br>
+<a href="http://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738">"Pattern Recognition and Machine Learning"</a> by Christopher Bishop, <br>
+<br>
+<br>
+*then* <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">"Elements of Statistical Learning"</a> (free download).<br>
+<br>
+<span style="font-weight:bold;">Neural Networks</span>:<br>
+<br>
+In order,<br>
+<br>
+<a href="http://www.amazon.com/Neural-Network-Design-Martin-Hagan/dp/0971732108/">Neural Network Design </a>Hagan Demuth and  Beale,<br>
+<br>
+<a href="http://www.amazon.com/Neural-Networks-Comprehensive-Foundation-2nd/dp/0132733501">Neural Networks, A  Comprehensive Foundation (2nd edition)</a> - By Haykin (there is a newer edition out but I don't know anything about that, this is the one I used)<br>
+<br>
+and  <a href="http://www.amazon.com/Neural-Networks-Pattern-Recognition-Christopher/dp/0198538642/">Neural Networks for Pattern Recognition</a> ( Bishop).<br>
+<br>
+At this point you are in good shape to read any papers in NN. My reccomendations - anything by <a href="http://yann.lecun.com/">Yann LeCun</a> and <a href="http://www.cs.toronto.edu/~hinton/">Geoffrey Hinton</a>. Both do amazing research.<br>
+<br>
+<span style="font-weight:bold;">Reinforcement Learning</span> (again this is just stuff *I* happened to specialize in for various projects, so feel free to ignore)<br>
+<br>
+<a href="http://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262193981/">Reinforcement Learning - An Introduction by Barto and Sutton</a> (follow up with <a href="http://rlai.cs.ualberta.ca/papers/barto03recent.pdf">"Recent Advances In reinforcement Learning" (</a>PDF) which is an old paper but a GREAT introduction to *Hierarchical* Reinforcement learning<br>
+<br>
+<br>
+<a href="http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_2?ie=UTF8&amp;s=books&amp;qid=1263575843">Neuro Dynamic Programming</a> by Bertsekas<br>
+<br>
+<br>
+<span style="font-weight:bold;">Computer Vision</span> <br>
+<br>
+<a href="http://www.amazon.com/Introductory-Techniques-3-D-Computer-Vision/dp/0132611082/">Introductory Techniques for 3-D Computer Vision</a>, by Emanuele Trucco and Alessandro Verri.<br>
+<br>
+<a href="http://www.amazon.com/Invitation-3-D-Vision-Yi-Ma/dp/0387008934/">An Invitation to 3-D Vision</a> by Y. Ma, S. Soatto, J. Kosecka, S.S. Sastry.  (warning TOUGH!!)<br>
+<br>
+<span style="font-weight:bold;">Robotics</span>.<br>
+<br>
+I know only about the software/algorithms side of Robotics and that too only Probabilistic Robotics. I don't know anything about hardware, electronics or Physics.<br>
+<br>
+<a href="http://www.amazon.com/Probabilistic-Graphical-Models-Principles-Computation/dp/0262013193/">Probabilistic Graphical Models: Principles and Techniques (Adaptive Computation and Machine Learning)</a>  (strictly speaking not a robotics book, but  a lot of the theory in this book  is behind the algorithms in the next book<br>
+<br>
+<a href="http://www.amazon.com/Probabilistic-Robotics-Intelligent-Autonomous-Agents/dp/0262201623/">Probabilistic Robotics (Intelligent Robotics and Autonomous Agents) </a>by Thrun, Burgard and Fox (trivia Thrun also wrote the Robotics chapter in AIMA - did I tell you AIMA rocks as a first introduction to AI?)<br>
+<br>
+And that's all folks. Happy hacking!<br>
+<br>
+<br>
+[*] working though Cormen et al is a humungous task and can easily consume a year or more of work. Something like Sally Goldman's new Algorithm book maybe more suited to programmers.<br>
+<br>
+<br>
+PS: I have been getting a lot of email asking *how* one should learn X or Y. I have no idea really. The above is a list of books  that worked for me and is provided only in the spirit of "these are good books that worked for me I don't know if they'll work for you." <br>
+<br>
+As to how I learned,  I just read books and papers,  try to understand, (a lot of banging head against wall  at this point) and try to solve problems and code stuff. Beyond that I have no advice on how to learn effectively etc. I am entirely self taught and have no idea how to teach this stuff. You probably need to talk to a good prof.
+<div style="clear: both;"></div>
+</div>
+<div class="post-footer">
+<div class="post-footer-line post-footer-line-1">
+<span class="post-author vcard">
+Posted by
+<span class="fn" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+<meta content="https://www.blogger.com/profile/03630087669712445498" itemprop="url">
+<a class="g-profile" href="https://www.blogger.com/profile/03630087669712445498" rel="author" title="author profile" data-gapiscan="true" data-onload="true" data-gapiattached="true">
+<span itemprop="name">Ravi</span>
+</a>
+</span>
+</span>
+<span class="post-timestamp">
+at
+<meta content="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html" itemprop="url">
+<a class="timestamp-link" href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html" rel="bookmark" title="permanent link"><abbr class="published" itemprop="datePublished" title="2010-01-15T07:57:00-08:00">7:57 AM</abbr></a>
+</span>
+<span class="reaction-buttons">
+</span>
+<span class="post-comment-link">
+</span>
+<span class="post-backlinks post-comment-link">
+</span>
+<span class="post-icons">
+<span class="item-control blog-admin pid-340095821">
+<a href="https://www.blogger.com/post-edit.g?blogID=8993901435573921786&amp;postID=9128291344831069721&amp;from=pencil" title="Edit Post">
+<img alt="" class="icon-action" height="18" src="https://resources.blogblog.com/img/icon18_edit_allbkg.gif" width="18">
+</a>
+</span>
+</span>
+<div class="post-share-buttons goog-inline-block">
+</div>
+</div>
+<div class="post-footer-line post-footer-line-2">
+<span class="post-labels">
+</span>
+</div>
+<div class="post-footer-line post-footer-line-3">
+<span class="post-location">
+</span>
+</div>
+</div>
+</div>
+<div class="comments" id="comments">
+<a name="comments"></a>
+<h4>11 comments:</h4>
+<div id="Blog1_comments-block-wrapper">
+<dl class="avatar-comment-indent" id="comments-block">
+<dt class="comment-author " id="c3210496247244103900">
+<a name="c3210496247244103900"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="//img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-3210496247244103900">
+<p>
+Hi Ravi<br>     Not related to this post and sorry for cluttering.<br><br>I am planning to read sedgewick DS&amp;Algo book to learn about them.how do u recommend approaching the topic DS&amp; algo?<br>Should i remember every algo and how to implement it in practical situations .i.e approach each DS &amp; algo from how they are used in real world?<br><br>Please advise.Thanks
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1263661343658#c3210496247244103900" title="comment permalink">
+January 16, 2010 at 9:02 AM
+</a>
+<span class="item-control blog-admin pid-248699097">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=3210496247244103900" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author blog-author" id="c1075847965310292358">
+<a name="c1075847965310292358"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1075847965310292358-03630087669712445498"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="Ravi">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow">Ravi</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-1075847965310292358">
+<p>
+No harm working through Sedgewick.<br><br>Don't bother memorizing tonnes of algorithms. Actually I don't know how to tell you how to learn algorithms.  Working through a good book and the exercises should be sufficient I think.<br><br>Oh yeah did you finish SICP yet? ;-)
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1263666395912#c1075847965310292358" title="comment permalink">
+January 16, 2010 at 10:26 AM
+</a>
+<span class="item-control blog-admin pid-340095821">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=1075847965310292358" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c2776676347159305863">
+<a name="c2776676347159305863"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/10231408452623799708" rel="nofollow" onclick="" class="avatar-hovercard" id="av-2776676347159305863-10231408452623799708"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="AKHTAR">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/10231408452623799708" rel="nofollow">AKHTAR</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-2776676347159305863">
+<p>
+Nice Blog Ravi. I recently joined a course in Machine learning with a institution called GuruPrevails Bangalore.We are going through Linear algebra lectures as start and following strang's book as our standard text. Just was curious abt you. I work for a data profiling team in a software company and wanted to move into core areas of algorithms..Does a formal degree is really important in getting into serious machine learning jobs or it's more abt individual skills?
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1269546553778#c2776676347159305863" title="comment permalink">
+March 25, 2010 at 12:49 PM
+</a>
+<span class="item-control blog-admin pid-869429907">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=2776676347159305863" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author blog-author" id="c4751795433236178702">
+<a name="c4751795433236178702"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow" onclick="" class="avatar-hovercard" id="av-4751795433236178702-03630087669712445498"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="Ravi">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow">Ravi</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-4751795433236178702">
+<p>
+"Does a formal degree is really important in getting into serious machine learning jobs or it's more abt individual skills?"<br><br>I have no idea. I don't have a degree in CS, leave lone ML or algorithms. <br><br>My policy is, if you are good enough, people seek you out. If they aren't focus on getting better.
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1269547550238#c4751795433236178702" title="comment permalink">
+March 25, 2010 at 1:05 PM
+</a>
+<span class="item-control blog-admin pid-340095821">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=4751795433236178702" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c6016977397969291428">
+<a name="c6016977397969291428"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/09530831012369055616" rel="nofollow" onclick="" class="avatar-hovercard" id="av-6016977397969291428-09530831012369055616"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="mmwaikar">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/09530831012369055616" rel="nofollow">mmwaikar</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-6016977397969291428">
+<p>
+Wow - those are a lot of books. Assuming you are only studying (not working), how much time would it take for someone to go through all of these books? I understand each individual's capacity is different, but still could you make an informed guess for an average individual?<br><br>If this question doesn't make sense then please try answering this - since how long have you been reading all these?<br><br>I am curious because I would like to start on this path (of self education), and am thinking - can I quit my job long enough?
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1283525559642#c6016977397969291428" title="comment permalink">
+September 3, 2010 at 7:52 AM
+</a>
+<span class="item-control blog-admin pid-1159477337">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=6016977397969291428" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author blog-author" id="c8221708624673097948">
+<a name="c8221708624673097948"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8221708624673097948-03630087669712445498"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="Ravi">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow">Ravi</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-8221708624673097948">
+<p>
+"how long have you been reading all these?"<br><br>Eight Years and counting. :-)
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1283525924078#c8221708624673097948" title="comment permalink">
+September 3, 2010 at 7:58 AM
+</a>
+<span class="item-control blog-admin pid-340095821">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=8221708624673097948" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c5925536934576497792">
+<a name="c5925536934576497792"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://refute.me.uk" rel="nofollow" onclick=""><img src="//img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" title="Matthew">
+
+</a></span></div>
+<a href="http://refute.me.uk" rel="nofollow">Matthew</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-5925536934576497792">
+<p>
+Glad I came across your post. I'd hit the progress barrier for getting into ML without more serious math fundementals.<br><br>Picked up Velleman and its a damn good book. You might have saved me a fair bit of time. Thanks.
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1306947388455#c5925536934576497792" title="comment permalink">
+June 1, 2011 at 9:56 AM
+</a>
+<span class="item-control blog-admin pid-2127973757">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=5925536934576497792" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c8023406143699262158">
+<a name="c8023406143699262158"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/13697083598809561516" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8023406143699262158-13697083598809561516"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="nikhil">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/13697083598809561516" rel="nofollow">nikhil</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-8023406143699262158">
+<p>
+Thanks for posting this book chain. Started working through it. Can you please recommend a book on probability? (for someone who needs to start from scratch, something like Gilbert Strang's Introduction to Algebra). <br><br>Bradford Cross's blog has been taken down, so the post you linked to is no longer available. <br><br>I have been preparing for the online Stanford classes, this post has been very helpful, and its inspiring to see someone move from enterprise s/w dev to attaining such expertise in a chosen field. Thank you.<br><br>-Nikhil.
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1318141315409#c8023406143699262158" title="comment permalink">
+October 8, 2011 at 11:21 PM
+</a>
+<span class="item-control blog-admin pid-1289044142">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=8023406143699262158" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author blog-author" id="c123892255984666641">
+<a name="c123892255984666641"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow" onclick="" class="avatar-hovercard" id="av-123892255984666641-03630087669712445498"><img src="//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35" width="35" height="35" alt="" title="Ravi">
+
+</a></span></div>
+<a href="https://www.blogger.com/profile/03630087669712445498" rel="nofollow">Ravi</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-123892255984666641">
+<p>
+bertsekas 's book is decent for probability.
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1318145768736#c123892255984666641" title="comment permalink">
+October 9, 2011 at 12:36 AM
+</a>
+<span class="item-control blog-admin pid-340095821">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=123892255984666641" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c3624909309839375038">
+<a name="c3624909309839375038"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="//img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-3624909309839375038">
+<p>
+A really nice book on Discrete Maths is - Tremblay and Manohar.
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1334317310694#c3624909309839375038" title="comment permalink">
+April 13, 2012 at 4:41 AM
+</a>
+<span class="item-control blog-admin pid-56315188">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=3624909309839375038" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+<dt class="comment-author " id="c314605186396009348">
+<a name="c314605186396009348"></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://rohitarondekar.com" rel="nofollow" onclick=""><img src="//img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" title="Rohit Arondekar">
+
+</a></span></div>
+<a href="http://rohitarondekar.com" rel="nofollow">Rohit Arondekar</a>
+said...
+</dt>
+<dd class="comment-body" id="Blog1_cmt-314605186396009348">
+<p>
+Although this is an old blog post it still relevant. AFAIK, besides me at least one more person has looked at this list[1].<br><br>For those coming here late, the blog post by Bradford that Ravi wanted to link to was taken down. However it's still available via WaybackMachine. Bradford wrote two articles:<br><br><a href="http://web.archive.org/web/20101102210231/http://measuringmeasures.com/blog/2010/1/15/learning-about-statistical-learning.html" rel="nofollow">Learning About Statistical Learning</a><br><br><a href="http://web.archive.org/web/20101102120728/http://measuringmeasures.com/blog/2010/3/12/learning-about-machine-learning-2nd-ed.html" rel="nofollow">Learning About Machine Learning 2nd Ed</a> <br><br>The second blog post is a revision of the first after taking feedback from Hackernews, this very blog post and other sources. I hope this helps anybody coming here late! :)<br><br>[1]: <a href="http://www.reddit.com/r/MachineLearning/comments/10kes5/where_to_start_in_nlp/" rel="nofollow">http://www.reddit.com/r/MachineLearning/comments/10kes5/where_to_start_in_nlp/</a>
+</p>
+</dd>
+<dd class="comment-footer">
+<span class="comment-timestamp">
+<a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html?showComment=1349067665630#c314605186396009348" title="comment permalink">
+September 30, 2012 at 10:01 PM
+</a>
+<span class="item-control blog-admin pid-548746511">
+<a class="comment-delete" href="https://www.blogger.com/delete-comment.g?blogID=8993901435573921786&amp;postID=314605186396009348" title="Delete Comment">
+<img src="https://resources.blogblog.com/img/icon_delete13.gif">
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class="comment-footer">
+<a href="https://www.blogger.com/comment.g?blogID=8993901435573921786&amp;postID=9128291344831069721" onclick="">Post a Comment</a>
+</p>
+<div id="backlinks-container">
+<div id="Blog1_backlinks-container">
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class="blog-pager" id="blog-pager">
+<span id="blog-pager-newer-link">
+<a class="blog-pager-newer-link" href="http://pindancing.blogspot.com/2010/02/haskell-journey.html" id="Blog1_blog-pager-newer-link" title="Newer Post">Newer Post</a>
+</span>
+<span id="blog-pager-older-link">
+<a class="blog-pager-older-link" href="http://pindancing.blogspot.com/2009/10/looking-for-apartment-in-bangalore-help.html" id="Blog1_blog-pager-older-link" title="Older Post">Older Post</a>
+</span>
+<a class="home-link" href="http://pindancing.blogspot.com/">Home</a>
+</div>
+<div class="clear"></div>
+<div class="post-feeds">
+<div class="feed-links">
+Subscribe to:
+<a class="feed-link" href="http://pindancing.blogspot.com/feeds/9128291344831069721/comments/default" target="_blank" type="application/atom+xml">Post Comments (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en'};</script>
+</div></div>
+</div>
+<div id="sidebar-wrapper">
+<div class="sidebar section" id="sidebar"><div class="widget Profile" data-version="1" id="Profile1">
+<h2>About Me</h2>
+<div class="widget-content">
+<dl class="profile-datablock">
+<dt class="profile-data">
+<a class="profile-name-link g-profile" href="https://www.blogger.com/profile/03630087669712445498" rel="author" style="background-image: url(//www.blogger.com/img/logo-16.png);" data-gapiscan="true" data-onload="true" data-gapiattached="true">
+Ravi
+</a>
+</dt>
+<dd class="profile-textblock">email:magesmail AT yahoo.com.
+
+Twitter: http://twitter.com/ravi_mohan</dd>
+</dl>
+<a class="profile-link" href="https://www.blogger.com/profile/03630087669712445498" rel="author">View my complete profile</a>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=8993901435573921786&amp;widgetType=Profile&amp;widgetId=Profile1&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Profile1&quot;));" target="configProfile1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget BlogArchive" data-version="1" id="BlogArchive1">
+<h2>Blog Archive</h2>
+<div class="widget-content">
+<div id="ArchiveList">
+<div id="BlogArchive1_ArchiveList">
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=1">
+2013
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2013_02_01_archive.html">
+February
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2012-01-01T00:00:00-08:00&amp;updated-max=2013-01-01T00:00:00-08:00&amp;max-results=4">
+2012
+</a>
+<span class="post-count" dir="ltr">(4)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2012_11_01_archive.html">
+November
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2012_10_01_archive.html">
+October
+</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2012_09_01_archive.html">
+September
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2011-01-01T00:00:00-08:00&amp;updated-max=2012-01-01T00:00:00-08:00&amp;max-results=6">
+2011
+</a>
+<span class="post-count" dir="ltr">(6)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_10_01_archive.html">
+October
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_08_01_archive.html">
+August
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_06_01_archive.html">
+June
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_05_01_archive.html">
+May
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_04_01_archive.html">
+April
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2011_02_01_archive.html">
+February
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">
+
+        ▼&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2010-01-01T00:00:00-08:00&amp;updated-max=2011-01-01T00:00:00-08:00&amp;max-results=14">
+2010
+</a>
+<span class="post-count" dir="ltr">(14)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_12_01_archive.html">
+December
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_09_01_archive.html">
+September
+</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_08_01_archive.html">
+August
+</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_07_01_archive.html">
+July
+</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_06_01_archive.html">
+June
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_04_01_archive.html">
+April
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_03_01_archive.html">
+March
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_02_01_archive.html">
+February
+</a>
+<span class="post-count" dir="ltr">(2)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate expanded">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy toggle-open">
+
+        ▼&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2010_01_01_archive.html">
+January
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+<ul class="posts">
+<li><a href="http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html">Learning about Machine Learning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2009-01-01T00:00:00-08:00&amp;updated-max=2010-01-01T00:00:00-08:00&amp;max-results=37">
+2009
+</a>
+<span class="post-count" dir="ltr">(37)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_10_01_archive.html">
+October
+</a>
+<span class="post-count" dir="ltr">(1)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_09_01_archive.html">
+September
+</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_07_01_archive.html">
+July
+</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_06_01_archive.html">
+June
+</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_05_01_archive.html">
+May
+</a>
+<span class="post-count" dir="ltr">(8)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_04_01_archive.html">
+April
+</a>
+<span class="post-count" dir="ltr">(7)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2009_01_01_archive.html">
+January
+</a>
+<span class="post-count" dir="ltr">(4)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/search?updated-min=2008-01-01T00:00:00-08:00&amp;updated-max=2009-01-01T00:00:00-08:00&amp;max-results=6">
+2008
+</a>
+<span class="post-count" dir="ltr">(6)</span>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2008_12_01_archive.html">
+December
+</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+<ul class="hierarchy">
+<li class="archivedate collapsed">
+<a class="toggle" href="javascript:void(0)">
+<span class="zippy">
+
+        ►&nbsp;
+      
+</span>
+</a>
+<a class="post-count-link" href="http://pindancing.blogspot.com/2008_11_01_archive.html">
+November
+</a>
+<span class="post-count" dir="ltr">(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=8993901435573921786&amp;widgetType=BlogArchive&amp;widgetId=BlogArchive1&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;BlogArchive1&quot;));" target="configBlogArchive1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Followers" data-version="1" id="Followers1">
+<h2 class="title">Followers</h2>
+<div class="widget-content">
+<div id="Followers1-wrapper">
+<div style="margin-right:2px;">
+<div><script type="text/javascript" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script>
+<div id="followers-iframe-container"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="" tabindex="0" vspace="0" width="100%" id="I0_1486149723503" name="I0_1486149723503" src="https://www.blogger.com/followers.g?blogID=8993901435573921786&amp;colors=Cgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaBjY2NjY2NiIGNTU4OGFhKgt0cmFuc3BhcmVudDIGY2M2NjAwOgY2NjY2NjZCBjU1ODhhYUoGOTk5OTk5UgY1NTg4YWFaC3RyYW5zcGFyZW50&amp;pageSize=21&amp;postID=9128291344831069721&amp;origin=http://pindancing.blogspot.com/&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.kAbubaVyYtA.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCPG-i-wIW9p92w72rT2jCFGNiD3VA#id=I0_1486149723503&amp;parent=http%3A%2F%2Fpindancing.blogspot.com&amp;pfname=&amp;rpctoken=11254760"></iframe></div>
+<script type="text/javascript">
+    window.followersIframe = null;
+    function followersIframeOpen(url) {
+      gapi.load("gapi.iframes", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          window.followersIframe = gapi.iframes.getContext().openChild({
+            url: url,
+            where: document.getElementById("followers-iframe-container"),
+            messageHandlersFilter: gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
+            messageHandlers: {
+              '_ready': function(obj) {
+                window.followersIframe.getIframeEl().height = obj.height;
+              },
+              'reset': function() {
+                window.followersIframe.close();
+                followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d8993901435573921786\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaBjY2NjY2NiIGNTU4OGFhKgt0cmFuc3BhcmVudDIGY2M2NjAwOgY2NjY2NjZCBjU1ODhhYUoGOTk5OTk5UgY1NTg4YWFaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26postID\x3d9128291344831069721\x26origin\x3dhttp://pindancing.blogspot.com/");
+              },
+              'open': function(url) {
+                window.followersIframe.close();
+                followersIframeOpen(url);
+              },
+              'blogger-ping': function() {
+              }
+            }
+          });
+        }
+      });
+    }
+    followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d8993901435573921786\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaBjY2NjY2NiIGNTU4OGFhKgt0cmFuc3BhcmVudDIGY2M2NjAwOgY2NjY2NjZCBjU1ODhhYUoGOTk5OTk5UgY1NTg4YWFaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26postID\x3d9128291344831069721\x26origin\x3dhttp://pindancing.blogspot.com/");
+  </script></div>
+</div>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=8993901435573921786&amp;widgetType=Followers&amp;widgetId=Followers1&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Followers1&quot;));" target="configFollowers1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div>
+</div><div class="widget Text" data-version="1" id="Text1">
+<h2 class="title">My Blogs</h2>
+<div class="widget-content">
+<br><br><br>
+</div>
+<div class="clear"></div>
+<span class="widget-item-control">
+<span class="item-control blog-admin">
+<a class="quickedit" href="//www.blogger.com/rearrange?blogID=8993901435573921786&amp;widgetType=Text&amp;widgetId=Text1&amp;action=editWidget&amp;sectionId=sidebar" onclick="return _WidgetManager._PopupConfig(document.getElementById(&quot;Text1&quot;));" target="configText1" title="Edit">
+<img alt="" height="18" src="https://resources.blogblog.com/img/icon18_wrench_allbkg.png" width="18">
+</a>
+</span>
+</span>
+<div class="clear"></div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class="clear">&nbsp;</div>
+</div>
+<!-- end content-wrapper -->
+<div id="footer-wrapper">
+<div class="footer no-items section" id="footer"></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/127631110-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script>
+<script type="text/javascript">
+window['__wavt'] = 'AOuZoY5ohuGQ8IRf-jJUWnGUmLZjO0YjXw:1486149722898';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8993901435573921786','//pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html','8993901435573921786');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8993901435573921786', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Pin Dancing', 'pageType': 'item', 'postId': '9128291344831069721', 'url': 'http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html', 'canonicalUrl': 'http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html', 'homepageUrl': 'http://pindancing.blogspot.com/', 'searchUrl': 'http://pindancing.blogspot.com/search', 'canonicalHomepageUrl': 'http://pindancing.blogspot.com/', 'blogspotFaviconUrl': 'http://pindancing.blogspot.com/favicon.ico', 'hasCustomDomain': false, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'useUniversalAnalytics': false, 'pageName': 'Learning about Machine Learning', 'pageTitle': 'Pin Dancing: Learning about Machine Learning', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Pin Dancing - Atom\x22 href\x3d\x22http://pindancing.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Pin Dancing - RSS\x22 href\x3d\x22http://pindancing.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Pin Dancing - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/8993901435573921786/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Pin Dancing - Atom\x22 href\x3d\x22http://pindancing.blogspot.com/feeds/9128291344831069721/comments/default\x22 /\x3e\n', 'meTag': '', 'openIdOpTag': '', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/661e643e45de78a1', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}}}, {'name': 'features', 'data': {}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Link copied to clipboard!', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'isResponsive': false, 'isAlternateRendering': false, 'isCustom': false}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Learning about Machine Learning', 'description': 'Bradford Cross has posted an awesome blog post (edit: removed link, since Bradford took down the post) titled \x22Learning about Statistical Le...', 'url': 'http://pindancing.blogspot.com/2010/01/learning-about-machine-learniing.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isSearch': false, 'isLabelSearch': false, 'postId': 9128291344831069721}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1707321334-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar', null, document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'sidebar', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+</script>
+
+</body></html>

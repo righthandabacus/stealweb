@@ -1,0 +1,2338 @@
+<!DOCTYPE html><html class=" js flexbox flexboxlegacy canvas canvastext no-webgl touch no-geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent no-video no-audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" style=""><head>
+
+<!-- Start Alexa Certify Javascript -->
+<script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-8693900212275518.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/zh_HK/sdk.js#xfbml=1&amp;version=v2.6&amp;appId=462543587117177"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript">
+_atrk_opts = { atrk_acct:"dXPUg1awAe008y", domain:"passiontimes.hk",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript>&lt;img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=dXPUg1awAe008y" style="display:none" height="1" width="1" alt="" /&gt;</noscript>
+<!-- End Alexa Certify Javascript -->  
+
+  <base href="/4.0/">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="熱血製造，最強頻道">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.passiontimes.hk/article/02-02-2017/35636">
+  <meta property="og:image" content="http://www.passiontimes.hk/uploads/images/fb/f72a7e74e8334d493ac263388279a324.jpg">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="apple-mobile-web-app-title" content="PassionTimes">
+  <meta name="application-name" content="PassionTimes">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#000000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <title>熱血時報 | 插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year </title>
+  <link rel="stylesheet" href="/4.0/css/pt-icon.css">
+  <!--[if lt IE 8]><!-->
+  <link rel="stylesheet" href="/4.0/ie7/ie7.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/4.0/css/reset.css">
+  <link rel="stylesheet" href="/4.0/css/media.css">
+  <link rel="stylesheet" href="/4.0/css/footer.css">
+  <link rel="stylesheet" href="/4.0/css/header.css?v=1">
+  <link rel="stylesheet" href="/4.0/css/common.css">
+  <link rel="stylesheet" href="/4.0/css/index.css">
+  <link rel="stylesheet" href="/4.0/css/progtable.php">
+  <link rel="stylesheet" href="/4.0/css/colorbox.css">
+  <link rel="stylesheet" href="/4.0/css/election.css">
+  <link rel="stylesheet" href="/4.0/css/article.css?v=3">
+
+	
+
+  <script src="/4.0/js/modernizr.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/4.0/js/jquery.colorbox.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="/4.0/js/html5shiv.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:25px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:15px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:19px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:13px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:13px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:17px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+
+<body class="article desktop" style="">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35223450-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f25518d348&amp;origin=http%3A%2F%2Fwww.passiontimes.hk" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f25518d348&amp;origin=http%3A%2F%2Fwww.passiontimes.hk" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+
+  <script>
+    var fbok = 0;
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '462543587117177',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+    fbok = 1;
+  };
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.6&appId=462543587117177";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+	function gplus(){
+		  window.open('https://plus.google.com/share?url=http://www.passiontimes.hk/article/02-02-2017/35636', 'gplus', 'height=600, width=600, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+	}
+
+
+	function twitter(){
+		  window.open('http://twitter.com/share?url=http://www.passiontimes.hk/article/02-02-2017/35636&text=插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year &', 'twitterwindow', 'height=450, width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+	}
+	
+	function share(){
+		var winTop = (screen.height / 2) - (350 / 2);
+		var winLeft = (screen.width / 2) - (520 / 2);
+		window.open('http://www.facebook.com/sharer.php?s=100&p[title]=插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year &p[url]=http://www.passiontimes.hk/article/02-02-2017/35636', 'sharer', 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + 520 + ',height=' + 350);
+	}
+
+
+	
+	var c;
+	
+	function like() {
+		$.colorbox({inline:true, href:"#like", width:"50%"});
+	}
+</script>
+
+<div style="display:none">
+<div id="like" style="padding: 50px; background: #fff; width:100%;"><center>
+<div style="height: 20px; overflow: hidden;">
+<div class="fb-like fb_iframe_widget" data-href="http://www.passiontimes.hk/article/02-02-2017/35636" data-layout="button" data-action="like" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=462543587117177&amp;container_width=0&amp;href=http%3A%2F%2Fwww.passiontimes.hk%2Farticle%2F02-02-2017%2F35636&amp;layout=button&amp;locale=zh_HK&amp;sdk=joey&amp;share=false&amp;show_faces=false"><span style="vertical-align: bottom; width: 52px; height: 20px;"><iframe name="f2570f6fa" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=462543587117177&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df1e5955d88%26domain%3Dwww.passiontimes.hk%26origin%3Dhttp%253A%252F%252Fwww.passiontimes.hk%252Ff25518d348%26relation%3Dparent.parent&amp;container_width=0&amp;href=http%3A%2F%2Fwww.passiontimes.hk%2Farticle%2F02-02-2017%2F35636&amp;layout=button&amp;locale=zh_HK&amp;sdk=joey&amp;share=false&amp;show_faces=false" class="" style="border: none; visibility: visible; width: 52px; height: 20px;"></iframe></span></div>
+</div></center></div>
+</div>
+
+  <!--[if lt IE 8]>
+
+
+<div class="browserupgrade" id="browserupgrade">
+  <div class="maxWrapper">
+    <p>文化抗共第一步：選用一個<a href="http://browsehappy.com/">合適的瀏覽器</a>
+      <br> You are using an outdated browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+      <br>
+      <a class="browserIcon" href="http://browsehappy.com/">
+        <i class="pt-chrome inline"></i>
+        <i class="pt-safari inline"></i>
+        <i class="pt-firefox inline"></i>
+        <i class="pt-opera inline"></i>
+      </a>
+    </p>
+    <button class="default white xlBtn self" id="iLoveIE">不要說了！</button>
+  </div>
+</div>
+  <![endif]-->
+
+  <div class="dark-overlay dd-overlay" id="dd-overlay"></div>
+
+  <div class="shareScreen" id="shareScreen">
+    <div class="dark-overlay share-overlay" id="share-overlay"></div>
+    <div class="overlay-exit share-exit" id="share-exit"><i class="pt-cross"></i></div>
+    <div class="shareModal">
+      <h1 class="shareText"><i class="pt-news inline"></i>插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year </h1>
+      <div class="shareOption2-wrap">
+        <div class="shareOption2 fbl"><a href="javascript:;" onclick="like()"><i class="pt-facebook-like"></i><span class="text">Like</span></a></div><a href="javascript:;" onclick="like()">
+        </a><div class="shareOption2 fb"><a href="javascript:;" onclick="like()"></a><a href="javascript:;" onclick="share()"><i class="pt-facebook"></i><span class="text">Facebook</span></a></div>
+        <div class="shareOption2 tw"><a href="javascript:;" onclick="twitter()"><i class="pt-twitter"></i><span class="text">Twitter</span></a></div>
+        <div class="shareOption2 gp"><a href="javascript:;" onclick="gplus()"><i class="pt-google-plus"></i><span class="text">Google+</span></a></div>
+        <!--LINE 同 WHATSAPP 係mobile 先show，用咗css hide-->
+        <div class="shareOption2 li"><a href="line://msg/text/http://www.passiontimes.hk/article/02-02-2017/35636"><i class="pt-line"></i><span class="text">Line</span></a></div>
+        <div class="shareOption2 wa"><a href="whatsapp://send?text=http://www.passiontimes.hk/article/02-02-2017/35636"><i class="pt-whatsapp"></i><span class="text">WhatsApp</span></a></div>
+        <div class="shareOption2 em"><a href="mailto:?body=http://www.passiontimes.hk/article/02-02-2017/35636"><i class="pt-email"></i><span class="text">Email</span></a></div>
+        <!--PRINT 係article page 先show，用咗css hide-->
+        <div class="shareOption2 pr"><a href="javascript:;" onclick="window.print()"><i class="pt-print"></i><span class="text">Print</span></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="maxWrapper pageTopAd">
+    <div class="bannerAd"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 680x125 backfill dfp -->
+<center><ins class="adsbygoogle" style="display:inline-block;width:680px;height:90px;" data-ad-client="ca-pub-8693900212275518" data-ad-slot="8413526985" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:680px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:680px;background-color:transparent"><iframe width="680" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins></center>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+  </div>
+  <!--.pageTopAd end-->
+  <!--
+  <div class="countdownWrap">
+    <a href='/election2016'><img class="sustaining" src="/4.0/img/sustaining_basic_law_yellow3.png" /></a>
+    <div class="countdown">
+      <span class="count-text">離立法會選舉<br>投票日就是</span>
+      <span class="count-date">
+        <span class="day">今日</span>
+      </span>
+    </div>
+  </div>
+  -->
+  <div class="navWrap" id="navWrap">
+    <div class="topNavCon" id="topNavCon">
+      <nav class="progNav m768-hide">
+        <div class="maxWrapper large">
+          <div class="prog-logo">
+            <a href="/"></a>
+          </div>
+          <!--.prog-logo end-->
+          <div class="todaysProg-wrap day6" id="todaysProg-wrap">
+            <div class="todaysProg-header" id="todaysProg-toggle">是日節目<i class="pt-arrow-down"></i></div>
+            <div class="todaysProg">
+              <ul class="todaysProg-day" id="todaysProg-day">
+                <li id="day0">日</li>
+                <li id="day1">一</li>
+                <li id="day2">二</li>
+                <li id="day3">三</li>
+                <li id="day4">四</li>
+                <li id="day5">五</li>
+                <li id="day6">六</li>
+              </ul>
+<ul class="todaysProg-prog day1">            <li><a href="/prog/85"><span>08:00</span>大香港早晨</a></li>            <li><a href="/prog/84"><span>15:00</span>國立大台</a></li>            <li><a href="/prog/83"><span>20:00</span>熱血政治</a></li>            <li><a href="/prog/7"><span>21:00</span>耶教異聞錄</a></li>            <li><a href="/prog/12"><span>22:00</span>少女熱線</a></li>            <li><a href="/prog/13"><span>23:00</span>Game民力量</a></li></ul><ul class="todaysProg-prog day2">            <li><a href="/prog/85"><span>08:00</span>大香港早晨</a></li>            <li><a href="/prog/84"><span>15:00</span>國立大台</a></li>            <li><a href="/prog/83"><span>20:00</span>熱血政治</a></li>            <li><a href="/prog/2"><span>21:00</span>腐女民主連線</a></li>            <li><a href="/prog/23"><span>22:00</span>索書號</a></li>            <li><a href="/prog/21"><span>23:00</span>宅文化研究</a></li></ul><ul class="todaysProg-prog day3">            <li><a href="/prog/85"><span>08:00</span>大香港早晨</a></li>            <li><a href="/prog/84"><span>15:00</span>國立大台</a></li>            <li><a href="/prog/83"><span>20:00</span>熱血政治</a></li>            <li><a href="/prog/35"><span>21:00</span>新契弟同盟</a></li>            <li><a href="/prog/33"><span>22:00</span>港豬想旅行</a></li>            <li><a href="/prog/34"><span>23:00</span>The Crazy Ones</a></li>            <li><a href="/prog/36"><span>24:00</span>深宵FOOL人信箱</a></li></ul><ul class="todaysProg-prog day4">            <li><a href="/prog/85"><span>08:00</span>大香港早晨</a></li>            <li><a href="/prog/84"><span>15:00</span>國立大台</a></li>            <li><a href="/prog/83"><span>20:00</span>熱血政治</a></li>            <li><a href="/prog/43"><span>21:00</span>腹黑議事廳</a></li>            <li><a href="/prog/52"><span>22:00</span>百無禁技加強版</a></li>            <li><a href="/prog/4"><span>23:00</span>麻甩建港聯盟</a></li></ul><ul class="todaysProg-prog day5">            <li><a href="/prog/85"><span>08:00</span>大香港早晨</a></li>            <li><a href="/prog/84"><span>15:00</span>國立大台</a></li>            <li><a href="/prog/83"><span>20:00</span>熱血政治</a></li>            <li><a href="/prog/5"><span>21:00</span>笑死朕</a></li>            <li><a href="/prog/51"><span>22:00</span>實戰攻擋</a></li>            <li><a href="/prog/54"><span>23:00</span>靈鏡MMR</a></li></ul><ul class="todaysProg-prog day6">            <li><a href="/prog/64"><span>20:00</span>瀛能無雙</a></li>            <li><a href="/prog/62"><span>21:00</span>熱血親子團</a></li>            <li><a href="/prog/61"><span>22:00</span>咬蔗幫</a></li>            <li><a href="/prog/21"><span>23:00</span>宅文化研究</a></li></ul><ul class="todaysProg-prog day0">            <li><a href="/prog/72"><span>20:00</span>古惑仔俱樂部</a></li>            <li><a href="/prog/15"><span>21:00</span>人妻先修班</a></li>            <li><a href="/prog/1"><span>22:00</span>奇奧研究社</a></li>            <li><a href="/prog/73"><span>23:30</span>熱血劇場</a></li>            <li><a href="/prog/74"><span>23:30</span>熱血少年軍</a></li></ul>
+            </div>
+            <!--.todaysProg end-->
+          </div>
+          <!--.todaysProg-wrap end-->
+          <div class="prog-live"><a href="/live.php"><i class="pt-live2 inline"></i>LIVE 每日直播</a> </div>
+          <ul class="accountNav" id="accountNav">
+            <!--只show一樣highlight 如有一個以上 隨機出一個 交比你了：D-->
+            <li class="nav-special">
+              <a href="/4.0/category/6/">English Edition<sup class="new">NEW</sup></a>
+            </li>
+            <!--.nav-special end-->
+            <li class="nav-login" id="nav-login">
+              <a href="https://www.facebook.com/dialog/oauth?client_id=462543587117177&amp;redirect_uri=http%3A%2F%2Fwww.passiontimes.hk%2F4.0%2Findex.php&amp;state=f7aa928ac630d1dc8453f84204c2af0d&amp;scope=publish_actions"><i class="pt-user inline"></i><span class="text">登入</span></a>
+            </li>
+            <!--.nav-login end-->
+<!--            <li class="nav-account" id="nav-account" style='display:none'>
+              <span class="profilePic"></span><span class="text">美羅・昆德拉</span><span class="account-badge">3</span><i class="pt-down inline right"></i>
+              <div class="account-dd" id="nav-account-dd">
+                <ul>
+                  <!--你整好backend 後再同我講啦 睇下有無野要改-->
+                  <!--
+                  <li>唔知有尐咩<span class="badge">3</span></li>
+                  <li>之後再諗啦</li>
+                </ul>
+                <div class="account-button">
+                  <div class="logout" id="account-logout">登出</div>
+                  <div class="account" id="account-detail"><a href="#">查看帳號</a></div>
+                </div>
+              </div>
+            </li>-->
+            <!--.nav-account end-->
+            <li class="nav-cart" id="nav-cart" style="display:none">
+              <!--if .cart-count > 10, this = 10+ | php-->
+              <a href="/?view=regform"><i class="pt-shop inline"></i><span class="text">購物車</span><span class="cart-count"></span></a>
+                <!--撳咗加入購物車之後show 的 （過3秒自己 dismiss） SEE NAV.JS [TOP NAV CART BUTTON (TEMPPPPPP!!!!)]-->
+
+				<!--
+              <div class="nav-cart-pop" id="nav-cart-pop">
+                <div class="media">
+                  <div class="imgBox"></div>
+                  <div class="textBox">
+                    <h4>職業創作笑死朕</h4>
+                    <h6>HK$80</h6>
+                  </div>
+                </div>
+                <i class="pt-cross cart-pop-exit" id="cart-pop-exit"></i>
+                <div class="cart-caption">已加到購物車</div>
+              </div>
+              -->
+              <!--.nav-cart-pop end-->
+            </li>
+            <!--.nav-cart end-->
+            <li class="nav-subscribe">
+              <a href="/4.0/invteam.php">「熱狗仔隊」牧養計劃</a>
+            </li>
+<!--            <li class="nav-subscribe">
+              <a href="http://www.passiontimes.hk/?view=regform18">雨傘失敗錄</a>
+            </li>-->
+            <li class="nav-subscribe">
+              <a href="/?view=regform">訂閱熱血時報</a>
+            </li>
+            <!--.nav-subscribe end-->
+          </ul>
+        </div>
+      </nav>
+      <!--.progNav end-->
+      
+      
+            
+      
+      <div class="nav-date">
+      二零一七年二月四日　星期六　｜　丁酉　雞年正月初八日</div>
+      <!--.nav-date end-->
+      <nav class="utilityNav">
+        <div class="nav-logo">
+          <a href="/" alt="熱血時報"></a>
+        </div>
+        <!--.nav-logo end-->
+        <div class="sideNav-toggle" id="sideNav-toggle"><i class="pt-menu"></i></div>
+        <!--if .mobile-cart-count > 10, this = 10+ | php-->
+        <div class="mobile-cart-btn" id="mobile-cart-btn"><a href="/?view=regform"><i class="pt-shop"></i><span class="mobile-cart-count">-</span></a></div>
+        <!--.sideNav-toggle end-->
+      </nav>
+      <!--.utilityNav end-->
+      <div class="pageNav m768-hide" id="pageNav">
+        <div class="maxWrapper large">
+          <ul class="topNav-items" id="topNav-items">
+            <!--active need php?-->
+
+            <li class="containDD __ACTIVE1__" id="topNav-news">
+              <a href="/4.0/category/1" alt="熱血新聞">熱血新聞<i class="pt-down inline right"></i></a>
+            </li>
+            <li class="containDD __ACTIVE2__" id="topNav-life">
+              <a href="/4.0/category/2" alt="生活資訊">生活資訊<i class="pt-down inline right"></i></a>
+            </li>
+            <li class="containDD __ACTIVE3__" id="topNav-art">
+              <a href="/4.0/category/3" alt="文化藝術">文化藝術<i class="pt-down inline right"></i></a>
+            </li>
+            <!--<li id="topNav-feature">
+              <a href="/4.0/category/4" alt="專欄部落">專題報導</a>
+            </li>-->
+            <li class="containDD" id="topNav-prog">
+              <a href="/prog" alt="網台節目">網台節目<i class="pt-down inline right"></i></a>
+            </li>
+            <li id="topNav-live">
+              <a href="/live.php" alt="直播室">直播室</a>
+            </li>
+            <div class="topNav-more-dd" id="topNav-more-dd">
+              <li id="topNav-more">
+                <a>其他<i class="pt-down inline right"></i></a>
+              </li>
+              <ul>
+                <li id="topNav-production">
+                  <a href="/pt/" alt="熱血製作">熱血製作</a>
+                </li>
+                <li id="topNav-raise">
+                  <a href="/?view=raise" alt="課金育成">課金育成</a>
+                </li>
+                <!--active need php?-->
+                <li id="topNav-shop">
+                  <a href="/?view=regform" alt="熱血專賣">熱血專賣</a>
+                </li>
+              </ul>
+            </div>
+          </ul>
+          <!--.topNav-items end-->
+          <div class="pageNav-btn-wrap">
+            <form action="search.php" class="nav-search" role="search" id="nav-search">
+              <label class="sr-only">Search</label>
+              <input name="search" type="text" placeholder="Search" tabindex="1">
+              <button class="default" id="nav-search-button"><i class="pt-search self"></i><span>搜尋</span></button>
+            </form>
+            <!--.nav-search end-->
+
+            <div class="pageNav-btn">
+              <div class="nav-search-btn" id="nav-search-trigger">
+                <i class="pt-search"></i>
+                <i class="pt-cross"></i>
+              </div>
+              <div class="nav-share-btn" id="nav-shareScreen-trigger">
+                <i class="pt-share"></i>
+              </div>
+              <div class="nav-setting" id="nav-theme-trigger">
+                <i class="pt-setting"></i>
+              </div>
+            </div>
+            <!--.pageNav-btn end-->
+          </div>
+          <!--.pageNav-btn-wrap end-->
+        </div>
+      </div>
+      <!--.pageNav end-->
+    </div>
+    <!--.topNavCon end-->
+
+    <div class="topNav-dropdown m1024-hide imgTop" id="topNav-dropdown">
+      <div class="maxWrapper large">
+        <div class="dropdown-wrapper" id="dropdown-wrapper">
+          <div class="dropdown-news" id="dropdown-news">
+            <ul class="dropdown-toggle news">
+       <!--       <li class="active" id="news-latest">最新上載</li>
+              <li id="news-news">港聞</li>
+              <li id="news-econ">財經</li>
+              <li id="news-globle">兩岸國際</li>
+              <li id="news-finance">財經地產</li>
+              <li id="news-sport">體育</li>
+              <li id="news-indepth">新聞直擊</li>
+              <li id="news-social">社會</li>
+              <li id="news-outsource">熱血公投</li>
+            </ul>-->
+            <div class="dd-wrap row" id="news-dd-wrap">
+              <div class="dd-5 active" id="news-latest-dd">
+                                            
+                <div class="media">
+                                <a href="/article/02-03-2017/35666">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/20161213HEN.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35666">上月16至29日期間　中國新增57宗H7N9個案　9人死亡</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/2/">兩岸國際</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>23</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35665">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E7%BE%8E.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35665">3美食車今日率先營業　車主希望政府增擺放地點</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>85</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35664">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/14600745_316942048683902_2022116622_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35664">荔枝角收押所在囚人士中風不治</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>66</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35663">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/15940508_1615101048516421_414699677676555938_n_1.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35663">特首選舉首位地產商表態　前九倉集團主席吳光正撐林鄭</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>92</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35662">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/20170203cl.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35662">會展舉行競選分享大會　林鄭月娥公布參選政綱框架</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>73</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </ul></div>
+          <div class="dropdown-life" id="dropdown-life">
+<!--            <ul class="dropdown-toggle life">
+              <li class="active" id="life-latest">最新上載</li>
+              <li id="life-travel">旅遊</li>
+              <li id="life-food">飲食</li>
+              <li id="life-eco">環保</li>
+              <li id="life-tech">科技</li>
+              <li id="life-health">健康</li>
+              <li id="life-pet">動物</li>
+              <li id="life-shop">消費</li>
+              <li id="life-education">教育</li>
+              <li id="life-religion">宗教</li>
+              <li id="life-tale">異聞</li>
+              <li id="life-entertain">娛樂</li>
+            </ul>-->
+            <div class="dd-wrap row" id="life-dd-wrap">
+              <div class="dd-5 active" id="life-latest-dd">
+
+                                            
+                <div class="media">
+                                <a href="/article/02-03-2017/35655">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-03%20%E4%B8%8B%E5%8D%883.15.44.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35655">認真的搞笑最迷人　日本雀巢銀座開店賣Kit Kat壽司</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/9/">飲食</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>58</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35653">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/journees-particulieres-white-square_0.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35653">真係過Versace？！Riccardo Tisci確認離開Givenchy</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/135/">時裝</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>43</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-02-2017/35640">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/20170202hh.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-02-2017/35640">哈佛大學成功造出常溫超導體「金屬氫」</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/11/">科技</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1810</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-02-2017/35632">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%882.16.08.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-02-2017/35632">WhatsApp實時定位新功能　隨時出賣你位置所在</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/11/">科技</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>571</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-30-2017/35584">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/4528483136901.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-30-2017/35584">呢部表面上係一部iPhone　仲係一個駁Lightning嘅鬚刨</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/11/">科技</a></span><span class="time"><i class="pt-time inline"></i>01-30-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>96</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-art" id="dropdown-art">
+<!--            <ul class="dropdown-toggle art">
+              <li class="active" id="art-latest">最新上載</li>
+              <li id="art-culture">文化</li>
+              <li id="art-film">電影</li>
+              <li id="art-acg">動漫</li>
+              <li id="art-handmade">手創</li>
+              <li id="art-creative">創作組</li>
+              <li id="art-blog">文字部落</li>
+            </ul>-->
+            <div class="dd-wrap row" id="art-dd-wrap">
+              <div class="dd-5 active" id="art-latest-dd">
+
+                                            
+                <div class="media">
+                                <a href="/article/02-03-2017/35657">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/fdvfdvv_1.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35657">Beyonce宣布懷雙胞胎後　將於格林美首度演唱</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/125/">音樂</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>30</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-03-2017/35650">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-03%20%E4%B8%8B%E5%8D%881.27.57.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-03-2017/35650">雞年洗腦歌？！Chicken Attack又幾好聽喎</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/125/">音樂</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>128</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-02-2017/35639">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%887.13.59.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-02-2017/35639">《Stranger Things》飾演Will Byers　12歲童星做YouTuber</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/20/">電影</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>53</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-02-2017/35636">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.22.39_1.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-02-2017/35636">插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year </a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/19/">文化</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1040</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/02-02-2017/35635">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/rgregr.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-02-2017/35635">權力遊戲新書？！　作者George R.R. Martin確認參與小說集《The Book of Swords》</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/20/">電影</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>54</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+              </div>
+            </div>
+	  </div>
+          <div class="dropdown-eng1" id="dropdown-eng1">
+            <div class="dd-wrap row" id="eng1-dd-wrap">
+              <div class="dd-5 active" id="eng1-latest-dd">
+
+                                            
+                <div class="media">
+                                <a href="/article/01-30-2017/35549">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16343769_10158171297680504_256143539_n.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-30-2017/35549">The flawed verification system - An open letter to Facebook</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>01-30-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>182</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-25-2017/35486">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16144883_10154391022317153_1426345461_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-25-2017/35486">Lunar New Year market stores of Hong Kong National Party and Youngspiration banned by government</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>01-25-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>38</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-24-2017/35391">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/20170112b.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-24-2017/35391">Chinese movie poster accused of copying X-Men’s</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>01-24-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>113</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/12-25-2016/34790">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/%E6%9B%BE%E9%88%BA%E6%88%90.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/12-25-2016/34790">Jasper Tsang mocks Carrie Lam’s interest in the CE election as circus animals attempting to appease the audience</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>12-25-2016<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>37</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/12-19-2016/34651">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/15390888_10153974541487554_6120990673982987210_n.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/12-19-2016/34651">5 just-born kittens taken to cat shelter ends up hurting, not helping</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>12-19-2016<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>60</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown-eng2" id="dropdown-eng2">
+            <div class="dd-wrap row" id="eng2-dd-wrap">
+              <div class="dd-5 active" id="eng2-latest-dd">
+
+                                            
+                <div class="media">
+                                <a href="/article/01-29-2017/35573">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16357516_10212327459567833_993887486_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-29-2017/35573">Happy LUNAR New Year!</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-29-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>77</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-29-2017/35498">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/20161222eva.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-29-2017/35498">The truth in Syria according to a Canadian independent reporter</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-29-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>106</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-22-2017/35396">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/15965393_10154596320899270_7731751773979999887_n.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-22-2017/35396">Strangler Figs</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-22-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>29</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-16-2017/35296">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/1039587_800323643315714_426304227_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-16-2017/35296">Carrie Lam - Blasphemous Megalomaniac</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-16-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>42</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+                              
+                <div class="media">
+                                <a href="/article/01-06-2017/35008">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/20161217WW.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-06-2017/35008">Why are girls calling themselves manly but not independent?</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-06-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>71</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-prog" id="dropdown-prog">
+            <ul class="dropdown-toggle prog">
+              <li class="active" id="prog-latest">最新上載</li>
+              <li id="prog-weekday">星期一至五</li>
+              <li id="prog-monday">星期一</li>
+              <li id="prog-tuesday">星期二</li>
+              <li id="prog-wednesday">星期三</li>
+              <li id="prog-thursday">星期四</li>
+              <li id="prog-friday">星期五</li>
+              <li id="prog-saturday">星期六</li>
+              <li id="prog-sunday">星期日</li>
+              <li id="prog-archive">昔日節目</li>
+            </ul>
+            <div class="dd-wrap row" id="prog-dd-wrap">
+              <div class="dd-5 active" id="prog-latest-dd">
+                                <div class="media">
+                  <a href="/prog/83/852">
+                    <div class="imgBox" style="background-image: url(http://sc6.passiontimes.hk/cache/83/852/thumbnail.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/83/852">選特首 就係選香港民主運動嘅敵人/美食車邊撚度車呀？睇過～</a></h4>
+                    <h6 class="caption"><span class="cat"><a href="/prog/83">熱血政治</a></span><span class="time"><i class="pt-time inline"></i>2017-02-03<span> ago</span></span><!--<span class="action"><a 
+                        href="#"><i class="pt-facebook-like inline"></i>8.9k</a></span><span class="action"><a 
+                        href="#"><i class="pt-share inline"></i>710</a></span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/5/315">
+                    <div class="imgBox" style="background-image: url(http://sc6.passiontimes.hk/cache/05/315/thumbnail.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/5/315">《豪門夜宴》：一套戲睇曬港產片黃金時代</a></h4>
+                    <h6 class="caption"><span class="cat"><a href="/prog/5">笑死朕</a></span><span class="time"><i class="pt-time inline"></i>2017-02-03<span> ago</span></span><!--<span class="action"><a 
+                        href="#"><i class="pt-facebook-like inline"></i>8.9k</a></span><span class="action"><a 
+                        href="#"><i class="pt-share inline"></i>710</a></span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/85/770">
+                    <div class="imgBox" style="background-image: url(http://sc6.passiontimes.hk/cache/85/770/thumbnail.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/85/770">林鄭轉口風開FB　末日先兆/ 香港左膠宜永續反Trump示威　放過香港/ 初七回顧　返工逗利是攻略/ 熱血時報節目新調動</a></h4>
+                    <h6 class="caption"><span class="cat"><a href="/prog/85">大香港早晨</a></span><span class="time"><i class="pt-time inline"></i>2017-02-03<span> ago</span></span><!--<span class="action"><a 
+                        href="#"><i class="pt-facebook-like inline"></i>8.9k</a></span><span class="action"><a 
+                        href="#"><i class="pt-share inline"></i>710</a></span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/84/196">
+                    <div class="imgBox" style="background-image: url(http://sc6.passiontimes.hk/cache/84/196/thumbnail.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/84/196">初七人日Henover 爆改創世記/你都可以係無名英雄/Fostex TE04日製耳機情侶款/迪士尼公主跌watt不要太有期望</a></h4>
+                    <h6 class="caption"><span class="cat"><a href="/prog/84">國立大台</a></span><span class="time"><i class="pt-time inline"></i>2017-02-03<span> ago</span></span><!--<span class="action"><a 
+                        href="#"><i class="pt-facebook-like inline"></i>8.9k</a></span><span class="action"><a 
+                        href="#"><i class="pt-share inline"></i>710</a></span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/54/97">
+                    <div class="imgBox" style="background-image: url(http://sc6.passiontimes.hk/cache/54/097/thumbnail.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/54/97">丁酉年流年運程 (下）</a></h4>
+                    <h6 class="caption"><span class="cat"><a href="/prog/54">靈鏡MMR</a></span><span class="time"><i class="pt-time inline"></i>2017-02-03<span> ago</span></span><!--<span class="action"><a 
+                        href="#"><i class="pt-facebook-like inline"></i>8.9k</a></span><span class="action"><a 
+                        href="#"><i class="pt-share inline"></i>710</a></span>--></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="dd-7 prog" id="prog-weekday-dd">
+                <div class="media">
+                  <a href="/prog/85">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-85.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/85">大香港早晨</a></h4>
+                    <h6 class="caption"><span class="host">黃毓民，黃洋達，鄭松泰，陳四，及一眾熱血主持</span><span class="cat"><i class="pt-time inline"></i>08:00–10:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/84">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-84.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/84">國立大台</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達，Frank，小菜，陳四</span><span class="cat"><i class="pt-time inline"></i>15:00–17:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/83">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-83.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/83">熱血政治</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達，鄭松泰，陳四，及一眾熱血主持</span><span class="progTime"><i class="pt-time inline"></i>20:00–21:00</span></h6>
+                  </div>
+                </div>
+              </div>
+
+
+
+               <div class="dd-7 prog" id="prog-monday-dd">
+                <div class="media">
+                  <a href="/prog/7">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-7.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/7">耶教異聞錄</a></h4>
+                    <h6 class="caption"><span class="host">Howtindog、陳到</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/12">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-12.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/12">少女熱線</a></h4>
+                    <h6 class="caption"><span class="host">Joey / Olive</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/13">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-13.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/13">Game民力量</a></h4>
+                    <h6 class="caption"><span class="host">末日狼/五月</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-tuesday-dd">
+                <div class="media">
+                  <a href="/prog/2">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-2.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/2">腐女民主連線</a></h4>
+                    <h6 class="caption"><span class="host">打令、Venus Sakura、Alex</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/23">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-23.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/23">索書號</a></h4>
+                    <h6 class="caption"><span class="host">Bonix / Jason / James</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/21">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-21.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/21">宅文化研究</a></h4>
+                    <h6 class="caption"><span class="host">CHRONO、小菜</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-wednesday-dd">
+                <div class="media">
+                  <a href="/prog/35">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-35.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/35">新契弟同盟</a></h4>
+                    <h6 class="caption"><span class="host">班長、阿薯</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/33">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-33.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/33">港豬想旅行</a></h4>
+                    <h6 class="caption"><span class="host">八神、阿ka、BJ、日新</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/34">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-34.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/34">The Crazy Ones</a></h4>
+                    <h6 class="caption"><span class="host">Toby , Bonix , Ray , Joey , 文見 , 阿璦</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/36">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-36.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/36">深宵FOOL人信箱</a></h4>
+                    <h6 class="caption"><span class="host">陳四、Toby</span><span class="progTime"><i class="pt-time inline"></i>24:00–25:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-thursday-dd">
+                <div class="media">
+                  <a href="/prog/43">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-43.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/43">腹黑議事廳</a></h4>
+                    <h6 class="caption"><span class="host">LadyKylie / 末日狼</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/52">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-52.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/52">百無禁技加強版</a></h4>
+                    <h6 class="caption"><span class="host">Frank</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/4">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-4.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/4">麻甩建港聯盟</a></h4>
+                    <h6 class="caption"><span class="host">牛頭角大儒俠／Joey爸／阿聰</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-friday-dd">
+                <div class="media">
+                  <a href="/prog/5">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-5.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/5">笑死朕</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達、陳秀慧</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/51">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-51.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/51">實戰攻擋</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達、陳浩揚、小龍</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/54">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-54.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/54">靈鏡MMR</a></h4>
+                    <h6 class="caption"><span class="host">Winnie/夏霽/嘉樂/Clarence/Adward/Mirage/Wing/Eva</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-saturday-dd">
+                <div class="media">
+                  <a href="/prog/64">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-64.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/64">瀛能無雙</a></h4>
+                    <h6 class="caption"><span class="host">北條彰、小MEL</span><span class="progTime"><i class="pt-time inline"></i>20:00–21:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/62">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-62.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/62">熱血親子團</a></h4>
+                    <h6 class="caption"><span class="host">Cheris / TinaWater / 五影小朋友集團 / 文西小朋友</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/61">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-61.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/61">咬蔗幫</a></h4>
+                    <h6 class="caption"><span class="host">Ray</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/21">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-21.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/21">宅文化研究</a></h4>
+                    <h6 class="caption"><span class="host">CHRONO、小菜</span><span class="progTime"><i class="pt-time inline"></i>23:00–24:00</span></h6>
+                  </div>
+                </div></div>               <div class="dd-7 prog" id="prog-sunday-dd">
+                <div class="media">
+                  <a href="/prog/72">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-72.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/72">古惑仔俱樂部</a></h4>
+                    <h6 class="caption"><span class="host">牛佬, 倫裕國, 黃洋達</span><span class="progTime"><i class="pt-time inline"></i>20:00–21:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/15">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-15.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/15">人妻先修班</a></h4>
+                    <h6 class="caption"><span class="host">打令 / 阿Ka / 嘉慧</span><span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/1">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-1.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/1">奇奧研究社</a></h4>
+                    <h6 class="caption"><span class="host">kiyo</span><span class="progTime"><i class="pt-time inline"></i>22:00–23:30</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/73">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-73.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/73">熱血劇場</a></h4>
+                    <h6 class="caption"><span class="host">零先生、韓賓、Clarence、阿基</span><span class="progTime"><i class="pt-time inline"></i>23:30–24:00</span></h6>
+                  </div>
+                </div>
+                <div class="media">
+                  <a href="/prog/74">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-74.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/74">熱血少年軍</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達、英軍</span><span class="progTime"><i class="pt-time inline"></i>23::3–24:30</span></h6>
+                  </div>
+                </div></div>
+              <div class="dd-7 prog" id="prog-archive-dd">
+                <div class="media">
+                  <a href="/prog/71">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-71.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/71">活該快樂</a></h4>
+                    <h6 class="caption"><span class="host">CarLo</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/53">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-53.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/53">大夫救我</a></h4>
+                    <h6 class="caption"><span class="host">關醫師，Joe</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/3">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-3.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/3">熱血公民教育</a></h4>
+                    <h6 class="caption"><span class="host">鄭松泰、陳四、車仔麵</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/81">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-81.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/81">傾偈會</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/31">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-31.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/31">1830特工隊</a></h4>
+                    <h6 class="caption"><span class="host">JUNIEO,KA,BJ,八神</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/82">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-82.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/82">熱血貓車團</a></h4>
+                    <h6 class="caption"><span class="host">末日狼 五月 C君 小菜 阿藍</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/22">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-22.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/22">The Crazy Ones</a></h4>
+                    <h6 class="caption"><span class="host">Toby / 貴公子</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/6">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-6.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/6">男女巿場學</a></h4>
+                    <h6 class="caption"><span class="host">sam哥、史提芬、奈美惠</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/41">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-41.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/41">喬妝教室</a></h4>
+                    <h6 class="caption"><span class="host">阿包、CaCa、打令</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/32">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-32.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/32">玩物喪誌</a></h4>
+                    <h6 class="caption"><span class="host">Alvin</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/91">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-91.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/91">熱血特別場</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達、陳秀慧</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/90">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-90.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/90">愈要我收聲 我愈要更大聲</a></h4>
+                    <h6 class="caption"><span class="host">聽眾街頭發聲</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/11">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-11.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/11">少女書房</a></h4>
+                    <h6 class="caption"><span class="host">黃洋達、Bonix、Olive</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/14">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-14.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/14">熱血神奇膠</a></h4>
+                    <h6 class="caption"><span class="host">神奇膠 (人偶/Kenji/日新/762)</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/63">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-63.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/63">奇奧初心秘笈</a></h4>
+                    <h6 class="caption"><span class="host">Kiyo / Clarence</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/80">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-80.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/80">My University</a></h4>
+                    <h6 class="caption"><span class="host">梁錦祥</span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>                <div class="media">
+                  <a href="/prog/88">
+                    <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/images/tn/picon-88.jpg)"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4 style="word-wrap: break-word;"><a href="/prog/88">熱血動向</a></h4>
+                    <h6 class="caption"><span class="host"></span>
+                        <!--<span class="progTime"><i class="pt-time inline"></i>21:00–22:00</span>--></h6>
+                  </div>
+                </div>
+              
+              
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.topNav-dropdown end-->
+
+    <div class="sideNavCon">
+
+      <nav class="sideNav">
+        <div class="sideNav-eng"><a href="#">English Edition<sup class="new">NEW</sup></a></div>
+        <!--如果LOGIN系統就唔SHOW LOGO SHOW以下兩個野-->
+        <a href="/">
+          <div class="sideNav-logo"></div>
+        </a>
+
+        <!--求其整住先的 之後再改-->
+        <div class="sideNav-btn" style="display:block">
+          <div class="btnCon">
+            <div class="btn55">
+              <a href="https://www.facebook.com/dialog/oauth?client_id=462543587117177&amp;redirect_uri=http%3A%2F%2Fwww.passiontimes.hk%2F4.0%2Findex.php&amp;state=0264da02a78eea2f4fe0779c57beff2c&amp;scope=publish_actions" class="sideNav-login"><i class="pt-login inline"></i>登入</a>
+	    </div>
+<!--            <div class="btn55">
+              <a href="#" class="sideNav-register">申請帳號</a>
+            </div>
+            <div class="btn55">
+              <a href="#" class="sideNav-login"><i class="pt-login inline"></i>登入</a>
+            </div>-->
+          </div>
+        </div>
+        <!--.sideNav-btn end-->
+
+        <!--求其整住先的 之後再改-->
+        <div class="sideNav-account">
+          <div class="imgBox"></div>
+          <div class="textBox">
+            <h4>小菜</h4>
+            <h5>貴族金主</h5>
+            <div class="btnCon center">
+              <button class="default yellow flat fluid mBtn">查看帳號</button>
+              <button class="default dark tran fluid mBtn"><i class="pt-logout inline"></i>登出</button>
+            </div>
+          </div>
+        </div>
+        <!--.sideNav-account end-->
+
+        <ul class="sideNav-ul" id="sideNav-ul">
+          <li class="sideNav-li dropdown active">
+            <a href="/4.0/category/1"><i class="pt-news"></i>熱血新聞<i class="pt-arrow-down sideNav-dd-toggle"></i></a>
+            <div class="sideNav-subNav">
+              <ul class="subNav-ul" role="menu">
+                                  		<li><a href="/4.0/category/1/1">港聞</a></li>                  		<li><a href="/4.0/category/1/2">兩岸國際</a></li>                  		<li><a href="/4.0/category/1/3">財經地產</a></li>                  		<li><a href="/4.0/category/1/4">體育</a></li>                  		<li><a href="/4.0/category/1/5">新聞直擊</a></li>                  		<li><a href="/4.0/category/1/6">社會</a></li>                  		<li><a href="/4.0/category/1/7">專訪</a></li>                  		<li><a href="/4.0/category/1/37">熱血公投</a></li>                  		<li><a href="/4.0/category/1/124">專題</a></li>              </ul>
+            </div>
+          </li>
+          <li class="sideNav-li dropdown">
+            <a href="/4.0/category/2"><i class="pt-life"></i>生活資訊<i class="pt-arrow-down sideNav-dd-toggle"></i></a>
+            <div class="sideNav-subNav">
+              <ul class="subNav-ul" role="menu">
+                                  		<li><a href="/4.0/category/2/8">旅遊</a></li>                  		<li><a href="/4.0/category/2/9">飲食</a></li>                  		<li><a href="/4.0/category/2/10">環保</a></li>                  		<li><a href="/4.0/category/2/11">科技</a></li>                  		<li><a href="/4.0/category/2/12">健康</a></li>                  		<li><a href="/4.0/category/2/13">動物</a></li>                  		<li><a href="/4.0/category/2/14">消費</a></li>                  		<li><a href="/4.0/category/2/15">教育</a></li>                  		<li><a href="/4.0/category/2/16">宗教</a></li>                  		<li><a href="/4.0/category/2/17">異聞</a></li>                  		<li><a href="/4.0/category/2/18">娛樂</a></li>                  		<li><a href="/4.0/category/2/62">兩性</a></li>                  		<li><a href="/4.0/category/2/135">時裝</a></li>              </ul>
+            </div>
+          </li>
+          <li class="sideNav-li dropdown">
+            <a href="/4.0/category/3"><i class="pt-art"></i>文化藝術<i class="pt-arrow-down sideNav-dd-toggle"></i></a>
+            <div class="sideNav-subNav">
+              <ul class="subNav-ul" role="menu">
+                                  		<li><a href="/4.0/category/3/19">文化</a></li>                  		<li><a href="/4.0/category/3/20">電影</a></li>                  		<li><a href="/4.0/category/3/21">動漫</a></li>                  		<li><a href="/4.0/category/3/22">手創</a></li>                  		<li><a href="/4.0/category/3/23">創作組</a></li>                  		<li><a href="/4.0/category/3/24">文字部落</a></li>                  		<li><a href="/4.0/category/3/125">音樂</a></li>              </ul>
+            </div>
+          </li>
+<!--          <li class="sideNav-li dropdown">
+            <a href="articleList.html"><i class="pt-chart"></i>專題<i class="pt-arrow-down sideNav-dd-toggle"></i></a>
+            <div class="sideNav-subNav">
+              <ul class="subNav-ul" role="menu">
+                <li><a href="#">全民製憲</a></li>
+                <li><a href="#">雨傘革命</a></li>
+              </ul>
+            </div>
+          </li>-->
+          <li class="sideNav-li dropdown" id="sideNav-prog">
+            <a href="/prog"><i class="pt-prog"></i>網台節目<i class="pt-arrow-down sideNav-dd-toggle"></i></a>
+            <div class="sideNav-subNav">
+              <ul class="subNav-ul" role="menu">
+                <li class="dd-header pg-weekday"><a>星期一至五</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>
+                    <li><a href="/prog/84">國立大台</a></li>
+                    <li><a href="/prog/83">熱血政治</a></li>
+                  </ul>
+                </li>
+                <li class="dd-header pg-monday"><a>星期一</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/7">耶教異聞錄</a></li>                    <li><a href="/prog/12">少女熱線</a></li>                    <li><a href="/prog/13">Game民力量</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-tuesday"><a>星期二</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/2">腐女民主連線</a></li>                    <li><a href="/prog/23">索書號</a></li>                    <li><a href="/prog/21">宅文化研究</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-wednesday"><a>星期三</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/35">新契弟同盟</a></li>                    <li><a href="/prog/33">港豬想旅行</a></li>                    <li><a href="/prog/34">The Crazy Ones</a></li>                    <li><a href="/prog/36">深宵FOOL人信箱</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-thursday"><a>星期四</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/43">腹黑議事廳</a></li>                    <li><a href="/prog/52">百無禁技加強版</a></li>                    <li><a href="/prog/4">麻甩建港聯盟</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-friday"><a>星期五</a>
+                  <ul>
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/5">笑死朕</a></li>                    <li><a href="/prog/51">實戰攻擋</a></li>                    <li><a href="/prog/54">靈鏡MMR</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-saturday"><a>星期六</a>
+                  <ul>
+                    <li><a href="/prog/64">瀛能無雙</a></li>                    <li><a href="/prog/62">熱血親子團</a></li>                    <li><a href="/prog/61">咬蔗幫</a></li>                    <li><a href="/prog/21">宅文化研究</a></li>                  </ul>
+                </li>
+                <li class="dd-header pg-sunday"><a>星期日</a>
+                  <ul>
+                    <li><a href="/prog/72">古惑仔俱樂部</a></li>                    <li><a href="/prog/15">人妻先修班</a></li>                    <li><a href="/prog/1">奇奧研究社</a></li>                    <li><a href="/prog/73">熱血劇場</a></li>                    <li><a href="/prog/74">熱血少年軍</a></li>                  </ul>
+                </li>
+                <li><a href="#">昔日節目</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="sideNav-li">
+            <a href="live.php"><i class="pt-live"></i>直播室</a>
+          </li>
+          <li class="sideNav-li">
+            <a href="/pt/"><i class="pt-drama"></i>熱血製作</a>
+          </li>
+          <li class="sideNav-li">
+            <a href="/?view=raise"><i class="pt-raise"></i>課金育成</a>
+          </li>
+          <li class="sideNav-li">
+            <a href="/?view=regform"><i class="pt-shop"></i>熱血專賣</a>
+          </li>
+          <li class="sideNav-li">
+            <a href="/?view=regform"><i class="pt-megaphone"></i>熱血動向</a>
+          </li>
+        </ul>
+        <!--.sideNav-ul end-->
+
+        <div class="sideNav-sub">
+          <div class="sub">
+            <h4>支持新媒體運動<br>訂閱熱血時報</h4>
+            <button class="default yellow flat mBtn self" onclick="location=&quot;/?view=regform&quot;">訂閱熱血時報</button>
+          </div>
+        </div>
+        <!--.sideNav-sub end-->
+
+        <div class="sideNav-footer">
+          <button class="default dark mBtn fluid" id="sideNav-theme-trigger">黑介面</button>
+          <ul>
+            <li><a href="#">熱血團隊</a></li>
+            <li><a href="/?view=disclaimer">免責聲明</a></li>
+            <li><a href="/?view=privacy">隱私政策</a></li>
+            <li><a href="mailto:info@passiontimes.hk">聯絡我們</a></li>
+            <li><a href="/?view=faq">常見問題</a></li>
+            <li><a href="mailto:info@passiontimes.hk">廣告查詢</a></li>
+          </ul>
+          <h5>Copyright© 2012-2017 Passiontimes Ltd. All Rights Reserved.</h5>
+        </div>
+        <!--.sideNav-footer end-->
+
+      </nav>
+    </div>
+    <!--.sideNavCon-->
+
+		
+  </div>
+  <!--.navWrap end-->
+
+  <div class="dark-overlay sideNav-overlay" id="sideNav-overlay"></div>
+  <div class="bodyContainer">
+  
+    <div class="maxWrapper">
+      <main class="mainWrap" role="main">
+
+
+
+
+
+
+
+              <article id="article">
+          <header class="mainHead">
+            <div class="page-path">
+              <h4><a href="/">首頁</a><a href="/category/3/">文化藝術</a><a href="/category/3/19/">文化</a></h4>
+            </div>
+            <h1>插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year </h1>
+            <h4 class="byline">
+              <span class="author">作者：<a href="/author/熱血編輯部">熱血編輯部 (Shannon)</a></span>
+              <time class="published" datetime="02-02-2017"><i class="pt-time inline"></i>02-02-2017</time>
+            </h4>
+            <div class="mainShare" id="mainShare">
+              <ul class="shareOption-wrap">
+                <li class="shareOption fb-like" onclick="like()" id="likebtn1">
+                <i class="pt-facebook-like inline"></i><span class="text">Like</span>
+                </li>
+                <li class="shareOption fb"><a href="javascript:;" onclick="share()"><i class="pt-facebook inline"></i><span class="text">Facebook</span></a></li>
+                <li class="shareOption tw"><a href="javascript:;" onclick="twitter()"><i class="pt-twitter inline"></i><span class="text">Twitter</span></a></li>
+                <li class="shareOption more" id="shareOptionMore"><i class="pt-add inline"></i><span class="text">更多</span></li>
+              </ul>
+              <ul class="shareStat-wrap" id="mobile-shareBar">
+                <li class="shareStat like" onclick="like()" id="likebtn2"><i class="pt-facebook-like inline"></i><span class="text">Like</span><span id="likecount" class="quantity">1040</span></li>
+                <li class="shareStat share" id="shareScreen-trigger" onclick="share()"><i class="pt-share inline"></i><span class="text">分享</span><span class="quantity">0</span></li>
+                <li class="shareStat comment"><a href="javascript:;" onclick="document.getElementById('comment').scrollIntoView();"><i class="pt-chat inline"></i><span class="text">留言</span><span class="quantity">0</span></a></li>
+              </ul>
+            </div>
+          </header>
+          <div class="article-body">
+<!--            <div class="yahooAd">text ad placeholder</div> -->
+            <!--最頂又係full-width先加 id="heroImg"-->
+<!--            <figure class="articleImg full-width heroImg" id="heroImg">
+              <img src="img/news3.jpg" />
+              <figcaption class="h6"><span class="caption">黃洋達 — 攝於平機會第二場歧視條例諮詢會</span><a href="#" class="photographer">熱血編輯部</a></figcaption>
+            </figure>-->
+            <p>
+            <img border="0" alt="" src="/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.22.39_1.png">（Joan Cornellà的Facebook截圖）<br><br>西班牙著名插畫家Joan Cornellà於Facebook專頁貼賀年作品，使用Hashtag香港，但使用「Happy Chinese New Year」作描述，被批用字不當，應是「Lunar New Year」而非「Chinese New Year」。
+</p><div><br>Joan Cornellà於1月28日6時49分於Facebook發貼，貼上疑似是維港煙花呈現一片煙霧作品，配上「雙妹嘜花露水」造型，「雙妹嘜」戴上口罩並用槍指著自己。並寫上「Happy chinese new year!」，又加上hashtag香港、Work in progress，但作品一出就收到不少留言。及後於同日7時27分後修改用字成「Happy lunar new year」，整個過程不到一小時。<br><br>網上留言普遍爭論農曆新年的名稱，以及圖片的靈感來源為香港，香港使用農曆新年字跟為主，應跟隨香港用字等等。結果Joan Cornellà於不足一小時，接收到網上留言意見後，就修改字眼。<br><br> 
+  <style type="text/css">p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #454545}
+span.s1 {font: 12.0px 'PingFang HK'}
+  </style><img border="0" alt="" src="/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.22.31.png"><br><br><br><img border="0" alt="" src="/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.24.07.png"><br><img border="0" alt="" src="/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.23.23.png"><img border="0" alt="" src="/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.24.23.png"> 
+</div>	    <p></p>
+
+<!-- Httpool Block -->
+<script type="text/javascript">
+	AdPlatformZone = {
+		id: "323229d66",
+		format: "400x0"
+	};
+</script>
+<script type="text/javascript" src="http://relay-hk.ads.httpool.com"></script>
+<!-- /Httpool Block -->
+
+
+
+<!--        <div class="article-section reference" id="reference">
+              <h5>隨意門</h5>
+              <ul>
+                <li><a href="#"><i class="pt-link inline"></i>熱血政治第188集：民主回歸派落幕前，麻煩切腹謝罪先！</a></li>
+                <li><a href="#"><i class="pt-link inline"></i>延伸既野啦總之</a></li>
+              </ul>
+            </div>
+-->          </div>
+        </article>
+        <div class="article-section author" id="author">
+          <div class="sectionHead h4">作者</div>
+          <div class="sectionCon">
+            <div class="media">
+              <a href="/?view=raise2">
+                <div class="imgBox" style="background-image: url(&quot;http://www.passiontimes.hk/raise/qmark.jpg&quot;)"></div>
+              </a>
+              <div class="authorSocial">
+                <h3><a href="/?view=raise2">熱血編輯部</a></h3>
+<!--                <a href=""><i class="pt-facebook"></i></a>
+                <a href=""><i class="pt-twitter"></i></a>
+                <a href=""><i class="pt-google-plus"></i></a>-->
+              </div>
+              
+                          
+            
+              <div class="textBox">
+              
+              <div class="global-raise" id="raise">
+                <div class="sectionHead h4">全球化計劃<sup class="new">NEW</sup><i class="pt-question" id="globalization-toggle"></i></div>
+                <div class="globalization" id="globalization">
+                  <h4>熱血時報全球化計劃</h4>
+                  <p>過去數年，熱血時報致力透過新聞報道和評論文章向大眾傳訊。為把真確資訊傳予更多讀者，現時各位讀者可通過課金系統，以金錢支持個別報道或文章。</p>
+                  <p>每週獲得最多課金支持的3篇文章將會翻譯為英文，以讓英文讀者可從熱血時報取得資訊。其他未入三甲的文章將滾存至下週結算。如讀者希望你欣賞的文章可讓更多人閱讀，歡迎課金支持，同時編輯和作者亦可借此計劃得到大家的實質支持，有助我們進一步提升傳訊質素。</p>
+                  <h5>※ 熱血時報將抽取其中30%作行政及製作費用</h5>
+                </div>
+                <form method="POST" name="checkout">
+                <input type="hidden" name="article" value="35636">
+			
+                <div class="raise-wrap">
+                  <div class="raise-fieldset value">
+                    <h5>課金金額（HK$）</h5>
+                    <div class="raise-value">
+                      <ul class="value-option-wrap" id="value-option-wrap">
+                        <li onclick="document.checkout.amount.value='100';" class="value-option active">100</li>
+                        <li onclick="document.checkout.amount.value='250';" class="value-option">250</li>
+                        <li onclick="document.checkout.amount.value='500';" class="value-option">500</li>
+                        <li onclick="document.checkout.amount.value='1000';" class="value-option">1000</li>
+                        <li onclick="document.checkout.amount.value='2500';" class="value-option">2500</li>
+                        <li class="value-option other">其他</li>
+                      </ul>
+                      <input value="100" name="amount" type="tel" min="100" class="numbersOnly raise">
+                      <h6 class="caption">下限為HK$100</h6>
+                    </div>
+                  </div>
+                  <button onclick="document.checkout.submit()" class="default yellow flat mBtn">立即課金</button>
+                </div>
+                </form>
+              </div>
+              <!--
+                <div class="author-raise" id="raise">
+                  <h4>若您認為以上文章有價，可透過本台的課金系統支持作者。</h4>
+                  <div class="raise-wrap">
+                    <div class="raise-fieldset value">
+                      <h5>課金金額（HK$）</h5>
+                      <div class="raise-value">
+                        <ul class="value-option-wrap" id="value-option-wrap">
+                          <li class="value-option active">100</li>
+                          <li class="value-option">250</li>
+                          <li class="value-option">500</li>
+                          <li class="value-option">1000</li>
+                          <li class="value-option">2500</li>
+                          <li class="value-option other">其他</li>
+                        </ul>
+                        <input value="100" type="tel" min="100" class="numbersOnly raise">
+                        <h6 class="caption">下限為HK$100</h6>
+                      </div>
+                    </div>
+                    <div class="raise-fieldset comment">
+                      <h5>金主留言（選填？）</h5>
+                      <div class="raise-comment">
+                        <input type="text" placeholder="金主留言" spellcheck="false" maxlength="50">
+                      </div>
+                    </div>
+                    <button class="default yellow flat mBtn"><a href="#">立即課金</a></button>
+                  </div>
+                </div>
+                <h6>＊課金金額下限為 HK$100、留言上限則為 50 字，該留言將在相應版面出現 30 日。熱血時報將抽取 30% 作行政及製作之用。</h6>
+              </div>-->
+            </div>
+                         </div>
+        </div>
+        </div>
+                <div class="article-section comment" id="comment">
+          <div class="sectionHead h4"><i class="pt-chat"></i>讀者回應</div>
+          <div class="fb-comments fb_iframe_widget" data-href="http://www.passiontimes.hk/article/02-02-2017/35636" data-numposts="5" fb-xfbml-state="rendered"><span style="height: 264px; width: 550px;"><iframe id="f41c598ac" name="f1de6c6264" scrolling="no" title="Facebook Social Plugin" class="fb_ltr" style="border: none; overflow: hidden; height: 264px; width: 550px;" src="https://www.facebook.com/plugins/comments.php?api_key=462543587117177&amp;channel_url=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df1f068c358%26domain%3Dwww.passiontimes.hk%26origin%3Dhttp%253A%252F%252Fwww.passiontimes.hk%252Ff25518d348%26relation%3Dparent.parent&amp;href=http%3A%2F%2Fwww.passiontimes.hk%2Farticle%2F02-02-2017%2F35636&amp;locale=zh_HK&amp;numposts=5&amp;sdk=joey&amp;version=v2.6&amp;width=550"></iframe></span></div>
+        </div>
+        <div class="article-section related" id="related">
+        
+                </div>
+ 
+
+
+
+
+      </main>
+      <!--.mainWrap end-->
+      <aside class="sideWrap">
+        <div class="asideSection sideColAd">
+<!--
+          <div class="media rectAd300" style='padding-bottom: 20px'>
+            <div class="adWrap">
+		<a href='/hkflag/'><img src='/ps/bnrflag.png'></a>
+	    </div>
+	  </div>
+-->
+          <div class="media rectAd300">
+            <div class="adWrap">
+            <a target="_blank" href="http://smarturl.it/58rp62"><img src="http://www.passiontimes.hk/ps/dd2.jpg" border="0" width="310"></a>            </div>
+            <div class="adInfo"><a href="mailto:info@passiontimes.hk"><i class="pt-info inline"></i>廣告查詢</a></div>
+          </div>
+          <div class="media rectAd250">
+            <div class="adWrap">
+            <a target="_blank" href="http://smarturl.it/bi9xjh"><img src="http://www.passiontimes.hk/ps/sg2.jpg" border="0" width="310"></a>            </div>
+            <div class="adInfo"><a href="mailto:info@passiontimes.hk"><i class="pt-info inline"></i>廣告查詢</a></div>
+          </div>
+        </div>
+        <div class="asideSection sideColAd">
+          <div class="media rectAd300">
+            <div class="adWrap">
+            <center><script language="JavaScript" type="text/javascript">randomstr = new String (Math.random());randomstr = randomstr.substring(1,8);document.write ("<" + "script language='JavaScript' type='text/javascript' src='" + "http://servedby.adsfactor.net/adj.php?ts=" + randomstr + "&amp;sid=585587965375" + "'><" + "/script>");</script><script language="JavaScript" type="text/javascript" src="http://servedby.adsfactor.net/adj.php?ts=.232326&amp;sid=585587965375"></script><noscript>&lt;a href='http://servedby.adsfactor.net/adc.php?sid=585587965375' &gt;&lt;img src='http://servedby.adsfactor.net/adv.php?sid=585587965375' border='0'&gt;&lt;/a&gt;</noscript></center>            </div>
+            <div class="adInfo"><a href="#"><i class="pt-info inline"></i>廣告查詢</a></div>
+          </div>
+          <div class="media rectAd250">
+            <div class="adWrap">
+            <a target="_blank" href="http://smarturl.it/zp3bmp"><img src="http://www.passiontimes.hk/ps/dn2.jpg?v=1" border="0" width="310"></a>            </div>
+            <div class="adInfo"><a href="#"><i class="pt-info inline"></i>廣告查詢</a></div>
+          </div>
+        </div>
+        <div class="asideSection relatedPost" id="relatedPost">
+          <div class="sectionHead">課金排名<i class="pt-question" id="globalization-toggle"></i></div>
+          <div class="globalization">
+            <h4>熱血時報全球化計劃</h4>
+            <p>過去數年，熱血時報致力透過新聞報道和評論文章向大眾傳訊。為把真確資訊傳予更多讀者，現時各位讀者可通過課金系統，以金錢支持個別報道或文章。</p>
+            <p>每週獲得最多課金支持的3篇文章將會翻譯為英文，以讓英文讀者可從熱血時報取得資訊。其他未入三甲的文章將滾存至下週結算。如讀者希望你欣賞的文章可讓更多人閱讀，歡迎課金支持，同時編輯和作者亦可借此計劃得到大家的實質支持，有助我們進一步提升傳訊質素。</p>
+            <h5>※ 熱血時報將抽取其中30%作行政及製作費用</h5>
+          </div>
+          <ul class="side-article raise">
+          
+          		
+			
+              <li class="media">
+                <a href="http://www.passiontimes.hk/article/02-01-2017/35622">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/police2.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/02-01-2017/35622" title="執勤駕車撞毀水龍頭後疑講大話　41歲男警涉妨礙司法公正被捕">執勤駕車撞毀水龍頭後疑講大話⋯</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-01-2017</span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1322</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+              </li>
+              
+
+
+          </ul>
+<!--          <button class="default white tran lBtn self fluid" id="side-article-toggle">顯示更多<i class="pt-down inline right"></i></button>-->
+          <div class="lastest-eng">
+            <h4>Article available in English</h4>
+            <ul class="side-article">
+            
+		                              
+                <li class="media">
+                                <a href="/article/01-29-2017/35573">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16357516_10212327459567833_993887486_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-29-2017/35573">Happy LUNAR New Year!</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-29-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>77</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/01-30-2017/35549">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16343769_10158171297680504_256143539_n.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-30-2017/35549">The flawed verification system - An open letter to Facebook</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>01-30-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>182</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/01-29-2017/35498">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201612/20161222eva.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-29-2017/35498">The truth in Syria according to a Canadian independent reporter</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-29-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>106</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/01-25-2017/35486">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/16144883_10154391022317153_1426345461_o.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-25-2017/35486">Lunar New Year market stores of Hong Kong National Party and⋯</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/35/">新聞 News</a></span><span class="time"><i class="pt-time inline"></i>01-25-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>38</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/01-22-2017/35396">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201701/15965393_10154596320899270_7731751773979999887_n.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4 style="word-wrap: break-word;"><a href="/article/01-22-2017/35396">Strangler Figs</a></h4>
+                  <h6 class="caption"><span class="cat"><a href="/category/6/36/">投稿 Contributing Articles</a></span><span class="time"><i class="pt-time inline"></i>01-22-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>29</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+
+            </ul>
+            <button class="default yellow flat fluid lBtn" onclick="location='/4.0/category/6/';">Read More</button>
+          </div>
+        </div>
+        <div class="asideSection progTable day6" id="progTable">
+          <div class="sectionHead" style="text-align: center">節目表</div>
+          <div class="utilityMenu">
+            <ul>
+              <li id="prog-day7">日</li>
+              <li id="prog-day1">一</li>
+              <li id="prog-day2">二</li>
+              <li id="prog-day3">三</li>
+              <li id="prog-day4">四</li>
+              <li id="prog-day5">五</li>
+              <li id="prog-day6">六</li>
+            </ul>
+          </div>
+          <ul class="vAlign">
+                <li class="media items d1">
+                  <a href="/prog/85">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/85" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>08:00-10:00</h6>
+                  </div>
+                </li>                <li class="media items d1">
+                  <a href="/prog/84">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/84" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>15:00-17:00</h6>
+                  </div>
+                </li>                <li class="media items d1">
+                  <a href="/prog/83">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/83" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d1">
+                  <a href="/prog/7">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/7" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d1">
+                  <a href="/prog/12">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/12" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d1">
+                  <a href="/prog/13">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/13" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/85">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/85" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>08:00-10:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/84">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/84" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>15:00-17:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/83">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/83" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/2">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/2" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/23">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/23" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d2">
+                  <a href="/prog/21">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/21" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/85">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/85" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>08:00-10:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/84">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/84" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>15:00-17:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/83">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/83" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/35">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/35" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/33">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/33" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/34">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/34" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d3">
+                  <a href="/prog/36">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/36" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>24:00-25:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/85">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/85" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>08:00-10:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/84">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/84" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>15:00-17:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/83">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/83" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/43">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/43" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/52">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/52" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d4">
+                  <a href="/prog/4">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/4" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/85">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/85" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>08:00-10:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/84">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/84" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>15:00-17:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/83">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/83" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/5">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/5" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/51">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/51" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d5">
+                  <a href="/prog/54">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/54" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d6">
+                  <a href="/prog/64">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/64" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d6">
+                  <a href="/prog/62">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/62" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d6">
+                  <a href="/prog/61">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/61" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:00</h6>
+                  </div>
+                </li>                <li class="media items d6">
+                  <a href="/prog/21">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/21" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:00-24:00</h6>
+                  </div>
+                </li>                <li class="media items d7">
+                  <a href="/prog/72">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/72" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>20:00-21:00</h6>
+                  </div>
+                </li>                <li class="media items d7">
+                  <a href="/prog/15">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/15" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>21:00-22:00</h6>
+                  </div>
+                </li>                <li class="media items d7">
+                  <a href="/prog/1">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/1" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>22:00-23:30</h6>
+                  </div>
+                </li>                <li class="media items d7">
+                  <a href="/prog/73">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/73" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23:30-24:00</h6>
+                  </div>
+                </li>                <li class="media items d7">
+                  <a href="/prog/74">
+                    <div class="imgBox"></div>
+                  </a>
+                  <div class="textBox">
+                    <h4><a href="/prog/74" target="_blank"></a></h4>
+                    <h6 class="caption"><i class="pt-time inline"></i>23::3-24:30</h6>
+                  </div>
+                </li>          </ul>
+        </div>
+      </aside>
+      <!--.sideWrap end-->
+    </div>
+      </div>
+  <!--.bodyContainer end-->
+  
+  <!--全城熱話-->
+  <section class="mp-section mp-hotPost" id="mp-hotPost">
+    <div class="maxWrapper">
+      <div class="mp-section-row">
+        <div class="mp-section-header" id="mp-hotPost-toggle">全城熱話<i class="pt-arrow-down inline right"></i></div>
+<!--        <div class="mp-section-borderNav" id="mp-hotPost-option">
+          <ul>
+            <li class="active">所有文章</li>
+            <li>熱血新聞</li>
+            <li>專欄部落</li>
+            <li>網台節目</li>
+          </ul>
+        </div>-->
+        <div class="mp-hotPost-wrap">
+          <div class="mp-section-module-wrap">
+            <ul class="hotPost-wrap hotPost hotPost-1to5">
+                                            
+                <li class="media">
+                                <a href="/article/02-02-2017/35634">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/20170202_155822.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-02-2017/35634">新書《有種罪犯叫休班警察》熱賣　《熱血時報》隨即收到恐嚇信</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>2657</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-02-2017/35640">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/20170202hh.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-02-2017/35640">哈佛大學成功造出常溫超導體「金屬氫」</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/2/11/">科技</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1810</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-01-2017/35622">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/police2.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-01-2017/35622">執勤駕車撞毀水龍頭後疑講大話　41歲男警涉妨礙司法公正被捕</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-01-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1322</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-01-2017/35609">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E3%80%8C%E7%90%86%E8%AB%96%20%E8%BF%91%E7%8F%BE%E4%BB%A3%E5%8F%B2%E5%AD%A6%E2%85%A1%E6%A6%82%E8%AB%96.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-01-2017/35609">右翼書籍遭中國抵制後大熱　日本APA酒店加印兩萬本</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/2/">兩岸國際</a></span><span class="time"><i class="pt-time inline"></i>02-01-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1255</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-02-2017/35637">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/PM-DSC_5875.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-02-2017/35637">跳槽英國愛丁堡大學　港大校長馬斐森辭職</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1207</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+            </ul>
+            <ul class="hotPost-wrap hotPost hotPost-6to10">
+                                            
+                <li class="media">
+                                <a href="/article/02-02-2017/35636">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-02%20%E4%B8%8B%E5%8D%885.22.39_1.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-02-2017/35636">插畫家Joan Cornellà貼圖賀年　被批用字後即改「Chinese」 做「Lunar」New Year </a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/3/19/">文化</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>1040</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-02-2017/35638">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/16468856_10158200140265504_1026915213_n.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-02-2017/35638">特朗普與澳洲總理通電話　因接收難民問題忿然掛線</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/2/">兩岸國際</a></span><span class="time"><i class="pt-time inline"></i>02-02-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>762</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-03-2017/35654">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/police2_1.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-03-2017/35654">男警涉瞞離婚霸宿舍　 案件押後至3月10日再審</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>573</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-03-2017/35649">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202017-02-03%20%E4%B8%8A%E5%8D%8811.36.11.png)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-03-2017/35649">曾俊華公布眾籌計劃　網民爭住貼錢撐小圈子選舉</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/1/">港聞</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>563</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+                              
+                <li class="media">
+                                <a href="/article/02-03-2017/35651">
+                  <div class="imgBox" style="background-image: url(http://www.passiontimes.hk/uploads/images/201702/16507496_10210415884166934_338430397_n_1.jpg)"></div>
+                </a>
+                <div class="textBox">
+                  <h4><a href="/article/02-03-2017/35651">分享新世界鄭家純入院報道　台版鄭家純：我很健康</a></h4>
+                  <p>$obj-&gt;desc</p>
+                  <h6 class="caption"><span class="cat"><a href="/category/1/2/">兩岸國際</a></span><span class="time"><i class="pt-time inline"></i>02-03-2017<span></span></span><span class="action"><a href="#"><i class="pt-facebook-like inline"></i>507</a></span><span class="action"><a href="#"><i class="pt-share inline"></i>0</a></span></h6>
+                </div>
+                </li>
+            </ul>
+            <button class="default white tran lBtn self fluid" id="mp-hotPost-showMore">顯示更多<i class="pt-down inline right"></i></button>
+          </div>
+          <div class="mp-section-module w100p h140px bc mp-section-ad googleAd728">
+            <div class="media rectAd728">
+                <div class="adWrap"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 680x125 backfill dfp -->
+<center><ins class="adsbygoogle" style="display:inline-block;width:680px;height:90px;" data-ad-client="ca-pub-8693900212275518" data-ad-slot="8413526985" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:680px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:680px;background-color:transparent"><iframe width="680" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins></center>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+              <div class="adInfo"><a href="mailto:info@passiontimes.hk">廣告查詢</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="pageFooter" id="footer">
+    <div class="footer-sub">
+      <a href="/?view=regform">
+        <div class="sub-main">
+          <div class="maxWrapper">
+            <div class="h1"><span>支持新媒體運動<span class="mbxs-hide">，</span></span><span>訂閱熱血時報</span></div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="footer-followUs">
+      <div class="maxWrapper large">
+                        <div class="shareCon"><a href="https://zh-tw.facebook.com/passiontimes" target="_blank"><i class="pt-facebook"></i></a></div>
+                        <div class="shareCon"><a href="https://twitter.com/Passiontimes" target="_blank"><i class="pt-twitter"></i></a></div>
+                        <div class="shareCon"><a href="https://plus.google.com/+PassionTimeshk2012" target="_blank"><i class="pt-google-plus"></i></a></div>
+                        <div class="shareCon"><a href="https://www.youtube.com/user/PassionTimesify" target="_blank"><i class="pt-youtube"></i></a></div>
+                        <div class="shareCon"><a href="http://www.passiontimes.hk/?view=podcast" target="_blank"><i class="pt-podcast"></i></a></div>
+      </div>
+    </div>
+    <div class="footer-siteMap">
+      <div class="maxWrapper large">
+        <div class="siteMap-toggle mbxs-show" id="siteMap-toggle">
+          <button class="default fluid lBtn">網頁索引</button>
+        </div>
+        <div class="siteMap" id="siteMap">
+          <div class="overlay-exit siteMap-exit" id="siteMap-exit"><i class="pt-cross"></i></div>
+          <div class="siteMap-inner">
+            <div class="siteMap-group-wrap news">
+              <div class="siteMap-group wide">
+                <h4>熱血新聞</h4>
+                <ul class="h4">
+                                  		<li><a href="/4.0/category/1/1">港聞</a></li>                  		<li><a href="/4.0/category/1/2">兩岸國際</a></li>                  		<li><a href="/4.0/category/1/3">財經地產</a></li>                  		<li><a href="/4.0/category/1/4">體育</a></li>                  		<li><a href="/4.0/category/1/5">新聞直擊</a></li>                  		<li><a href="/4.0/category/1/6">社會</a></li>                  		<li><a href="/4.0/category/1/7">專訪</a></li>                  		<li><a href="/4.0/category/1/37">熱血公投</a></li>                  		<li><a href="/4.0/category/1/124">專題</a></li>                </ul>
+              </div>
+              <div class="siteMap-group wide">
+                <h4>生活資訊</h4>
+                <ul class="h4">
+                                  		<li><a href="/4.0/category/2/8">旅遊</a></li>                  		<li><a href="/4.0/category/2/9">飲食</a></li>                  		<li><a href="/4.0/category/2/10">環保</a></li>                  		<li><a href="/4.0/category/2/11">科技</a></li>                  		<li><a href="/4.0/category/2/12">健康</a></li>                  		<li><a href="/4.0/category/2/13">動物</a></li>                  		<li><a href="/4.0/category/2/14">消費</a></li>                  		<li><a href="/4.0/category/2/15">教育</a></li>                  		<li><a href="/4.0/category/2/16">宗教</a></li>                  		<li><a href="/4.0/category/2/17">異聞</a></li>                  		<li><a href="/4.0/category/2/18">娛樂</a></li>                  		<li><a href="/4.0/category/2/62">兩性</a></li>                  		<li><a href="/4.0/category/2/135">時裝</a></li>				                </ul>
+              </div>
+              <div class="siteMap-group wide">
+                <h4>文化藝術</h4>
+                <ul class="h4">
+                                  		<li><a href="/4.0/category/3/19">文化</a></li>                  		<li><a href="/4.0/category/3/20">電影</a></li>                  		<li><a href="/4.0/category/3/21">動漫</a></li>                  		<li><a href="/4.0/category/3/22">手創</a></li>                  		<li><a href="/4.0/category/3/23">創作組</a></li>                  		<li><a href="/4.0/category/3/24">文字部落</a></li>                  		<li><a href="/4.0/category/3/125">音樂</a></li>                </ul>
+              </div><!--
+              <div class="siteMap-group">
+                <h4>專題</h4>
+                <ul class="h4">
+                  <li><a href="#">全民製憲</a></li>
+                  <li><a href="#">雨傘革命</a></li>
+                </ul>
+              </div>-->
+            </div>
+            <div class="siteMap-group-wrap prog">
+              <div class="siteMap-group fullWidth">
+                <h4>網台節目</h4>
+                <div>
+                  <h6>星期一至五</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/83">熱血政治</a></li>
+                    <li><a href="/prog/84">國立大台</a></li>                    
+                    <li><a href="/prog/85">大香港早晨</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h6>星期一</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/7">耶教異聞錄</a></li>                    <li><a href="/prog/12">少女熱線</a></li>                    <li><a href="/prog/13">Game民力量</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期二</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/2">腐女民主連線</a></li>                    <li><a href="/prog/23">索書號</a></li>                    <li><a href="/prog/21">宅文化研究</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期三</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/35">新契弟同盟</a></li>                    <li><a href="/prog/33">港豬想旅行</a></li>                    <li><a href="/prog/34">The Crazy Ones</a></li>                    <li><a href="/prog/36">深宵FOOL人信箱</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期四</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/43">腹黑議事廳</a></li>                    <li><a href="/prog/52">百無禁技加強版</a></li>                    <li><a href="/prog/4">麻甩建港聯盟</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期五</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/85">大香港早晨</a></li>                    <li><a href="/prog/84">國立大台</a></li>                    <li><a href="/prog/83">熱血政治</a></li>                    <li><a href="/prog/5">笑死朕</a></li>                    <li><a href="/prog/51">實戰攻擋</a></li>                    <li><a href="/prog/54">靈鏡MMR</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期六</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/64">瀛能無雙</a></li>                    <li><a href="/prog/62">熱血親子團</a></li>                    <li><a href="/prog/61">咬蔗幫</a></li>                    <li><a href="/prog/21">宅文化研究</a></li>                  </ul>
+                </div>
+                <div>
+                  <h6>星期日</h6>
+                  <ul class="h4">
+                    <li><a href="/prog/72">古惑仔俱樂部</a></li>                    <li><a href="/prog/15">人妻先修班</a></li>                    <li><a href="/prog/1">奇奧研究社</a></li>                    <li><a href="/prog/73">熱血劇場</a></li>                    <li><a href="/prog/74">熱血少年軍</a></li>                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="siteMap-group-wrap other">
+              <div class="siteMap-group">
+                <h4><a href="#">直播室</a></h4>
+                <ul class="h4">
+                  <li><a href="/live.php">直播一台</a></li>
+<!--                  <li><a href="#">直播二台</a></li>-->
+                </ul>
+              </div>
+              <div class="siteMap-group">
+                <h4>熱血製作</h4>
+                <ul class="h4">
+                  <li><a href="/pt/">熱血劇場</a></li>
+<!--                  <li><a href="#">棟篤笑死朕</a></li>
+                  <li><a href="#">雙黃棟篤串</a></li>-->
+                </ul>
+              </div>
+              <div class="siteMap-group">
+                <h4><a href="#">課金育成</a></h4>
+                <ul class="h4">
+                  <li><a href="/?view=raise">主持育成</a></li>
+                  <li><a href="/?view=raise2">文青課金</a></li>
+                </ul>
+              </div>
+              <div class="siteMap-group">
+                <h4>熱血專賣</h4>
+                <ul class="h4">
+                  <li><a href="/?view=regform">訂閱</a></li>
+                  <li><a href="/?view=regform">書刊</a></li>
+                  <li><a href="/?view=regform">熱血製造</a></li>
+                </ul>
+              </div>
+<!--              <div class="siteMap-group">
+                <h4><a href="#">熱血動向</a></h4>
+              </div>
+              <div class="siteMap-group">
+                <h4><a href="#">作者列表</a></h4>
+              </div>
+              <div class="siteMap-group">
+                <h4><a href="#">主持列表</a></h4>
+              </div>-->
+            </div>
+            <div class="siteMap-group-wrap about">
+              <div class="siteMap-group fullWidth">
+                <h4>關於我們</h4>
+                <ul class="h4 list">
+<!--                  <li><a href="#">熱血團隊</a></li>-->
+                  <li><a href="/?view=disclaimer">免責聲明</a></li>
+                  <li><a href="/?view=privacy">隱私政策</a></li>
+                  <li><a href="/?view=contactus">聯絡我們</a></li>
+                  <li><a href="/?view=faq">常見問題</a></li>
+                  <li><a href="mailto:info@passiontimes.hk">廣告查詢</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="dark-overlay siteMap-overlay" id="siteMap-overlay"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="maxWrapper large">
+        <div class="brandInfo">
+          <h6>© 2012-2017 Passiontimes Ltd. All Rights Reserved.</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--.pageFooter end-->
+<!--
+  <div class="articleComment" id="articleComment">
+    <div class="maxWrapper large">
+      <div class="comment-sticker-shadow"></div>
+      <ul class="comment-sticker" id="ticker">
+        <li><span>$500</span>加油！篇篇都萬人斬</li>
+        <li><span>$100</span>黃洋達你幾時至肯植髮？</li>
+        <li><span>$300</span>YM</li>
+        <li><span>$500</span>2015 心想事成，人人都快樂。</li>
+        <li><span>$5000</span>加油黃銳華</li>
+        <li><span>$1225</span>祝各位聖誕快樂 :)</li>
+      </ul>
+    </div>
+  </div>
+  -->
+  <!--.articleComment (課金光環) end-->
+  <script src="/4.0/js/jquery.li-scroller.1.0.js"></script>
+  <script src="/4.0/js/nav2.js"></script>
+  <script src="/4.0/js/jquery.dotdotdot.min.js"></script>
+
+<script>
+
+function addLink() {
+        var body_element = document.getElementsByTagName('body')[0];
+        var selection;
+        selection = window.getSelection();
+        var pagelink = "<br /><br /> - 熱血時報網站連結 <a href='"+document.location.href+"'>"+document.location.href+"</a><br />- Copyright &copy; 2017"; // change this if you want
+        var copytext = selection + pagelink;
+        var newdiv = document.createElement('div');
+        newdiv.style.position='absolute';
+        newdiv.style.left='-99999px';
+        body_element.appendChild(newdiv);
+        newdiv.innerHTML = copytext;
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function() {
+                body_element.removeChild(newdiv);
+        },0);
+}
+document.oncopy = addLink;
+
+</script>  
+
+
+
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><iframe id="google_osd_static_frame_7272344769444" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body></html>

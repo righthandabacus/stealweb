@@ -1,0 +1,933 @@
+<!DOCTYPE html><html lang="en"><head><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMGJfAX8Sr4jNkS1DvYw58IxguevQ/cb=gapi.loaded_1" async=""></script><script src="https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.kAbubaVyYtA.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMGJfAX8Sr4jNkS1DvYw58IxguevQ/cb=gapi.loaded_0" async=""></script><script id="skype_bootstrap" src="https://swx.cdn.skype.com/shared/v/1.2.5/SkypeBootstrap.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://gath.wordpress.com/xmlrpc.php">
+
+<title>Hazael destructions workshop – Jan. 19, 2017 – The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog</title>
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog » Feed" href="https://gath.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog » Comments Feed" href="https://gath.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog » Hazael destructions workshop – Jan. 19,&nbsp;2017 Comments Feed" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/feed/">
+	<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js" gapi_processed="true">{"parsetags": "explicit"}</script><script id="skype_web_sdk" src="https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js"></script><script type="text/javascript" async="" data-pin-hover="true" src="https://assets.pinterest.com/js/pinit.js"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;appId=249643311490&amp;version=v2.3"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s1.wp.com/_static/??-eJyFkNtqwzAMQH+orihkYS9j32I7WupUioWlNPTv6yysZC2kL0YS5+himMXFPBqOBjw5oalPowKlCyoMaOLjxf1mx6h6gA0eKPcPYc6l851CTzl4emE3rQuSN+ycZLWnbE+LuWCts3hbCMYueSTkiu1pLO2ftYTnes7umFkq7UKQgqquvpwmdnaug96sx8sq61dBBf9XVjXBmC1VWx/BS891FMgUgPIVY/E/Bmo3wgX95q9T89m0H6e2bYY7qeemuA==" type="text/css" media="all">
+<link rel="stylesheet" id="lovecraft-fonts-css" href="https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%7CLato%3A400%2C400italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext&amp;ver=4.6.1-RC1-38499" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="https://s1.wp.com/_static/??-eJx9jcEKwjAQRH/IuBQi6kH8lnTZxshmNyRbS//eeGsRvc1j5jGwFIcqRmKQZ1d4jkkaRBKqqRc/4hFbO8DGtQdlalDmEVhfhDVMBkkQmq1Mbimo+UvaHapjxWBJZQdu4pDqP7XSyBp7jNBXG/xI93wb/Onq/eU8+Ocbcy1Y/A==" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-3-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4-1" href="https://s0.wp.com/_static/??-eJx9jFEKwkAMRC9kjKUt9Ec8S7pddyPppmxSen0VFBGlXzMD7w1uCwQtHovjvMIia+JiSMFZy0j1047B7ID/8UXN4SrEFS1T5ZLeuWeZBiYB0aTf40fyHOdomDtMoiPJ3uvGU4pu+EBeHVLlCahMIGz+dC/zuemGvm+Hpj3d7imTYEA=" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFj+sKwjAMhV/IrHib+kN8ltrFkdqbTevQpzcD/aEOhUDIyZfDiRoSUDCudsjKSl0q5tuzNZZn6hcAnvqsCzaewgs2MRQMZWR9PJJDqIxZ96KJ0SlOcCly8cgs0MT2PRKFK+HwF7NYkjZnyMh0/3L1FZKrPQVWGZ080MGY4WOSq4Pfz1dtu14sd5utfQAruHB+"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gath.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Lunch at Safi lecture – on Facebook&nbsp;Live!" href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/">
+<link rel="next" title="Brent Davis on the Philistine&nbsp;Language(s)" href="https://gath.wordpress.com/2017/02/02/brent-davis-on-the-philistine-languages/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/">
+<link rel="shortlink" href="http://wp.me/pkwN-2sl">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hazael destructions workshop – Jan. 19, 2017">
+<meta property="og:url" content="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/">
+<meta property="og:description" content="As mentioned previously, on Thursday, Jan. 19th, 2017, the first workshop of 2017 for of the RIAB Minerva Center, was held at BIU, and the topic was discussions of sites with possible remains of a …">
+<meta property="article:published_time" content="2017-01-20T12:36:30+00:00">
+<meta property="article:modified_time" content="2017-01-20T12:38:08+00:00">
+<meta property="og:site_name" content="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog">
+<meta property="og:image" content="https://gath.files.wordpress.com/2017/01/img_6498.jpg">
+<meta property="og:image:secure_url" content="https://gath.files.wordpress.com/2017/01/img_6498.jpg">
+<meta property="og:image" content="https://gath.files.wordpress.com/2017/01/img_6495.jpg">
+<meta property="og:image:secure_url" content="https://gath.files.wordpress.com/2017/01/img_6495.jpg">
+<meta property="og:image" content="https://gath.files.wordpress.com/2017/01/img_6494.jpg">
+<meta property="og:image:secure_url" content="https://gath.files.wordpress.com/2017/01/img_6494.jpg">
+<meta property="og:image" content="https://gath.files.wordpress.com/2017/01/img_6493.jpg">
+<meta property="og:image:secure_url" content="https://gath.files.wordpress.com/2017/01/img_6493.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@arenmaeir">
+<meta name="twitter:image0" content="https://gath.files.wordpress.com/2017/01/img_6498.jpg?w=640">
+<meta name="twitter:image1" content="https://gath.files.wordpress.com/2017/01/img_6495.jpg?w=640">
+<meta name="twitter:image2" content="https://gath.files.wordpress.com/2017/01/img_6494.jpg?w=640">
+<meta name="twitter:image3" content="https://gath.files.wordpress.com/2017/01/img_6493.jpg?w=640">
+<meta name="twitter:card" content="gallery">
+<meta name="twitter:creator" content="@arenmaeir">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://gath.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://gath.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://gath.wordpress.com/osd.xml" title="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Serious (and not-so-serious) musings about the project"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://gath.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="Hazael destructions workshop – Jan. 19,&nbsp;2017 | The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog on WordPress.com">
+<meta name="description" content="As mentioned previously, on Thursday, Jan. 19th, 2017, the first workshop of 2017 for of the RIAB Minerva Center, was held at BIU, and the topic was discussions of sites with possible remains of a Hazael-related destruction, and sites of similar chronological/regional sequences. This included papers on Tell es-Safi/Gath, Gezer, Tel Hamid, Aphek and Jerusalem.…">
+		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '1',
+				domain: 'gath.wordpress.com',
+				pageURL: 'https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<style type="text/css"></style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.57411deb997a43b27baa13b432c7631e.js"></script><script src="https://a.config.skype.com/config/v1/SkypeLyncWebExperience/905_1.2.5.0?apikey=shareButton&amp;fingerprint=0558c8a6-b85b-4650-a616-95c5e34243d7&amp;callback=Skype.onConfigurationLoaded" type="text/javascript" defer="" id="ecsConfig"></script><script src="https://platform.linkedin.com/js/secureAnonymousFramework?v=0.0.2000-RC8.59130-1429&amp;"></script><style type="text/css">* html #li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link{height:1% !important;}#li_ui_li_gen_1486149130497_0{position:relative !important;overflow:visible !important;display:block !important;}#li_ui_li_gen_1486149130497_0 span{-webkit-box-sizing:content-box !important;-moz-box-sizing:content-box !important;box-sizing:content-box !important;}#li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link{border:0 !important;height:20px !important;text-decoration:none !important;padding:0 !important;margin:0 !important;display:inline-block !important;}#li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link:link, #li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link:visited, #li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link:hover, #li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link:active{border:0 !important;text-decoration:none !important;}#li_ui_li_gen_1486149130497_0 a#li_ui_li_gen_1486149130497_0-link:after{content:"." !important;display:block !important;clear:both !important;visibility:hidden !important;line-height:0 !important;height:0 !important;}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-logo{background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-position:0px -593px !important;background-repeat:no-repeat !important;background-color:#0077b5 !important;background-size:initial !important;cursor:pointer !important;border:0 !important;border-right:1px solid #066094 !important;text-indent:-9999em !important;overflow:hidden !important;padding:0 !important;margin:0 !important;position:absolute !important;left:0px !important;top:0px !important;display:block !important;width:20px !important;height:20px !important;float:right !important;border-radius:2px !important;-webkit-border-radius:2px !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title{color:#fff !important;cursor:pointer !important;display:block !important;white-space:nowrap !important;float:left !important;margin-left:1px !important;vertical-align:top !important;overflow:hidden !important;text-align:center !important;height:18px !important;padding:0 4px 0 23px !important;border:1px solid #000 !important;border-top-color:#0077b5 !important;border-right-color:#0077b5 !important;border-bottom-color:#0077b5 !important;border-left-color:#0077b5 !important;text-shadow:0 -1px #005887 !important;line-height:20px !important;border-radius:2px !important;-webkit-border-radius:2px !important;border-top-right-radius:2px !important;border-bottom-right-radius:2px !important;-webkit-border-top-right-radius:2px !important;-webkit-border-bottom-right-radius:2px !important;background-color:#0077b5 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0077b5), color-stop(100%,#0077b5)) !important; background-image: -webkit-linear-gradient(top, #0077b5 0%, #0077b5 100%) !important;}#li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title{border:1px solid #000 !important;border-top-color:#0369a0 !important;border-right-color:#0369a0 !important;border-bottom-color:#0369a0 !important;border-left-color:#0369a0 !important;background-color:#0369a0 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0369a0), color-stop(100%,#0369a0)) !important; background-image: -webkit-linear-gradient(top, #0369a0 0%, #0369a0 100%) !important;}#li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title, #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title{color:#fff !important;border:1px solid #000 !important;border-top-color:#066094 !important;border-right-color:#066094 !important;border-bottom-color:#066094 !important;border-left-color:#066094 !important;background-color:#066094 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#066094), color-stop(100%,#066094)) !important; background-image: -webkit-linear-gradient(top, #066094 0%, #066094 100%) !important;}.IN-shadowed #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title{}.IN-shadowed #li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title{}.IN-shadowed #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title, .IN-shadowed #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title{}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text, #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;font-size:11px !important;font-family:Arial, sans-serif !important;font-weight:bold !important;font-style:normal !important;-webkit-font-smoothing:antialiased !important;display:inline-block !important;background:transparent none !important;vertical-align:top !important;height:18px !important;line-height:20px !important;float:none !important;}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text strong{font-weight:bold !important;}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text em{font-style:italic !important;}#li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title-text, #li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;}#li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title-text, #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title-text, #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title-text *, #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;}#li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title #li_ui_li_gen_1486149130497_0-mark{display:inline-block !important;width:0px !important;overflow:hidden !important;}.success #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title{color:#fff !important;border-top-color:#0077b5 !important;border-right-color:#0077b5 !important;border-bottom-color:#0077b5 !important;border-left-color:#0077b5 !important;background-color:#0077b5 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0077b5), color-stop(100%,#0077b5)) !important; background-image: -webkit-linear-gradient(top, #0077b5 0%, #0077b5 100%) !important;}.success #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text, .success #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;}.IN-shadowed .success #li_ui_li_gen_1486149130497_0 #li_ui_li_gen_1486149130497_0-title{}.success #li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title{color:#fff !important;border-top-color:#0369a0 !important;border-right-color:#0369a0 !important;border-bottom-color:#0369a0 !important;border-left-color:#0369a0 !important;background-color:#0369a0 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0369a0), color-stop(100%,#0369a0)) !important; background-image: -webkit-linear-gradient(top, #0369a0 0%, #0369a0 100%) !important;}.success #li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title-text, .success #li_ui_li_gen_1486149130497_0.hovered #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;}.success #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title, .success #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title{color:#fff !important;border-top-color:#066094 !important;border-right-color:#066094 !important;border-bottom-color:#066094 !important;border-left-color:#066094 !important;background-color:#066094 !important;background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#066094), color-stop(100%,#066094)) !important; background-image: -webkit-linear-gradient(top, #066094 0%, #066094 100%) !important;}.success #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title-text, .success #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title-text, .success #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title-text *, .success #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title-text *{color:#fff !important;}.IN-shadowed .success #li_ui_li_gen_1486149130497_0.clicked #li_ui_li_gen_1486149130497_0-title, .IN-shadowed .success #li_ui_li_gen_1486149130497_0.down #li_ui_li_gen_1486149130497_0-title{}#li_ui_li_gen_1486149130509_1-container.IN-right {display:inline-block !important;float:left !important;overflow:visible !important;position:relative !important;height:20px !important;padding-left:2px !important;line-height:1px !important;cursor:pointer !important;}#li_ui_li_gen_1486149130509_1.IN-right {display:block !important;float:left !important;height:20px !important;margin-right:4px !important;padding-right:4px !important;background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-color:transparent !important;background-repeat:no-repeat !important;background-position:right -447px !important;}#li_ui_li_gen_1486149130509_1-inner.IN-right {display:block !important;float:left !important;padding-left:8px !important;text-align:center !important;background-image:url(https://static.licdn.com/scds/common/u/images/apps/connect/sprites/sprite_connect_v14.png) !important;background-color:transparent !important;background-repeat:no-repeat !important;background-position:0px -426px !important;}#li_ui_li_gen_1486149130509_1-content.IN-right {display:inline !important;font-size:11px !important;color:#4e4e4e !important;font-weight:bold !important;font-family:Arial, sans-serif !important;line-height:20px !important;padding:0 5px 0 5px !important;}#li_ui_li_gen_1486149130509_1-container.IN-empty {display:none !important;}#li_ui_li_gen_1486149130509_1-container.IN-hidden #li_ui_li_gen_1486149130509_1 {display:none !important;}</style><script src="https://swx.cdn.skype.com/skypewebsdk/shareButton/v/1.4.0.0/js/shareButton.min.js" type="text/javascript" defer=""></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+
+<body class="single single-post postid-9445 single-format-standard mp6 customizer-styles-applied group-blog highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+													<h1 class="site-title"><a href="https://gath.wordpress.com/" rel="home">The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog</a></h1>
+			<p class="site-description">Serious (and not-so-serious) musings about the project</p>
+		</div><!-- .site-branding -->
+
+		<div class="toggles clear">
+			<button class="menu-toggle toggle" aria-controls="primary-menu" aria-expanded="false">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<span class="screen-reader-text">Menu</span>
+			</button><!-- .menu-toggle -->
+			<button class="search-toggle toggle">
+				<div class="genericon genericon-search" aria-expanded="false">
+					<span class="screen-reader-text">Search</span>
+				</div><!-- .genericon-search -->
+			</button><!-- .search-toggle -->
+		</div><!-- .toggles -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div id="primary-menu" class="menu"><ul aria-expanded="false" class=" nav-menu"><li class="page_item page-item-4200 page_item_has_children" aria-haspopup="true"><a href="https://gath.wordpress.com/about/">About</a><ul class="children"><li class="page_item page-item-4203"><a href="https://gath.wordpress.com/about/project-overview/">Project Overview</a></li><li class="page_item page-item-4319"><a href="https://gath.wordpress.com/about/bibliography/">Bibliography</a></li><li class="page_item page-item-4287"><a href="https://gath.wordpress.com/about/gath-in-the-bible/">Gath in the&nbsp;Bible</a></li><li class="page_item page-item-4295"><a href="https://gath.wordpress.com/about/the-philistines/">The Philistines</a></li><li class="page_item page-item-4305"><a href="https://gath.wordpress.com/about/goliath/">How to get to Tell es-Safi/Gath by&nbsp;car</a></li></ul></li><li class="page_item page-item-3974 page_item_has_children" aria-haspopup="true"><a href="https://gath.wordpress.com/excavation-application/">Excavation Application</a><ul class="children"><li class="page_item page-item-4309"><a href="https://gath.wordpress.com/excavation-application/join-us/">Join Us</a></li><li class="page_item page-item-4280"><a href="https://gath.wordpress.com/excavation-application/security-situation/">Security Situation</a></li></ul></li><li class="page_item page-item-4330 page_item_has_children" aria-haspopup="true"><a href="https://gath.wordpress.com/pictures/">Pictures</a><ul class="children"><li class="page_item page-item-4361"><a href="https://gath.wordpress.com/pictures/videos/">Videos</a></li></ul></li><li class="page_item page-item-4315"><a href="https://gath.wordpress.com/support/">Support</a></li><li class="page_item page-item-6208 page_item_has_children" aria-haspopup="true"><a href="https://gath.wordpress.com/test/">Team</a><ul class="children"><li class="page_item page-item-4211"><a href="https://gath.wordpress.com/test/director/">Director</a></li><li class="page_item page-item-4359"><a href="https://gath.wordpress.com/test/staff/">Staff</a></li></ul></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+		<div class="mobile-search">
+			<form role="search" method="get" class="search-form" action="https://gath.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:">
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Search</span>
+		</span>
+	</button>
+</form>		</div>
+	</header><!-- #masthead -->
+
+			<a class="header-image-wrapper" href="https://gath.wordpress.com/" rel="home">
+			<div class="header-image bg-image" style="background-image: url(https://gath.files.wordpress.com/2016/08/cropped-2016-aerial-donkey-foto.jpg)">
+				<img src="https://gath.files.wordpress.com/2016/08/cropped-2016-aerial-donkey-foto.jpg" width="1280" height="688" alt="">
+			</div>
+		</a>
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-9445" class="post-9445 post type-post status-publish format-standard hentry category-miscellaneous">
+	<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title">Hazael destructions workshop – Jan. 19,&nbsp;2017</h1>
+							<div class="entry-meta">
+					<span class="posted-on">On <a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" rel="bookmark"><time class="entry-date published" datetime="2017-01-20T14:36:30+00:00">January 20, 2017</time><time class="updated" datetime="2017-01-20T14:38:08+00:00">January 20, 2017</time></a></span><span class="byline"> By <span class="author vcard"><a class="url fn n" href="https://gath.wordpress.com/author/arenmaeir/">arenmaeir</a></span></span><span class="cat-links">In <a href="https://gath.wordpress.com/category/miscellaneous/" rel="category tag">Miscellaneous</a></span>				</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p><a href="https://gath.wordpress.com/2017/01/15/workshop-on-the-hazael-campaign-in-the-south-biu-thursday-jan-19th-2017/" target="_blank">As mentioned previously</a>, on Thursday, Jan. 19th, 2017, the first workshop of 2017 for of the <a href="https://aramisrael.org/" target="_blank">RIAB Minerva Center</a>, was held at BIU, and the topic was discussions of sites with possible remains of a Hazael-related destruction, and sites of similar chronological/regional sequences. This included papers on Tell es-Safi/Gath, Gezer, Tel Hamid, Aphek and Jerusalem.</p>
+<p>In the 2nd part of the day, a workshop in which pottery from Tell es-Safi/Gath and Gezer were displayed and discussed.</p>
+<p>One the things that clearly could be seen from the discussions is that very distinct “micro-regionality” can be seen at sites from the 9th and early 8th cent. BCE in the Shephelah, Philistia and the southern parts of the Israelite (northern) Kingdom, and it may very well be that pottery types that are often seen as indicative of this or that chronological phase, may appear at earlier or later phases at different sites. Similarly, sites which are very close to one another, have very distinct differences in more or less the same chronological horizon.</p>
+<p>What is clear from this day was that more research and joint discussions and workshops are needed. We have to have additional ones in the future.</p>
+<p>The lectures in the first part were filmed live, using “Facebook Live” – which turns out is an excellent method to live stream an entire series of lectures and discussions, for those who could not be at the workshop.</p>
+<p>And here are some pictures from the pottery workshop, with discussions on the Gezer and Tell es-Safi/Gath materials.</p>
+
+<div class="tiled-gallery type-rectangular" data-original-width="640" data-carousel-extra="{&quot;blog_id&quot;:78913,&quot;permalink&quot;:&quot;https:\/\/gath.wordpress.com\/2017\/01\/20\/hazael-destructions-workshop-jan-19-2017\/&quot;,&quot;likes_blog_id&quot;:78913}"> <div class="gallery-row" style="width: 629px; height: 315px;" data-original-width="640" data-original-height="321"> <div class="gallery-group images-1" style="width: 419px; height: 315px;" data-original-width="427" data-original-height="321"> <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/img_6498/" border="0"> <img data-attachment-id="9449" data-orig-file="https://gath.files.wordpress.com/2017/01/img_6498.jpg" data-orig-size="1632,1224" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5c&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484836151&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_6498" data-image-description="" data-medium-file="https://gath.files.wordpress.com/2017/01/img_6498.jpg?w=300" data-large-file="https://gath.files.wordpress.com/2017/01/img_6498.jpg?w=640" src="https://gath.files.wordpress.com/2017/01/img_6498.jpg?w=423&amp;h=317&amp;crop=1" width="423" height="317" data-original-width="423" data-original-height="317" title="img_6498" alt="img_6498" style="width: 415px; height: 311px;"> </a> </div> </div> <!-- close group --> <div class="gallery-group images-2" style="width: 209px; height: 315px;" data-original-width="213" data-original-height="321"> <div class="tiled-gallery-item tiled-gallery-item-small"> <a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/img_6495/" border="0"> <img data-attachment-id="9448" data-orig-file="https://gath.files.wordpress.com/2017/01/img_6495.jpg" data-orig-size="1632,1224" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5c&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484835778&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;100&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_6495" data-image-description="" data-medium-file="https://gath.files.wordpress.com/2017/01/img_6495.jpg?w=300" data-large-file="https://gath.files.wordpress.com/2017/01/img_6495.jpg?w=640" src="https://gath.files.wordpress.com/2017/01/img_6495.jpg?w=209&amp;h=157&amp;crop=1" width="209" height="157" data-original-width="209" data-original-height="157" title="img_6495" alt="img_6495" style="width: 205px; height: 154px;"> </a> </div> <div class="tiled-gallery-item tiled-gallery-item-small"> <a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/img_6494/" border="0"> <img data-attachment-id="9447" data-orig-file="https://gath.files.wordpress.com/2017/01/img_6494.jpg" data-orig-size="1632,1216" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5c&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484834885&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;64&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_6494" data-image-description="" data-medium-file="https://gath.files.wordpress.com/2017/01/img_6494.jpg?w=300" data-large-file="https://gath.files.wordpress.com/2017/01/img_6494.jpg?w=640" src="https://gath.files.wordpress.com/2017/01/img_6494.jpg?w=209&amp;h=156&amp;crop=1" width="209" height="156" data-original-width="209" data-original-height="156" title="img_6494" alt="img_6494" style="width: 205px; height: 153px;"> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 629px; height: 472px;" data-original-width="640" data-original-height="481"> <div class="gallery-group images-1" style="width: 629px; height: 472px;" data-original-width="640" data-original-height="481"> <div class="tiled-gallery-item tiled-gallery-item-large"> <a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/img_6493/" border="0"> <img data-attachment-id="9446" data-orig-file="https://gath.files.wordpress.com/2017/01/img_6493.jpg" data-orig-size="1632,1224" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;iPhone 5c&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1484834640&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;4.12&quot;,&quot;iso&quot;:&quot;80&quot;,&quot;shutter_speed&quot;:&quot;0.05&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_6493" data-image-description="" data-medium-file="https://gath.files.wordpress.com/2017/01/img_6493.jpg?w=300" data-large-file="https://gath.files.wordpress.com/2017/01/img_6493.jpg?w=640" src="https://gath.files.wordpress.com/2017/01/img_6493.jpg?w=636&amp;h=477&amp;crop=1" width="636" height="477" data-original-width="636" data-original-height="477" title="img_6493" alt="img_6493" style="width: 625px; height: 468px;"> </a> </div> </div> <!-- close group --> </div> <!-- close row --> </div>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-1296299784" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-1296299784');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1296299784",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-1296299784'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-7866" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-7866" id="fif_slot_automattic-id-_automattic-id-7866" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-official sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-linkedin"><div class="linkedin_button"><span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1486149130497_0"><a id="li_ui_li_gen_1486149130497_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1486149130497_0-logo">in</span><span id="li_ui_li_gen_1486149130497_0-title"><span id="li_ui_li_gen_1486149130497_0-mark"></span><span id="li_ui_li_gen_1486149130497_0-title-text">Share</span></span></a></span></span><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: baseline !important; font-size: 1px !important;"><span id="li_ui_li_gen_1486149130509_1-container" class="IN-right IN-hidden"><span id="li_ui_li_gen_1486149130509_1" class="IN-right"><span id="li_ui_li_gen_1486149130509_1-inner" class="IN-right"><span id="li_ui_li_gen_1486149130509_1-content" class="IN-right">0</span></span></span></span></span></span><script type="in/share+init" data-url="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" data-counter="right"></script></div></li><li class="share-reddit"><div class="reddit_button"><iframe src="https://www.reddit.com/static/button/button1.html?width=120&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;title=Hazael%20destructions%20workshop%20-%20Jan.%2019%2C%202017" height="22" width="120" scrolling="no" frameborder="0"></iframe></div></li><li class="share-facebook"><div class="fb-share-button fb_iframe_widget" data-href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" data-layout="button_count" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=249643311490&amp;container_width=0&amp;href=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey"><span style="vertical-align: bottom; width: 70px; height: 20px;"><iframe name="f3124dbfc8" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:share_button Facebook Social Plugin" src="https://www.facebook.com/v2.3/plugins/share_button.php?app_id=249643311490&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df37bd21484%26domain%3Dgath.wordpress.com%26origin%3Dhttps%253A%252F%252Fgath.wordpress.com%252Ff2f8242184%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey" style="border: none; visibility: visible; width: 70px; height: 20px;" class=""></iframe></span></div></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/?share=email&amp;nb=1" target="_blank" title="Click to email"><span>Email</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/#print" target="_blank" title="Click to print"><span>Print</span></a></li><li class="share-twitter"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.b8b8e09be0884a395c5ae18831ce1cc0.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;related=wordpressdotcom&amp;size=m&amp;text=Hazael%20destructions%20workshop%20-%20Jan.%2019%2C%202017&amp;time=1486149130400&amp;type=share&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;via=arenmaeir" style="position: static; visibility: visible; width: 61px; height: 20px;" data-url="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/"></iframe></li><li class="share-tumblr"><a target="_blank" href="http://www.tumblr.com/share/link/?url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;name=Hazael%20destructions%20workshop%20-%20Jan.%2019%2C%202017" title="Share on Tumblr" style="display:inline-block; text-indent:-9999px; overflow:hidden; width:62px; height:20px; background:url('//platform.tumblr.com/v1/share_2.png') top left no-repeat transparent;">Share on Tumblr</a></li><li class="share-pinterest"><div class="pinterest_button"><a href="//www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;media=https%3A%2F%2Fgath.files.wordpress.com%2F2017%2F01%2Fimg_6498.jpg&amp;description=Hazael%20destructions%20workshop%20-%20Jan.%2019%2C%202017" data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png"></a></div></li><li class="share-pocket"><div class="pocket_button"><div class="pocket-btn"><iframe width="135" height="22" id="pocket-button-0" frameborder="0" allowtransparency="true" scrolling="NO" src="https://widgets.getpocket.com/v1/button?label=pocket&amp;count=horizontal&amp;v=1&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;title=Hazael%20destructions%20workshop%20%E2%80%93%20Jan.%2019%2C%202017%20%E2%80%93%20The%20Tell%20es-Safi%2FGath%20Archaeological%20Project%20Official%20(and%20Unofficial)%20Weblog&amp;src=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;r=0.988105881260708"></iframe></div></div></li><li class="share-telegram"><a rel="nofollow" data-shared="" class="share-telegram sd-button" href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/?share=telegram&amp;nb=1" target="_blank" title="Click to share on Telegram"><span>Telegram</span></a></li><li class="share-jetpack-whatsapp"><a rel="nofollow" data-shared="" class="share-jetpack-whatsapp sd-button" href="whatsapp://send?text=Hazael%20destructions%20workshop%20-%20Jan.%2019%2C%202017 https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F" target="_blank" title="Click to share on WhatsApp"><span>WhatsApp</span></a></li><li class="share-skype"><div class="skype-share" data-href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" data-lang="en-US" data-style="small" data-source="jetpack"><link rel="stylesheet" type="text/css" href="https://swx.cdn.skype.com/skypewebsdk/shareButton/v/1.4.0.0/assets/css/shareButton.css"><div class="skypeShare small" title="Share on Skype"><span class="skypeShareLogo"></span><span class="skypeShareText">Share</span></div></div></li><li><a href="#" class="sharing-anchor sd-button share-more"><span>More</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none;width:150px;"><ul style="background-image:none;"><li class="share-google-plus-1"><div class="googleplus1_button"><div class="g-plus" data-action="share" data-size="medium" data-annotation="bubble" data-href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background-position: initial initial; background-repeat: initial initial;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1486149130358" name="I0_1486149130358" src="https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;annotation=bubble&amp;origin=https%3A%2F%2Fgath.wordpress.com&amp;url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.kAbubaVyYtA.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCMGJfAX8Sr4jNkS1DvYw58IxguevQ#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I0_1486149130358&amp;parent=https%3A%2F%2Fgath.wordpress.com&amp;pfname=&amp;rpctoken=32673906" data-gapiattached="true" title="+1"></iframe></div></div></li><li class="share-end"></li></ul></div></div></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-78913-9445-5894d60780ed9" data-src="//widgets.wp.com/likes/#blog_id=78913&amp;post_id=9445&amp;origin=gath.wordpress.com&amp;obj_id=78913-9445-5894d60780ed9" data-name="like-post-frame-78913-9445-5894d60780ed9"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; display: none;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-78913-9445-5894d60780ed9" height="55px" width="100%" frameborder="0" src="//widgets.wp.com/likes/#blog_id=78913&amp;post_id=9445&amp;origin=gath.wordpress.com&amp;obj_id=78913-9445-5894d60780ed9"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="9439" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://gath.wordpress.com/2017/01/15/workshop-on-the-hazael-campaign-in-the-south-biu-thursday-jan-19th-2017/" title="Workshop on the Hazael Campaign in the &quot;South&quot; - BIU, Thursday, Jan. 19th, 2017
+
+The first workshop for the 2016/2017 academic year of the Minerva Center for the Relations between Israel and Aram in Biblical Times (RIAB), will be held this Thursday (January 19th, 2017) at Bar-Ilan University. The workshop will deal with the archaeological evidence of the Hazael campaign to the south of…" rel="nofollow" data-origin="9445" data-position="0">Workshop on the Hazael Campaign in the "South" - BIU, Thursday, Jan. 19th, 2017</a></span><span class="jp-relatedposts-post-context">In "Miscellaneous"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="823" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://gath.wordpress.com/2009/01/30/a-judean-pillar-figurine-from-gath/" title="A Judean &quot;pillar figurine&quot; from Gath
+
+So that you don't think that all we deal with is Canaanite and Philistine remains, we also have the opportunity to excavate and study other cultures (and periods) as well. A very interesting, albeit briefly represented, phase at Tell es-Safi/Gath is the 8th century BCE (and possible 7th cent. as…" rel="nofollow" data-origin="9445" data-position="1">A Judean "pillar figurine" from Gath</a></span><span class="jp-relatedposts-post-context">In "Miscellaneous"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="34" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://gath.wordpress.com/2006/02/05/visit-to-lab-by-profs-trude-dothan-and-sy-gitin-feb-5-2005/" title="Visit to lab by Profs. Trude Dothan and Symour Gitin (Feb. 5, 2005)
+
+Today (5/2/06), Profs. T. Dothan and S. Gitin once again visited the Tell es-Safi/Gath Archaeological Project laboratory, which is located in the basement of the building of the Faculty of Jewish Studies at Bar-Ilan University (in Ramat Gan, Israel). Profs. Dothan (&quot;Trude&quot;) and Gitin (&quot;Sy&quot;) are the directors of the…" rel="nofollow" data-origin="9445" data-position="2">Visit to lab by Profs. Trude Dothan and Symour Gitin (Feb. 5, 2005)</a></span><span class="jp-relatedposts-post-context">In "Lab"</span></p></div></div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+								</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-## -->
+
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/" rel="prev"><span class="meta-nav">Previous</span> <h4>Lunch at Safi lecture – on Facebook&nbsp;Live!</h4></a></div><div class="nav-next"><a href="https://gath.wordpress.com/2017/02/02/brent-davis-on-the-philistine-languages/" rel="next"><span class="meta-nav">Next</span> <h4>Brent Davis on the Philistine&nbsp;Language(s)</h4></a></div></div>
+	</nav>
+			
+<div id="comments" class="comments-area">
+	<div class="comments-wrapper">
+		
+		
+		
+						<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2017/01/20/hazael-destructions-workshop-jan-19-2017/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://gath.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2017/01/20/hazael-destructions-workshop-jan-19-2017/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: 19px; width: 607px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 125px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Fgath.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p><p class="post-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog" style="display: inline;">Notify me of new posts via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="9445" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="3b04321568"></p>
+<input type="hidden" name="genseq" value="1486149127">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149129560"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>	</div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="text-4" class="widget widget_text"><h1 class="widget-title">2017 Excavation Dates</h1>			<div class="textwidget"><p>July 2-July 28, 2017<br>
+Apply now!</p>
+<p><iframe frameborder="0" width="260" height="40" src="https://wpcomwidgets.com?src=http%3A%2F%2Fwww.clocklink.com%2Fclocks%2F9001e-blue.swf&amp;flashvars=TimeZone%3DGMT0300%26Target%3D2016%2C6%2C26%2C00%2C00%2C00%26Title%3DGath+2015&amp;width=260&amp;height=40&amp;wmode=transparent&amp;_tag=gigya&amp;_hash=da335446bff67e34dff7784cb8b7ddea" id="wpcom-iframe-da335446bff67e34dff7784cb8b7ddea"></iframe></p>
+</div>
+		</aside><aside id="image-5" class="widget widget_image"><h1 class="widget-title">Tell es-Safi/Gath, Vol. I (2013 Biblical Archaeology Society Award for Best Scholarly Book in Archaeology)</h1><div style="overflow:hidden;"><a href="https://gath.wordpress.com/2016/04/16/tell-es-safigath-i-at-great-prices/"><img src="http://www.eisenbrauns.com/assets/book_images_large/M/MAE1TELLESS.jpg" alt="Volume awarded the 2013 BAS Award for Best Scholarly Book in Archaeology" title="Maeir, A. M., ed. 2012. Tell es-Safi/Gath I: Report on the 1996–2005 Seasons. Ägypten und Altes Testament 69. Wiesbaden: Harrassowitz." class="aligncenter" width="200" height="300"></a></div>
+</aside><aside id="facebook-likebox-3" class="widget widget_facebook_likebox"><h1 class="widget-title"><a href="https://www.facebook.com/TellesSafiGath">The Tell es-Safi/Gath Archaeological Project Facebook Page</a></h1>		<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f2f8242184&amp;origin=https%3A%2F%2Fgath.wordpress.com" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+		<div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/TellesSafiGath" data-width="200" data-height="200" data-hide-cover="false" data-show-facepile="false" data-show-posts="false" fb-xfbml-state="parsed" fb-iframe-plugin-query="app_id=249643311490&amp;container_width=300&amp;height=200&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FTellesSafiGath&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;width=200"><span style="vertical-align: top; width: 0px; height: 0px; overflow: hidden;"><iframe name="ff600e9a8" width="200px" height="200px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.3/plugins/page.php?app_id=249643311490&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df1cfdf160c%26domain%3Dgath.wordpress.com%26origin%3Dhttps%253A%252F%252Fgath.wordpress.com%252Ff2f8242184%26relation%3Dparent.parent&amp;container_width=300&amp;height=200&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FTellesSafiGath&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;width=200" style="border: none; visibility: hidden;"></iframe></span></div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</aside><aside id="search-4" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://gath.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:">
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Search</span>
+		</span>
+	</button>
+</form></aside><aside id="linkcat-143082" class="widget widget_links"><h1 class="widget-title">Es-Safi sites</h1>
+	<ul class="xoxo blogroll">
+<li><a href="https://gath.wordpress.com/2011/08/01/your-continuing-partnership-is-requested-for-the-processing-of-the-finds/">All about supporting the project!</a></li>
+<li><a href="http://biu.academia.edu/AMaeir">Aren Maeir – academia.edu site</a></li>
+<li><a href="http://www.bib-arch.org/bar/article.asp?PubID=BSBA&amp;Volume=27&amp;Issue=6&amp;ArticleID=1&amp;ParentID=8">BAR 2001 article on Tell es-Safi/Gath</a></li>
+<li><a href="http://www.bib-arch.org/bar/article.asp?PubID=BSBA&amp;Volume=34&amp;Issue=3&amp;ArticleID=8">BAR 2008 article on Philistine Phalli</a></li>
+<li><a href="http://www.biu.ac.il/">Bar-Ilan University</a></li>
+<li><a href="http://lisa.biu.ac.il/">Bar-Ilan University, Martin (Szusz) Department of Land Of Israel Studies and Archaeology</a></li>
+<li><a href="http://www.facebook.com/profile.php?id=100003036634138">Check out "Excavating Gath" on Facebook</a></li>
+<li><a href="http://www.oup.com/obso/peTell/" title="Photo Essay on Gath of the Philistines at Oxford Biblical Studies Online">Photo Essay on Gath of the Philistines</a></li>
+<li><a href="http://www.facebook.com/profile.php?id=100003036634138">Tell es-Safi/Gath Facebook Page</a></li>
+<li><a href="http://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/video-interview-with-tell-es-safigaths-aren-maeir/">Tell es-Safi/Gath page on Bible History Daily Blog (BAS)</a></li>
+<li><a href="http://www.youtube.com/user/arenmaeir?feature=guide" title="Youtube channel with collection of clips relating to the excavations at Tell es-Safi/Gath">Tell es-Safi/Gath Youtube Channel</a></li>
+<li><a href="http://tellessafi.wordpress.com/" title="Blog of the SSHRC Funded University of Manitoba/BIU Early Bronze Age at Safi Project">University of Manitoba/BIU Early Bronze Age at Safi Project</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gath_(city)">Wikipedia entry on Gath of the Philistines</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Tell_es-Safi">Wikipedia entry on Tell es-Safi/Gath</a></li>
+
+	</ul>
+</aside>
+		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="https://gath.wordpress.com/2017/02/02/brent-davis-on-the-philistine-languages/">Brent Davis on the Philistine&nbsp;Language(s)</a>
+						</li>
+					<li>
+				<a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/">Hazael destructions workshop – Jan. 19,&nbsp;2017</a>
+						</li>
+					<li>
+				<a href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/">Lunch at Safi lecture – on Facebook&nbsp;Live!</a>
+						</li>
+					<li>
+				<a href="https://gath.wordpress.com/2017/01/15/workshop-on-the-hazael-campaign-in-the-south-biu-thursday-jan-19th-2017/">Workshop on the Hazael Campaign in the “South” – BIU, Thursday, Jan. 19th,&nbsp;2017</a>
+						</li>
+					<li>
+				<a href="https://gath.wordpress.com/2017/01/12/upcoming-meeting-from-nomadism-to-monarchy-the-archaeology-of-the-settlement-period-30-years-later-march-15-16-2017/">Upcoming meeting: From Nomadism to Monarchy?  “The Archaeology of the Settlement Period”– 30 Years Later (March 15-16,&nbsp;2017)</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1>				<table class="recentcommentsavatar" cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr><td title="Vincent S Artale Jr" class="recentcommentsavatartop" style="height:48px; width:48px;"><a href="http://vincentsartalejr.wordpress.com" rel="nofollow"><img alt="" src="https://0.gravatar.com/avatar/98826d71faf13a0fc985064fbd06106a?s=48&amp;d=identicon&amp;r=G" class="avatar avatar-48 grav-hashed" height="48" width="48" id="grav-98826d71faf13a0fc985064fbd06106a-0"></a></td><td class="recentcommentstexttop" style=""><a href="http://vincentsartalejr.wordpress.com" rel="nofollow">Vincent S Artale Jr</a> on <a href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/#comment-54373">Lunch at Safi lecture –…</a></td></tr><tr><td title="Lunch at Safi lecture – on Facebook Live! – The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/" rel="nofollow"></a></td><td class="recentcommentstextend" style=""><a href="https://gath.wordpress.com/2017/01/17/lunch-at-safi-lecture-on-facebook-live/" rel="nofollow">Lunch at Safi lectur…</a> on <a href="https://gath.wordpress.com/2016/12/29/2nd-meeting-of-lunch-at-safi-17117-%d7%9e%d7%a4%d7%92%d7%a9-%d7%a9%d7%a0%d7%99-%d7%a9%d7%9c-%d7%a6%d7%94%d7%a8%d7%99%d7%99%d7%9d-%d7%91%d7%a6%d7%a4%d7%99%d7%aa/#comment-54372">2nd meeting of “Lunch at…</a></td></tr><tr><td title="Vincent S Artale Jr" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://vincentsartalejr.wordpress.com" rel="nofollow"><img alt="" src="https://0.gravatar.com/avatar/98826d71faf13a0fc985064fbd06106a?s=48&amp;d=identicon&amp;r=G" class="avatar avatar-48 grav-hashed" height="48" width="48" id="grav-98826d71faf13a0fc985064fbd06106a-1"></a></td><td class="recentcommentstextend" style=""><a href="http://vincentsartalejr.wordpress.com" rel="nofollow">Vincent S Artale Jr</a> on <a href="https://gath.wordpress.com/2017/01/15/workshop-on-the-hazael-campaign-in-the-south-biu-thursday-jan-19th-2017/#comment-54363">Workshop on the Hazael Campaig…</a></td></tr><tr><td title="Vincent S Artale Jr" class="recentcommentsavatarend" style="height:48px; width:48px;"><a href="http://vincentsartalejr.wordpress.com" rel="nofollow"><img alt="" src="https://0.gravatar.com/avatar/98826d71faf13a0fc985064fbd06106a?s=48&amp;d=identicon&amp;r=G" class="avatar avatar-48 grav-hashed" height="48" width="48" id="grav-98826d71faf13a0fc985064fbd06106a-2"></a></td><td class="recentcommentstextend" style=""><a href="http://vincentsartalejr.wordpress.com" rel="nofollow">Vincent S Artale Jr</a> on <a href="https://gath.wordpress.com/2017/01/03/new-article-on-the-sea-peoples-the-mediterranean-and-pulp-fiction/#comment-54195">New article on the Sea Peoples…</a></td></tr><tr><td title="Thomas" class="recentcommentsavatarend" style="height:48px; width:48px;"><img alt="" src="https://1.gravatar.com/avatar/43318ad6b5680115c4f5802191fa74a3?s=48&amp;d=identicon&amp;r=G" class="avatar avatar-48 grav-hashed grav-hijack" height="48" width="48" id="grav-43318ad6b5680115c4f5802191fa74a3-0"></td><td class="recentcommentstextend" style="">Thomas on <a href="https://gath.wordpress.com/2016/12/29/safi-on-the-list-of-best-archaeological-finds-in-israel-in-2016/#comment-54188">Safi on the list of “Bes…</a></td></tr>				</tbody></table>
+				</aside><aside id="top-posts-2" class="widget widget_top-posts"><h1 class="widget-title">Top Posts</h1><ul>				<li>
+										<a href="https://gath.wordpress.com/2017/02/02/brent-davis-on-the-philistine-languages/" class="bump-view" data-bump-view="tp">
+						Brent Davis on the Philistine Language(s)					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/excavation-application/" class="bump-view" data-bump-view="tp">
+						Excavation Application					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/excavation-application/join-us/" class="bump-view" data-bump-view="tp">
+						Join Us					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/about/gath-in-the-bible/" class="bump-view" data-bump-view="tp">
+						Gath in the Bible					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/2014/08/28/feathered-wings-on-ikaria/" class="bump-view" data-bump-view="tp">
+						Feathered wings on Ikaria?					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/2012/12/26/tell-es-safigath-in-the-new-issue-of-bar/" class="bump-view" data-bump-view="tp">
+						Tell es-Safi/Gath in the new issue of BAR					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/about/project-overview/" class="bump-view" data-bump-view="tp">
+						Project Overview					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/2010/05/25/prof-joesph-maran-and-his-family-visit-safi/" class="bump-view" data-bump-view="tp">
+						Prof. Joseph Maran and his family visit Safi					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/2007/01/07/re-early-philistine-inscriptions-from-ashkelon/" class="bump-view" data-bump-view="tp">
+						re: Early Philistine inscriptions from Ashkelon					</a>
+									</li>
+							<li>
+										<a href="https://gath.wordpress.com/2017/01/20/hazael-destructions-workshop-jan-19-2017/" class="bump-view" data-bump-view="tp">
+						Hazael destructions workshop - Jan. 19, 2017					</a>
+									</li>
+			</ul></aside><aside id="linkcat-143082" class="widget widget_links"><h1 class="widget-title">Es-Safi sites</h1>
+	<ul class="xoxo blogroll">
+<li><a href="https://gath.wordpress.com/2011/08/01/your-continuing-partnership-is-requested-for-the-processing-of-the-finds/">All about supporting the project!</a></li>
+<li><a href="http://biu.academia.edu/AMaeir">Aren Maeir – academia.edu site</a></li>
+<li><a href="http://www.bib-arch.org/bar/article.asp?PubID=BSBA&amp;Volume=27&amp;Issue=6&amp;ArticleID=1&amp;ParentID=8">BAR 2001 article on Tell es-Safi/Gath</a></li>
+<li><a href="http://www.bib-arch.org/bar/article.asp?PubID=BSBA&amp;Volume=34&amp;Issue=3&amp;ArticleID=8">BAR 2008 article on Philistine Phalli</a></li>
+<li><a href="http://www.biu.ac.il/">Bar-Ilan University</a></li>
+<li><a href="http://lisa.biu.ac.il/">Bar-Ilan University, Martin (Szusz) Department of Land Of Israel Studies and Archaeology</a></li>
+<li><a href="http://www.facebook.com/profile.php?id=100003036634138">Check out "Excavating Gath" on Facebook</a></li>
+<li><a href="http://www.oup.com/obso/peTell/" title="Photo Essay on Gath of the Philistines at Oxford Biblical Studies Online">Photo Essay on Gath of the Philistines</a></li>
+<li><a href="http://www.facebook.com/profile.php?id=100003036634138">Tell es-Safi/Gath Facebook Page</a></li>
+<li><a href="http://www.biblicalarchaeology.org/daily/biblical-sites-places/biblical-archaeology-sites/video-interview-with-tell-es-safigaths-aren-maeir/">Tell es-Safi/Gath page on Bible History Daily Blog (BAS)</a></li>
+<li><a href="http://www.youtube.com/user/arenmaeir?feature=guide" title="Youtube channel with collection of clips relating to the excavations at Tell es-Safi/Gath">Tell es-Safi/Gath Youtube Channel</a></li>
+<li><a href="http://tellessafi.wordpress.com/" title="Blog of the SSHRC Funded University of Manitoba/BIU Early Bronze Age at Safi Project">University of Manitoba/BIU Early Bronze Age at Safi Project</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gath_(city)">Wikipedia entry on Gath of the Philistines</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Tell_es-Safi">Wikipedia entry on Tell es-Safi/Gath</a></li>
+
+	</ul>
+</aside>
+<aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Admin</h1>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://gath.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://gath.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://gath.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script><iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://gath.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-98826d71faf13a0fc985064fbd06106a">
+	</div>
+	<div class="grofile-hash-map-43318ad6b5680115c4f5802191fa74a3">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/gath.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/gath.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/gath.wordpress.com\/","postID":"9445","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="78913">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://gath.wordpress.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d8c2316970"><input type="hidden" name="_wp_http_referer" value="/2017/01/20/hazael-destructions-workshop-jan-19-2017/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/gath.wordpress.com\/2017\/01\/20\/hazael-destructions-workshop-jan-19-2017\/":9445};
+	</script>
+<script type="text/javascript">
+			jQuery( document ).ready( function() {
+			    jQuery.getScript( '//platform.linkedin.com/in.js?async=true', function success() {
+			        IN.init();
+			    });
+			});
+			jQuery( document.body ).on( 'post-load', function() {
+				if ( typeof IN != 'undefined' )
+					IN.parse();
+			});
+			</script>		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+					<div id="fb-root"></div>
+			<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+			<script>
+			jQuery( document.body ).on( 'post-load', function() {
+				if ( 'undefined' !== typeof FB ) {
+					FB.XFBML.parse();
+				}
+			} );
+			</script>
+				
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<script type="text/javascript" src="//platform.tumblr.com/v1/share.js"></script>					<script type="text/javascript">
+				// Pinterest shared resources
+				var s = document.createElement("script");
+				s.type = "text/javascript";
+				s.async = true;
+				s.setAttribute('data-pin-hover', true);				s.src = window.location.protocol + "//assets.pinterest.com/js/pinit.js";
+				var x = document.getElementsByTagName("script")[0];
+				x.parentNode.insertBefore(s, x);
+				// if 'Pin it' button has 'counts' make container wider
+				jQuery(window).load( function(){ jQuery( 'li.share-pinterest a span:visible' ).closest( '.share-pinterest' ).width( '80px' ); } );
+			</script>
+				<script>
+		// Don't use Pocket's default JS as it we need to force init new Pocket share buttons loaded via JS.
+		function jetpack_sharing_pocket_init() {
+			jQuery.getScript( 'https://widgets.getpocket.com/v1/j/btn.js?v=1' );
+		}
+		jQuery( document ).on( 'ready', jetpack_sharing_pocket_init );
+		jQuery( document.body ).on( 'post-load', jetpack_sharing_pocket_init );
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-telegram' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtelegram', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		</script>
+					<script>
+				(function(r, d, s) {
+					r.loadSkypeWebSdkAsync = r.loadSkypeWebSdkAsync || function(p) {
+							var js, sjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(p.id)) { return; }
+							js = d.createElement(s);
+							js.id = p.id;
+							js.src = p.scriptToLoad;
+							js.onload = p.callback
+							sjs.parentNode.insertBefore(js, sjs);
+						};
+					var p = {
+						scriptToLoad: 'https://swx.cdn.skype.com/shared/v/latest/skypewebsdk.js',
+						id: 'skype_web_sdk'
+					};
+					r.loadSkypeWebSdkAsync(p);
+				})(window, document, 'script');
+			</script>
+						<script>
+			function renderGooglePlus1() {
+				if ( 'undefined' === typeof gapi ) {
+					return;
+				}
+
+				jQuery( '.g-plus' ).each(function() {
+					var $button = jQuery( this );
+
+					if ( ! $button.data( 'gplus-rendered' ) ) {
+						gapi.plusone.render( this, {
+							href: $button.attr( 'data-href' ),
+							size: $button.attr( 'data-size' ),
+							annotation: $button.attr( 'data-annotation' )
+						});
+
+						$button.data( 'gplus-rendered', true );
+					}
+				});
+			}
+
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				po.innerHTML = '{"parsetags": "explicit"}';
+				po.onload = renderGooglePlus1;
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+
+			jQuery( document.body ).on( 'post-load', renderGooglePlus1 );
+			</script>
+			<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<link rel="stylesheet" id="all-css-0-3" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-2-3" href="https://s0.wp.com/_static/??/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css,/wp-content/mu-plugins/widgets/facebook-likebox/style.css?m=1443731146j" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"78913","siteName":"The Tell es-Safi\/Gath Archaeological Project Official (and Unofficial) Weblog","siteURL":"http:\/\/gath.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/lovecraft","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/gath.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F","themeURL":"https:\/\/wordpress.com\/themes\/lovecraft\/","xhrURL":"https:\/\/gath.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"9db8ba9514\" \/>","referer":"https:\/\/gath.wordpress.com\/2017\/01\/20\/hazael-destructions-workshop-jan-19-2017\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/gath.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F","postID":"9445","shortlink":"http:\/\/wp.me\/pkwN-2sl","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/gath.wordpress.com\/9445","statsLink":"https:\/\/wordpress.com\/stats\/post\/9445\/gath.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Lovecraft","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,517 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/gath.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/gath.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"40da2c19f8","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/gath.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F","blog_id":"78913","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=78913&v=wpcom&tz=2&user_id=0&subd=gath","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJyVUdtShDAM/SFLxxEcXxy/JZQAKenFXtjdv7eoi6A7zPqU9OSc5KSRJy+UswltkjrKDmdS6M+Vjg9yUzJZeM4D2SiZJozyPWPGEWzHGA7IyhlTIPEl0ou6lfFEHv8j2gG/hWlEU2g+t5LdjCpA/7mKhZkGSOTsvYqBXQt8LztO5IsjO4neqRxFT+uvkVWcu733gJ4vlaE/bjaLQ1fqooUgDcSEoWSijAyBlmYrdtRBLQsvHdbslqnof3xscV3OGi7fodqybp0JgssRWWpMHtQkrsCBJhFjJwZgXubsXgcq72ISPQMFGUcIZIdrLKI38/pYvzRNXT8/NfoDvYcOVw=="></script><div id="actionbar" class="actnbr-pub-lovecraft actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://gath.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://gath.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://gath.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fgath.wordpress.com%2F2017%2F01%2F20%2Fhazael-destructions-workshop-jan-19-2017%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/pkwN-2sl">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "gath.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'78913','blog_tz':'2','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'78913','v':'wpcom','tz':'2','user_id':'0','post':'9445','subd':'gath'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWtpP0NsWnVkPS9sL0ViLndld3BuVT01Unp2dX5PUGF1VVkyaFpfdGFuaVh1eC5bVUlHTGxWLFVFamExZ1BNNnlGamE9Und4TUhmeXxOMHhEW2hjSnViVC1ZNmdoTng2anJ1M1JtcUlMX3E4UmVXS1RNJnFEdW9FN0xMNE5pQl1qbW9sazJ5XzNSSzVMRklvbkl6V3ZmRkxpMmUuWVlyKy55enZ4WXprfEYwdjF2YndFRy18OXw4Jnk3PzhGW1ZzT1pNS0VtazNULXJVa3BvSHROflQsMmpxOHNlUG5iP0JvV1BnX2Zra2k9MnBIJTA1c2ZLZEFnT2plPUd2ak00N1ZwSUhjY1RjbG1acEUrUT9+Z0lmaDI3Ym5MSEw='}]);
+_stq.push([ 'clickTrackerInit', '78913', '9445' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<!--
+	generated in 0.143 seconds
+	81102 bytes batcached for 300 seconds
+-->
+<div class="comment-likes-overlay" style="display: none;"></div><div id="sharing_email" style="display: none;">
+		<form action="/2017/01/20/hazael-destructions-workshop-jan-19-2017/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="">
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="">
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="">
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off">
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			<div class="recaptcha" id="sharing_recaptcha"></div><input type="hidden" name="recaptcha_public_key" id="recaptcha_public_key" value="6LcYW8MSAAAAADBAuEH9yaPcF7lWh11Iq62ZKtoo">
+			<img style="float: right; display: none" class="loading" src="https://s2.wp.com/wp-content/mu-plugins/post-flair/sharing/images/loading.gif" alt="loading" width="16" height="16">
+			<input type="submit" value="Send Email" class="sharing_send">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div><iframe name="oauth2relay802733988" id="oauth2relay802733988" src="https://accounts.google.com/o/oauth2/postmessageRelay?parent=https%3A%2F%2Fgath.wordpress.com&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en_US.kAbubaVyYtA.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCMGJfAX8Sr4jNkS1DvYw58IxguevQ#rpctoken=406883140&amp;forcesecure=1" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>

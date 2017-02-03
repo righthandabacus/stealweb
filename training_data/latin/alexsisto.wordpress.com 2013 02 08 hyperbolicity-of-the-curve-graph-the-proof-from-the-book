@@ -1,0 +1,803 @@
+<!DOCTYPE html><!--[if IE 6]>
+<html id="ie6" lang="en">
+<![endif]--><!--[if IE 7]>
+<html id="ie7" lang="en">
+<![endif]--><!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]--><!--[if !(IE 6) | !(IE 7) | !(IE 8)]><!--><html lang="en"><!--<![endif]--><head>
+<meta charset="UTF-8">
+<title>Hyperbolicity of the curve graph: the proof from The Book | Alex Sisto</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyten/style.css">
+<link rel="pingback" href="https://alexsisto.wordpress.com/xmlrpc.php">
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="alternate" type="application/rss+xml" title="Alex Sisto » Feed" href="https://alexsisto.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Alex Sisto » Comments Feed" href="https://alexsisto.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Alex Sisto » Hyperbolicity of the curve graph: the proof from The&nbsp;Book Comments Feed" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/feed/">
+	<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s2.wp.com/_static/??-eJyNkt1SAyEMhV9IxNrW6Y3jswQ2srRhwxDWnX17oatuf5TxBnLgfCQE9BSV5SHjkHUYVaTR+UH0FC0HJcETzjfq0Yo86N8x8icUfcQcwZ7UWd3ZDbFb83DqoBPtiA3Q/7x5Kltz2Vcfz61iEhJk7FRkyTeqhVlOWNZDhFwdATsPSBiKrYWF+PJN1bAvDWimWXpqTEwoosoY/BhU7kuie25Z1nE06+215JlQnc9ZAK8Hzr4w8hO0KnDIithC9jxcCfVO4FO7tfVlSuh0cV3IFgS2Hm4grVHLXh9qqURLD6nm+ppblLD1QOUqjq/FXz3tdxef7y28bnaH/X572Gyfjp+nMSv8" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFj+sKwjAMhV/IrHib+kN8ltrFkdqbTevQpzcD/aEOhUDIyZfDiRoSUDCudsjKSl0q5tuzNZZn6hcAnvqsCzaewgs2MRQMZWR9PJJDqIxZ96KJ0SlOcCly8cgs0MT2PRKFK+HwF7NYkjZnyMh0/3L1FZKrPQVWGZ080MGY4WOSq4Pfz1dtu14sd5utfQAruHB+"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://alexsisto.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Tracking of random walks with&nbsp;geodesics" href="https://alexsisto.wordpress.com/2013/01/28/tracking-of-random-walks-with-geodesics/">
+<link rel="next" title="An even shorter proof that curve graphs are&nbsp;hyperbolic" href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/">
+<link rel="shortlink" href="http://wp.me/p247wG-8R">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hyperbolicity of the curve graph: the proof from The Book">
+<meta property="og:url" content="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/">
+<meta property="og:description" content="In this post I’ll talk about a lovely paper by Sebastian Hensel, Piotr Przytycki and Richard Webb. They show that all curve graphs are 17-hyperbolic. Hyperbolicity of curve graphs is a very v…">
+<meta property="article:published_time" content="2013-02-08T22:11:33+00:00">
+<meta property="article:modified_time" content="2013-02-10T16:46:58+00:00">
+<meta property="og:site_name" content="Alex Sisto">
+<meta property="og:image" content="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:image" content="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=240">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://alexsisto.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://alexsisto.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://alexsisto.wordpress.com/osd.xml" title="Alex Sisto">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+<meta name="application-name" content="Alex Sisto"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Alessandro Sisto's math blog"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://alexsisto.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="Hyperbolicity of the curve graph: the proof from The&nbsp;Book | Alex Sisto on WordPress.com">
+<meta name="description" content="In this post I'll talk about a lovely paper by Sebastian Hensel, Piotr Przytycki and Richard Webb. They show that all curve graphs are 17-hyperbolic. Hyperbolicity of curve graphs is a very very very useful* property because mapping class groups act nicely on them, so you can prove all sorts of things using this action.…">
+		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'alexsisto.wordpress.com',
+				pageURL: 'https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<style type="text/css"></style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-549 single-format-standard mp6 customizer-styles-applied single-author highlander-enabled highlander-light">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="https://alexsisto.wordpress.com/" title="Alex Sisto" rel="home">Alex Sisto</a>
+					</span>
+				</div>
+				<div id="site-description">Alessandro Sisto's math blog</div>
+
+							</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu"><ul><li><a href="https://alexsisto.wordpress.com/">Home</a></li><li class="page_item page-item-70"><a href="https://alexsisto.wordpress.com/about-me-and-this-blog/">About me and this&nbsp;blog</a></li><li class="page_item page-item-341"><a href="https://alexsisto.wordpress.com/science-is-too-valuable-not-to-be-free/">Science is too valuable not to be&nbsp;free</a></li></ul></div>
+			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+				<div id="nav-above" class="navigation">
+					<div class="nav-previous"><a href="https://alexsisto.wordpress.com/2013/01/28/tracking-of-random-walks-with-geodesics/" rel="prev"><span class="meta-nav">←</span> Tracking of random walks with&nbsp;geodesics</a></div>
+					<div class="nav-next"><a href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/" rel="next">An even shorter proof that curve graphs are&nbsp;hyperbolic <span class="meta-nav">→</span></a></div>
+				</div><!-- #nav-above -->
+
+				<div id="post-549" class="post-549 post type-post status-publish format-standard hentry category-guessing-geodesics category-hyperbolicity-of-complexes">
+											<h2 class="entry-title"><a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/" rel="bookmark">Hyperbolicity of the curve graph: the proof from The&nbsp;Book</a></h2>					
+					<div class="entry-meta">
+						<span class="meta-prep meta-prep-author">Posted on</span> <a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/" title="10:11 pm" rel="bookmark"><span class="entry-date">February 8, 2013</span></a>						<span class="by-author"><span class="sep">by</span> <span class="author vcard"><a class="url fn n" href="https://alexsisto.wordpress.com/author/alexsisto/" title="View all posts by Alex Sisto" rel="author">Alex Sisto</a></span> </span>					</div><!-- .entry-meta -->
+
+					<div class="entry-content">
+						<p>In this post I’ll talk about a lovely <a href="http://arxiv.org/abs/1301.5577" target="_blank">paper</a> by Sebastian Hensel, Piotr Przytycki and Richard Webb. They show that all curve graphs are 17-hyperbolic. Hyperbolicity of curve graphs is a very very very useful* property because mapping class groups act nicely on them, so you can prove all sorts of things using this action.<br>
+The proofs available before HPW were quite complicated and relied on Teichmüller theory, so I was quite amazed to see that this could be proven in 6 self-contained pages. And, as the authors pointed out to me: “Well, there’s one page of introduction and one page of references.”</p>
+<p>This post is an illustrated guide to the proof. I won’t define arc/curve complexes here, but I plan to write a BI soon. The more loudly you complain, the sooner I will actually do.</p>
+<p>Ok, let’s start. First of all, as it turns out it’s more convenient to deal with arc graphs instead of curve graphs.</p>
+<p><strong>Reduction to the arc graph.</strong> (Really, just skip this <img draggable="false" class="emoji" alt="😀" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f600.svg"> ) Here’s a very quick sketch of how to deduce hyperbolicity of curve graphs once we know it for arc graphs, which for the moment we assume we do.<br>
+If we are dealing with a (complicated) surface with boundary then the idea we can use is that one can construct a path in the curve complex starting from a path <img src="https://s0.wp.com/latex.php?latex=%5Cgamma&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\gamma" title="\gamma" class="latex"> in the arc complex by considering curves disjoint from the arcs appearing along <img src="https://s0.wp.com/latex.php?latex=%5Cgamma&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\gamma" title="\gamma" class="latex"> (it will be clearer later how to exploit this, if you don’t know how to do it already). I’ll be honest, just this one time: There is a subtle issue I’m sweeping under the carpet here, but I would like not to make the post too technical…<br>
+Anyway, suppose instead that your surface, <img src="https://s0.wp.com/latex.php?latex=S&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="S" title="S" class="latex">, is closed. If you call <img src="https://s0.wp.com/latex.php?latex=S%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="S'" title="S'" class="latex"> the surface obtained by adding a boundary component, then you have a boundary-forgetting map. This map is Lipschitz, this is immediate, and has a section, constructed as follows. Choose a hyperbolic metric on <img src="https://s0.wp.com/latex.php?latex=S&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="S" title="S" class="latex"> and realise all (homotopy classes of) curves as geodesics. Now you can take a puncture outside the union of all such (countably many) geodesics.&nbsp;Using the two properties it’s not hard to see that the curve graph of <img src="https://s0.wp.com/latex.php?latex=S&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="S" title="S" class="latex"> must be hyperbolic as well. The details are in section 5 of the paper.</p>
+<p><strong>Unicorns!</strong> Ok, let’s now take an arc graph. The strategy to show it’s hyperbolic is to prove that, as David puts it, “it smells hyperbolic”**, i.e. that there exists a family of preferred paths with nice properties (you may wish to take a look at <a href="https://alexsisto.wordpress.com/2012/07/16/bi-guessing-geodesics-in-hyperbolic-spaces/" target="_blank">this pos</a>t <img draggable="false" class="emoji" alt="🙂" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f642.svg"> ). The most important property that this family should satisfy is that triangles of preferred paths should be slim. The other properties you need (in simplified form) are that a preferred path is a geodesic if the endpoints have distance at most 1 and that a subpath of a preferred path is a preferred path.<br>
+HPW called the nice paths they constructed unicorn paths (!). They were initially called one-corner paths, but then Piotr realised that one-corner and unicorn are almost the same word in Polish, and that unicorn would be a much more awesome name.<br>
+And now, here are the paths. You have to start with two arcs in minimal position, <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">, and it’s convenient to fix preferred endpoints, <img src="https://s0.wp.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\alpha" title="\alpha" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=%5Cbeta&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\beta" title="\beta" class="latex">. We can assume that <img src="https://s0.wp.com/latex.php?latex=a%2Cb&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a,b" title="a,b" class="latex"> intersect minimally. The arcs appearing along the path from <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> to <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">, the unicorn arcs, have a rather simple form: You travel along <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> until you reach some intersection point, <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex">, and then you go to <img src="https://s0.wp.com/latex.php?latex=%5Cbeta&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\beta" title="\beta" class="latex">.</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png"><img data-attachment-id="569" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/unicorn-2/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=512&amp;h=288" data-orig-size="1311,738" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="unicorn" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=512&amp;h=288?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=512&amp;h=288?w=640" class="aligncenter  wp-image-569" alt="unicorn" src="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=512&amp;h=288" width="512" height="288" srcset="https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=512&amp;h=288 512w, https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=1024&amp;h=576 1024w, https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=150&amp;h=84 150w, https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=300&amp;h=169 300w, https://alexsisto.files.wordpress.com/2013/02/unicorn1.png?w=768&amp;h=432 768w" sizes="(max-width: 512px) 100vw, 512px"></a></p>
+<p>Not all intersection points work, because the procedure described above might not give an embedded arc (look at <img src="https://s0.wp.com/latex.php?latex=%5Ctau&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\tau" title="\tau" class="latex">, for example).<br>
+Let us also include <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex"> in the collection of unicorn arcs. So, given <img src="https://s0.wp.com/latex.php?latex=a%2Cb&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a,b" title="a,b" class="latex"> you have finitely many arcs, and there is a natural order on them: You write <img src="https://s0.wp.com/latex.php?latex=c%3Cc%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c&lt;c'" title="c&lt;c'" class="latex"> if the common subpath of <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> is longer than the common subpath of <img src="https://s0.wp.com/latex.php?latex=c%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c'" title="c'" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex">. The idea is that you are describing a path from <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> to <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">, so the paths more closely resembling <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> should appear first.<br>
+Now, we have to check that we actually described a path, i.e. that if <img src="https://s0.wp.com/latex.php?latex=c%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c'" title="c'" class="latex"> is the successor of <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex"> then <img src="https://s0.wp.com/latex.php?latex=c%2Cc%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c,c'" title="c,c'" class="latex"> can be realised disjointly.<br>
+The recipe to construct the successor is simple. Let <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex"> be the intersection point defining <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex">, and let <img src="https://s0.wp.com/latex.php?latex=b%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b'" title="b'" class="latex"> be the subpath of <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex"> from <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex"> to <img src="https://s0.wp.com/latex.php?latex=%5Cbeta&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\beta" title="\beta" class="latex">. Just travel along <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> after <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex"> until you hit <img src="https://s0.wp.com/latex.php?latex=b%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b'" title="b'" class="latex"> in some point <img src="https://s0.wp.com/latex.php?latex=%5Cpi%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi'" title="\pi'" class="latex">. Then it’s not hard to convince yourself that <img src="https://s0.wp.com/latex.php?latex=%5Cpi%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi'" title="\pi'" class="latex"> defines <img src="https://s0.wp.com/latex.php?latex=c%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c'" title="c'" class="latex">.</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png"><img data-attachment-id="551" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/unicornsucc/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=576&amp;h=328" data-orig-size="1312,747" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="unicornsucc" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=576&amp;h=328?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=576&amp;h=328?w=640" class="aligncenter  wp-image-551" alt="unicornsucc" src="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=576&amp;h=328" width="576" height="328" srcset="https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=576&amp;h=328 576w, https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=1152&amp;h=656 1152w, https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=150&amp;h=85 150w, https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=300&amp;h=171 300w, https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=768&amp;h=437 768w, https://alexsisto.files.wordpress.com/2013/02/unicornsucc.png?w=1024&amp;h=583 1024w" sizes="(max-width: 576px) 100vw, 576px"></a></p>
+<p>The picture also illustrates how to realise <img src="https://s0.wp.com/latex.php?latex=c%2Cc%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c,c'" title="c,c'" class="latex"> disjointly.</p>
+<p><strong>Slim unicorns!</strong> And here is the cool part. Unicorn triangles are 1-slim, i.e. given <img src="https://s0.wp.com/latex.php?latex=a%2Cb%2Cd&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a,b,d" title="a,b,d" class="latex"> and a unicorn arc <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex">, defined by <img src="https://s0.wp.com/latex.php?latex=%5Cpi%5Cin+a%5Ccap+b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi\in a\cap b" title="\pi\in a\cap b" class="latex">, on the unicorn path <img src="https://s0.wp.com/latex.php?latex=P%28a%2Cb%29&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="P(a,b)" title="P(a,b)" class="latex"> from <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> to <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex"> there is a point on <img src="https://s0.wp.com/latex.php?latex=P%28a%2Cd%29%5Ccup+P%28b%2Cd%29&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="P(a,d)\cup P(b,d)" title="P(a,d)\cup P(b,d)" class="latex"> at distance at most 1 from <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex">. The proof is very easy, just travel along <img src="https://s0.wp.com/latex.php?latex=d&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="d" title="d" class="latex"> until you hit <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex">, then go to <img src="https://s0.wp.com/latex.php?latex=%5Calpha&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\alpha" title="\alpha" class="latex"> or <img src="https://s0.wp.com/latex.php?latex=%5Cbeta&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\beta" title="\beta" class="latex">, whichever you can reach avoiding <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex">.</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png"><img data-attachment-id="590" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/unicornslim-2/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=512&amp;h=262" data-orig-size="1166,597" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="unicornslim" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=512&amp;h=262?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=512&amp;h=262?w=640" class="aligncenter  wp-image-590" alt="unicornslim" src="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=512&amp;h=262" width="512" height="262" srcset="https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=512&amp;h=262 512w, https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=1024&amp;h=524 1024w, https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=150&amp;h=77 150w, https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=300&amp;h=154 300w, https://alexsisto.files.wordpress.com/2013/02/unicornslim1.png?w=768&amp;h=393 768w" sizes="(max-width: 512px) 100vw, 512px"></a></p>
+<p>The picture hopefully clearly illustrates that the unicorn arc <img src="https://s0.wp.com/latex.php?latex=c%27&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c'" title="c'" class="latex"> we just constructed can be realised disjointly from <img src="https://s0.wp.com/latex.php?latex=c&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c" title="c" class="latex">.<br>
+The authors told me that the initial argument for 1-slimness of triangles&nbsp;was based on their dismantlability, you may wish to take a look at this&nbsp;<a href="http://arxiv.org/abs/1205.0513" target="_blank">paper</a>.</p>
+<p><strong>The technical bit.</strong> You need one more property to show that arc graphs are hyperbolic and unicorn paths are close to geodesics, that is to say that a subpath of a unicorn path is a unicorn path. Well, this is not actually true, sometimes you can have a subpath of a unicorn path of length 2 connecting points at distance 1 in the arc graph. But that’s the only bad thing that can happen, and this is good enough for us.<br>
+Stare at the recipe I told you about earlier to construct the successor. Done? It might now seem to you that if you have two unicorn arcs <img src="https://s0.wp.com/latex.php?latex=c_1%2Cc_2&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_1,c_2" title="c_1,c_2" class="latex"> constructed from <img src="https://s0.wp.com/latex.php?latex=a%2Cb&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a,b" title="a,b" class="latex">, the recipe will give you exactly the same successor of <img src="https://s0.wp.com/latex.php?latex=c_1&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_1" title="c_1" class="latex"> regardless of whether you work “between <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">” or “between <img src="https://s0.wp.com/latex.php?latex=c_1&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_1" title="c_1" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=c_2&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_2" title="c_2" class="latex">.” So… what’s the problem? The problem is that <img src="https://s0.wp.com/latex.php?latex=c_1%2Cc_2&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_1,c_2" title="c_1,c_2" class="latex"> might not be in minimal position! <img draggable="false" class="emoji" alt="😦" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f626.svg"><br>
+So you have to understand when they don’t intersect minimally (Sublemma 3.6 in the paper). You can reduce to the case <img src="https://s0.wp.com/latex.php?latex=a%3Dc_1&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a=c_1" title="a=c_1" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=c_2&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_2" title="c_2" class="latex"> the predecessor of <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">, once again because of the recipe for the successor. The predecessor of <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex"> is the unicorn arc travelling as little as possible along <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex">, so you just have to find the first intersection point <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex"> of <img src="https://s0.wp.com/latex.php?latex=a%2Cb&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a,b" title="a,b" class="latex"> along <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex">.</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png"><img data-attachment-id="570" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/unicornbigon-2/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=576&amp;h=293" data-orig-size="1291,659" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="unicornbigon" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=576&amp;h=293?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=576&amp;h=293?w=640" class="aligncenter  wp-image-570" alt="unicornbigon" src="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=576&amp;h=293" width="576" height="293" srcset="https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=574&amp;h=293 574w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=1148&amp;h=586 1148w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=150&amp;h=77 150w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=300&amp;h=153 300w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=768&amp;h=392 768w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon1.png?w=1024&amp;h=523 1024w" sizes="(max-width: 576px) 100vw, 576px"></a></p>
+<p>(Yes, there’s a reason why I’ve drawn the picture in that weird way, see below <img draggable="false" class="emoji" alt="😉" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f609.svg"> )<br>
+Let me recall that two arcs are in minimal position if there are no bigons or half bigons:</p>
+<p><a href="https://alexsisto.files.wordpress.com/2013/02/minimal1.png"><img data-attachment-id="554" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/minimal1/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=640&amp;h=116" data-orig-size="1059,193" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="minimal1" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=640&amp;h=116?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=640&amp;h=116?w=640" class="aligncenter size-full wp-image-554" alt="minimal1" src="https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=640&amp;h=116" width="640" height="116" srcset="https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=636&amp;h=116 636w, https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=150&amp;h=27 150w, https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=300&amp;h=55 300w, https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=768&amp;h=140 768w, https://alexsisto.files.wordpress.com/2013/02/minimal1.png?w=1024&amp;h=187 1024w, https://alexsisto.files.wordpress.com/2013/02/minimal1.png 1059w" sizes="(max-width: 640px) 100vw, 640px"></a></p>
+<p>Now, there cannot be a bigon between <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=c_2&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="c_2" title="c_2" class="latex">, for otherwise you can easily convince yourself that there would be one between <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">. Similarly, you can only have a half-bigon if <img src="https://s0.wp.com/latex.php?latex=%5Cpi&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="\pi" title="\pi" class="latex"> appears on it:</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/minimal2.png"><img data-attachment-id="555" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/minimal2/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=297&amp;h=154" data-orig-size="371,193" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="minimal2" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=297&amp;h=154?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=297&amp;h=154?w=371" class="aligncenter  wp-image-555" alt="minimal2" src="https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=297&amp;h=154" width="297" height="154" srcset="https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=297&amp;h=154 297w, https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=150&amp;h=78 150w, https://alexsisto.files.wordpress.com/2013/02/minimal2.png?w=300&amp;h=156 300w, https://alexsisto.files.wordpress.com/2013/02/minimal2.png 371w" sizes="(max-width: 297px) 100vw, 297px"></a></p>
+<p>So, if there is a half-bigon, then it must look like this:</p>
+<p style="text-align:center;"><a href="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png"><img data-attachment-id="571" data-permalink="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/unicornbigon2-2/" data-orig-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=576&amp;h=313" data-orig-size="1291,702" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="unicornbigon2" data-image-description="" data-medium-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=576&amp;h=313?w=300" data-large-file="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=576&amp;h=313?w=640" class="aligncenter  wp-image-571" alt="unicornbigon2" src="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=576&amp;h=313" width="576" height="313" srcset="https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=576&amp;h=313 576w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=1152&amp;h=626 1152w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=150&amp;h=82 150w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=300&amp;h=163 300w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=768&amp;h=418 768w, https://alexsisto.files.wordpress.com/2013/02/unicornbigon21.png?w=1024&amp;h=557 1024w" sizes="(max-width: 576px) 100vw, 576px"></a></p>
+<p>So, you have a very good control on what can go wrong. I won’t go into details but I hope that you’ll find it reasonable to believe that it’s possible to deal with this problem.</p>
+<p>And that’s the end <img draggable="false" class="emoji" alt="🙂" src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f642.svg"></p>
+<p>Let me add the comment that Lemma 3.4, which I didn’t go into, is there just to get a better constant at the end, but without it you can prove, say, 19-hyperbolicity.<br>
+The lemma says that given 3 unicorn paths forming a triangle you can find a triple of points on them at pairwise distance at most 1. If you allow yourself to substitute 1 with 3, this follows from what we already know. In fact, suppose you start at <img src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="a" title="a" class="latex"> and move towards <img src="https://s0.wp.com/latex.php?latex=b&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="b" title="b" class="latex">. At first, you’ll be 1-close to <img src="https://s0.wp.com/latex.php?latex=P%28a%2Cc%29&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="P(a,c)" title="P(a,c)" class="latex">, and at some point you’ll be 1-close to <img src="https://s0.wp.com/latex.php?latex=P%28b%2Cc%29&amp;bg=ffffff&amp;fg=333333&amp;s=0" alt="P(b,c)" title="P(b,c)" class="latex">. When the switch happens, you have the 3 points you’re looking for. Btw, analysing this idea gives you a way of finding your candidate points at pairwise distance 1.</p>
+<p>*David Hume was next to me when I wrote this and said “I have a paper that relies on that, so I’m not going to argue.”<br>
+** David suggested I add “I would like to thank David for being so quotable.”</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-651234316" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-651234316');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-651234316",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-651234316'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-7276" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-7276" id="fif_slot_automattic-id-_automattic-id-7276" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-549" class="share-twitter sd-button share-icon" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-549" class="share-facebook sd-button share-icon" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span>Facebook<span class="share-count">1</span></span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loading" id="like-post-wrapper-30534918-549-5894d5f4256c0" data-src="//widgets.wp.com/likes/#blog_id=30534918&amp;post_id=549&amp;origin=alexsisto.wordpress.com&amp;obj_id=30534918-549-5894d5f4256c0" data-name="like-post-frame-30534918-549-5894d5f4256c0"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-30534918-549-5894d5f4256c0" height="55px" width="100%" frameborder="0" src="//widgets.wp.com/likes/#blog_id=30534918&amp;post_id=549&amp;origin=alexsisto.wordpress.com&amp;obj_id=30534918-549-5894d5f4256c0"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="606" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/" title="An even shorter proof that curve graphs are hyperbolic
+
+In this post I described the Hensel-Przytycki-Webb proof that curve graphs are (uniformly) hyperbolic. Their methods actually apply to the arc graph, and then they used a clever evil trick due to Harer that involves adding an artificial puncture to go from the hyperbolicity of arc graphs to that of…" rel="nofollow" data-origin="549" data-position="0">An even shorter proof that curve graphs are hyperbolic</a></span><span class="jp-relatedposts-post-context">In "hyperbolicity of complexes"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="200" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://alexsisto.wordpress.com/2012/01/02/thickness/" title="BI: Thickness
+
+Thick metric spaces were defined in this paper&nbsp;by Jason Behrstock, Cornelia Druţu and Lee Mosher&nbsp;as an obstruction for a group (actually, a metric space) to be (properly) relatively hyerbolic. Indeed, the notion of thickness provides a very interesting way of thinking about certain families of groups, I'll give some examples…" rel="nofollow" data-origin="549" data-position="1">BI: Thickness</a></span><span class="jp-relatedposts-post-context">In "Brief Introduction (BI)"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="124" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://alexsisto.wordpress.com/2011/12/22/relative-hyperbolicity-and-projections/" title="EO: Relative hyperbolicity and projections
+
+In this post I'd like to tell you about the definition of relative hyperbolicity I gave in this paper. It is a definition that falls into the first family of definitions I described in this post, i.e. &quot;relatively hyperbolic groups look like tree-graded spaces&quot; (I promise that the next post…" rel="nofollow" data-origin="549" data-position="2">EO: Relative hyperbolicity and projections</a></span><span class="jp-relatedposts-post-context">In "Expanded Outline (EO)"</span></p></div></div></div>											</div><!-- .entry-content -->
+
+
+					<div class="entry-utility">
+												This entry was posted in <a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/guessing-geodesics/" rel="category tag">guessing geodesics</a>, <a href="https://alexsisto.wordpress.com/category/hyperbolicity-of-complexes/" rel="category tag">hyperbolicity of complexes</a>. Bookmark the <a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/" title="Permalink to Hyperbolicity of the curve graph: the proof from The&nbsp;Book" rel="bookmark">permalink</a>.											</div><!-- .entry-utility -->
+				</div><!-- #post-## -->
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="https://alexsisto.wordpress.com/2013/01/28/tracking-of-random-walks-with-geodesics/" rel="prev"><span class="meta-nav">←</span> Tracking of random walks with&nbsp;geodesics</a></div>
+					<div class="nav-next"><a href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/" rel="next">An even shorter proof that curve graphs are&nbsp;hyperbolic <span class="meta-nav">→</span></a></div>
+				</div><!-- #nav-below -->
+
+				
+			<div id="comments">
+
+
+			<h3 id="comments-title">3 Responses to <em>Hyperbolicity of the curve graph: the proof from The&nbsp;Book</em></h3>
+
+
+			<ol class="commentlist">
+					<li class="post pingback">
+		<p>Pingback: <a href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/" rel="external nofollow" class="url">An even shorter proof that curve graphs are hyperbolic | Alex Sisto</a></p>
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1 highlander-comment" id="li-comment-359">
+		<div id="comment-359">
+			<div class="comment-author vcard">
+				<img alt="" src="https://i0.wp.com/pbs.twimg.com/profile_images/600000074052141056/CTFOKnW-_normal.jpg?resize=40%2C40" class="avatar avatar-40" height="40" width="40">				<cite class="fn"><a href="http://twitter.com/MariaCumplido" rel="external nofollow" class="url">Matemática de Letras (@MariaCumplido)</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/#comment-359">
+				October 30, 2015 at 12:14 pm</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Hi Alex, </p>
+<p>I’ve already started to learn about curves complex. My advisor told me about your blog and I find it really really helpful. May I ask you a silly question about this post? You define inequality in this way:</p>
+<p> “You write c&lt;c' if the common subpath of c and a is longer than the common subpath of c' and a." </p>
+<p>But in the recipe below the common subpath of c' and a is longer than the common subpath of c and a.  Is it just a change of convention?</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/?replytocom=359#respond" onclick="return addComment.moveForm( &quot;comment-359&quot;, &quot;359&quot;, &quot;respond&quot;, &quot;549&quot; )" aria-label="Reply to Matemática de Letras (@MariaCumplido)">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	<ul class="children">
+	<li class="comment byuser comment-author-alexsisto bypostauthor odd alt depth-2 highlander-comment" id="li-comment-360">
+		<div id="comment-360">
+			<div class="comment-author vcard">
+				<img alt="" src="https://2.gravatar.com/avatar/50d462e104ac57ba2edc37b4e95f9af5?s=40&amp;d=identicon&amp;r=G" class="avatar avatar-40 grav-hashed grav-hijack" height="40" width="40" id="grav-50d462e104ac57ba2edc37b4e95f9af5-0">				<cite class="fn"><a href="https://alexsisto.wordpress.com" rel="external nofollow" class="url">Alex Sisto</a></cite> <span class="says">says:</span>			</div><!-- .comment-author .vcard -->
+			
+			<div class="comment-meta commentmetadata"><a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/#comment-360">
+				October 30, 2015 at 4:11 pm</a>			</div><!-- .comment-meta .commentmetadata -->
+
+			<div class="comment-body"><p>Thanks for your feedback! You’re right, I’ll correct it.</p>
+</div>
+
+			<div class="reply">
+				<a rel="nofollow" class="comment-reply-link" href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/?replytocom=360#respond" onclick="return addComment.moveForm( &quot;comment-360&quot;, &quot;360&quot;, &quot;respond&quot;, &quot;549&quot; )" aria-label="Reply to Alex Sisto">Reply</a>			</div><!-- .reply -->
+		</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+			</ol>
+
+
+	
+
+				<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://alexsisto.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: 24px; width: 618px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 44px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Falexsisto.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p><p class="post-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog" style="display: inline;">Notify me of new posts via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="549" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="cd9a2c46a9"></p>
+<input type="hidden" name="genseq" value="1486149108">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149109340"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div><!-- #comments -->
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+						<ul class="xoxo">
+
+<li id="search-2" class="widget-container widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://alexsisto.wordpress.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Search">
+				</div>
+			</form></li><li id="text-2" class="widget-container widget_text">			<div class="textwidget"><p>Welcome! Basic info about me and this blog can be found in the "about me and this blog" page.</p>
+</div>
+		</li><li id="categories-2" class="widget-container widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-71925099"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/">Brief Introduction (BI)</a>
+<ul class="children">
+	<li class="cat-item cat-item-76012148"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/asymptotic-cones/">asymptotic cones</a>
+</li>
+	<li class="cat-item cat-item-203859644"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/bbf-construction/">BBF construction</a>
+</li>
+	<li class="cat-item cat-item-77827713"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/embeddings-in-products-of-trees/">embeddings in products of trees</a>
+</li>
+	<li class="cat-item cat-item-116792337"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/finite-decomposition-complexity/">finite decomposition complexity</a>
+</li>
+	<li class="cat-item cat-item-101317917"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/guessing-geodesics/">guessing geodesics</a>
+</li>
+	<li class="cat-item cat-item-1831165"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/nonstandard-analysis/">nonstandard analysis</a>
+</li>
+	<li class="cat-item cat-item-76881282"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/quasi-isometric-rigidity/">quasi-isometric rigidity</a>
+</li>
+	<li class="cat-item cat-item-19492942"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/relatively-hyperbolic-groups/">relatively hyperbolic groups</a>
+</li>
+	<li class="cat-item cat-item-1831286"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/teichmuller-space/">Teichmuller space</a>
+</li>
+	<li class="cat-item cat-item-1159147"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/thickness/">thickness</a>
+</li>
+	<li class="cat-item cat-item-71902265"><a href="https://alexsisto.wordpress.com/category/brief-introduction-bi/tree-graded-spaces/">Tree-graded spaces</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-72506320"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/">Expanded Outline (EO)</a>
+<ul class="children">
+	<li class="cat-item cat-item-81608986"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/contracting-elements/">contracting elements</a>
+</li>
+	<li class="cat-item cat-item-84249621"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/graph-manifolds-in-products-of-trees/">graph manifolds in products of trees</a>
+</li>
+	<li class="cat-item cat-item-76881287"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/higher-dimensional-graph-manifolds/">higher-dimensional graph manifolds</a>
+</li>
+	<li class="cat-item cat-item-206790"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/projections/">projections</a>
+</li>
+	<li class="cat-item cat-item-73014300"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/quasi-hyperbolic-planes/">quasi-hyperbolic-planes</a>
+</li>
+	<li class="cat-item cat-item-75133271"><a href="https://alexsisto.wordpress.com/category/expanded-outline-eo/special-paths-in-graph-manifolds/">special paths in graph manifolds</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-142150844"><a href="https://alexsisto.wordpress.com/category/hyperbolicity-of-complexes/">hyperbolicity of complexes</a>
+</li>
+	<li class="cat-item cat-item-238"><a href="https://alexsisto.wordpress.com/category/just-for-fun/">Just for fun</a>
+</li>
+	<li class="cat-item cat-item-115202"><a href="https://alexsisto.wordpress.com/category/random-walks/">random walks</a>
+</li>
+	<li class="cat-item cat-item-80018083"><a href="https://alexsisto.wordpress.com/category/why-not-donating-your-paper-to-the-public-domain/">Why not donating your paper to the public domain?</a>
+</li>
+		</ul>
+</li><li id="linkcat-8435" class="widget-container widget_links"><h3 class="widget-title">Sites</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://people.maths.ox.ac.uk/sisto/" rel="me" target="_blank">My home page</a></li>
+<li><a href="http://ldtopology.wordpress.com/" target="_blank">Low Dimensional Topology blog</a></li>
+<li><a href="http://lamington.wordpress.com/" target="_blank">Danny Calegari's blog</a></li>
+<li><a href="http://gowers.wordpress.com/">Tim Gowers's blog</a></li>
+<li><a href="http://conan777.wordpress.com/" target="_blank">Conan Wu's blog</a></li>
+<li><a href="http://berstein.wordpress.com/">Bernstein seminar blog</a></li>
+
+	</ul>
+</li>
+		<li id="recent-posts-2" class="widget-container widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://alexsisto.wordpress.com/2013/12/11/bi-the-bestvina-bromberg-fujiwara-construction/">BI: the Bestvina-Bromberg-Fujiwara construction</a>
+						</li>
+					<li>
+				<a href="https://alexsisto.wordpress.com/2013/09/20/an-even-shorter-proof-that-curve-graphs-are-hyperbolic/">An even shorter proof that curve graphs are&nbsp;hyperbolic</a>
+						</li>
+					<li>
+				<a href="https://alexsisto.wordpress.com/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/">Hyperbolicity of the curve graph: the proof from The&nbsp;Book</a>
+						</li>
+					<li>
+				<a href="https://alexsisto.wordpress.com/2013/01/28/tracking-of-random-walks-with-geodesics/">Tracking of random walks with&nbsp;geodesics</a>
+						</li>
+					<li>
+				<a href="https://alexsisto.wordpress.com/2012/10/12/just-for-fun-genus-2-madness-in-bonn/">Just for fun: genus 2 madness in&nbsp;Bonn</a>
+						</li>
+				</ul>
+		</li>		<li id="archives-2" class="widget-container widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+			<li><a href="https://alexsisto.wordpress.com/2013/12/">December 2013</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2013/09/">September 2013</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2013/02/">February 2013</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2013/01/">January 2013</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/10/">October 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/07/">July 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/05/">May 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/03/">March 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/02/">February 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2012/01/">January 2012</a></li>
+	<li><a href="https://alexsisto.wordpress.com/2011/12/">December 2011</a></li>
+		</ul>
+		</li><li id="meta-2" class="widget-container widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://alexsisto.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://alexsisto.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://alexsisto.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="site-info">
+				<a href="https://alexsisto.wordpress.com/" title="Alex Sisto" rel="home">
+					Alex Sisto				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+								<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-d5c8c49ae00cb1fda4a374e597a83e68">
+	</div>
+	<div class="grofile-hash-map-50d462e104ac57ba2edc37b4e95f9af5">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/alexsisto.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/alexsisto.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/alexsisto.wordpress.com\/","postID":"549","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="30534918">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://alexsisto.wordpress.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="Alex Sisto">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d8c2316970"><input type="hidden" name="_wp_http_referer" value="/2013/02/08/hyperbolicity-of-the-curve-graph-the-proof-from-the-book/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/alexsisto.wordpress.com\/2013\/02\/08\/hyperbolicity-of-the-curve-graph-the-proof-from-the-book\/":549};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+		<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<link rel="stylesheet" id="all-css-0-3" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"30534918","siteName":"Alex Sisto","siteURL":"http:\/\/alexsisto.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyten","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/alexsisto.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F","themeURL":"https:\/\/wordpress.com\/themes\/twentyten\/","xhrURL":"https:\/\/alexsisto.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"c7a98c00dd\" \/>","referer":"https:\/\/alexsisto.wordpress.com\/2013\/02\/08\/hyperbolicity-of-the-curve-graph-the-proof-from-the-book\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/alexsisto.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F","postID":"549","shortlink":"http:\/\/wp.me\/p247wG-8R","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/alexsisto.wordpress.com\/549","statsLink":"https:\/\/wordpress.com\/stats\/post\/549\/alexsisto.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Twenty Ten","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 26 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/alexsisto.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/alexsisto.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"40da2c19f8","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/alexsisto.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F","blog_id":"30534918","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=30534918&v=wpcom&tz=0&user_id=0&subd=alexsisto","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJx9j0sOwjAMRC9EaiFaxAZxlpAa6pAfdlLg9qQShS5QV7ZmPM82PJIyMWQMGaxAjyMZTM/GygYWli8quXKlIODohgL3ggUHHXqHPA9TMK701awgE72vQcWY3KvxFFaIuq++OmsGryUj107FEZlpgn21NYLJFMNE+Hb/jpL0u2Op2/oNvz6lWU792WU0xyLowGJO2tzULKxkUpSsLk4TgwyaKVznWkMnf9y2h65r2/2us2/zZZX/"></script><div id="actionbar" class="actnbr-pub-twentyten actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://alexsisto.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> Alex Sisto</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://alexsisto.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://alexsisto.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Falexsisto.wordpress.com%2F2013%2F02%2F08%2Fhyperbolicity-of-the-curve-graph-the-proof-from-the-book%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/p247wG-8R">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "alexsisto.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'30534918','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'30534918','v':'wpcom','tz':'0','user_id':'0','post':'549','subd':'alexsisto'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdTdvUG14Q2VDQTR4LlUsLi82dU1mai9BMkM9QjRQOXBLb118UjRaLGxaRTZxNUJGa3BRVVpnK0FEalpwc19kcjQyR1R1VVcyYV9JS3BTQXdTMCtbWWJxa0FGMW80MCtEZHl1a3FZVGtGcVNnWk5zcnl1OUFBcU5aclFVdDVfLVtHZzV8LHM9ZmpldlFYb35bTk9DLU1IN0IsX2JlT1tQLisyVUxEJWU2OWlOVDhQcnVqM2hodno0WUMlSVhNL1p4T2J0en5uZVVIYyZOVyxCQXIsLWxVcU5URXxiVV0lV2JxYTY2a35vaVA='}]);
+_stq.push([ 'clickTrackerInit', '30534918', '549' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+<iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://alexsisto.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe></body></html>

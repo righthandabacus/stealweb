@@ -1,0 +1,733 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rehearsals | The Vaidya's Oath</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://thevaidyasoath.wordpress.com/xmlrpc.php">
+
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="The Vaidya's Oath » Feed" href="https://thevaidyasoath.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Vaidya's Oath » Comments Feed" href="https://thevaidyasoath.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="The Vaidya's Oath » Rehearsals Comments Feed" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/feed/">
+	<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s0.wp.com/_static/??-eJx9j9EOwiAMRX9IbNS5+GL8FmDNxkaBrJC5v5dJ1OjMXpq2uae3F6YgtHcRXQRKItjUGscwBe1JMBmL88+018w7+I9ZMyBDjzFIPYjntJIr69uPjx8b2TC01itpt05rP2LeU5BxURA2RqJFyrItjEL9opa2y39tJihRlQojMotcySQSsctGm1ymlldKZsjC701BDTgfTab53axuFisISUGHdwkcZ4uL6kbXQ3U5Vqfzqar7B64ipLc=" type="text/css" media="all">
+<link rel="stylesheet" id="hexa-source-sans-pro-css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic&amp;ver=4.6.1-RC1-38499" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="https://s0.wp.com/_static/??-eJx9jcEKwjAQRH/IuBQi6kH8ljSsaWSzG5INrX9vemspepth3mNgzsYLK7JCaiZTC5ErBGQssQ8/4tnXeoKNqxMmrJDbCBMuDiJ7qPohNHP2kg787ksMiXcahXfFvMjF8k8tOJKEHgN0alNX6Zkeg73crb1dB/v+Ao7zVtw=" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-3-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4-1" href="https://s1.wp.com/_static/??-eJx9i9EKwjAMRX/IGsc22Iv4LVnp2kialCbD3xcfRIbi0z0XzoFHC1HFkzjUPTTeM4kBRieVFfuHztHsBL/1puZhY6QOVrCT5Pf+q0wjIQfWrMfzFXlJNRmUCTLrivwSbvU6TMs8j8swXu5PxW1Jsg==" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFzt0KwjAMBeAXsiv+Tb0Qn6WrcaQuaW1Shz69HeiFMBQCgZyPQ+yYDLIfyhnEhjq3AvnxXk2Qhf0FDGGfnUJDyB/sIyuwTpZihwOYIpBdX2+16BJnXIqiBCIVzaTfLyHfEca/LIAm568mg+Bzaj3Rcblp2+1qfdjtwws0V1vd"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thevaidyasoath.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="An observation" href="https://thevaidyasoath.wordpress.com/2016/02/01/an-observation/">
+<link rel="next" title="Performances" href="https://thevaidyasoath.wordpress.com/2016/03/18/performances/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/">
+<link rel="shortlink" href="http://wp.me/p6zTQW-26">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Rehearsals">
+<meta property="og:url" content="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/">
+<meta property="og:description" content="A few observations before doing the get-in, starting technical rehearsals: It hasn’t been ideal rehearsing without the writer being present, especially with the 13 hour time difference betwee…">
+<meta property="article:published_time" content="2016-03-07T03:05:44+00:00">
+<meta property="article:modified_time" content="2016-03-07T03:05:44+00:00">
+<meta property="og:site_name" content="The Vaidya's Oath">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://thevaidyasoath.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://thevaidyasoath.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://thevaidyasoath.wordpress.com/osd.xml" title="The Vaidya's Oath">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="The Vaidya's Oath"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="A theatre project on antibiotic resistance, supported by a Wellcome Trust International Engagement Award"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://thevaidyasoath.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="Rehearsals | The Vaidya's Oath on WordPress.com">
+<meta name="description" content="A few observations before doing the get-in, starting technical rehearsals: It hasn't been ideal rehearsing without the writer being present, especially with the 13 hour time difference between LA (where Gautam is) and Bangalore. Visits to NCBS to talk to scientists and to a local Primary Health Centre were useful. The 'open rehearsal' we did…">
+			<style type="text/css" id="hexa-custom-background-css">
+							body.custom-background,
+				.custom-background .wp-caption {
+					background-color: #e9e7e3				}
+				.custom-background img.alignleft,
+				.wp-caption.alignleft,
+				img.alignright,
+				.wp-caption.alignright,
+				.author-archives-img,
+				.comment-author .avatar-wrapper {
+					border-top-color: #e9e7e3;
+					border-bottom-color: #e9e7e3;
+				}
+								</style>
+			<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'thevaidyasoath.wordpress.com',
+				pageURL: 'https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-130 single-format-standard mp6 customizer-styles-applied group-blog widgets-hidden highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+			<div id="menu-toggle-nav" class="panel">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			<div class="menu"><ul><li><a href="https://thevaidyasoath.wordpress.com/">Home</a></li><li class="page_item page-item-1"><a href="https://thevaidyasoath.wordpress.com/about/">About</a></li><li class="page_item page-item-124"><a href="https://thevaidyasoath.wordpress.com/school-shows/">School Shows</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+	</div>
+			<div id="sidebar-toggle-nav" class="panel">
+	<div class="widget-areas">
+					<div class="widget-area">
+				<aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://thevaidyasoath.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/25/tvo-video/">TVO Video</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/18/performances/">Performances</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/">Rehearsals</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/02/01/an-observation/">An observation</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2015/12/07/interim-view-from-back-in-the-uk/">Interim view from back in the&nbsp;UK</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href="https://thevaidyasoath.wordpress.com/2016/03/">March 2016</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2016/02/">February 2016</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/12/">December 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/11/">November 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/09/">September 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/08/">August 2015</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-689429"><a href="https://thevaidyasoath.wordpress.com/category/script-development/">Script development</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://thevaidyasoath.wordpress.com/category/uncategorized/">Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://thevaidyasoath.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://thevaidyasoath.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://thevaidyasoath.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</aside>			</div>
+							<div class="widget-area">
+				<aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://thevaidyasoath.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+</aside>		<aside id="recent-posts-3" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/25/tvo-video/">TVO Video</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/18/performances/">Performances</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/">Rehearsals</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2016/02/01/an-observation/">An observation</a>
+						</li>
+					<li>
+				<a href="https://thevaidyasoath.wordpress.com/2015/12/07/interim-view-from-back-in-the-uk/">Interim view from back in the&nbsp;UK</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-3" class="widget widget_recent_comments"><h1 class="widget-title">Recent Comments</h1></aside><aside id="archives-3" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<ul>
+			<li><a href="https://thevaidyasoath.wordpress.com/2016/03/">March 2016</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2016/02/">February 2016</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/12/">December 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/11/">November 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/09/">September 2015</a></li>
+	<li><a href="https://thevaidyasoath.wordpress.com/2015/08/">August 2015</a></li>
+		</ul>
+		</aside><aside id="categories-3" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-689429"><a href="https://thevaidyasoath.wordpress.com/category/script-development/">Script development</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://thevaidyasoath.wordpress.com/category/uncategorized/">Uncategorized</a>
+</li>
+		</ul>
+</aside><aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://thevaidyasoath.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://thevaidyasoath.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://thevaidyasoath.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</aside>			</div>
+					</div>
+</div>			<div id="search-toggle-nav" class="panel">
+		<div class="search-wrapper">
+			<form role="search" method="get" class="search-form" action="https://thevaidyasoath.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+		</div>
+	</div>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-wrapper">
+			<div class="site-branding">
+				<h1 class="site-title"><a href="https://thevaidyasoath.wordpress.com/" rel="home">The Vaidya's Oath</a></h1>
+				<h2 class="site-description">A theatre project on antibiotic resistance, supported by a Wellcome Trust International Engagement Award</h2>
+			</div>
+			<div class="toggles">
+			<div id="menu-toggle" class="toggle" title="Menu">
+				<span class="screen-reader-text">Menu</span>
+			</div><!-- #menu-toggle -->
+							<div id="sidebar-toggle" class="toggle" title="Widgets">
+					<span class="screen-reader-text">Widgets</span>
+				</div><!-- #sidebar-toggle -->
+									<div id="search-toggle" class="toggle" title="Search">
+				<span class="screen-reader-text">Search</span>
+			</div><!-- #search-toggle -->
+		</div><!-- .toggles -->
+		</div>
+	</header><!-- #masthead -->
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-130" class="post-130 post type-post status-publish format-standard hentry category-uncategorized">
+	<header class="entry-header">
+					<span class="entry-format"></span>
+				<h1 class="entry-title">Rehearsals</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>A few observations before doing the get-in, starting technical rehearsals:</p>
+<p>It hasn’t been ideal rehearsing without the writer being present, especially with the 13 hour time difference between LA (where Gautam is) and Bangalore.</p>
+<p>Visits to NCBS to talk to scientists and to a local Primary Health Centre were useful.</p>
+<p>The ‘open rehearsal’ we did for some of the students who performed their own AMR plays at Jagriti was interesting – we even got some laughs!</p>
+<p>Discovering more about the AMR debate in India, and meetings&nbsp; some of those involved, has definitely fed-into rehearsals, at the very least to confirm our main points of concern.</p>
+<p>As director I’ve very much enjoyed working with a very talented bunch of actors (not forgetting the stage-manager). This must be about the twentieth Theatrescience project and they don’t get any easier. I suppose balancing the ‘science’ with the ‘art’ will never be exactly easy, but that, I suppose, is the point…</p>
+<p>&nbsp;</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-2129127571" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-2129127571');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-2129127571",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-2129127571'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-1377" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-1377" id="fif_slot_automattic-id-_automattic-id-1377" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-130" class="share-twitter sd-button share-icon" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-130" class="share-facebook sd-button share-icon" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-130" class="share-google-plus-1 sd-button share-icon" href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-97214198-130-5894d62f0d6c5" data-src="//widgets.wp.com/likes/#blog_id=97214198&amp;post_id=130&amp;origin=thevaidyasoath.wordpress.com&amp;obj_id=97214198-130-5894d62f0d6c5" data-name="like-post-frame-97214198-130-5894d62f0d6c5"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; opacity: 1;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-97214198-130-5894d62f0d6c5" height="55px" width="100%" frameborder="0" src="//widgets.wp.com/likes/#blog_id=97214198&amp;post_id=130&amp;origin=thevaidyasoath.wordpress.com&amp;obj_id=97214198-130-5894d62f0d6c5"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		<span class="post-date"><a href="https://thevaidyasoath.wordpress.com/2016/03/07/rehearsals/" title="3:05 am" rel="bookmark"><time class="entry-date" datetime="2016-03-07T03:05:44+00:00">March 7, 2016</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://thevaidyasoath.wordpress.com/author/jetstorme/" title="View all posts by Jeff Teare" rel="author">Jeff Teare</a></span></span>					</footer><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+				<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<div class="nav-previous"><a href="https://thevaidyasoath.wordpress.com/2016/02/01/an-observation/" rel="prev"><span class="meta-nav screen-reader-text">←</span></a></div><div class="nav-next"><a href="https://thevaidyasoath.wordpress.com/2016/03/18/performances/" rel="next"><span class="meta-nav screen-reader-text">→</span></a></div>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+					<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2016/03/07/rehearsals/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://thevaidyasoath.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2016/03/07/rehearsals/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: normal; width: 632px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 36px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Fthevaidyasoath.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="130" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="85fb008390"></p>
+<input type="hidden" name="genseq" value="1486149167">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149168339"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+						<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script><iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://thevaidyasoath.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/thevaidyasoath.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/thevaidyasoath.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/thevaidyasoath.wordpress.com\/","postID":"130","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/thevaidyasoath.wordpress.com\/2016\/03\/07\/rehearsals\/":130};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+		<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"97214198","siteName":"The Vaidya's Oath","siteURL":"http:\/\/thevaidyasoath.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/hexa","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/thevaidyasoath.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F","themeURL":"https:\/\/wordpress.com\/themes\/hexa\/","xhrURL":"https:\/\/thevaidyasoath.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"7bef90f511\" \/>","referer":"https:\/\/thevaidyasoath.wordpress.com\/2016\/03\/07\/rehearsals\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/thevaidyasoath.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F","postID":"130","shortlink":"http:\/\/wp.me\/p6zTQW-26","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/thevaidyasoath.wordpress.com\/130","statsLink":"https:\/\/wordpress.com\/stats\/post\/130\/thevaidyasoath.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Hexa","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/thevaidyasoath.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJyVkOFuwyAMhF+o1JqWVPsz7VkIcRInYCiGtH37gqZF7SZF3S+s892nM3AJynhOyAlmgR5XMhiux1kO8LByWQWbR2IBSwsKnDNmnDT3FuOO2XjniqS+Q3NNdyAXCvif0JPwO5gmdMUWcgcTXnX1s15p1Ik8v2Au5PwKVBYKpQEvavAmixpo+yViY3P/3DVisLejoz8VHg7VfdmrTkdwWhLGMim/YoxUYZu2RzD1ykrYph138JLUYDVFkElH4vHnLaEv9/nWfLRt05ze2/kOfVnIJw=="></script><div id="actionbar" class="actnbr-pub-hexa actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://thevaidyasoath.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> The Vaidya's Oath</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://thevaidyasoath.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://thevaidyasoath.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fthevaidyasoath.wordpress.com%2F2016%2F03%2F07%2Frehearsals%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/p6zTQW-26">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "thevaidyasoath.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'97214198','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'97214198','v':'wpcom','tz':'0','user_id':'0','post':'130','subd':'thevaidyasoath'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRREQ/V0xPZ1hKXy9CSmVNcUo0W1luTGlqVm5GVksuM0ZIJktjT211bkduWCVdZUs5ZVs9cXlRNjZaZVNmLnpYSTV0aV1pcHpxMWVqLlIvUUNoUjY1anNWZzV8Y3d0R3Q5P2p4aEFBM3FyK3crZnlFRGtrL0EvN050UVU0ZVUsSzVoNmJsMEgtel0mPUljTDNSNyxIL0MzZkxjRj1zLk1MZlFWMl9YWUtZP3g9VEZuSS5iTzV3anNSUzNnekFmQ2QyUXhTXUJVN1F2K0dZUkkuUFlGYWhtdmpXVk9Oam1L'}]);
+_stq.push([ 'clickTrackerInit', '97214198', '130' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+<div class="comment-likes-overlay" style="display: none;"></div></body></html>

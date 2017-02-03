@@ -1,0 +1,464 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Machine Learning for Everyday Tasks</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="alternate" type="application/rss+xml" title="Mailgun Blog" href="http://blog.mailgun.com/rss">
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- For syntax highlighting -->
+  <script type="text/javascript" async="" src="//s.swiftypecdn.com/cc.js"></script><script type="text/javascript" async="" src="//s.swiftypecdn.com/assets/swiftype_nocode-aaedb6772bb53c7dcdd30b0bbc989a10.js"></script><script type="text/javascript" async="" src="http://tag.perfectaudience.com/serve/520a66ce3f8859cf5b0000a3.js"></script><script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js"></script><script type="text/javascript" async="" src="//s.swiftypecdn.com/install/c/widget.js?install=CZx41_WaXVwnryu-eJ5Y"></script><script async="" src="//s.swiftypecdn.com/install/v1/st.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KX86FZ"></script><script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+  <link rel="stylesheet" href="/assets/css/monokai-sublime.css?v=0fa17d8ac1" type="text/css">
+
+  <link rel="shortcut icon" href="/assets/images/favicon.ico?v=0fa17d8ac1">
+
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu+Mono|Open+Sans:400italic,600italic,400,700,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/assets/css/master.css?v=0fa17d8ac1" type="text/css">
+  <link rel="stylesheet" href="/assets/css/tipsy.css?v=0fa17d8ac1" type="text/css">
+
+  <link rel="canonical" href="http://blog.mailgun.com/machine-learning-for-everyday-tasks/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="http://blog.mailgun.com/machine-learning-for-everyday-tasks/amp/">
+    
+    <meta property="og:site_name" content="Mailgun Blog - Email Deliverability, Engineering, APIs, Code">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Machine Learning for Everyday Tasks">
+    <meta property="og:description" content="Machine learning is often thought to be too complicated for everyday development tasks.  We often associate it with things like big data, data mining, data science, and artificial intelligence.  Sometimes it feels something like this:       Machine Learning is hard   I have always felt like we can benefit from using machine">
+    <meta property="og:url" content="http://blog.mailgun.com/machine-learning-for-everyday-tasks/">
+    <meta property="article:published_time" content="2016-10-05T20:24:03.000Z">
+    <meta property="article:modified_time" content="2016-10-05T20:24:03.000Z">
+    <meta property="article:tag" content="machine learning mailgun">
+    <meta property="article:tag" content="machine learning">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Machine Learning for Everyday Tasks">
+    <meta name="twitter:description" content="Machine learning is often thought to be too complicated for everyday development tasks.  We often associate it with things like big data, data mining, data science, and artificial intelligence.  Sometimes it feels something like this:       Machine Learning is hard   I have always felt like we can benefit from using machine">
+    <meta name="twitter:url" content="http://blog.mailgun.com/machine-learning-for-everyday-tasks/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Sergey Obukhov">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="machine learning mailgun, machine learning">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Mailgun Blog - Email Deliverability, Engineering, APIs, Code",
+        "logo": "http://blog.mailgun.com/content/images/2014/Jun/Mailgun_Icon.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Sergey Obukhov",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/454cace4a496e1f76223e7be274b7442?d=404&s=250",
+            "width": 250,
+            "height": 250
+        },
+        "url": "http://blog.mailgun.com/author/sergey-obykhov/",
+        "sameAs": [],
+        "description": "Software Developer"
+    },
+    "headline": "Machine Learning for Everyday Tasks",
+    "url": "http://blog.mailgun.com/machine-learning-for-everyday-tasks/",
+    "datePublished": "2016-10-05T20:24:03.000Z",
+    "dateModified": "2016-10-05T20:24:03.000Z",
+    "keywords": "machine learning mailgun, machine learning",
+    "description": "Machine learning is often thought to be too complicated for everyday development tasks.  We often associate it with things like big data, data mining, data science, and artificial intelligence.  Sometimes it feels something like this:       Machine Learning is hard   I have always felt like we can benefit from using machine",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://blog.mailgun.com"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11">
+    <link rel="alternate" type="application/rss+xml" title="Mailgun Blog - Email Deliverability, Engineering, APIs, Code" href="http://blog.mailgun.com/rss/">
+
+   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+   <!--[if lt IE 9]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+
+<script type="text/javascript" async="" src="//mailgun.disqus.com/embed.js"></script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><link rel="stylesheet" type="text/css" href="//s.swiftypecdn.com/assets/swiftype_nocode-cb4f5338e91a3b6de62b9ec752f79caa.css"></head>
+<body class="post-template tag-machine-learning-mailgun tag-machine-learning">
+
+<header id="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="http://www.mailgun.com" class="hidden-xs desktop-logo"><img src="/assets/images/header-logo@2x.png?v=0fa17d8ac1" alt="Mailgun"></a>
+      <a href="http://www.mailgun.com" class="visible-xs mobile-logo"><img src="/assets/images/mailgun-mark-red.svg?v=0fa17d8ac1" alt="Mailgun"></a>
+    </div>
+    <div class="site-description">
+      <div class="hidden-xs-min">Musings and writings from the <a href="http://mailgun.com">Mailgun</a> team</div>
+      <div class="visible-xs-min">Writings from the <a href="http://mailgun.com">Mailgun</a> team</div>
+    </div>
+    <div class="search">
+      <div class="toggle-icon" data-toggle="search">
+        <i class="icon-search"></i>
+        <i class="icon-close"></i>
+      </div>
+    </div>
+
+    <div class="header-menu">
+      <form class="searchform clearfix">
+        <div class="input-container">
+          <input type="text" id="st-search-input" placeholder="Search for articles" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;">
+        </div>
+        <button class="submit"><i class="icon-search"></i></button>
+      </form>
+      <section id="st-results-container"></section>
+      <a href="http://mailgun.com" class="return">Return to mailgun.com</a>
+    </div>
+  </div> <!-- .container -->
+</header>
+
+
+<div class="page-content">
+
+<!--
+  <a href="#" class="post-nav prev">
+    <i class="icon-post-nav-carets"></i>
+    <span class="label">&lsaquo; Older</span>
+  </a>
+  <a href="#" class="post-nav next">
+    <i class="icon-post-nav-carets"></i>
+    <span class="label">Newer &rsaquo;</span>
+  </a>
+-->
+
+  <div class="container">
+    <article class="blog-post">
+	      <div class="category-icon">
+		      	<a href="http://blog.mailgun.com/tag/machine-learning-mailgun/">
+	        	<i class="category-icon-machine learning mailgun tipsy" original-title="Tagged as: machine learning mailgun"></i>
+	      	</a>
+	      </div>
+	      <div class="category-icon">
+		      	<a href="http://blog.mailgun.com/tag/machine-learning/">
+	        	<i class="category-icon-machine learning tipsy" original-title="Tagged as: machine learning"></i>
+	      	</a>
+	      </div>
+
+      <h1 class="post-title smaller">Machine Learning for Everyday Tasks</h1>
+
+      <div class="byline">
+        by Sergey Obukhov on October 05 2016
+      </div>
+
+      <div class="clearfix">
+        <div class="post-body">
+          <!-- start post content -->
+      <p>Machine learning is often thought to be too complicated for everyday development tasks.  We often associate it with things like big data, data mining, data science, and artificial intelligence.  Sometimes it feels something like this:</p>
+
+<p>  
+<img src="/content/images/2016/09/ml.jpg" alt="artificial intelligence">
+<br>  
+<b>Machine Learning is hard</b>  
+</p>
+
+<p>I have always felt like we can benefit from using machine learning for simple tasks that we do regularly.</p>
+
+<h2 id="reallifeexample">Real life example</h2>
+
+<p>At Mailgun, we work with e-mail and as part of our offering, we parse HTML quotations.  This allows a user to grab the latest reply instead of the entire conversation, which is returned as part of our webhook response.  You can read more about how we handle inbound message processing in our <a href="https://documentation.mailgun.com/user_manual.html#receiving-forwarding-and-storing-messages">documentation</a></p>
+
+<p>For those of you who don't know, here's what parsing HTML from the public Internet looks like:</p>
+
+<p>  
+<img src="/content/images/2016/09/jeep.png" alt="driving offroad">
+<br>  
+<b>Parsing HTML from public internet</b>  
+</p>
+
+<p>It's messy and sometimes processes get stuck. </p>
+
+<p>Changing the parsing library can help, but it won't solve the issue completely because every library has its limitations. You have to restrict the parsing to something reasonable.</p>
+
+<h2 id="clusteranalysistotherescue">Cluster analysis to the rescue</h2>
+
+<p>But what should the criteria and threshold be? Should we limit by HTML length or tag count? Maybe both? Maybe by something else? The objective obviously is to process as many messages as possible without shooting yourself in the foot, but the path isn't super obvious.</p>
+
+<p>That's where cluster analysis and statistical classification become handy. For the research I was using <a href="https://www.r-project.org/">R</a>, but depending on your task and personal preferences you might use something else - <a href="http://scikit-learn.org/stable/">scikit-learn</a>, <a href="http://www.cs.waikato.ac.nz/ml/weka/">Weka</a>, <a href="http://moa.cms.waikato.ac.nz/">MOA</a>, etc.</p>
+
+<h2 id="collectadataset">Collect a dataset</h2>
+
+<p>First, we logged HTML length, tags count, message processing time and put them into a csv file:</p>
+
+<pre class=" hljs "><code>htmllen,tagscount,took  
+2893762,85527,34.300139904  
+31378,518,0.0368919372559  
+19105,413,0.0545339584351  
+...
+</code></pre>
+
+<p>The vast majority of messages take fractions of a second to process. So, when collecting the dataset, we had to make sure that we have enough "slow" messages.</p>
+
+<p>We ended up with two csv files, collected on different days. One had 13831 lines and was reserved for analysis and model-training (<strong>the train dataset</strong>). Another had 12149 lines and was reserved for model validation (<strong>the validation dataset</strong>).</p>
+
+<p>Generally you want to have at least two datasets - one for training and one for validation. Otherwise you might run into <strong>overfitting</strong> problem, when your model is well adjusted to the train data but fails in the real world.</p>
+
+<h2 id="determinethenumberofclusters">Determine the number of clusters</h2>
+
+<p>To visualize the data and look for patterns <a href="http://www.statmethods.net/advstats/cluster.html">k-means clustering</a> was first tried:</p>
+
+<pre class="lang:r decode:true r hljs php">  
+messages &lt;- read.csv(file=<span class="hljs-string">"messages080816.csv"</span>, sep=<span class="hljs-string">","</span>, head=<span class="hljs-keyword">TRUE</span>)  
+mydata &lt;- matrix(messages<span class="hljs-variable">$took</span>, ncol=<span class="hljs-number">1</span>)
+
+<span class="hljs-comment">## Determine the number of clusters</span>
+wss &lt;- (nrow(mydata)-<span class="hljs-number">1</span>)*sum(apply(mydata,<span class="hljs-number">2</span>,<span class="hljs-keyword">var</span>))  
+<span class="hljs-keyword">for</span> (i in <span class="hljs-number">2</span>:<span class="hljs-number">15</span>) wss[i] &lt;- sum(kmeans(mydata,  
+      centers=i)<span class="hljs-variable">$withinss</span>)
+plot(<span class="hljs-number">1</span>:<span class="hljs-number">15</span>, wss, type=<span class="hljs-string">"b"</span>, xlab=<span class="hljs-string">"Number of Clusters"</span>,  
+  ylab=<span class="hljs-string">"Within groups sum of squares"</span>)
+</pre>
+
+<p><img src="/content/images/2016/09/nclusters.png" alt="datapoints proximity within clusters for different number of clusters"></p>
+
+<p>As you can see there is a significant performance improvement up to 4 clusters. After that there is no real boost.</p>
+
+<h2 id="clustering">Clustering</h2>
+
+<p>The next step was to figure out how the data points get distributed between the clusters:</p>
+
+<pre class="lang:R decode:true R hljs php">  
+<span class="hljs-comment">## K-Means Clustering with 4 clusters</span>
+fit &lt;- kmeans(mydata, <span class="hljs-number">4</span>)  
+<span class="hljs-comment">## Cluster Plot against 1st 2 principal components</span>
+<span class="hljs-comment">## vary parameters for most readable graph</span>
+library(cluster)  
+clusplot(mydata, fit<span class="hljs-variable">$cluster</span>, color=<span class="hljs-keyword">TRUE</span>, shade=<span class="hljs-keyword">TRUE</span>,  
+      labels=<span class="hljs-number">2</span>, lines=<span class="hljs-number">0</span>)
+</pre>
+
+<p><img src="/content/images/2016/09/clusplot.png" alt="clusters plot"></p>
+
+<p>And you can somewhat anticipate the problem already: the clusters form by nipping off the datapoints that are far away, while the interval we're interested in (1-20 sec) is in the very midst. The issue persists with increasing the number of clusters.</p>
+
+<p>Moreover there is a significant overlap between the clusters in the interval:</p>
+
+<pre class="lang:r decode:true r hljs php">  
+<span class="hljs-comment">## get clusters mean, min, max</span>
+mean &lt;- aggregate(mydata,by=<span class="hljs-keyword">list</span>(fit<span class="hljs-variable">$cluster</span>),FUN=mean)  
+min &lt;- aggregate(mydata,by=<span class="hljs-keyword">list</span>(fit<span class="hljs-variable">$cluster</span>),FUN=min)  
+max &lt;- aggregate(mydata,by=<span class="hljs-keyword">list</span>(fit<span class="hljs-variable">$cluster</span>),FUN=max)  
+</pre>
+
+<p><img src="/content/images/2016/09/clusters.png" alt="clusters ranges"></p>
+
+<p>Compare clusters number 1 and 4. The issue persists with increasing the number of clusters.</p>
+
+<p>At this point, we decided to try a different approach and look at the percentiles for message processing time:</p>
+
+<pre class="lang:r decode:true r hljs perl">  
+percentiles &lt;- quantile(messages<span class="hljs-variable">$took</span>, se<span class="hljs-string">q(0.5, 0.99, 0.01)</span>)  
+plot(se<span class="hljs-string">q(0.5, 0.99, 0.01)</span>, percentile)  
+</pre>
+
+<p><img src="/content/images/2016/09/tookpercentiles.png" alt="percentiles for message processing time"></p>
+
+<p>As you can see, after the 78th percentile the processing time quickly bubbles up.  Here was our first threshold - 78th percentile that corresponded to 6.5 seconds.</p>
+
+<p>All datapoints that took less than 6.5 sec were marked as “fast” and others as “slow”.</p>
+
+<h2 id="classification">Classification</h2>
+
+<p>For classification we tried <a href="https://en.wikipedia.org/wiki/Support_vector_machine">SVM</a> (Support Vector Machines), <a href="http://www.statmethods.net/advstats/cart.html">Random Forests</a> and <a href="http://www.statmethods.net/advstats/cart.html">CART</a> (Classification And Regression Tree).</p>
+
+<p>CART showed slightly better results for this task but its main advantage is that it gives you a decision tree that is easy to understand, explain and implement vs SVM or Random Forests that work like a black box and require using heavy ML libraries in production.</p>
+
+<p>Here's how you classify using CART:</p>
+
+<pre class="lang:r decode:true r hljs nginx">  
+<span class="hljs-title">x</span> &lt;- subset(messages, <span class="hljs-built_in">select</span>=-took)  
+library(rpart)  
+<span class="hljs-comment"># grow tree </span>
+fit &lt;- rpart(x<span class="hljs-variable">$cls</span> ~., method=<span class="hljs-string">"class"</span>, data=x)  
+<span class="hljs-comment">## display the results </span>
+printcp(fit)  
+<span class="hljs-comment"># detailed summary of splits</span>
+summary(fit)  
+<span class="hljs-comment"># plot tree </span>
+plot(fit, uniform=TRUE,  
+      main=<span class="hljs-string">"Classification Tree for message processing time"</span>)
+text(fit, use.n=TRUE, all=TRUE, cex=.<span class="hljs-number">8</span>)  
+</pre>
+
+<p>Here's the decision tree:</p>
+
+<p><img src="/content/images/2016/09/tree.png" alt="decision tree"></p>
+
+<p>And that's how the implementation looks like:</p>
+
+<pre class="lang:python decode:true python hljs ">  
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">html_too_big</span><span class="hljs-params">(s)</span>:</span>  
+    <span class="hljs-keyword">return</span> s.count(<span class="hljs-string">'&lt;'</span>) &gt; _MAX_TAGS_COUNT
+</pre>
+
+<p>Isn't it beautiful? All the research complexity in a single line!</p>
+
+<h2 id="validation">Validation</h2>
+
+<p>For evaluation we took the validation dataset and tried to predict the classification using our model:</p>
+
+<pre class="lang:r decode:true r hljs nginx">  
+<span class="hljs-title">validate</span> &lt;- read.csv(file=<span class="hljs-string">"messages080916.csv"</span>, sep=<span class="hljs-string">","</span>, head=TRUE)  
+validate &lt;- subset(validate, <span class="hljs-built_in">select</span>=-took)  
+xv &lt;- subset(validate, <span class="hljs-built_in">select</span>=-cls)  
+y &lt;- predict(fit, xv, type=<span class="hljs-string">"class"</span>)  
+table(validate<span class="hljs-variable">$cls</span>, y)  
+</pre>
+
+<p>Here's the confusion matrix and some <a href="http://blog.revolutionanalytics.com/2016/03/com_class_eval_metrics_r.html">common classification metrics</a>:</p>
+
+<p><img src="/content/images/2016/09/evaluate.png" alt="confusion matrix and metrics"></p>
+
+<h2 id="lessonslearned">Lessons Learned</h2>
+
+<p>Machine learning is not just for data scientists. Even simple decisions powered by ML can benefit you. Know your data. Do not rely blindly on scientific algorithms and models.</p>
+
+<h2 id="usefullinks">Useful links</h2>
+
+<ul>
+<li>Great explanation of a <a href="http://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set">train-validate-test</a> workflow</li>
+<li>Quick guide on <a href="http://www.statmethods.net/advstats/cart.html">CART</a> and <a href="http://www.statmethods.net/advstats/cart.html">Random Forests</a> in R</li>
+<li>Quick guide on <a href="http://www.statmethods.net/advstats/cluster.html">Cluster Analysis</a> in R</li>
+<li>How to <a href="http://www.cyclismo.org/tutorial/R/plotting.html">plot</a> in R</li>
+<li>Some <a href="http://blog.revolutionanalytics.com/2016/03/com_class_eval_metrics_r.html">common classification metrics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Precision_and_recall">Precision</a> and <a href="https://en.wikipedia.org/wiki/Precision_and_recall">Recall</a> explained</li>
+</ul>
+
+<p>Happy machine learning and data mining!</p>
+          <!-- end post content -->
+
+          <div class="share-links">
+            <a href="http://twitter.com/share?text=Machine%20Learning%20for%20Everyday%20Tasks&amp;url=http://blog.mailgun.com/machine-learning-for-everyday-tasks/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="icon-twitter"></i> Share on Twitter</a>
+            <a href="http://www.facebook.com/sharer/sharer.php?u=http://blog.mailgun.com/machine-learning-for-everyday-tasks/"><i class="icon-facebook"></i> Share on Facebook</a>
+          </div>
+
+          <div class="post-author">
+            <a href=""><img src="//www.gravatar.com/avatar/454cace4a496e1f76223e7be274b7442?d=404&amp;s=250" alt="Sergey Obukhov" class="author-avatar"></a>
+            <h3>Sergey Obukhov</h3>
+            <p>Software Developer</p>
+          </div>
+        </div> <!-- .post-body -->
+
+        <div class="post-sidebar">
+          <h4>About us</h4>
+          <p>Mailgun is a simple and powerful API that enables you to send, receive, and track email effortlessly.</p>
+          <p><a href="http://mailgun.com" class="rounded-block rounded-block-full">Visit Mailgun</a></p>
+        </div>
+
+      </div> <!-- .clearfix for two-column desktop blog layout -->
+    </article>
+
+    <div class="post-comments">
+      <!-- <div class="disqus-container"> put disqus code here </div> -->
+
+   <div id="disqus_thread"><iframe id="dsq-app1" name="dsq-app1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;version=e4d6b825474d970581f8906da3f0481c&amp;f=mailgun&amp;t_u=http%3A%2F%2Fblog.mailgun.com%2Fmachine-learning-for-everyday-tasks%2F&amp;t_d=Machine%20Learning%20for%20Everyday%20Tasks&amp;t_t=Machine%20Learning%20for%20Everyday%20Tasks&amp;s_o=default" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 718px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mailgun'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+    
+    </div>
+  </div> <!-- .container -->
+</div>
+
+<div id="email-subscribe-floater">
+  <h3>
+    <img src="/assets/images/mailgun-mark-red.svg" alt="Mailgun">
+    Get posts by email
+  </h3>
+  <p>Like what you're reading? Get these posts delivered to your inbox.</p>
+  <form accept-charset="UTF-8" action="https://www.sendicate.net/subscribe/8g7ku5" method="post" class="email-subscribe-form">
+    <input type="email" id="subscriber_email" name="subscriber[email]" placeholder="your@email.com">
+    <div id="mgsubscribe_validate_status"></div>
+    <button type="submit" name="subscribe" id="mailgun_subscribe_btn" class="btn">Subscribe</button>
+    <small>No spam, ever.</small>
+  </form>
+</div>
+
+
+
+<footer id="site-footer">
+  <div class="container">
+    <p><a href="http://rackspace.com" class="logo"><img src="/assets/images/rackspace-footer-logo@2x.png?v=0fa17d8ac1" alt="Rackspace"></a></p>
+    <p class="copyright">© 2017 Rackspace, US Inc.</p>
+    <p><i class="icon-heart"></i> Made in San Francisco, CA</p>
+  </div>
+</footer>
+
+<!-- You can safely delete this line if your theme does not require jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script src="/assets/js/master.min.js?v=0fa17d8ac1"></script>
+<script type="text/javascript">
+ $(function() {
+   $('.tipsy').tipsy({fade: true, gravity: 's'});
+ });
+ $(document).ready(function() {
+   if($("body").hasClass("archive-template")) {
+    $(".index-all").hide();
+    $(".navigate-archives").show();
+   };
+ });
+</script>
+
+<!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-KX86FZ"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX86FZ');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Swiftype search -->
+<script type="text/javascript">
+  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+  (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+  e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+  })(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
+
+  _st('install','CZx41_WaXVwnryu-eJ5Y');
+</script>
+<!-- End Swiftype -->
+
+
+<iframe style="display: none;"></iframe><script type="text/javascript" id="">try{var bamGAID="UA-16849338-1",bamGAcrossDomains=["mailgun.com"],_bamGA=_bamGA||{};_bamGA.getDomain=function(a){return a.replace(/^https?\:\/\//i,"").split("/")[0].split(".").reverse()[1]+"."+a.replace(/^https?\:\/\//i,"").split("/")[0].split(".").reverse()[0]};_bamGA.getFromURL=function(a,b){b=b.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var c=RegExp("[\\?\x26]"+b+"\x3d([^\x26#]*)","i"),c="undefined"!=typeof a?c.exec(a):c.exec(window.location.href);return null==c?void 0:decodeURIComponent(c[1].replace(/\+/g,
+" "))};_bamGA.accountMain=bamGAID;_bamGA.delay=300;_bamGA.hostname=window.location.hostname;_bamGA.uri=window.location.pathname;_bamGA.thisDomain=_bamGA.getDomain(_bamGA.hostname);_bamGA.cookieDomain="."+_bamGA.thisDomain;_bamGA.thisDomainMatch=RegExp(_bamGA.thisDomain,"i");var ca=[],linkServer,linkDomain,inDomains,isThisDomain,_gaq=_gaq||[];_bamGA.ELA&&_bamGA.track(["_require","inpage_linkid","//www.google-analytics.com/plugins/ga/inpage_linkid.js"]);_gaq.push(["_setAccount",_bamGA.accountMain],
+["_setDomainName",_bamGA.cookieDomain],["_setAllowLinker",!0],["_setAllowAnchor",!0]);if("undefined"==typeof bamGAcrossDomains)var bamGAcrossDomains=[],bamGAcross=!1;else bamGAcross=!0;if("undefined"!==typeof pageLoadVars){pageLoadVars.visitor_type&&_gaq.push(["_setCustomVar",1,"Visitor_Type",pageLoadVars.visitor_type,1]);pageLoadVars.customer_type&&_gaq.push(["_setCustomVar",2,"Customer_Type",pageLoadVars.customer_type,1]);pageLoadVars.coupon_id&&_gaq.push(["_setCustomVar",4,"Coupon Id",pageLoadVars.coupon_id,
+1]);pageLoadVars.signup_state&&_gaq.push(["_setCustomVar",3,"Signup State",pageLoadVars.signup_state,1]);if(pageLoadVars.customer_action&&0<pageLoadVars.customer_action.length)for(var ca="string"==typeof pageLoadVars.customer_action[0]?[pageLoadVars.customer_action]:pageLoadVars.customer_action,i=0;i<ca.length;i++)cat=2<ca[i].length?(ca[i][0],ca[i].shift()):"Customer Action",_gaq.push(["_trackEvent",cat,ca[i][0],ca[i][1],ca[i][2]||0,"undefined"!==typeof ca[i][3]?ca[i][3]:!0]);pageLoadVars.bamGAVPV&&
+_gaq.push(["_set","page",pageLoadVars.bamGAVPV])}"undefined"!=typeof _bamGA.getFromURL("","gavpv")&&_gaq.push(["_trackPageview",_bamGA.getFromURL("","gavpv")]);"undefined"!=typeof bamGA404&&bamGA404&&(_gaq.push(["_set","page","/404"+document.location.pathname+document.location.search]),_gaq.push(["_trackEvent","404s",_bamGA.uri,"referrer: "+document.referrer,void 0,!0]));"undefined"==typeof bamGAnoTrack&&_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";
+a.async=!0;a.src=("https:"==document.location.protocol?"https://":"http://")+"stats.g.doubleclick.net/dc.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();window.onload=function(){setTimeout(function(){if("undefined"===typeof _gat){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,
+b);_gaq.push(["_trackEvent","GA Remarketing Tag","DC Script","Failed",0,!0])}},1E3)};_bamGA.createCookie=function(a,b,c){if(c){var e=new Date;e.setTime(e.getTime()+864E5*c);c="; expires\x3d"+e.toGMTString()}else c="";document.cookie=a+"\x3d"+b+c+"; path\x3d/;domain\x3dmailgun.com"};_bamGA.readCookie=function(a){a+="\x3d";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var e=b[c];" "==e.charAt(0);)e=e.substring(1,e.length);if(0==e.indexOf(a))return e.substring(a.length,e.length)}return null};
+_bamGA.setFV=function(){var a=_bamGA.readCookie("vOrder"),b=document.location.hostname.replace(_bamGA.getDomain(document.location.href),"").replace(".","");a?a.match(b)||_bamGA.createCookie("vOrder",a+":"+b,90):_bamGA.createCookie("vOrder",b,90);pageLoadVars.customer_action&&0<pageLoadVars.customer_action.length&&_gaq.push(["_trackEvent","Originator",a.split(":")[0],ca[0][0],0,!0])};_bamGA.setCrossVars=function(a){linkServer=a.match(/^https?\:/i)?a.match(/^(([a-z]+:)?(\/\/)?[^\/]+).*$/)[1]:"";linkDomain=
+""!=linkServer?_bamGA.getDomain(linkServer):"";inDomains=0<=jQuery.inArray(linkDomain,bamGAcrossDomains)?!0:!1;isThisDomain=_bamGA.thisDomain==linkDomain?!0:!1};_bamGA.setCrossDomain=function(a,b,c){_bamGA.setCrossVars(a.attr(b));""!=linkDomain&&inDomains&&!isThisDomain&&_gaq.push(function(){var c=_gat._getTrackerByName();a.attr(b,c._getLinkerUrl(a.attr(b)))})};_bamGA.extendTracking=function(){var a=/\.(zip|exe|dmg|pdf|doc.*|xls.*|ppt.*|mp3|slxb|pps.*|vsd|vxd|txt|rar|wma|mov|avi|wmv|flv|wav)$/i,b=
+"";void 0!=jQuery("base").attr("href")&&(b=jQuery("base").attr("href"));jQuery("a").on("click",function(c){c=jQuery(this);var e=!0,f="undefined"!=typeof c.attr("href")?c.attr("href"):"";if(!f.match(/^javascript:/i)){bamGAcross&&""!=f?_bamGA.setCrossDomain(c,"href"):_bamGA.setCrossVars(c.attr("href"));var d=[];d.value=0;d.non_i=!0;if(f.match(/^mailto\:/i))d.category="email",d.action="click",d.label=f.replace(/^mailto\:/i,""),d.loc=f;else if(f.match(a)){var g=/[.]/.exec(f)?/[^.]+$/.exec(f):void 0;d.category=
+"download";d.action="click-"+g[0].toLowerCase();d.label=f.replace(/ /g,"-");d.loc=b+f}else!f.match(/^https?\:/i)||isThisDomain||inDomains?e=!1:(d.category="external",d.action="click",d.label=f.replace(/^https?\:\/\//i,""),d.loc=f);if(e&&(_gaq.push(["_trackEvent",d.category,d.action,d.label,d.value,d.non_i]),void 0==c.attr("target")||"_blank"!=c.attr("target").toLowerCase()))return setTimeout(function(){location.href=d.loc},_bamGA.delay),!1}})};"undefined"!=typeof jQuery&&(void 0===jQuery.fn.on&&(jQuery.fn.on=
+function(a,b){jQuery(this.selector).live(a,b);return this}),jQuery(document).ready(function(){_bamGA.setFV();_bamGA.extendTracking()}))}catch(e$$13){};</script><script type="text/javascript" id="">(function(){window._pa=window._pa||{};var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"==document.location.protocol?"https:":"http:")+"//tag.perfectaudience.com/serve/520a66ce3f8859cf5b0000a3.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script><script type="text/javascript" id="">var site_domain="mailgun.com";function createCookie(b,d,a,c){if(a){var e=new Date;e.setTime(e.getTime()+864E5*a);a="; expires\x3d"+e.toGMTString()}else a="";document.cookie=b+"\x3d"+d+a+";domain\x3d"+c+"; path\x3d/"}var qs=function(b){if(""==b)return{};for(var d={},a=0;a<b.length;++a){var c=b[a].split("\x3d");2==c.length&&(d[c[0]]=decodeURIComponent(c[1].replace(/\+/g," ")))}return d}(window.location.search.substr(1).split("\x26"));qs.utm_source&&createCookie("utm_source",qs.utm_source,30,site_domain);
+qs.utm_medium&&createCookie("utm_medium",qs.utm_medium,30,site_domain);qs.utm_content&&createCookie("utm_content",qs.utm_content,30,site_domain);qs.utm_campaign&&createCookie("utm_campaign",qs.utm_campaign,30,site_domain);qs.aff_id&&createCookie("aff_id",qs.aff_id,30,site_domain);qs.transid&&createCookie("transid",qs.transid,30,site_domain);</script><div style="display: none; visibility: hidden;">
+
+<script type="text/javascript">var google_conversion_id=1005952947,google_conversion_label="D44PCKXQjAQQs7_W3wM",google_custom_params=window.google_tag_params,google_remarketing_only=!0;</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script></div><script type="text/javascript" id="" src="//platform.twitter.com/oct.js"></script>
+<script type="text/javascript" id="">twttr.conversion.trackPid("l63m9",{tw_sale_amount:0,tw_order_quantity:0});</script>
+<noscript>
+&lt;img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l63m9&amp;amp;p_id=Twitter&amp;amp;tw_sale_amount=0&amp;amp;tw_order_quantity=0"&gt;
+&lt;img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l63m9&amp;amp;p_id=Twitter&amp;amp;tw_sale_amount=0&amp;amp;tw_order_quantity=0"&gt;</noscript><div id="st-main-container" style="display: none;">   <div class="swiftype">   <a class="close" data-dismiss="st-modal" href="#">×</a>   <div class="st-search-bar st-only-input">     <form>       <div class="st-input-wrapper">         <div class="st-input-inner">           <input type="text" value="" id="st-overlay-search-input" placeholder="search this website" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;">           <span class="st-input-icon"></span>           <a href="https://swiftype.com?ref=pbo" class="st-input-powered-by st-powered-by" target="_blank"></a>         </div>         <input type="submit" value="search" id="submitbutton">       </div>     </form>   </div>   <div class="st-result-wrapper" style="min-height: 959px;">     <div class="st-result-listing">       <div class="st-results">       </div>       <div class="st-indexing-notice" style="display: none;">         This site is still being indexed. Please try your search again in a few minutes.       </div>       <div class="st-logo-footer st-powered-by">         <a href="http://swiftype.com?ref=pbo" target="_blank">search by swiftype</a>       </div>     </div>   </div> </div> </div><div class="swiftype-widget"><div class="autocomplete" style="position: absolute; z-index: 199999; width: 210px; top: 0px; left: -8px; display: none;"><ul></ul></div></div><div class="swiftype-widget"><div class="autocomplete" style="position: absolute; z-index: 199999; width: 210px; top: 74px; left: -8px; display: none;"><ul></ul></div></div><script src="https://analytics.twitter.com/i/adsct?p_id=Twitter&amp;p_user_id=0&amp;txn_id=l63m9&amp;tw_sale_amount=0&amp;tw_order_quantity=0&amp;tw_iframe_status=0&amp;tpx_cb=twttr.conversion.loadPixels" type="text/javascript"></script></body></html>

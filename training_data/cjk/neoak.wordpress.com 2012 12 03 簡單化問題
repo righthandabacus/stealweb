@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW"><head profile="http://gmpg.org/xfn/11">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>簡單化問題 | 新. AK事件簿</title>
+ 	<meta name="description" content="記雜亂無章之事">
+	<!--[if IE]>
+	<link rel="stylesheet" href="https://s0.wp.com/wp-content/themes/pub/unsleepable/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	<!--[if IE 6]>
+	<link rel="stylesheet" href="https://s0.wp.com/wp-content/themes/pub/unsleepable/ie6.css" type="text/css" media="screen" />
+	<![endif]-->
+			<link rel="pingback" href="https://neoak.wordpress.com/xmlrpc.php">
+		<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="alternate" type="application/rss+xml" title="訂閱 新. AK事件簿 »" href="https://neoak.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="訂閱 新. AK事件簿 » 迴響" href="https://neoak.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="訂閱 新. AK事件簿 » 簡單化問題 迴響" href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/feed/">
+	<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s1.wp.com/_static/??-eJyNkV1uAyEMhC9Uippso75UPQuwDnFiMFqbRnv7so3y0yRCfUEeNB9jY3ssJnBWyGpTNYVqxCz2WAInIwkJ5jv1GkRe7HOM8ABi96DFhYP5VQ92TxyvOTyNbhQbib2j/3lrFgIozhOY71WvnQnIKYymsOid6mGYt5hRZ6s7SG2eUv1taA8NPEG7T8Xp4kgwogNqr2TtYalsztRS7trvdTs8LcT7MoGIaWfCmsyp3Qfu+RRWdD7PgjazYvPLpeilR2BDHJwi5z/CbMnh1N/IstJWRttcN3KBvtLn2/CxGtbv62Gz/wGtFPr4" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-1-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-2-1" href="https://s0.wp.com/_static/??/wp-content/mu-plugins/actionbar/actionbar.css,/wp-content/themes/h4/global.css?m=1485538130j" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFj+sKwjAMhV/IrHib+kN8ltrFkdqbTevQpzcD/aEOhUDIyZfDiRoSUDCudsjKSl0q5tuzNZZn6hcAnvqsCzaewgs2MRQMZWR9PJJDqIxZ96KJ0SlOcCly8cgs0MT2PRKFK+HwF7NYkjZnyMh0/3L1FZKrPQVWGZ080MGY4WOSq4Pfz1dtu14sd5utfQAruHB+"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://neoak.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Linkin Park –&nbsp;Iridescent" href="https://neoak.wordpress.com/2012/08/08/linkin-park-iridescent-2/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/">
+<link rel="shortlink" href="http://wp.me/pgmIX-do">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25e7%25b0%25a1%25e5%2596%25ae%25e5%258c%2596%25e5%2595%258f%25e9%25a1%258c%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25e7%25b0%25a1%25e5%2596%25ae%25e5%258c%2596%25e5%2595%258f%25e9%25a1%258c%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="簡單化問題">
+<meta property="og:url" content="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/">
+<meta property="og:description" content="社會上不少的人看見立法會審議長者生活津貼出現拉布的情況，看到老人家不能多收一點錢，就簡單地將茅頭指向拉布的議員…">
+<meta property="article:published_time" content="2012-12-03T09:47:59+00:00">
+<meta property="article:modified_time" content="2012-12-03T09:49:17+00:00">
+<meta property="og:site_name" content="新. AK事件簿">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://neoak.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://neoak.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://neoak.wordpress.com/osd.xml" title="新. AK事件簿">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style id="wpcom-hotfix-masterbar-style">
+			@media screen and (min-width: 783px) {
+				#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+					margin-top: 5px;
+				}
+			}
+		</style>
+		<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="新. AK事件簿"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="記雜亂無章之事"><meta name="msapplication-task" content="name=訂閱;action-uri=https://neoak.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=註冊免費網誌;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com 支援團隊;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com 論壇;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico">		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'neoak.wordpress.com',
+				pageURL: 'https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-830 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light">
+
+<div id="page">
+
+	<div id="header">
+		<div class="top">
+			<div id="title">
+				<a href="https://neoak.wordpress.com/" title="Back to the front page">新. AK事件簿</a>
+			</div>
+
+			<ul id="menu">
+	<li class="page_item page-item-2"><a href="https://neoak.wordpress.com/about/">What is AK?</a></li>
+</ul>
+
+		</div>
+	</div>
+
+	<hr>
+
+<div class="content">
+
+	<div class="primary">
+
+		
+
+	
+	
+
+
+	
+	<div class="navigation">
+		<div class="left"><span>«</span> <a href="https://neoak.wordpress.com/2012/08/08/linkin-park-iridescent-2/">Linkin Park –&nbsp;Iridescent</a></div>
+		<div class="right"></div>
+		<div class="clear"></div>
+	</div>
+
+	
+		
+<div id="post-830" class="item entry post-830 post type-post status-publish format-standard hentry category-uncategorized">
+	<div class="itemhead">
+		<h3>
+					簡單化問題				</h3>
+		<div class="chronodata">03十二月12</div>
+
+		<!-- The following two sections are for a noteworthy plugin currently in alpha. They'll get cleaned up and integrated better -->
+		
+			
+	</div>
+
+	<div class="itemtext">
+		<p>社會上不少的人看見立法會審議長者生活津貼出現拉布的情況，看到老人家不能多收一點錢，就簡單地將茅頭指向拉布的議員，認為既然政府已經願意「俾錢」，拉布者就是「阻住地球轉」，應該被「shout at」…如此討論問題，實在是過於簡單化…</p>
+<p>政府願意「俾錢」，但到底是如何「俾」，是否「公平」?是否「足夠」?這些都是值得討論的問題，而政治是一個「討價還價」的過程，政府完全拒絕讓步，這種取態是否在政治上可以接受…</p>
+<p>堅持資產審查，從之前的民調中，大體上獲民意支持，然而政府緊守以18.6萬資產作上限劃線，是否應該提高資產上限是值得討論的，根據之前媒體報道，在香港要辦一場傳統中式的白事，花費就已經接近十八萬，不少長者都會守著這筆「棺材本」，他們就極可能因而超出資產上限而不能申請長者生活津貼…</p>
+<p>根據報道，拉布議員雖然以「七十歲以上免審查為目標」，但如果政府願意在資產上限作出讓步，是有可能收貨的…</p>
+<p>到底是議員為老人家的生計設想，還是政府「俾錢」俾得真的很大方…是否真的如事件表面般一目了然?不少人認為政治很「污糟」，所以討厭政治，但如果有人因為這個原因，而不去探究這些很「污糟」的政治，實質是如何影響大眾生活，但卻又隨便就政治事件作出簡化的批評，在今時今日資訊發達如斯的香港，這些人不是無知，而是惰懶…</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-1318042947" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-1318042947');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1318042947",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-1318042947'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-7331" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-7331" id="fif_slot_automattic-id-_automattic-id-7331" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled"><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-3900603-830-5894d614b5a31" data-src="//widgets.wp.com/likes/#blog_id=3900603&amp;post_id=830&amp;origin=neoak.wordpress.com&amp;obj_id=3900603-830-5894d614b5a31" data-name="like-post-frame-3900603-830-5894d614b5a31"><h3 class="sd-title">請按讚：</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>喜歡</span></span> <span class="loading">載入中...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>相關</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="540" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://neoak.wordpress.com/2009/07/13/%e9%9d%9a%e6%a8%a1%e4%b8%8d%e6%98%af%e6%a8%a1%e7%89%b9%e5%85%92/" title="靚模不是模特兒
+
+其實這一篇沒有打算現在就寫，而是希望可以留待於今年在書展遊歷之後，始會再作討論，不過，既然社會上忽然…" rel="nofollow" data-origin="830" data-position="0">靚模不是模特兒</a></span><span class="jp-relatedposts-post-context">在「事件簿」中</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="697" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://neoak.wordpress.com/2010/05/13/%e6%89%8d-%e6%94%bf%e5%ba%9c%e6%87%89%e8%aa%bf%e6%8e%a7%e4%b8%8a%e8%bb%8a%e7%9a%84%e8%bf%ab%e5%88%87%e6%80%a7/" title="才: 政府應調控上車的迫切性
+
+連續兩晚追看電視劇集蝸居，其中姊姊海萍與丈夫之間的對話有以下一段... 女的埋怨說現時兩口之居於斗室…" rel="nofollow" data-origin="830" data-position="1">才: 政府應調控上車的迫切性</a></span><span class="jp-relatedposts-post-context">在「酒.色.才.戲」中</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="564" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://neoak.wordpress.com/2009/07/24/%e8%aa%b0%e8%a9%b2%e7%82%ba%e8%97%8d%e5%a4%a9%e4%bb%98%e5%87%ba%e4%bb%a3%e5%83%b9/" title="誰該為藍天付出代價
+
+近年政府經常使用同一招數，利用一個普羅市民認同的大原則，將極具爭議性的問題及政策包裝於其中，目的就是…" rel="nofollow" data-origin="830" data-position="2">誰該為藍天付出代價</a></span><span class="jp-relatedposts-post-context">在「事件簿」中</span></p></div></div></div>
+			</div>
+	<br class="clear">
+	<small class="metadata">
+		<span class="category">分類:<a href="https://neoak.wordpress.com/category/uncategorized/" rel="category tag">Uncategorized</a>	</span>
+		&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/#respond" class="commentslink">Leave a <span>Comment</span></a>		<br>	</small>
+</div><!-- #post-830 -->
+
+		
+<hr>
+
+<div class="comments" id="comments">
+
+	<h4>
+		<a href="#comments">
+			No Responses Yet to “簡單化問題”		</a>
+	</h4>
+
+	<div class="metalinks">
+		<span class="commentsrsslink"><a href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/feed/">Feed for this Entry</a></span>
+		<span class="trackbacklink"><a href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/trackback/" title="Copy this URI to trackback this entry.">Trackback Address</a></span>	</div>
+
+	<ol class="commentlist" id="commentlist">
+	
+					<!-- If comments are open, but there are no comments. -->
+				<li id="leavecomment">發表迴響</li>
+
+		
+		</ol>
+
+	
+	
+
+					<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">發表迴響 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/12/03/%E7%B0%A1%E5%96%AE%E5%8C%96%E5%95%8F%E9%A1%8C/#respond" style="display:none;">取消回覆</a></small></h3>				<form action="https://neoak.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2012/12/03/%E7%B0%A1%E5%96%AE%E5%8C%96%E5%95%8F%E9%A1%8C/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: normal; width: 481.75px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="在此輸入你的回應…" placeholder="在此輸入你的回應…" style="height: 36px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>在下方填入你的資料或按右方圖示以社群網站登入：</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Fneoak.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=X" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">電子郵件 <span class="required">(必)</span> <span class="nopublish">（電子郵件地址不會被公開）</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">名稱 <span class="required">(必)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">個人網站</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=X" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> 您的留言將使用 WordPress.com 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=X" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> 您的留言將使用 Twitter 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=X" alt="Facebook照片" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> 您的留言將使用 Facebook 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=X" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> 您的留言將使用 Google+ 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">取消</a></div>
+		<p>連結到 %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">透過電子郵件通知我後續回應。</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="張貼迴響"> <input type="hidden" name="comment_post_ID" value="830" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="3703a21b08"></p>
+<input type="hidden" name="genseq" value="1486149140">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149141941"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div> <!-- Close .comments container -->
+
+	</div>
+
+	
+<hr>
+
+<ul class="secondary">
+
+<li id="text-135912371" class="widget widget_text"><h2 class="widgettitle">免責條款</h2>
+			<div class="textwidget">正所謂:「真作假時假亦真，無為有處有還無。」本誌內容，真假混雜，無可分辨，其中多屬街談巷語，道聽途說，更多為蜚短流長，穿鑿附會，故此詞不達意，語意不詳。諸位看倌萬不可將本誌內容視同認真，如有雷同，實屬巧合。本誌內容僅反映AK個人之主觀感覺，亦僅代表AK個人觀點，任何人如因信賴本誌內容中含有的錯誤，或導致任何損失，AK不承擔任何因之而起的責任。</div>
+		</li><li id="search-2" class="widget widget_search"><form method="get" id="searchform" action="https://neoak.wordpress.com/">
+	<div>
+		<input type="text" value="搜尋..." onfocus="if (this.value == '搜尋...' ) { this.value = ''; }" onblur="if (this.value == '') { this.value = '搜尋...';}" name="s" id="s" size="15">
+		<input type="submit" id="searchsubmit" value="去">
+	</div>
+</form></li><li id="text-135901582" class="widget widget_text"><h2 class="widgettitle">聯絡本台主管</h2>
+			<div class="textwidget"><a href="mailto:alexis.kong@gmail.com">AK郵箱</a>
+
+<a href="http://mail.google.com">gmail登入</a></div>
+		</li><li id="linkcat-573729" class="widget widget_links"><h2 class="widgettitle">網絡上的芳鄰</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="http://athrunz.wordpress.com/">無限正義</a></li>
+<li><a href="http://readandeat.wordpress.com/">無書不歡 無食不樂</a></li>
+<li><a href="http://alanfung.hk/">痕身銀行</a></li>
+<li><a href="http://petitelaine.blogspot.com/">空姐的行李篋</a></li>
+<li><a href="http://ricericemake.blogspot.com/">米都話生左個女咯!</a></li>
+<li><a href="http://meilaiying.blogspot.com/">DE.BUTAN.TE</a></li>
+<li><a href="http://alchemysales.blogspot.com/">老Sell遊記</a></li>
+<li><a href="http://doctorfat.wordpress.com/">肥醫生@西九貧民區</a></li>
+<li><a href="http://isabella712.spaces.live.com/">飛天貓</a></li>
+<li><a href="http://charblogger.blogspot.com/">馬沙筆記</a></li>
+<li><a href="http://fire-crane.blogspot.com/">鶴立雞群</a></li>
+<li><a href="http://lunkayun.blogspot.com/">鹿米館</a></li>
+<li><a href="http://charcoal4.blogspot.com/">追沽</a></li>
+<li><a href="http://inhumanresources.blogspot.com/">Inhuman Resources</a></li>
+<li><a href="http://gourmetkc.blogspot.com/">KC賞味隨筆</a></li>
+<li><a href="http://blog.nico.hk/">Nicole@HK</a></li>
+<li><a href="http://ondog.wordpress.com/">On Dog一名</a></li>
+<li><a href="http://goldengarnet.blogspot.com/">Play it Loud</a></li>
+<li><a href="http://s--pig.blogspot.com/">S-pig’s Blog</a></li>
+<li><a href="http://samsaradiary.blogspot.com/">Samsara’s Blog</a></li>
+<li><a href="http://xiaozhu1979.blogspot.com/">xiao zhu lai le</a></li>
+<li><a href="http://yipjustin.wordpress.com/">凍啡走甜</a></li>
+<li><a href="http://diumanpark.mysinablog.com/">刁民公園</a></li>
+<li><a href="http://hana-ox.blogspot.com/">夕陽西下</a></li>
+<li><a href="http://hammer.blogdns.com/">大鐵鎚</a></li>
+<li><a href="http://chikakwak.wordpress.com/">天涯俠醫</a></li>
+<li><a href="http://mama4.wordpress.com/">媽媽阿四</a></li>
+<li><a href="http://learningforest.blogspot.com/">學霖山莊</a></li>
+<li><a href="http://anony721.blogspot.com/">安諾勿斯</a></li>
+<li><a href="http://lamusicquedelili.blogspot.com/">小妮音樂日誌</a></li>
+<li><a href="http://chhung3.blogspot.com/">小小大力</a></li>
+<li><a href="http://marketviking.blogspot.com/">市場維京人</a></li>
+<li><a href="http://skaren-space.blogspot.com/">思.想.札.記</a></li>
+<li><a href="http://marshmallowmush.blogspot.com/">思籌之路</a></li>
+<li><a href="http://foodxfile.blogspot.com/">惡男的廚．宴光影事</a></li>
+<li><a href="http://forestflame.wordpress.com/">水駱駝</a></li>
+<li><a href="http://blogger70thfloor.blogspot.com/">七十樓危危下望</a></li>
+<li><a href="http://manincentral.blogspot.com/">人在中環</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-7690180" class="widget widget_links"><h2 class="widgettitle">遊戲專門台</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="http://xlunchbox.wordpress.com/">叉盒日替</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-337768" class="widget widget_links"><h2 class="widgettitle">觀影連線</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="http://www.amccinemas.com.hk/index.php?lang=c">AMC</a></li>
+<li><a href="http://www.cityline.com.hk/chi/movie/byCinemaStep1.html">CityLine</a></li>
+<li><a href="http://www.cinema.com.hk/revamp/html/index.php">百老匯院線</a></li>
+<li><a href="http://www.cel-cinemas.com/index.jsp">華懋</a></li>
+<li><a href="http://www.mclcinema.com/">MCL Cinema</a></li>
+<li><a href="http://www.uacinemas.com.hk/chi/main/HomePage">UA Cinema</a></li>
+<li><a href="http://urbtix.cityline.com.hk/internet/action/index.do">URBTIX</a></li>
+<li><a href="http://hk.movies.yahoo.com/">Yahoo電影</a></li>
+<li><a href="http://www.goldenharvest.com/booking/index.asp?lang=b5">嘉禾院線</a></li>
+<li><a href="http://www.hkticketing.com/">快達票</a></li>
+
+	</ul>
+</li>
+<li id="linkcat-7690061" class="widget widget_links"><h2 class="widgettitle">日用連結</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="http://www.1up.com/">1up</a></li>
+<li><a href="http://www.boardgamegeek.com/newuser.php">BoardGameGeek</a></li>
+<li><a href="http://www.toysdaily.com/">玩具日報</a></li>
+<li><a href="http://mp3.baidu.com/">百度MP3</a></li>
+<li><a href="http://zh.wikipedia.org/w/index.php?title=%E9%A6%96%E9%A1%B5&amp;variant=zh-tw">維基</a></li>
+<li><a href="http://dictionary.reference.com/">Dictionary.com</a></li>
+<li><a href="http://appledaily.atnext.com/template/apple/sec_main.cfm">蘋果日報</a></li>
+<li><a href="http://evchk.wikia.com/wiki/%E9%A6%96%E9%A0%81">香港網絡大典</a></li>
+<li><a href="http://forum2.hkgolden.com/default.asp">高登討論區</a></li>
+<li><a href="http://www.facebook.com/">facebook</a></li>
+<li><a href="http://old.gamehit.net/">Gamehit討論區</a></li>
+<li><a href="http://www.gamespot.com/">Gamespot</a></li>
+<li><a href="http://www.google.com.hk/">Google</a></li>
+<li><a href="http://www.ign.com/">IGN.com</a></li>
+<li><a href="http://kotaku.com/">Kotaku</a></li>
+<li><a href="http://www.openrice.com/restaurant/index.htm">OpenRice</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+<li><a href="http://xboxlife.tw/">Xbox Life</a></li>
+<li><a href="http://hk.yahoo.com/">Yahoo香港</a></li>
+<li><a href="http://hk.dictionary.yahoo.com/">Yahoo字典</a></li>
+<li><a href="http://hk.youtube.com/?locale=zh_HK&amp;persist_locale=1">Youtube香港</a></li>
+<li><a href="http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/">林語堂當代漢英詞典</a></li>
+<li><a href="http://www.centamap.com/gc/home.aspx">中原地圖</a></li>
+
+	</ul>
+</li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">放映節目</h2>
+		<ul>
+					<li>
+				<a href="https://neoak.wordpress.com/2012/12/03/%e7%b0%a1%e5%96%ae%e5%8c%96%e5%95%8f%e9%a1%8c/">簡單化問題</a>
+						</li>
+					<li>
+				<a href="https://neoak.wordpress.com/2012/08/08/linkin-park-iridescent-2/">Linkin Park –&nbsp;Iridescent</a>
+						</li>
+					<li>
+				<a href="https://neoak.wordpress.com/2011/07/23/%e4%b8%80%e9%a2%a8%e5%a0%82%e7%be%8e%e5%91%b3%e7%9a%84%e9%97%9c%e9%8d%b5%e5%9c%a8%e6%96%bc%e3%80%8c%e7%8d%a8%e9%a3%9f%e3%80%8d/">一風堂美味的關鍵在於「獨食」</a>
+						</li>
+					<li>
+				<a href="https://neoak.wordpress.com/2011/05/04/%e9%85%92%e9%80%a3%e6%8c%91%e5%a4%a7%e5%9d%91%e9%81%94%e7%a3%a8%e6%8b%89%e9%ba%b5%e5%92%8c%e6%b0%91%e8%81%b2%e5%86%b0%e5%ae%a4/">酒:連挑大坑達磨拉麵和民聲冰室…</a>
+						</li>
+					<li>
+				<a href="https://neoak.wordpress.com/2011/04/20/%e6%89%8d%e8%a8%ad%e8%a8%88%e6%a0%a1%e6%9c%ac%e6%95%99%e7%a7%91%e6%9b%b8%e7%9a%84%e5%a4%a9%e8%8d%92%e5%a4%9c%e8%ad%9a/">才:設計校本教科書的天荒夜譚</a>
+						</li>
+				</ul>
+		</li>		<li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">節目重溫</h2>
+		<ul>
+			<li><a href="https://neoak.wordpress.com/2012/12/">2012 年 十二月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2012/08/">2012 年 八月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2011/07/">2011 年 七月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2011/05/">2011 年 五月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2011/04/">2011 年 四月</a>&nbsp;(2)</li>
+	<li><a href="https://neoak.wordpress.com/2010/11/">2010 年 十一月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2010/10/">2010 年 十月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2010/09/">2010 年 九月</a>&nbsp;(2)</li>
+	<li><a href="https://neoak.wordpress.com/2010/08/">2010 年 八月</a>&nbsp;(4)</li>
+	<li><a href="https://neoak.wordpress.com/2010/05/">2010 年 五月</a>&nbsp;(5)</li>
+	<li><a href="https://neoak.wordpress.com/2010/04/">2010 年 四月</a>&nbsp;(9)</li>
+	<li><a href="https://neoak.wordpress.com/2010/03/">2010 年 三月</a>&nbsp;(3)</li>
+	<li><a href="https://neoak.wordpress.com/2010/02/">2010 年 二月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2010/01/">2010 年 一月</a>&nbsp;(2)</li>
+	<li><a href="https://neoak.wordpress.com/2009/12/">2009 年 十二月</a>&nbsp;(3)</li>
+	<li><a href="https://neoak.wordpress.com/2009/11/">2009 年 十一月</a>&nbsp;(5)</li>
+	<li><a href="https://neoak.wordpress.com/2009/10/">2009 年 十月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2009/09/">2009 年 九月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2009/08/">2009 年 八月</a>&nbsp;(7)</li>
+	<li><a href="https://neoak.wordpress.com/2009/07/">2009 年 七月</a>&nbsp;(16)</li>
+	<li><a href="https://neoak.wordpress.com/2009/06/">2009 年 六月</a>&nbsp;(13)</li>
+	<li><a href="https://neoak.wordpress.com/2009/05/">2009 年 五月</a>&nbsp;(12)</li>
+	<li><a href="https://neoak.wordpress.com/2009/04/">2009 年 四月</a>&nbsp;(13)</li>
+	<li><a href="https://neoak.wordpress.com/2009/03/">2009 年 三月</a>&nbsp;(8)</li>
+	<li><a href="https://neoak.wordpress.com/2009/02/">2009 年 二月</a>&nbsp;(9)</li>
+	<li><a href="https://neoak.wordpress.com/2009/01/">2009 年 一月</a>&nbsp;(11)</li>
+	<li><a href="https://neoak.wordpress.com/2008/12/">2008 年 十二月</a>&nbsp;(11)</li>
+	<li><a href="https://neoak.wordpress.com/2008/11/">2008 年 十一月</a>&nbsp;(5)</li>
+	<li><a href="https://neoak.wordpress.com/2008/09/">2008 年 九月</a>&nbsp;(1)</li>
+	<li><a href="https://neoak.wordpress.com/2008/08/">2008 年 八月</a>&nbsp;(5)</li>
+	<li><a href="https://neoak.wordpress.com/2008/07/">2008 年 七月</a>&nbsp;(6)</li>
+	<li><a href="https://neoak.wordpress.com/2008/06/">2008 年 六月</a>&nbsp;(10)</li>
+		</ul>
+		</li><li id="text-141120891" class="widget widget_text"><h2 class="widgettitle">著作授權</h2>
+			<div class="textwidget">所有本網誌「新.AK事件簿」發表內容(包括文字，圖像，影像及音樂)均採用<a href="http://creativecommons.org/licenses/by-nd/3.0/">Creative Commons Attribution-No Derivative Works 3.0 Unported</a>授權。基於Web 2.0的分享精神，在不改動原始內容的原則下，歡迎轉載，唯需注明有關內容之作者(AK)及網址(https://neoak.wordpress.com)。</div>
+		</li><li id="meta-2" class="widget widget_meta"><h2 class="widgettitle">後台重地</h2>
+			<ul>
+			<li><a href="https://wordpress.com/start/zh-tw?ref=wplogin">註冊</a></li>			<li><a href="https://neoak.wordpress.com/wp-login.php">登入</a></li>
+			<li><a href="https://neoak.wordpress.com/feed/">文章 <abbr title="Really Simple Syndication">RSS</abbr> 訂閱</a></li>
+			<li><a href="https://neoak.wordpress.com/comments/feed/">迴響 <abbr title="Really Simple Syndication">RSS</abbr> 訂閱</a></li>
+			<li><a href="https://wordpress.com/" title="使用 WordPress 建置，最先進的語意化個人出版平台。">WordPress.com</a></li>			</ul>
+			</li><li id="pages-2" class="widget widget_pages"><h2 class="widgettitle">頁面</h2>
+		<ul>
+			<li class="page_item page-item-2"><a href="https://neoak.wordpress.com/about/">What is AK?</a></li>
+		</ul>
+		</li><li id="calendar-2" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>十二月 2012</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="星期一">一</th>
+		<th scope="col" title="星期二">二</th>
+		<th scope="col" title="星期三">三</th>
+		<th scope="col" title="星期四">四</th>
+		<th scope="col" title="星期五">五</th>
+		<th scope="col" title="星期六">六</th>
+		<th scope="col" title="星期日">日</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://neoak.wordpress.com/2012/08/">« 八月</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="5" class="pad">&nbsp;</td><td>1</td><td>2</td>
+	</tr>
+	<tr>
+		<td><a href="https://neoak.wordpress.com/2012/12/03/" aria-label="文章發表於 2012 年 12 月 3 日">3</a></td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+	</tr>
+	<tr>
+		<td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+	</tr>
+	<tr>
+		<td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+	</tr>
+	<tr>
+		<td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+	</tr>
+	<tr>
+		<td>31</td>
+		<td class="pad" colspan="6">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></li></ul>
+<div class="clear"></div>
+
+</div>
+
+
+<div style="clear:both;"></div>
+</div>
+<!-- Close Page -->
+
+<div id="footer"><br><hr>
+
+<a href="https://wordpress.com/?ref=footer_website">在 WordPress.com 建立免費網站或網誌.</a>
+</div>
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"\u5f35\u8cbc\u8ff4\u97ff","connectingToText":"\u9023\u7d50\u5230 %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"\u767b\u51fa","loginText":"\u767b\u5165","connectURL":"https:\/\/neoak.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/neoak.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/neoak.wordpress.com\/","postID":"830","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"\u7121\u6548\u7684\u96fb\u5b50\u90f5\u4ef6\u5730\u5740","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"\u8b8a\u66f4","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"3900603","siteName":"\u65b0. AK\u4e8b\u4ef6\u7c3f","siteURL":"http:\/\/neoak.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/unsleepable","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/neoak.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25e7%25b0%25a1%25e5%2596%25ae%25e5%258c%2596%25e5%2595%258f%25e9%25a1%258c%2F","themeURL":"","xhrURL":"https:\/\/neoak.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"e80ace70df\" \/>","referer":"https:\/\/neoak.wordpress.com\/2012\/12\/03\/%E7%B0%A1%E5%96%AE%E5%8C%96%E5%95%8F%E9%A1%8C\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/neoak.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25E7%25B0%25A1%25E5%2596%25AE%25E5%258C%2596%25E5%2595%258F%25E9%25A1%258C%2F","postID":"830","shortlink":"http:\/\/wp.me\/pgmIX-do","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/neoak.wordpress.com\/830","statsLink":"https:\/\/wordpress.com\/stats\/post\/830\/neoak.wordpress.com","i18n":{"view":"\u6aa2\u8996\u7db2\u7ad9","follow":"\u95dc\u6ce8","following":"\u6b63\u5728\u95dc\u6ce8","edit":"\u7de8\u8f2f","login":"\u767b\u5165","signup":"\u8a3b\u518a","customize":"\u81ea\u8a02","report":"\u56de\u5831\u6b64\u5167\u5bb9","themeInfo":"\u53d6\u5f97\u4f48\u666f\u4e3b\u984c: Unsleepable","shortlink":"\u8907\u88fd\u77ed\u7db2\u5740","copied":"\u5df2\u8907\u88fd","followedText":"\u6b64\u7db2\u7ad9\u7684\u65b0\u6587\u7ae0\u5c07\u986f\u793a\u65bc\u4f60\u7684<a href=\"https:\/\/wordpress.com\/\">\u95b1\u8b80\u5668<\/a>\u4e2d","foldBar":"\u6536\u5408\u6b64\u5217","unfoldBar":"\u5c55\u958b\u6b64\u5217","editSubs":"\u7ba1\u7406\u8a02\u95b1","viewReader":"\u5728\u8b80\u53d6\u5668\u4e2d\u6aa2\u8996\u7db2\u7ad9","subscribe":"\u6211\u8981\u8a3b\u518a","enterEmail":"\u8f38\u5165\u4f60\u7684\u96fb\u5b50\u90f5\u4ef6\u5730\u5740","followers":"","alreadyUser":"\u5df2\u7d93\u6709 WordPress.com \u5e33\u865f\u4e86\uff1f<a href=\"https:\/\/neoak.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25e7%25b0%25a1%25e5%2596%25ae%25e5%258c%2596%25e5%2595%258f%25e9%25a1%258c%2F\">\u7acb\u5373\u767b\u5165\u3002<\/a>","stats":"\u7d71\u8a08"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJx9jEEOQiEMBS8kNkYwboxnQWi0CAVb+Hp8cfPj6u8m700G3s2Eyh25Q1KIuFDA9tkn3cHfVYZpedyJFTI9UeE1cODDc8woG7KPhdjcvEDx2lEmmbqgCMUZWbetQuhU+VdYadrXcjnYs3PWno4ufQHTK0kT"></script><div id="actionbar" class="actnbr-pub-unsleepable actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>關注</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://neoak.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> 新. AK事件簿</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://neoak.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25E7%25B0%25A1%25E5%2596%25AE%25E5%258C%2596%25E5%2595%258F%25E9%25A1%258C%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>自訂<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>關注</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">註冊</a></li> 				    <li class="actnbr-login"><a href="https://neoak.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fneoak.wordpress.com%2F2012%2F12%2F03%2F%25e7%25b0%25a1%25e5%2596%25ae%25e5%258c%2596%25e5%2595%258f%25e9%25a1%258c%2F">登入</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/pgmIX-do">複製短網址</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">回報此內容</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">管理訂閱</a></li> 				    <li class="actnbr-fold"><a href="">收合此列</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "neoak.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429&amp;lang=zh-tw" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> 位部落客按了讚：</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'3900603','blog_tz':'8','user_lang':'zh-tw','blog_lang':'zh-tw','user_id':'0'}]);
+_stq.push(['view', {'blog':'3900603','v':'wpcom','tz':'8','user_id':'0','post':'830','subd':'neoak'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRREQ/V0xPZ1hKXy9nUk5NYnxGdGIzdjNTZXlaSXdXYW1bbG4zaXFpJT9ldUpHZWE5JXFMQnNPUTFxYnQ0UXd+M1NddTE4eXVIPzVfY2lqd3REQ19EaG5LLm9NaFNVOTh3UEZkJX5xdTdhfk10fE04NzZtWmpbVUdBUGdTY1lMNEY3L1ZYclclR0crcmRPflM2JjdBdWhIYmdqUHhsN1ZWemlVZW9KLkhxWkQwWXw3cS9dRSxLczIlNWR6bzdEbll3aGQsZCw2TnZUUkRz'}]);
+_stq.push([ 'clickTrackerInit', '3900603', '830' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://neoak.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe></body></html>

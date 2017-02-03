@@ -1,0 +1,1931 @@
+<!DOCTYPE html><html class=" js csstransforms3d"><head lang="en-US" prefix="og: http://ogp.me/ns#">
+
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="pingback" href="https://www.analyticsvidhya.com/xmlrpc.php">
+    <link rel="icon" id="favicon" type="image/png" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg"><link rel="apple-touch-icon" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg"><link rel="apple-touch-icon" sizes="76x76" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg"><link rel="apple-touch-icon" sizes="114x114" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg"><link rel="apple-touch-icon" sizes="144x144" href="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/logo_square_v2.jpg">
+    <title> Must Read Books&nbsp;on Machine Learning Artificial Intelligence </title>
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+   <link rel="stylesheet" href="https://www.analyticsvidhya.com/popup/popup-style7.css">
+
+				<div class="fit-vids-style" id="fit-vids-style" style="display: none;">­<style>.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></div><script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-5229672700622157.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+					var bhittani_plugin_kksr_js = {"nonce":"c93c094b33","grs":false,"ajaxurl":"https:\/\/www.analyticsvidhya.com\/wp-admin\/admin-ajax.php","func":"kksr_ajax","msg":"Rate this post","fuelspeed":400,"thankyou":"Thank you for your vote","error_msg":"An error occurred","tooltip":"1","tooltips":[{"color":"#ffffff"},{"color":"#ffffff"},{"color":"#ffffff"},{"color":"#ffffff"},{"color":"#ffffff"}]};
+				</script>
+				<style>
+.stb-container-css {margin: 10px 10px 10px 10px;}.stb-box {}.stb-caption-box {}.stb-body-box {}
+/* Class Dependent Parameters */
+.stb-border.stb-alert-container {border: 1px none #FF4F4A;}.stb-side.stb-alert-container {background: #FF4F4A;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF4F4A', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #FF4F4A 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FF4F4A), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: -o-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: -ms-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: linear-gradient(#FF4F4A 30%, #504848 90%);}.stb-side-none.stb-alert-container {background: #FFE7E6;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE7E6', endColorstr='#fb7d78',GradientType=0 );background: -moz-linear-gradient(top,  #FFE7E6 30%, #fb7d78 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FFE7E6), color-stop(90%,#fb7d78));background: -webkit-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -o-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -ms-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: linear-gradient(#FFE7E6 30%, #fb7d78 90%);}.stb-alert_box {background: #FFE7E6;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE7E6', endColorstr='#fb7d78',GradientType=0 );background: -moz-linear-gradient(top,  #FFE7E6 30%, #fb7d78 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FFE7E6), color-stop(90%,#fb7d78));background: -webkit-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -o-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -ms-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: linear-gradient(#FFE7E6 30%, #fb7d78 90%);color: #000000;}.stb-alert-caption_box {background: #FF4F4A;background: -moz-linear-gradient(top,  #FF4F4A 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FF4F4A), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: -o-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: -ms-linear-gradient(top,  #FF4F4A 30%,#504848 90%);background: linear-gradient(#FF4F4A 30%, #504848 90%);color: #FFFFFF;}.stb-alert-body_box {background: #FFE7E6;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE7E6', endColorstr='#fb7d78',GradientType=0 );background: -moz-linear-gradient(top,  #FFE7E6 30%, #fb7d78 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FFE7E6), color-stop(90%,#fb7d78));background: -webkit-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -o-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: -ms-linear-gradient(top,  #FFE7E6 30%,#fb7d78 90%);background: linear-gradient(#FFE7E6 30%, #fb7d78 90%);color: #000000;}.stb-border.stb-black-container {border: 1px none #6E6E6E;}.stb-side.stb-black-container {background: #333333;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #333333 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#333333), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #333333 30%,#504848 90%);background: -o-linear-gradient(top,  #333333 30%,#504848 90%);background: -ms-linear-gradient(top,  #333333 30%,#504848 90%);background: linear-gradient(#333333 30%, #504848 90%);}.stb-side-none.stb-black-container {background: #000000;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );background: -moz-linear-gradient(top,  #000000 30%, #000000 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#000000), color-stop(90%,#000000));background: -webkit-linear-gradient(top,  #000000 30%,#000000 90%);background: -o-linear-gradient(top,  #000000 30%,#000000 90%);background: -ms-linear-gradient(top,  #000000 30%,#000000 90%);background: linear-gradient(#000000 30%, #000000 90%);}.stb-black_box {background: #000000;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );background: -moz-linear-gradient(top,  #000000 30%, #000000 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#000000), color-stop(90%,#000000));background: -webkit-linear-gradient(top,  #000000 30%,#000000 90%);background: -o-linear-gradient(top,  #000000 30%,#000000 90%);background: -ms-linear-gradient(top,  #000000 30%,#000000 90%);background: linear-gradient(#000000 30%, #000000 90%);color: #FFFFFF;}.stb-black-caption_box {background: #333333;background: -moz-linear-gradient(top,  #333333 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#333333), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #333333 30%,#504848 90%);background: -o-linear-gradient(top,  #333333 30%,#504848 90%);background: -ms-linear-gradient(top,  #333333 30%,#504848 90%);background: linear-gradient(#333333 30%, #504848 90%);color: #FFFFFF;}.stb-black-body_box {background: #000000;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );background: -moz-linear-gradient(top,  #000000 30%, #000000 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#000000), color-stop(90%,#000000));background: -webkit-linear-gradient(top,  #000000 30%,#000000 90%);background: -o-linear-gradient(top,  #000000 30%,#000000 90%);background: -ms-linear-gradient(top,  #000000 30%,#000000 90%);background: linear-gradient(#000000 30%, #000000 90%);color: #FFFFFF;}.stb-border.stb-custom-container {border: 1px none #f844ee;}.stb-side.stb-custom-container {background: #f844ee;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f844ee', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #f844ee 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#f844ee), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #f844ee 30%,#504848 90%);background: -o-linear-gradient(top,  #f844ee 30%,#504848 90%);background: -ms-linear-gradient(top,  #f844ee 30%,#504848 90%);background: linear-gradient(#f844ee 30%, #504848 90%);}.stb-side-none.stb-custom-container {background: #f7cdf5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7cdf5', endColorstr='#f77df1',GradientType=0 );background: -moz-linear-gradient(top,  #f7cdf5 30%, #f77df1 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#f7cdf5), color-stop(90%,#f77df1));background: -webkit-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -o-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -ms-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: linear-gradient(#f7cdf5 30%, #f77df1 90%);}.stb-custom_box {background: #f7cdf5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7cdf5', endColorstr='#f77df1',GradientType=0 );background: -moz-linear-gradient(top,  #f7cdf5 30%, #f77df1 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#f7cdf5), color-stop(90%,#f77df1));background: -webkit-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -o-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -ms-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: linear-gradient(#f7cdf5 30%, #f77df1 90%);color: #000000;}.stb-custom-caption_box {background: #f844ee;background: -moz-linear-gradient(top,  #f844ee 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#f844ee), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #f844ee 30%,#504848 90%);background: -o-linear-gradient(top,  #f844ee 30%,#504848 90%);background: -ms-linear-gradient(top,  #f844ee 30%,#504848 90%);background: linear-gradient(#f844ee 30%, #504848 90%);color: #ffffff;}.stb-custom-body_box {background: #f7cdf5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7cdf5', endColorstr='#f77df1',GradientType=0 );background: -moz-linear-gradient(top,  #f7cdf5 30%, #f77df1 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#f7cdf5), color-stop(90%,#f77df1));background: -webkit-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -o-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: -ms-linear-gradient(top,  #f7cdf5 30%,#f77df1 90%);background: linear-gradient(#f7cdf5 30%, #f77df1 90%);color: #000000;}.stb-border.stb-download-container {border: 1px none #65ADFE;}.stb-side.stb-download-container {background: #65ADFE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65ADFE', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #65ADFE 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#65ADFE), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: -o-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: -ms-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: linear-gradient(#65ADFE 30%, #504848 90%);}.stb-side-none.stb-download-container {background: #DFF0FF;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFF0FF', endColorstr='#2e7cb9',GradientType=0 );background: -moz-linear-gradient(top,  #DFF0FF 30%, #2e7cb9 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#DFF0FF), color-stop(90%,#2e7cb9));background: -webkit-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -o-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -ms-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: linear-gradient(#DFF0FF 30%, #2e7cb9 90%);}.stb-download_box {background: #DFF0FF;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFF0FF', endColorstr='#2e7cb9',GradientType=0 );background: -moz-linear-gradient(top,  #DFF0FF 30%, #2e7cb9 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#DFF0FF), color-stop(90%,#2e7cb9));background: -webkit-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -o-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -ms-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: linear-gradient(#DFF0FF 30%, #2e7cb9 90%);color: #000000;}.stb-download-caption_box {background: #65ADFE;background: -moz-linear-gradient(top,  #65ADFE 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#65ADFE), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: -o-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: -ms-linear-gradient(top,  #65ADFE 30%,#504848 90%);background: linear-gradient(#65ADFE 30%, #504848 90%);color: #FFFFFF;}.stb-download-body_box {background: #DFF0FF;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFF0FF', endColorstr='#2e7cb9',GradientType=0 );background: -moz-linear-gradient(top,  #DFF0FF 30%, #2e7cb9 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#DFF0FF), color-stop(90%,#2e7cb9));background: -webkit-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -o-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: -ms-linear-gradient(top,  #DFF0FF 30%,#2e7cb9 90%);background: linear-gradient(#DFF0FF 30%, #2e7cb9 90%);color: #000000;}.stb-border.stb-grey-container {border: 1px none #BBBBBB;}.stb-side.stb-grey-container {background: #BBBBBB;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BBBBBB', endColorstr='#6e6e6e',GradientType=0 );background: -moz-linear-gradient(top,  #BBBBBB 30%, #6e6e6e 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#BBBBBB), color-stop(90%,#6e6e6e));background: -webkit-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: -o-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: -ms-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: linear-gradient(#BBBBBB 30%, #6e6e6e 90%);}.stb-side-none.stb-grey-container {background: #EEEEEE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#ababab',GradientType=0 );background: -moz-linear-gradient(top,  #EEEEEE 30%, #ababab 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#EEEEEE), color-stop(90%,#ababab));background: -webkit-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -o-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -ms-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: linear-gradient(#EEEEEE 30%, #ababab 90%);}.stb-grey_box {background: #EEEEEE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#ababab',GradientType=0 );background: -moz-linear-gradient(top,  #EEEEEE 30%, #ababab 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#EEEEEE), color-stop(90%,#ababab));background: -webkit-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -o-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -ms-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: linear-gradient(#EEEEEE 30%, #ababab 90%);color: #000000;}.stb-grey-caption_box {background: #BBBBBB;background: -moz-linear-gradient(top,  #BBBBBB 30%, #6e6e6e 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#BBBBBB), color-stop(90%,#6e6e6e));background: -webkit-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: -o-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: -ms-linear-gradient(top,  #BBBBBB 30%,#6e6e6e 90%);background: linear-gradient(#BBBBBB 30%, #6e6e6e 90%);color: #FFFFFF;}.stb-grey-body_box {background: #EEEEEE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#ababab',GradientType=0 );background: -moz-linear-gradient(top,  #EEEEEE 30%, #ababab 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#EEEEEE), color-stop(90%,#ababab));background: -webkit-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -o-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: -ms-linear-gradient(top,  #EEEEEE 30%,#ababab 90%);background: linear-gradient(#EEEEEE 30%, #ababab 90%);color: #000000;}.stb-border.stb-info-container {border: 1px none #7AD975;}.stb-side.stb-info-container {background: #7AD975;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7AD975', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #7AD975 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#7AD975), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #7AD975 30%,#504848 90%);background: -o-linear-gradient(top,  #7AD975 30%,#504848 90%);background: -ms-linear-gradient(top,  #7AD975 30%,#504848 90%);background: linear-gradient(#7AD975 30%, #504848 90%);}.stb-side-none.stb-info-container {background: #E2F8DE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F8DE', endColorstr='#79b06e',GradientType=0 );background: -moz-linear-gradient(top,  #E2F8DE 30%, #79b06e 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E2F8DE), color-stop(90%,#79b06e));background: -webkit-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -o-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -ms-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: linear-gradient(#E2F8DE 30%, #79b06e 90%);}.stb-info_box {background: #E2F8DE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F8DE', endColorstr='#79b06e',GradientType=0 );background: -moz-linear-gradient(top,  #E2F8DE 30%, #79b06e 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E2F8DE), color-stop(90%,#79b06e));background: -webkit-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -o-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -ms-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: linear-gradient(#E2F8DE 30%, #79b06e 90%);color: #000000;}.stb-info-caption_box {background: #7AD975;background: -moz-linear-gradient(top,  #7AD975 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#7AD975), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #7AD975 30%,#504848 90%);background: -o-linear-gradient(top,  #7AD975 30%,#504848 90%);background: -ms-linear-gradient(top,  #7AD975 30%,#504848 90%);background: linear-gradient(#7AD975 30%, #504848 90%);color: #FFFFFF;}.stb-info-body_box {background: #E2F8DE;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F8DE', endColorstr='#79b06e',GradientType=0 );background: -moz-linear-gradient(top,  #E2F8DE 30%, #79b06e 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#E2F8DE), color-stop(90%,#79b06e));background: -webkit-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -o-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: -ms-linear-gradient(top,  #E2F8DE 30%,#79b06e 90%);background: linear-gradient(#E2F8DE 30%, #79b06e 90%);color: #000000;}.stb-border.stb-section-container {border: 1px none #2982C5;}.stb-side.stb-section-container {background: #2982C5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2982C5', endColorstr='#2944f2',GradientType=0 );background: -moz-linear-gradient(top,  #2982C5 30%, #2944f2 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#2982C5), color-stop(90%,#2944f2));background: -webkit-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: -o-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: -ms-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: linear-gradient(#2982C5 30%, #2944f2 90%);}.stb-side-none.stb-section-container {background: #2982C5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2982C5', endColorstr='#294ee3',GradientType=0 );background: -moz-linear-gradient(top,  #2982C5 30%, #294ee3 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#2982C5), color-stop(90%,#294ee3));background: -webkit-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -o-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -ms-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: linear-gradient(#2982C5 30%, #294ee3 90%);}.stb-section_box {background: #2982C5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2982C5', endColorstr='#294ee3',GradientType=0 );background: -moz-linear-gradient(top,  #2982C5 30%, #294ee3 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#2982C5), color-stop(90%,#294ee3));background: -webkit-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -o-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -ms-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: linear-gradient(#2982C5 30%, #294ee3 90%);color: #000000;}.stb-section-caption_box {background: #2982C5;background: -moz-linear-gradient(top,  #2982C5 30%, #2944f2 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#2982C5), color-stop(90%,#2944f2));background: -webkit-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: -o-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: -ms-linear-gradient(top,  #2982C5 30%,#2944f2 90%);background: linear-gradient(#2982C5 30%, #2944f2 90%);color: #FFFFFF;}.stb-section-body_box {background: #2982C5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2982C5', endColorstr='#294ee3',GradientType=0 );background: -moz-linear-gradient(top,  #2982C5 30%, #294ee3 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#2982C5), color-stop(90%,#294ee3));background: -webkit-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -o-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: -ms-linear-gradient(top,  #2982C5 30%,#294ee3 90%);background: linear-gradient(#2982C5 30%, #294ee3 90%);color: #000000;}.stb-border.stb-warning-container {border: 1px none #FE9A05;}.stb-side.stb-warning-container {background: #FE9A05;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FE9A05', endColorstr='#504848',GradientType=0 );background: -moz-linear-gradient(top,  #FE9A05 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FE9A05), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: -o-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: -ms-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: linear-gradient(#FE9A05 30%, #504848 90%);}.stb-side-none.stb-warning-container {background: #FEFFD5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEFFD5', endColorstr='#f0d208',GradientType=0 );background: -moz-linear-gradient(top,  #FEFFD5 30%, #f0d208 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FEFFD5), color-stop(90%,#f0d208));background: -webkit-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -o-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -ms-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: linear-gradient(#FEFFD5 30%, #f0d208 90%);}.stb-warning_box {background: #FEFFD5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEFFD5', endColorstr='#f0d208',GradientType=0 );background: -moz-linear-gradient(top,  #FEFFD5 30%, #f0d208 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FEFFD5), color-stop(90%,#f0d208));background: -webkit-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -o-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -ms-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: linear-gradient(#FEFFD5 30%, #f0d208 90%);color: #000000;}.stb-warning-caption_box {background: #FE9A05;background: -moz-linear-gradient(top,  #FE9A05 30%, #504848 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FE9A05), color-stop(90%,#504848));background: -webkit-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: -o-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: -ms-linear-gradient(top,  #FE9A05 30%,#504848 90%);background: linear-gradient(#FE9A05 30%, #504848 90%);color: #FFFFFF;}.stb-warning-body_box {background: #FEFFD5;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FEFFD5', endColorstr='#f0d208',GradientType=0 );background: -moz-linear-gradient(top,  #FEFFD5 30%, #f0d208 90%);background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#FEFFD5), color-stop(90%,#f0d208));background: -webkit-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -o-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: -ms-linear-gradient(top,  #FEFFD5 30%,#f0d208 90%);background: linear-gradient(#FEFFD5 30%, #f0d208 90%);color: #000000;}</style>
+
+<!-- This site is optimized with the Yoast SEO plugin v4.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="List of must read books on machine learning and artificial intelligence provides an overview to a data scientist and its uses in modeling">
+<meta name="robots" content="noodp">
+<meta name="keywords" content="books for machine learning,books on artificial intelligence,learning machine learning,artificial intelligence for beginners,machine learning tutorial">
+<link rel="canonical" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Must Read Books&nbsp;on Machine Learning Artificial Intelligence">
+<meta property="og:description" content="List of must read books on machine learning and artificial intelligence provides an overview to a data scientist and its uses in modeling">
+<meta property="og:url" content="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">
+<meta property="og:site_name" content="Analytics Vidhya">
+<meta property="article:publisher" content="https://www.facebook.com/AnalyticsVidhya/">
+<meta property="article:tag" content="Artificial Intelligence">
+<meta property="article:tag" content="book">
+<meta property="article:tag" content="books on machine learning">
+<meta property="article:tag" content="image recognition">
+<meta property="article:tag" content="machine learning">
+<meta property="article:tag" content="pattern recognition">
+<meta property="article:tag" content="statistical modeling">
+<meta property="article:tag" content="statistics">
+<meta property="article:tag" content="Supervised Learning">
+<meta property="article:section" content="Business Analytics">
+<meta property="article:published_time" content="2015-10-25T22:37:29+00:00">
+<meta property="article:modified_time" content="2017-01-05T09:41:02+00:00">
+<meta property="og:updated_time" content="2017-01-05T09:41:02+00:00">
+<meta property="og:image" content="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg">
+<meta property="og:image:width" content="500">
+<meta property="og:image:height" content="280">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="List of must read books on machine learning and artificial intelligence provides an overview to a data scientist and its uses in modeling">
+<meta name="twitter:title" content="Must Read Books&nbsp;on Machine Learning Artificial Intelligence">
+<meta name="twitter:site" content="@analyticsvidhya">
+<meta name="twitter:image" content="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg">
+<meta name="twitter:creator" content="@analyticsvidhya">
+<!-- / Yoast SEO plugin. -->
+
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="Analytics Vidhya » Feed" href="https://www.analyticsvidhya.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Analytics Vidhya » Comments Feed" href="https://www.analyticsvidhya.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Analytics Vidhya » Must Read Books&nbsp;for Beginners on Machine Learning and Artificial Intelligence Comments Feed" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/feed/">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.analyticsvidhya.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://www.analyticsvidhya.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.2" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="https://www.analyticsvidhya.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.6.1" type="text/css" media="all">
+<link rel="stylesheet" id="dgd-scrollbox-plugin-core-css" href="https://www.analyticsvidhya.com/wp-content/plugins/dreamgrow-scroll-triggered-box/css/style.css?ver=2.3" type="text/css" media="all">
+<link rel="stylesheet" id="bhittani_plugin_kksr-css" href="https://www.analyticsvidhya.com/wp-content/plugins/kk-star-ratings/css.css?ver=2.5.1" type="text/css" media="all">
+<link rel="stylesheet" id="wsl-widget-css" href="https://www.analyticsvidhya.com/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="maha-bootstrap-css" href="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/css/bootstrap-responsive.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="maha-entypo-css" href="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/css/entypo.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="maha-basix-css" href="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/css/basix.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="maha-basix-r-css" href="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/css/basix-responsive.css?ver=1.0" type="text/css" media="all">
+<link rel="stylesheet" id="maha_heading_font-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;subsets=latin%2Clatin&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="maha_main_font-css" href="//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700&amp;subsets=latin%2Clatin&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="maha_content_font-css" href="//fonts.googleapis.com/css?family=Raleway%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subsets=latin%2Clatin&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="stbCoreCSS-css" href="https://www.analyticsvidhya.com/wp-content/plugins/wp-special-textboxes/css/stb-core.css?ver=5.7.105" type="text/css" media="all">
+<link rel="stylesheet" id="social-logos-css" href="https://www.analyticsvidhya.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="https://www.analyticsvidhya.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.5" type="text/css" media="all">
+<link rel="stylesheet" id="wpss-style-css" href="https://www.analyticsvidhya.com/wp-content/plugins/wordpress-simple-survey/assets/build/css/wpss-pkg.min.css?ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="wpss-custom-db-style-css" href="https://www.analyticsvidhya.com/?wpss-routing=custom-css&amp;ver=4.7.2" type="text/css" media="all">
+<link rel="stylesheet" id="simplr-forms-style-css" href="https://www.analyticsvidhya.com/wp-content/plugins/simplr-registration-form/assets/skins/default.css?ver=4.7.2" type="text/css" media="all">
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20150408" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var $DGD = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"eb14ab95ff","debug":"","permalink":"https:\/\/www.analyticsvidhya.com\/blog\/2015\/10\/read-books-for-beginners-machine-learning-artificial-intelligence\/","title":"Must Read Books\u00a0for Beginners on Machine Learning and Artificial Intelligence","thumbnail":"https:\/\/www.analyticsvidhya.com\/wp-content\/uploads\/2015\/10\/garphics-3-1.jpg","scripthost":"\/wp-content\/plugins\/dreamgrow-scroll-triggered-box\/","scrollboxes":[{"trigger":{"action":"scroll","scroll":"30","delaytime":"0","element":""},"vpos":"center","hpos":"center","cookieLifetime":"7","hide_mobile":"1","receiver_email":"0","thankyou":"You are subscribed. Thank You!","submit_auto_close":"0.1","hide_submitted":"1","delay_auto_close":"60","theme":"","widget_enabled":"1","height":"350","width":"600","jsCss":{"padding":"10","margin":"10","backgroundColor":"#ffffff","boxShadow":"1px","borderColor":"#000000","borderWidth":"2px","borderRadius":"1px","backgroundImageUrl":""},"closeImageUrl":"https:\/\/www.analyticsvidhya.com\/wp-content\/uploads\/2015\/06\/cross.png","transition":{"from":"b","effect":"none","speed":"400"},"social":{"facebook":"","twitter":"","google":"","pinterest":"","stumbleupon":"","linkedin":""},"id":"dgd_scrollbox-16979","mode":"stb","voff":0,"hoff":0}]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/dreamgrow-scroll-triggered-box/js/script.js?ver=2.3" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/kk-star-ratings/js.min.js?ver=2.5.1" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/wordpress-simple-survey/assets/build/js/wpss-pkg.min.js?ver=3.0.0" defer="defer"></script>
+<link rel="https://api.w.org/" href="https://www.analyticsvidhya.com/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.analyticsvidhya.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.analyticsvidhya.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.7.2">
+<link rel="shortlink" href="https://www.analyticsvidhya.com/?p=21008">
+<link rel="alternate" type="application/json+oembed" href="https://www.analyticsvidhya.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2015%2F10%2Fread-books-for-beginners-machine-learning-artificial-intelligence%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.analyticsvidhya.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2015%2F10%2Fread-books-for-beginners-machine-learning-artificial-intelligence%2F&amp;format=xml">
+<style>.kk-star-ratings { width:120px; }.kk-star-ratings .kksr-stars a { width:24px; }.kk-star-ratings .kksr-stars, .kk-star-ratings .kksr-stars .kksr-fuel, .kk-star-ratings .kksr-stars a { height:24px; }.kk-star-ratings .kksr-star.gray { background-image: url(https://www.analyticsvidhya.com/wp-content/uploads/2016/07/gray.png); }.kk-star-ratings .kksr-star.yellow { background-image: url(https://www.analyticsvidhya.com/wp-content/uploads/2016/07/yellow.png); }.kk-star-ratings .kksr-star.orange { background-image: url(https://www.analyticsvidhya.com/wp-content/uploads/2016/07/orange.png); }</style><!-- WordPress Most Popular --><script type="text/javascript">/* <![CDATA[ */ jQuery.post("https://www.analyticsvidhya.com/wp-admin/admin-ajax.php", { action: "wmp_update", id: 21008, token: "c9fdafdb7e" }); /* ]]> */</script><!-- /WordPress Most Popular -->              <!-- Start Facebook Share -->
+              <meta property="og:url" content="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">
+              <meta property="og:title" content="Must Read Books&nbsp;for Beginners on Machine Learning and Artificial Intelligence">
+              <meta property="og:description" content="Introduction Machine Learning has granted incredible power to humans. The power to run tasks in automated manner, the power to make our lives comfrotable,&nbsp;the power to improve things continuously by studying decisions at large sacle&nbsp;. And the power to create species who think better than humans. Don't believe me? Read what Google's CEO Mr. Sundar">
+              <meta property="og:image" content="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1-200x200.jpg">
+              <!-- End Facebook Share -->
+        <link rel="canonical" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">
+<style type="text/css">                    .pagethumb{height:141px;}
+#wpstats{display:none;}
+.trainingthumb{width:10%;}
+.training{padding-left:95px!important;}
+.admininfo{display:none;}
+.featurtr{height:25px;}
+
+#listcategorypostswidget-2 ul li a,#listcategorypostswidget-3 ul li a{
+    	font-size: 16px;
+	line-height: 1.4em;
+	letter-spacing: 0.1px;
+	font-family: "Oswald",Arial,sans-serif;
+	color: #333;
+}
+
+#latestdiscoursepostswidget-3 ul li a,#latestdiscoursepostswidget-2 ul li a{
+	font-size: 16px;
+	line-height: 1.4em;
+	letter-spacing: 0.1px;
+	font-family: "Oswald",Arial,sans-serif;
+	color: #333;
+}
+.widget_menus ul li{width:53%;}
+.cntctfrm_label, .cntctfrm_input, .cntctfrm_select, .cntctfrm_checkbox
+{
+    max-width:100%; margin:5px;
+}
+.cntctfrm_contact_submit
+{
+ -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #151515;
+    border-bottom: 0 none !important;
+    border-image: none;
+    border-left: medium none;
+    border-radius: 3px;
+    border-right: medium none;
+    border-top: medium none;
+    color: #fff;
+    display: inline-block;
+    font-family: "Oswald",Arial,sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    opacity: 0.8;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s linear 0s;
+}
+#body-maha {
+background-color: #fff;
+background-image: url("/wp-content/uploads/2015/02/wild-sea24.jpg");
+background-repeat: repeat;
+background-position: center center;
+
+}
+.page-id-12650 #body-maha #body-background #off-canvas-body .page-wrapper .page-default #cur-page .post-box-oblog.animated.fadeInUp
+{
+    padding-left:0px;
+}
+.sidebar .block-cap h3
+{
+    margin-bottom:10px;
+}
+#text-8 .textwidget {
+    height: 260px!important;
+}
+.pagetitle-divider
+{
+    border-bottom: 4px solid #333333;
+    display: block;
+    margin: 15px 0 16px;
+}
+
+#resultip {
+    margin-left: 0px;
+}
+
+.text-content a{
+color:#00F;/*#2200CC; */ /*#F60;*/
+}
+.submit a {
+    background: none repeat scroll 0 0 #D34821;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+.submit {
+    background: none repeat scroll 0 0 #D34821;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Oswald", Arial, sans-serif;
+    font-size: 15px;
+    letter-spacing: .3px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 18%;
+    float: right;
+}
+
+.jobsform {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.jobsform tr {
+    padding: 5px 20px;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.jobsform .jobstext {
+    margin: 0;
+    height: 35px;
+    width: 60%;
+    padding: 2px 5px;
+}
+
+.jobsform .submit {  width: 100%; }
+
+.star {
+    color: #E00202;
+}
+
+.textwidget{
+height:auto!important;
+}
+.popup-bg-1 {
+  clear: both;
+  background-color: #E32626;
+  height: 10px;
+  margin: -10px;
+}
+
+.h5-popup
+{
+font-size: 28px;
+margin-top: 20px!important;
+}
+
+
+.h6-popup
+{
+font-size: 19px;
+color:#02396F;
+}
+
+.p-popup
+{
+color:#02396F;
+font-size:16px;
+}
+
+.popup-email {
+  background-color: #fff;
+  width: 50%;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 6px;
+  overflow: hidden;
+  outline: none;
+  margin: 0 0 15px;
+  vertical-align: middle;
+  height: 46px;
+}
+
+.popup-subscribe{
+    background-color: #be1616;
+  background-image: none;
+  width: 35% !important;
+  height: 41px !important;
+  cursor: pointer;
+  float: right !important;
+  color: #FFF !important;
+  font-size: 18px;
+  margin-right: 62px;
+  margin-top: -65px;
+}
+.popup-ul
+{
+  color: #02396F;
+  font-weight:bold;
+}
+.popup-ul li
+{
+  list-style: none;
+  background: url("https://www.analyticsvidhya.com/wp-content/plugins/dreamgrow-scroll-triggered-box/themes/clean_white/bullet.png") 0 6px no-repeat;
+  padding: 0 0 0 25px;
+  line-height: 17px;
+}
+
+.main-ul-nav ul li a {
+/*padding: 0 12px;*/
+padding: 0 9px;
+}
+
+.text-content p{
+    font-size: 16px;
+    line-height: 25px;
+}
+/* Disable Related Posts 
+.related-article{display: none;}*/
+.jp-relatedposts-headline { 
+font-size: 22px!important;
+line-height: 1.2em!important;
+text-transform: uppercase!important;
+border-bottom: 4px solid #333!important;
+display: inline-block!important;
+margin: 0px 0px -1px!important;
+padding: 0px 3px 9px!important;
+}
+.jp-relatedposts-post-a{
+    line-height: 1.4em!important;
+letter-spacing: 0.2px!important;
+color: #333!important;
+font-weight: 500!important;
+font-size: 16px!important;
+word-wrap: break-word!important;
+font-family: "Oswald",Arial,sans-serif!important;
+}
+
+.top_users{
+margin-top:-23px;
+width: 100%;
+text-align:center;
+border-top: none!important;
+border-bottom: 1px solid #999; 
+
+/*
+border-top: 2px solid #999; 
+border-bottom: 2px solid #999; 
+ */
+}
+.top_users tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.top_users_li{
+padding-left:0px;
+margin-left:0px;
+}
+
+.top_users_td_image {
+width:60px;
+border:0px;
+}
+
+.top_users_img {
+	height: 40px;
+	border-radius: 25px;
+	/*width: 40px;*/
+}
+.top_users_name_td{
+text-align:left;
+}
+
+.top_users_name{
+	margin-left:10px;
+}
+
+.top_users_more
+{
+    float:right;
+    margin-right:10px;
+}
+
+.wpcf7 .wpcf7-form-control-wrap input, .wpcf7 .wpcf7-form-control-wrap textarea {
+    margin-bottom: 0px;
+    width: auto !important;
+}
+
+code {
+    white-space:normal;
+}
+
+
+.adslot_1 { width: 320px; height: 100px; }
+@media (min-width:500px) { .adslot_1 { width: 468px; height: 60px; } }
+@media (min-width:800px) { .adslot_1 { width: 728px; height: 90px; } }
+@media (min-width:1200px) { .adslot_1 { width: 970px; height: 90px; } }
+
+.adslot_2 { width: 320px; height: 100px; }
+@media (min-width:500px) { .adslot_2 { width: 468px; height: 60px; } }
+@media (min-width:800px) { .adslot_2 { width: 728px; height: 90px; } }
+@media (min-width:1200px) { .adslot_2 { width: 728px; height: 90px; } }                </style>                    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40101183-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40101183-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+if(! /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {     
+jQuery(document).ready(function(){
+jQuery( ".col-sm-12" ).removeClass( "myrun" );    
+});
+}
+</script>                
+</head>
+
+<body class="post-template-default single single-post postid-21008 single-format-standard safari iphone mh-body">
+
+    <div id="body-maha" class="body-maha">
+
+        <nav id="mobile-bar-sticky" role="navigation" class="mobile-bar bar-sticky">
+            <div id="close-mobile-bar"><i class="icon-cancel"></i></div>
+            <div id="search-mobile-bar"><form action="https://www.analyticsvidhya.com/" class="searchform" method="get">
+	<button class="search-button"><i class="icon-search"></i></button>
+	<input type="text" name="s" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" autocomplete="off">
+</form></div>
+            <ul id="menu-main-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mh-navcat-0"><span class="navmob-sub-menu"><i class="icon-down-open-mini"></i></span><a href="https://www.analyticsvidhya.com/blog/">Blog</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children mh-navcat-5"><span class="navmob-sub-menu"><i class="icon-down-open-mini"></i></span><a href="https://www.analyticsvidhya.com/blog/category/business-analytics/">Business Analytics</a>
+	<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-11"><span></span><a href="https://www.analyticsvidhya.com/blog/category/sas/">SAS</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent mh-navcat-72"><span></span><a href="https://www.analyticsvidhya.com/blog/category/r/">R</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent mh-navcat-396"><span></span><a href="https://www.analyticsvidhya.com/blog/category/python-2/">Python</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children mh-navcat-8"><span class="navmob-sub-menu"><i class="icon-down-open-mini"></i></span><a href="https://www.analyticsvidhya.com/blog/category/business-intelligence/">Business Intelligence</a>
+	<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-9"><span></span><a href="https://www.analyticsvidhya.com/blog/category/qlikview/">Qlikview</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-25"><span></span><a href="https://www.analyticsvidhya.com/blog/category/web-analytics-2/">Web Analytics</a></li>
+	</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-29"><span></span><a href="https://www.analyticsvidhya.com/blog/category/big-data/">Big data</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-2284"><span></span><a href="https://www.analyticsvidhya.com/blog/category/infographics/">Infographics</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/">Glossary</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-170"><span></span><a href="https://www.analyticsvidhya.com/jobs/">Jobs</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/trainings/">Trainings</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><span></span><a href="https://discuss.analyticsvidhya.com">Discuss</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mh-navcat-0"><span class="navmob-sub-menu"><i class="icon-down-open-mini"></i></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/">Learning Paths</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-business-analyst-sas/">SAS Business Analyst</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/">LeaRn Data Science on R</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-data-science-python/">Data Science in Python</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/">DATA SCIENCE IN WEKA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/tableau-learning-path/">Data Visualization with Tableau</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/qlikview-learning-path/">Data Visualization with QlikView</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/">Interactive Data Stories with D3.js</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mh-navcat-0"><span class="navmob-sub-menu"><i class="icon-down-open-mini"></i></span><a href="https://datahack.analyticsvidhya.com">DataHack</a>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><span></span><a href="https://datahack.analyticsvidhya.com/contest/all">Hackathons</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-1915"><span></span><a href="https://www.analyticsvidhya.com/blog/category/events/">Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-3118"><span></span><a href="https://www.analyticsvidhya.com/blog/category/stories/">Stories</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><span></span><a href="http://www.analyticsvidhya.com/about-me/write/">Write For Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/contact/">Contact Us</a></li>
+</ul>        </nav>
+
+        <!-- START BODY BACKGROUND -->
+        <div id="body-background">
+
+        <!-- START OFF CANVAS BODY -->
+                <div id="off-canvas-body" class="off-canvas-body animati-on">
+
+            <!-- START TOP BAR -->
+            <div id="top-bar-sticky" class="bar-sticky">
+                <div class="top-bar">
+
+                    <!-- start container -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div id="top-right-nav" class="ul-nav">
+                                    <ul>
+                                    <li><a target="_blank" href="https://www.facebook.com/AnalyticsVidhya"><i class="icon-facebook"></i></a></li><li><a target="_blank" href="https://twitter.com/analyticsvidhya"><i class="icon-twitter"></i></a></li><li><a target="_blank" href="https://plus.google.com/+Analyticsvidhya/posts"><i class="icon-gplus"></i></a></li><li><a target="_blank" href="https://www.linkedin.com/groups/Analytics-Vidhya-Learn-everything-about-5057165"><i class="icon-linkedin"></i></a></li>                                    </ul>
+                                </div>
+
+                                <nav id="top-nav-wrapper" class="ul-nav">
+                                    <ul id="menu-top" class="menu"><li id="menu-item-12951" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12951 mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/">Home</a></li>
+<li id="menu-item-12992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12992 mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/blog/">Blog</a></li>
+<li id="menu-item-12658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12658 mh-navcat-170"><span></span><a href="https://www.analyticsvidhya.com/jobs/">Jobs</a></li>
+<li id="menu-item-12643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12643 mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/trainings/">Trainings</a></li>
+<li id="menu-item-12644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12644 mh-navcat-0"><span></span><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/">Learning Paths</a></li>
+<li id="menu-item-12952" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12952 mh-navcat-0"><span></span><a href="https://discuss.analyticsvidhya.com">Discuss</a></li>
+<li id="menu-item-20125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20125 mh-navcat-0"><span></span><a href="https://datahack.analyticsvidhya.com">DataHack</a></li>
+</ul>                                </nav>
+
+                                <nav id="top-mobile-wrapper" class="ul-nav">
+                                    <ul><li><a><i class="icon-menu"></i></a></li></ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end container -->
+
+                </div>
+            </div>
+            <!-- END TOP BAR -->
+
+            <!-- START MAIN BAR -->
+            <div class="main-logo-ads-wrap">
+                <div class="main-logo-ads">
+
+                    <!-- start container -->
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-sm-12">
+                                <!-- logo -->
+                                		<div id="thelogo" class="logo ">
+			<a href="https://www.analyticsvidhya.com">
+				<img alt="Analytics Vidhya - Learn everything about Analytics" src="https://www.analyticsvidhya.com/wp-content/uploads/2014/12/analytics-logo-300x70.jpg" data-retina="https://www.analyticsvidhya.com/wp-content/uploads/2014/12/analytics-logo-300x70.jpg" data-first="https://www.analyticsvidhya.com/wp-content/uploads/2014/12/analytics-logo-300x70.jpg">
+			</a>
+		</div>
+		<h2 class="site-outline">Learn everything about Analytics</h2>
+                                <!-- adv -->
+                                <div id="main-ads" class="">
+                                    <div class="vp-1170 vp-fluid"><a href="https://www.analyticsvidhya.com/jobs/" target="_blank"><img src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/31090132/premium-employment-hub.png"></a></div>
+                                    <div class="vp-970 vp-750"><a href="https://www.analyticsvidhya.com/jobs/" target="_blank"><img src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/31090159/premium-employment-hub-2.png"></a></div>
+                                    <div class="vp-320"><a href="https://www.analyticsvidhya.com/jobs/" target="_blank"><img src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/31090229/premium-employment-hub-3.png"></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end container -->
+
+                </div>
+            </div>
+            <!-- END MAIN BAR -->
+
+            <!-- START MAIN NAV BAR -->
+            <!-- <div id="main-nav-bar-sticky" class="main-bar-sticky"> -->
+            <div id="main-nav-bar" class="main-nav-bar clearfix ">
+                <div id="main-search" class=" clearfix">
+                    <div id="con-search">
+                        <div class="container">
+                            <div class="cols-sm12">
+                                <form action="https://www.analyticsvidhya.com/" id="main-search-form">
+                                    <!-- <input type="submit" class="go-search"/> -->
+                                    <span class="close-search-form"><i class="icon-cancel"></i></span>
+                                    <span class="loading-search-result"><img src="https://www.analyticsvidhya.com/wp-content/themes/Curated/images/loading.gif" alt=""></span>
+                                    <input type="text" class="search-field" autocomplete="off" name="s" placeholder="Type here... and hit enter">
+                                    
+                                                                        <div class="search-result">
+                                        <div class="container search-result-content">
+                                            
+                                        </div>
+                                    </div>
+                                                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="maha-notification container"><div id="main-notif"></div></div>
+
+                <div class="container clearfix">
+                    
+                </div>
+
+                <!-- start container -->
+                <div class="container clearfix">
+                    <div class="row clearfix">
+                        <div class="col-sm-12 clearfix">
+                            <!-- main search form -->
+
+                            <!-- login nav -->
+                            
+                            <!-- search nav -->
+                                                        <div id="search-nav" class="search-nav clearfix">
+                                <span class="open-search-form"><i class="icon-search"></i></span>
+                            </div>
+                            
+                            <!-- Cart nav -->
+                            
+                            <!-- main nav -->
+                            <nav id="main-nav-wrapper" class="main-ul-nav clearfix">
+                            		<div id="thelogosmall" class="logo">
+			<a href="https://www.analyticsvidhya.com">
+				<img alt="Analytics Vidhya - Learn everything about Analytics" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/analytics-logo-214x501.jpg" data-retina="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/analytics-logo-214x501.jpg" data-first="https://www.analyticsvidhya.com/wp-content/uploads/2015/02/analytics-logo-214x501.jpg">
+			</a>
+		</div>
+		<ul id="menu-main-menu-1" class="menu"><li id="menu-item-26470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home mh-navcat-0"><a href="https://www.analyticsvidhya.com/">Home</a>
+</li>
+<li id="menu-item-12993" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mh-navcat-0 ord-nav-offset"><a href="https://www.analyticsvidhya.com/blog/">Blog<span class="sub-ord-nav"> <i class="icon-down-open-mini"></i> </span></a><div class="nav-sub-wrap ord-nav"><div class="nsw">
+<div class="nav-sub-menus"><ul>
+	<li id="menu-item-2475" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children mh-navcat-5"><a href="https://www.analyticsvidhya.com/blog/category/business-analytics/">Business Analytics<span class="sub-ord-nav"> <i class="icon-right-open-mini"></i> </span></a>
+	<div class="nav-sub-wrap ord-nav"><div class="nsw"><div class="nav-sub-menus"><ul>
+		<li id="menu-item-2478" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-11"><a href="https://www.analyticsvidhya.com/blog/category/sas/">SAS</a></li>
+		<li id="menu-item-7476" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent mh-navcat-72"><a href="https://www.analyticsvidhya.com/blog/category/r/">R</a></li>
+		<li id="menu-item-7713" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent mh-navcat-396"><a href="https://www.analyticsvidhya.com/blog/category/python-2/">Python</a></li>
+	</ul></div></div></div>
+</li>
+	<li id="menu-item-2476" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children mh-navcat-8"><a href="https://www.analyticsvidhya.com/blog/category/business-intelligence/">Business Intelligence<span class="sub-ord-nav"> <i class="icon-right-open-mini"></i> </span></a>
+	<div class="nav-sub-wrap ord-nav"><div class="nsw"><div class="nav-sub-menus"><ul>
+		<li id="menu-item-2477" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-9"><a href="https://www.analyticsvidhya.com/blog/category/qlikview/">Qlikview</a></li>
+		<li id="menu-item-2479" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-25"><a href="https://www.analyticsvidhya.com/blog/category/web-analytics-2/">Web Analytics</a></li>
+	</ul></div></div></div>
+</li>
+	<li id="menu-item-2474" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-29"><a href="https://www.analyticsvidhya.com/blog/category/big-data/">Big data</a></li>
+	<li id="menu-item-18233" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-2284"><a href="https://www.analyticsvidhya.com/blog/category/infographics/">Infographics</a></li>
+	<li id="menu-item-31580" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/glossary-of-common-statistics-and-machine-learning-terms/">Glossary</a>
+</li>
+</ul></div>
+</div></div>
+</li>
+<li id="menu-item-31593" class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-170"><a href="https://www.analyticsvidhya.com/jobs/">Jobs</a>
+</li>
+<li id="menu-item-7328" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/trainings/">Trainings</a>
+</li>
+<li id="menu-item-11881" class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><a href="https://discuss.analyticsvidhya.com">Discuss</a>
+</li>
+<li id="menu-item-12170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mh-navcat-0 ord-nav-offset"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/">Learning Paths<span class="sub-ord-nav"> <i class="icon-down-open-mini"></i> </span></a><div class="nav-sub-wrap ord-nav"><div class="nsw">
+<div class="nav-sub-menus"><ul>
+	<li id="menu-item-12503" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-business-analyst-sas/">SAS Business Analyst</a>
+</li>
+	<li id="menu-item-14416" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-r-data-science/">LeaRn Data Science on R</a>
+</li>
+	<li id="menu-item-12171" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/learning-path-data-science-python/">Data Science in Python</a>
+</li>
+	<li id="menu-item-13207" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/weka-gui-learn-machine-learning/">DATA SCIENCE IN WEKA</a>
+</li>
+	<li id="menu-item-23077" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/tableau-learning-path/">Data Visualization with Tableau</a>
+</li>
+	<li id="menu-item-12320" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/qlikview-learning-path/">Data Visualization with QlikView</a>
+</li>
+	<li id="menu-item-23078" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/learning-paths-data-science-business-analytics-business-intelligence-big-data/newbie-d3-js-expert-complete-path-create-interactive-visualization-d3-js/">Interactive Data Stories with D3.js</a>
+</li>
+</ul></div>
+</div></div>
+</li>
+<li id="menu-item-20124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mh-navcat-0 ord-nav-offset"><a href="https://datahack.analyticsvidhya.com">DataHack<span class="sub-ord-nav"> <i class="icon-down-open-mini"></i> </span></a><div class="nav-sub-wrap ord-nav"><div class="nsw">
+<div class="nav-sub-menus"><ul>
+	<li id="menu-item-24638" class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><a href="https://datahack.analyticsvidhya.com/contest/all">Hackathons</a>
+</li>
+	<li id="menu-item-24639" class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-1915"><a href="https://www.analyticsvidhya.com/blog/category/events/">Events</a>
+</li>
+</ul></div>
+</div></div>
+</li>
+<li id="menu-item-27174" class="menu-item menu-item-type-taxonomy menu-item-object-category mh-navcat-3118"><a href="https://www.analyticsvidhya.com/blog/category/stories/">Stories<span class="sub-ord-nav"> <i class="icon-down-open-mini"></i> </span></a><div class="nav-sub-wrap container"><div class="nsw row mm-full"><div class="nav-sub-posts"><div class="row">
+							<div class="col-sm-3">
+								<div class="meta-info">
+									<span class="ava-auth">
+										<img width="14" height="14" itemprop="image" class="entry-thumb" src="https://secure.gravatar.com/avatar/a8df32b7e4a5b0862132757918c78578?s=48&amp;d=mm&amp;r=g" alt="" title="Guest Blog">
+									</span>
+									<span itemprop="author" class="entry-author"><a href="https://www.analyticsvidhya.com/blog/author/guest-blog/">Guest Blog</a></span>
+									<span class="coma">,</span>
+									<time itemprop="dateCreated" class="entry-date" datetime="2017-01-21T03:50:17+00:00">
+										January 21, 2017
+									</time>
+								</div><figure class="thumb-wrap zoom-zoom">
+									<a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/delivery-head-to-data-science-hacker/" rel="bookmark" title="MyStory: How I became a Data Science Hacker from being a Delivery Head"><img class="zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/19131514/apple-camera-desk-office-1-360x193.jpg" alt="MyStory: How I became a Data Science Hacker from being a Delivery Head"></a>
+								</figure><a class="entry-title" href="https://www.analyticsvidhya.com/blog/2017/01/delivery-head-to-data-science-hacker/">MyStory: How I became a Data Science Hacker from being a Delivery Head</a>
+							</div>
+							<div class="col-sm-3">
+								<div class="meta-info">
+									<span class="ava-auth">
+										<img width="14" height="14" itemprop="image" class="entry-thumb" src="https://secure.gravatar.com/avatar/a8df32b7e4a5b0862132757918c78578?s=48&amp;d=mm&amp;r=g" alt="" title="Guest Blog">
+									</span>
+									<span itemprop="author" class="entry-author"><a href="https://www.analyticsvidhya.com/blog/author/guest-blog/">Guest Blog</a></span>
+									<span class="coma">,</span>
+									<time itemprop="dateCreated" class="entry-date" datetime="2017-01-14T04:25:03+00:00">
+										January 14, 2017
+									</time>
+								</div><figure class="thumb-wrap zoom-zoom">
+									<a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/mystory-how-i-became-data-science-analyst-from-software-developer/" rel="bookmark" title="MyStory: How I became a Data Science Analyst from a Software developer?"><img class="zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/13132440/pexels-photo-360x193.jpg" alt="MyStory: How I became a Data Science Analyst from a Software developer?"></a>
+								</figure><a class="entry-title" href="https://www.analyticsvidhya.com/blog/2017/01/mystory-how-i-became-data-science-analyst-from-software-developer/">MyStory: How I became a Data Science Analyst from a Software developer?</a>
+							</div>
+							<div class="col-sm-3">
+								<div class="meta-info">
+									<span class="ava-auth">
+										<img width="14" height="14" itemprop="image" class="entry-thumb" src="https://secure.gravatar.com/avatar/a8df32b7e4a5b0862132757918c78578?s=48&amp;d=mm&amp;r=g" alt="" title="Guest Blog">
+									</span>
+									<span itemprop="author" class="entry-author"><a href="https://www.analyticsvidhya.com/blog/author/guest-blog/">Guest Blog</a></span>
+									<span class="coma">,</span>
+									<time itemprop="dateCreated" class="entry-date" datetime="2016-11-26T06:49:45+00:00">
+										November 26, 2016
+									</time>
+								</div><figure class="thumb-wrap zoom-zoom">
+									<a itemprop="url" href="https://www.analyticsvidhya.com/blog/2016/11/mystory-i-became-a-data-scientist-after-8-years-working-as-a-software-test-engineer/" rel="bookmark" title="Mystory: I became a Data Scientist after 8 years working as a Software Test Engineer"><img class="zoom-it three" src="https://www.analyticsvidhya.com/wp-content/uploads/2016/11/pexels-photo-360x193.jpg" alt="Mystory: I became a Data Scientist after 8 years working as a Software Test Engineer"></a>
+								</figure><a class="entry-title" href="https://www.analyticsvidhya.com/blog/2016/11/mystory-i-became-a-data-scientist-after-8-years-working-as-a-software-test-engineer/">Mystory: I became a Data Scientist after 8 years working as a Software Test Engineer</a>
+							</div>
+							<div class="col-sm-3">
+								<div class="meta-info">
+									<span class="ava-auth">
+										<img width="14" height="14" itemprop="image" class="entry-thumb" src="https://secure.gravatar.com/avatar/a8df32b7e4a5b0862132757918c78578?s=48&amp;d=mm&amp;r=g" alt="" title="Guest Blog">
+									</span>
+									<span itemprop="author" class="entry-author"><a href="https://www.analyticsvidhya.com/blog/author/guest-blog/">Guest Blog</a></span>
+									<span class="coma">,</span>
+									<time itemprop="dateCreated" class="entry-date" datetime="2016-11-10T03:17:48+00:00">
+										November 10, 2016
+									</time>
+								</div><figure class="thumb-wrap zoom-zoom">
+									<a itemprop="url" href="https://www.analyticsvidhya.com/blog/2016/11/tryst-with-deep-learning-in-international-data-science-game-2016/" rel="bookmark" title="Tryst with Deep Learning in International Data Science Game 2016"><img class="zoom-it three" src="https://www.analyticsvidhya.com/wp-content/uploads/2016/11/Cvw2S2XWAAA33zf-360x193.jpg" alt="Tryst with Deep Learning in International Data Science Game 2016"></a>
+								</figure><a class="entry-title" href="https://www.analyticsvidhya.com/blog/2016/11/tryst-with-deep-learning-in-international-data-science-game-2016/">Tryst with Deep Learning in International Data Science Game 2016</a>
+							</div></div></div></div></div>
+</li>
+<li id="menu-item-22625" class="menu-item menu-item-type-custom menu-item-object-custom mh-navcat-0"><a href="http://www.analyticsvidhya.com/about-me/write/">Write For Us</a>
+</li>
+<li id="menu-item-24641" class="menu-item menu-item-type-post_type menu-item-object-page mh-navcat-0"><a href="https://www.analyticsvidhya.com/contact/">Contact Us</a>
+</li>
+</ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- end container -->
+
+            </div>
+            <!-- </div> -->
+            <!-- END MAIN NAV BAR -->
+
+            <!-- START PAGE WRAPPER -->
+            <div class="page-wrapper">
+                
+
+
+
+<!-- Running Text -->
+
+<div class="mh-el page-sidebar single-regular">                           
+	
+	<!-- start container -->
+	<div class="container">
+
+		
+		<div class="row">
+			<!-- Page -->
+			<div class="col-sm-8">
+
+				<div class="main-content">
+					
+					<!-- Breadcrumbs -->
+					<div class="maha-crumbs" prefix="v: http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="https://www.analyticsvidhya.com/" rel="v:url" property="v:title">Home</a></span> <i class="icon-right-open-mini"></i> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://www.analyticsvidhya.com/blog/category/business-analytics/">Business Analytics</a></span> <i class="icon-right-open-mini"></i> <span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/">Must Read Books&nbsp;for Beginners on Machine Learning and Artificial Intelligence</a></span></div><!-- .breadcrumbs -->
+					
+						<article id="post-2729" class="main-content single-post-box" itemscope="" itemtype="http://schema.org/Article">
+
+							
+
+<header itemscope="" itemtype="http://schema.org/Blog">
+
+	
+	<!-- <meta itemprop="author" content="Analytics Vidhya Content Team"> -->
+	<meta itemprop="datecreated" content="2015-10-25T22:37:29+00:00">
+	<meta itemprop="image" content="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg">
+	<meta itemprop="about" content="">
+
+	
+	<h1 itemprop="name" class="entry-title">Must Read Books&nbsp;for Beginners on Machine Learning and Artificial Intelligence</h1>
+	
+	<div class="hidden" itemscope="" itemtype="http://schema.org/Thing">
+		<span itemprop="name">Must Read Books&nbsp;for Beginners on Machine Learning and Artificial Intelligence</span>
+	</div>
+
+	<div class="meta-count">
+				<span class="i-category"><a class="mh-elcat-5" href="https://www.analyticsvidhya.com/blog/category/business-analytics/" title="Business Analytics" rel="category">Business Analytics</a> <a class="mh-elcat-396" href="https://www.analyticsvidhya.com/blog/category/python-2/" title="Python" rel="category">Python</a> <a class="mh-elcat-72" href="https://www.analyticsvidhya.com/blog/category/r/" title="R" rel="category">R</a> </span>
+	</div>
+
+	<div class="title-divider"></div>
+
+	<div class="meta-share">
+		<span class="header-font">SHARE </span>
+		<a class="social-facebook" href="http://www.facebook.com/sharer.php?u=https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/&amp;t=Must%20Read%20Books for%20Beginners%20on%20Machine%20Learning%20and%20Artificial%20Intelligence" title="Share on Facebook" target="_blank"><i class="icon-facebook"></i></a>
+		<a class="social-twitter" href="https://twitter.com/home?status=Must%20Read%20Books for%20Beginners%20on%20Machine%20Learning%20and%20Artificial%20Intelligence+https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/" title="Share on Twitter" target="_blank"><i class="icon-twitter"></i></a>
+		<a class="social-googleplus" href="https://plus.google.com/share?url=https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/" title="Share on Google+" target="_blank"><i class="icon-gplus"></i></a>
+		<a class="social-pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/&amp;media=https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg&amp;description=Must%20Read%20Books for%20Beginners%20on%20Machine%20Learning%20and%20Artificial%20Intelligence" title="Share on Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+	</div>
+
+	<div class="meta-info">
+		<span class="ava-auth">
+			<img width="14" height="14" class="entry-thumb" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=48&amp;d=mm&amp;r=g" alt="" title="Analytics Vidhya Content Team">
+		</span>
+		<span itemprop="author" itemscope="" itemtype="http://schema.org/Person" class="entry-author">
+			<a href="https://www.analyticsvidhya.com/blog/author/avcontentteam/">
+				<span itemprop="name">Analytics Vidhya Content Team</span>
+			</a>
+		</span>, 
+		<time itemprop="datePublished" class="entry-date" content="2015-10-25" datetime="2015-10-25T22:37:29+00:00">
+			October 25, 2015		</time>
+				<span class="meta-info-divider">/</span>
+								<span class="meta-info-comments"><i class="icon-comment"></i><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comments">21 </a></span>
+			</div>
+</header>
+
+
+							
+							<div class="text-content">
+
+								
+								
+<!-- Quick Adsense WordPress Plugin: http://quicksense.net/ -->
+<div style="float:none;margin:10px 0 10px 0;text-align:center;">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90_site -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5229672700622157" data-ad-slot="7938033629" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<h2>Introduction</h2>
+<p style="text-align: justify;">Machine Learning has granted incredible power to humans. The power to run tasks in automated manner, the power to make our lives comfrotable,&nbsp;the power to improve things continuously by studying decisions at large sacle&nbsp;. And the power to create species who think better than humans.</p>
+<p>Don’t believe me? Read what Google’s CEO Mr. Sundar Pichai had to say last week:</p>
+<blockquote><p>‘Machine learning is a core, transformative way by which we’re rethinking everything we’re doing,’ Pichai said. ‘We’re thoughtfully applying it across all our products, be it search, ads, YouTube, or Play. We’re in the early days, but you’ll see us in a systematic way think about how we can apply machine learning to all these areas.’</p>
+<p style="text-align: right;">– Sundar Pichai, CEO, Google</p>
+</blockquote>
+<p style="text-align: justify;">Those who know of these advancements, are keen to master this&nbsp;concept, including me. When I started with this mission, I found various form of digitized study material. They seemed promising, comprehensive, yet lacked a perspective. My curiosity didn’t let me rest for long. I resorted to Books.</p>
+<p style="text-align: justify;">Don’t you read books? Oh! I see, you don’t get time. Right? Must be a busy man, perhaps!</p>
+<p style="text-align: justify;">When Elon Musk, the busiest man of planet right now, was asked about his secret of success, he replied, ‘I used to read books. A LOT’. Later, Kimbal Musk, Elon’s brother said, ‘He would even complete two books in a day’.</p>
+<p style="text-align: justify;">The phenomenon of Machine Learning and Artificial Intelligence, is&nbsp;thoroughly covered in the books mentioned below.</p>
+<p style="text-align: justify;">In this article, I’ve listed the best books on Machine Learning and Artificial Intelligence. Books are in no order. The motive of this article is not to promote any particular book, but you make you aware of a world which&nbsp;exists beyond video tutorials, blogs and podcasts.</p>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg" rel="attachment wp-att-23907"><img class="size-full wp-image-23907 aligncenter" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg" alt="Must read books on machine learning and artificial intelligence" width="500" height="280" srcset="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1.jpg 500w, https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1-300x168.jpg 300w, https://www.analyticsvidhya.com/wp-content/uploads/2015/10/garphics-3-1-257x144.jpg 257w" sizes="(max-width: 500px) 100vw, 500px"></a></p>
+<p>&nbsp;</p>
+<h2>Machine Learning</h2>
+<h3><a href="http://amzn.to/2jcT9W2" target="_blank" rel="nofollow">Programming Collective Intelligence</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/17.png"><img class="wp-image-21016 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/17.png" alt="1" width="155" height="210"></a></p>
+<p style="text-align: justify;">Programming Collective Intelligence, PCI as it is popularly known, is one of the best books to start learning machine learning.&nbsp;If there is one book to choose on machine learning – it is this one. I haven’t met a data scientist yet who has read this book and does not recommend to keep it on your bookshelf. A lot of them have re-read this book multiple times.</p>
+<p style="text-align: justify;">The book was written long before data science and machine learning acquired the cult status they have today – but the topics and chapters are entirely relevant even today! Some of the topics covered in the book are collaborative filtering techniques, search engine features, Bayesian filtering and Support vector machines.<span class="apple-converted-space">&nbsp;</span><em>If you don’t have a copy of this book – order it as soon as you finish reading this article!</em><span class="apple-converted-space"><i>&nbsp;</i></span>The book uses Python to deliver machine learning in a fascinating manner.</p>
+<p>&nbsp;</p>
+<h3><a href="http://amzn.to/2j7eH2k" target="_blank" rel="nofollow">Machine Learning for Hackers</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/2.png"><img class="wp-image-21017 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/2.png" alt="2" width="156" height="198"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Drew Conway and John Myles White. It is majorly based on data analysis in R. This books is best suited for beginners having basic knowledge on R. It further covers the use of advanced R in data wrangling. It has interesting case studies which will help you to understand the importance of using machine learning algorithms.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2idWtvP" target="_blank" rel="nofollow">Machine Learning by Tom M Mitchell</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/3.png"><img class="wp-image-21018 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/3.png" alt="3" width="155" height="206"></a></p>
+<p>&nbsp;</p>
+<p>After you’ve read the above books, you are good to dive into machine learning. This is a great introductory book on machine learning. It&nbsp;provides a nice overview of ml theorems&nbsp;with pseudocode summaries of their algorithms. Apart from case studies,&nbsp;Tom has used basic examples to help you understand these algorithms easily.</p>
+<p>Free PDF Link: <a href="http://personal.disco.unimib.it/Vanneschi/McGrawHill_-_Machine_Learning_-Tom_Mitchell.pdf" target="_blank" rel="nofollow">Download</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://amzn.to/2jd6L3L" target="_blank" rel="nofollow">The Elements of Statistical Learning</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/4.png"><img class="wp-image-21019 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/4.png" alt="4" width="156" height="247"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Trevor Hastie, Robert Tibshirani, Jerome Friedman. This book aptly explains the machine learning algorithms mathematically from a statistical perspective. It provides a powerful world created by statistics and machine learning. This books lays emphasis on mathematical derivations to define the underlying logic behind an algorithm. This book demands a rudimentary understanding of linear algebra.</p>
+<p>Free PDF Link: <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/printings/ESLII_print10.pdf" target="_blank" rel="nofollow">Download</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://amzn.to/2iE7M3H" target="_blank" rel="nofollow">Learning from Data</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/5.png"><img class=" wp-image-21020 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/5.png" alt="5" width="146" height="224"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by&nbsp;Yaser Abu Mostafa, Malik Magdon-Ismail and Hsuan-Tien Lin. This book provides a perfect introduction to machine learning.&nbsp;This book prepares you to understand complex areas of machine learning. Yaser has provided ‘to the point’ explanations instead of lengthy and go-around explanations. If you choose this book, I’d suggest you to refer to online <a href="https://work.caltech.edu/telecourse.html" target="_blank" rel="nofollow">tutorials</a> of Yaser Abu Mostafa as well. They’re awesome.</p>
+<p>Free PDF Link: <a href="http://www.amlbook.com/support.html#_echapters" target="_blank" rel="nofollow">Download</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a href="http://amzn.to/2idUhVj" target="_blank" rel="nofollow">Pattern Recognition and Machine Learning</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/6.png"><img class="wp-image-21021 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/6.png" alt="6" width="157" height="220"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Christopher M Bishop. This book serves as a excellent reference&nbsp;for students keen to understand the use of statistical techniques in machine learning and pattern recognition. This books assumes the knowledge of linear algebra and multivariate calculus. It provides a comprehensive&nbsp;introduction to statistical pattern recognition techniques using practice exercises.</p>
+<p>Free PDF Link: <a href="http://www.rmki.kfki.hu/~banmi/elte/Bishop%20-%20Pattern%20Recognition%20and%20Machine%20Learning.pdf" target="_blank" rel="nofollow">Download</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Artificial Intelligence</h2>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2jd5KZc" target="_blank" rel="nofollow">Artificial Intelligence: A Modern Approach</a></h3>
+<p><img class="wp-image-21010 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/11-235x300.png" alt="11" width="154" height="200">Who else might be the best coach to learn AI than Peter Norvig? You have to take a course from Norvig to understand his style of teaching. But once you do, you will long for it!</p>
+<p style="text-align: justify;">This book is written by Stuart Russell and Peter Norvig. It is best suited&nbsp;for people new to A.I. More than just providing an overview of artificial intelligence,&nbsp;this book&nbsp;thoroughly covers subjects from search algorithms, reducing problems to search problems, working with logic, planning, and more advanced topics in AI such as reasoning with partial observability, machine learning and language processing. Make it the first book on A.I in your book shelf.</p>
+<p>Free PDF Link: <a href="http://www.cin.ufpe.br/~tfl2/artificial-intelligence-modern-approach.9780131038059.25368.pdf" target="_blank" rel="nofollow">Download</a></p>
+<p>&nbsp;</p>
+<h3><a href="http://amzn.to/2ie0d0k" target="_blank" rel="nofollow">Artificial Intelligence for Humans</a></h3>
+<p><img class="wp-image-21011 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/12-234x300.png" alt="12" width="156" height="197"></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Jeff Heaton. It teaches basic artificial intelligence algorithms such as&nbsp;dimensionality, distance metrics, clustering, error calculation, hill climbing, Nelder Mead, and linear regression. It explains these algorithms using interesting examples and cases. Needless to say, this book requires good commands over mathematics. Otherwise, you’ll have tough time deciphering the equations.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2jd8OEL" target="_blank" rel="nofollow">Paradigm of Artificial Intelligence Programming</a></h3>
+<p><img class="wp-image-21012 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/13-246x300.png" alt="13" width="156" height="204"></p>
+<p>&nbsp;</p>
+<p>Another one by Peter Norvig!</p>
+<p style="text-align: justify;">This book teaches advanced common lisp techniques to build major A.I systems. It delves deep into the practical aspects of A.I and teaches its readers the method to build and debug robust practical programs. It also demonstrates superior programming style and essential AI concepts. I’d recommend reading this book, if you are serious about a career in A.I specially.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2ie0znZ" target="_blank" rel="nofollow">Artificial Intelligence: A New Synthesis</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/14.png"><img class="wp-image-21013 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/14-201x300.png" alt="14" width="157" height="224"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Nils J Nilsson. After reading the above 3 books, you’d like something which could challenge your mind. Here’s what you are looking for. This books covers topics such as&nbsp;Neural networks, genetic programming, computer vision, heuristic search, knowledge representation and reasoning, Bayes networks and explains them with great ease. I wouldn’t recommend this book for a beginner. However, it’s a must read for advanced level user.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2iSGqUU" target="_blank" rel="nofollow">The Emotion Machine: Commonsense Thinking, Artificial Intelligence and the Future of Human Mind</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/15.png"><img class="wp-image-21014 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/15.png" alt="15" width="154" height="224"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Marvin Minsky. In this book, Marvin offers a fascinating model of how our mind works. He tries to infer the future of human mind by examining different forms of mind activity. You’ll find path breaking research findings where Marvin has challenge the status quo. This book is great to develop perspective and become aware of present to future transition of A.I</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 style="text-align: justify;"><a href="http://amzn.to/2iSOgy0" target="_blank" rel="nofollow">Artificial Intelligence (3rd Edition)</a></h3>
+<p><a href="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/16.png"><img class="wp-image-21015 alignleft" src="https://www.analyticsvidhya.com/wp-content/uploads/2015/10/16.png" alt="16" width="156" height="220"></a></p>
+<p>&nbsp;</p>
+<p style="text-align: justify;">This book is written by Patrick Henry Winston. This is an introductory book on artificial intelligence. Non-programmers can easily understand the explanations and concepts. More advanced AI topics are covered but haven’t been explained in depth. However some chapters, do cover a great deal of information. It teaches to build intelligent systems using various real life examples. All in all, this book&nbsp;imparts&nbsp;a new shape to complicated intelligence with simple explanation.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><strong>Disclosure:</strong>&nbsp;<em>The amazon links in this article are affiliate links. If you buy a book through this link, we would get paid through Amazon. This is one of the ways for us to cover our costs while we continue to create these awesome articles. Further, the list reflects our recommendation based on content of book and is no way influenced by the commission.</em></p>
+<h2>End Notes</h2>
+<p style="text-align: justify;">While compiling this list of books, I found the link of some of their legal pdf’s uploaded by their authors. I’ve shared the links if you would want that (added above). In these books, the authors have not only explained the ML concepts precisely, but also mentioned&nbsp;their perspective and experiences using those concepts, which you would have missed otherwise!</p>
+<p style="text-align: justify;">Did I leave out a useful book on&nbsp;machine learning and artificial intelligence? Share you views in the comments section below.</p>
+<h3 style="text-align: justify;">If you like what you just read &amp; want to continue your analytics learning,&nbsp;<a href="http://feedburner.google.com/fb/a/mailverify?uri=analyticsvidhya" target="_blank">subscribe to our emails</a>,&nbsp;<a href="http://twitter.com/analyticsvidhya" target="_blank">follow us on twitter</a>&nbsp;or like our&nbsp;<a href="http://facebook.com/analyticsvidhya" target="_blank">facebook&nbsp;page</a>.</h3>
+
+<div style="font-size:0px;height:0px;line-height:0px;margin:0;padding:0;clear:both"></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-21008" class="share-linkedin sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=linkedin&amp;nb=1" target="_blank" title="Click to share on LinkedIn"><span><span class="share-count">472</span></span><span class="sharing-screen-reader-text">Click to share on LinkedIn (Opens in new window)<span class="share-count">472</span></span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-21008" class="share-facebook sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook"><span><span class="share-count">189</span></span><span class="sharing-screen-reader-text">Click to share on Facebook (Opens in new window)<span class="share-count">189</span></span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-21008" class="share-google-plus-1 sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span></span><span class="sharing-screen-reader-text">Click to share on Google+ (Opens in new window)</span></a></li><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-21008" class="share-twitter sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span></span><span class="sharing-screen-reader-text">Click to share on Twitter (Opens in new window)</span></a></li><li class="share-pocket"><a rel="nofollow" data-shared="" class="share-pocket sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=pocket&amp;nb=1" target="_blank" title="Click to share on Pocket"><span></span><span class="sharing-screen-reader-text">Click to share on Pocket (Opens in new window)</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon no-text" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?share=reddit&amp;nb=1" target="_blank" title="Click to share on Reddit"><span></span><span class="sharing-screen-reader-text">Click to share on Reddit (Opens in new window)</span></a></li><li class="share-end"></li></ul></div></div></div><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90_site -->
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5229672700622157" data-ad-slot="7938033629" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-visual jp-relatedposts-grid "><div class="jp-relatedposts-post jp-relatedposts-post0 jp-relatedposts-post-thumbs" data-post-id="21460" data-post-format="false"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/11/infographic-rise-machine-learning-year-2015/" title="The Machine Learning Times of Year 2015 - A Powerful Growth Story
+
+Introduction Machine learning is a core, transformative way by which we're rethinking everything we're doing.&nbsp;We're thoughtfully applying it across all our products, be it search, ads, YouTube or Play &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;…" rel="nofollow" data-origin="21008" data-position="0"><img class="jp-relatedposts-post-img" src="https://i0.wp.com/www.analyticsvidhya.com/wp-content/uploads/2015/11/Capture1.jpg?resize=350%2C200&amp;ssl=1" width="350" alt="The Machine Learning Times of Year 2015 - A Powerful Growth Story"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/11/infographic-rise-machine-learning-year-2015/" title="The Machine Learning Times of Year 2015 - A Powerful Growth Story
+
+Introduction Machine learning is a core, transformative way by which we're rethinking everything we're doing.&nbsp;We're thoughtfully applying it across all our products, be it search, ads, YouTube or Play &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;…" rel="nofollow" data-origin="21008" data-position="0">The Machine Learning Times of Year 2015 - A Powerful Growth Story</a></h4><p class="jp-relatedposts-post-excerpt">Introduction Machine learning is a core, transformative way by which we're rethinking everything we're doing.&nbsp;We're thoughtfully applying it across all our products, be it search, ads, YouTube or Play &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;…</p><p class="jp-relatedposts-post-date" style="display: block;">November 24, 2015</p><p class="jp-relatedposts-post-context">In "Business Analytics"</p></div><div class="jp-relatedposts-post jp-relatedposts-post1 jp-relatedposts-post-thumbs" data-post-id="16901" data-post-format="false"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/" title="Machine Learning basics for a newbie
+
+Introduction There has been a renewed interest in machine learning in last few years. This revival seems to be driven by strong fundamentals - loads of data being emitted by sensors across the globe, with cheap storage and lowest ever computational costs! However, not every one around understands what machine…" rel="nofollow" data-origin="21008" data-position="1"><img class="jp-relatedposts-post-img" src="https://i2.wp.com/www.analyticsvidhya.com/wp-content/uploads/2015/06/robot-library.jpg?resize=350%2C200&amp;ssl=1" width="350" alt="Machine Learning basics for a newbie"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/" title="Machine Learning basics for a newbie
+
+Introduction There has been a renewed interest in machine learning in last few years. This revival seems to be driven by strong fundamentals - loads of data being emitted by sensors across the globe, with cheap storage and lowest ever computational costs! However, not every one around understands what machine…" rel="nofollow" data-origin="21008" data-position="1">Machine Learning basics for a newbie</a></h4><p class="jp-relatedposts-post-excerpt">Introduction There has been a renewed interest in machine learning in last few years. This revival seems to be driven by strong fundamentals - loads of data being emitted by sensors across the globe, with cheap storage and lowest ever computational costs! However, not every one around understands what machine…</p><p class="jp-relatedposts-post-date" style="display: block;">June 11, 2015</p><p class="jp-relatedposts-post-context">In "Business Analytics"</p></div><div class="jp-relatedposts-post jp-relatedposts-post2 jp-relatedposts-post-thumbs" data-post-id="21349" data-post-format="false"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/11/7-watch-documentaries-statistics-machine-learning/" title="7 Must Watch Documentaries on Statistics and Machine Learning
+
+Introduction &quot;Soon, our habitat will be invaded by unreal humans. Not only they'll influence our way of living, but also intervene in our modus operandi.&quot; I'm not the only one who thinks this way. Last week I released a list of must watch movies&nbsp;on Machine Learning and Data Science.&nbsp;I've watched…" rel="nofollow" data-origin="21008" data-position="2"><img class="jp-relatedposts-post-img" src="https://i0.wp.com/www.analyticsvidhya.com/wp-content/uploads/2015/11/7-must-watch_4.jpg?resize=350%2C200&amp;ssl=1" width="350" alt="7 Must Watch Documentaries on Statistics and Machine Learning"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://www.analyticsvidhya.com/blog/2015/11/7-watch-documentaries-statistics-machine-learning/" title="7 Must Watch Documentaries on Statistics and Machine Learning
+
+Introduction &quot;Soon, our habitat will be invaded by unreal humans. Not only they'll influence our way of living, but also intervene in our modus operandi.&quot; I'm not the only one who thinks this way. Last week I released a list of must watch movies&nbsp;on Machine Learning and Data Science.&nbsp;I've watched…" rel="nofollow" data-origin="21008" data-position="2">7 Must Watch Documentaries on Statistics and Machine Learning</a></h4><p class="jp-relatedposts-post-excerpt">Introduction "Soon, our habitat will be invaded by unreal humans. Not only they'll influence our way of living, but also intervene in our modus operandi." I'm not the only one who thinks this way. Last week I released a list of must watch movies&nbsp;on Machine Learning and Data Science.&nbsp;I've watched…</p><p class="jp-relatedposts-post-date" style="display: block;">November 17, 2015</p><p class="jp-relatedposts-post-context">In "Big data"</p></div></div></div>
+															</div>
+
+							<footer class="clearfix both">
+								<div class="meta-tags clearfix">
+									Tags: <a href="https://www.analyticsvidhya.com/blog/tag/artificial-intelligence/" rel="tag">Artificial Intelligence</a>, <a href="https://www.analyticsvidhya.com/blog/tag/book/" rel="tag">book</a>, <a href="https://www.analyticsvidhya.com/blog/tag/books-on-machine-learning/" rel="tag">books on machine learning</a>, <a href="https://www.analyticsvidhya.com/blog/tag/image-recognition/" rel="tag">image recognition</a>, <a href="https://www.analyticsvidhya.com/blog/tag/machine-learning/" rel="tag">machine learning</a>, <a href="https://www.analyticsvidhya.com/blog/tag/pattern-recognition/" rel="tag">pattern recognition</a>, <a href="https://www.analyticsvidhya.com/blog/tag/statistical-modeling/" rel="tag">statistical modeling</a>, <a href="https://www.analyticsvidhya.com/blog/tag/statistics/" rel="tag">statistics</a>, <a href="https://www.analyticsvidhya.com/blog/tag/supervised-learning/" rel="tag">Supervised Learning</a>								
+</div>
+
+								<div class="one-divider"></div>
+								
+								<div class="next-prev">
+														
+																		<a class="next" href="https://www.analyticsvidhya.com/blog/2015/10/tips-tricks-awesom-data-science-jobs/" rel="next"><i class="icon-right-open-big"></i><div class="np-caption">Next Article</div><div class="np-title">13 Tips to make you awesome in Data Science / Analytics Jobs</div></a>									
+																		<a class="prev" href="https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/" rel="prev"><i class="icon-left-open-big"></i><div class="np-caption">Previous Article</div><div class="np-title">Beginner’s guide to Web Scraping in Python (using BeautifulSoup)</div></a>									
+								</div>
+
+								<div class="meta-author">
+									<div class="author-thumb">
+										<a itemprop="author" href="https://www.analyticsvidhya.com/blog/author/avcontentteam/">
+											<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=400&amp;d=mm&amp;r=g 2x" class="avatar avatar-200 photo" height="200" width="200">										</a>
+									</div>
+
+									<div class="author-info">
+										<div class="np-caption">Author</div>
+										<div class="author-name">
+											<a itemprop="author" href="https://www.analyticsvidhya.com/blog/author/avcontentteam/">Analytics Vidhya Content Team</a>
+										</div>
+										<div class="author-desc">
+											<span class="fn">Analytics Vidhya Content team</span>
+										</div>
+										<ul class="author-links">
+																					</ul>
+									</div>
+								</div>
+ 								
+							</footer>
+						</article> <!-- /.post -->
+											<!-- Comment -->
+					
+<!-- You can start editing here. -->
+
+  <!-- Block Cap -->
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="block-cap" id="comments">
+        <h3 id="comment">21 Comments</h3>
+      </div>
+    </div>
+  </div>
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+	<ul class="comment-list">
+				<li class="comment even thread-even depth-1 parent" id="comment-98129">
+				<div id="div-comment-98129" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/c40f0527509ecf1615556ed86c46694d?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/c40f0527509ecf1615556ed86c46694d?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Arun Sundar S</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98129">
+			October 26, 2015 at 4:15 am</a>		</div>
+
+		<p>Really good. It would be great if the pdf links are shared..</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98129#respond" onclick="return addComment.moveForm( &quot;div-comment-98129&quot;, &quot;98129&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Arun Sundar S">Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt depth-2" id="comment-98135">
+				<div id="div-comment-98135" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98135">
+			October 26, 2015 at 5:37 am</a>		</div>
+
+		<p>Thanks. I’ll compile the links and share them with you shortly.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98135#respond" onclick="return addComment.moveForm( &quot;div-comment-98135&quot;, &quot;98135&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-98131">
+				<div id="div-comment-98131" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/57dbeb45bdec172b99dac809ce0b3644?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/57dbeb45bdec172b99dac809ce0b3644?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">DK Samuel</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98131">
+			October 26, 2015 at 4:27 am</a>		</div>
+
+		<p>Please paste the  link of some of their legal pdf’s uploaded by their authors.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98131#respond" onclick="return addComment.moveForm( &quot;div-comment-98131&quot;, &quot;98131&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to DK Samuel">Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt depth-2" id="comment-98136">
+				<div id="div-comment-98136" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98136">
+			October 26, 2015 at 5:38 am</a>		</div>
+
+		<p>I’ll compile the links and share them with you shortly. may be in a google drive.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98136#respond" onclick="return addComment.moveForm( &quot;div-comment-98136&quot;, &quot;98136&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-grt even thread-even depth-1 parent" id="comment-98133">
+				<div id="div-comment-98133" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b276bafcf747f6791a7bf479fdbb3cc3?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b276bafcf747f6791a7bf479fdbb3cc3?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">GRT</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98133">
+			October 26, 2015 at 5:05 am</a>		</div>
+
+		<p>Please mail me the links of the pdfs of these books and any other data science related books materials which you have.<br>
+It would be great and a treasure house if  these are uploaded in a drive and granted access.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98133#respond" onclick="return addComment.moveForm( &quot;div-comment-98133&quot;, &quot;98133&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to GRT">Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt depth-2" id="comment-98137">
+				<div id="div-comment-98137" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98137">
+			October 26, 2015 at 5:39 am</a>		</div>
+
+		<p>Loved your suggestion. I’m working on it. I’ll share the link as soon as pdf links are compiled.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98137#respond" onclick="return addComment.moveForm( &quot;div-comment-98137&quot;, &quot;98137&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1 parent" id="comment-98143">
+				<div id="div-comment-98143" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/915351b5667a8877339cfe8e9c68a9ee?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/915351b5667a8877339cfe8e9c68a9ee?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Navneeth</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98143">
+			October 26, 2015 at 6:45 am</a>		</div>
+
+		<p>I second DK Samuel’s comment. A reputed site like AV should be sharing only those (free) PDFs which are made available by the authors or publishers (e.g. ESL by Hastie et al.).</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98143#respond" onclick="return addComment.moveForm( &quot;div-comment-98143&quot;, &quot;98143&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Navneeth">Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt depth-2" id="comment-98144">
+				<div id="div-comment-98144" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98144">
+			October 26, 2015 at 7:03 am</a>		</div>
+
+		<p>Agree with your suggestion. I’ve already mentioned this part in the end notes section.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98144#respond" onclick="return addComment.moveForm( &quot;div-comment-98144&quot;, &quot;98144&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-even depth-1 parent" id="comment-98153">
+				<div id="div-comment-98153" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/521329f2107bef56d7463b9e6f8370a9?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/521329f2107bef56d7463b9e6f8370a9?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Henderake</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98153">
+			October 26, 2015 at 7:59 am</a>		</div>
+
+		<p>Great article! By the way, there are actually 3 authors for Learning from Data, not only Prof. Yaser Abu Mostafa. You forgot to mention the other 2 authors.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98153#respond" onclick="return addComment.moveForm( &quot;div-comment-98153&quot;, &quot;98153&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Henderake">Reply</a></div>
+				</div>
+		<ul class="children">
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt depth-2" id="comment-98155">
+				<div id="div-comment-98155" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98155">
+			October 26, 2015 at 8:07 am</a>		</div>
+
+		<p>I missed them! My Bad. Thank you so much for highlighting this error, I would have never known otherwise. Appreciate it.<br>
+Added now.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98155#respond" onclick="return addComment.moveForm( &quot;div-comment-98155&quot;, &quot;98155&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-98163">
+				<div id="div-comment-98163" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/a31598d35d67f3209a4f3b89f4926407?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/a31598d35d67f3209a4f3b89f4926407?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Trinadh</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98163">
+			October 26, 2015 at 12:33 pm</a>		</div>
+
+		<p>Quite helpful information on Machine Learning. Do share the links to PDFs.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98163#respond" onclick="return addComment.moveForm( &quot;div-comment-98163&quot;, &quot;98163&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Trinadh">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-98169">
+				<div id="div-comment-98169" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/027ea9a20b00da61daf18b48c742d6be?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/027ea9a20b00da61daf18b48c742d6be?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">ezequielm</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98169">
+			October 26, 2015 at 1:28 pm</a>		</div>
+
+		<p>Hi. Thanks for this useful post, especially for beginers. It’ll be great if you can share those pdfs.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98169#respond" onclick="return addComment.moveForm( &quot;div-comment-98169&quot;, &quot;98169&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to ezequielm">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-98173">
+				<div id="div-comment-98173" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/fdc41d147b14b8afea96f7db36980d40?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/fdc41d147b14b8afea96f7db36980d40?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Ishan</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98173">
+			October 26, 2015 at 2:46 pm</a>		</div>
+
+		<p>Quite fascinating list, please share the links for legal pdf’s uploaded by their authors.. And would it be possible to compile the list of books on Business/Data Analytics.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98173#respond" onclick="return addComment.moveForm( &quot;div-comment-98173&quot;, &quot;98173&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Ishan">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-98178">
+				<div id="div-comment-98178" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/7c367b9536861bf7134490f520c44e37?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/7c367b9536861bf7134490f520c44e37?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Deniz Appelbaum</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98178">
+			October 26, 2015 at 4:02 pm</a>		</div>
+
+		<p>Thanks for this great list! Could you share the pdfs please?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98178#respond" onclick="return addComment.moveForm( &quot;div-comment-98178&quot;, &quot;98178&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Deniz Appelbaum">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-98253">
+				<div id="div-comment-98253" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/2b9be954572fd988e8a68279a27b9718?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/2b9be954572fd988e8a68279a27b9718?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn"><a href="http://www.andrew.cmu.edu/user/pbamotra/" rel="external nofollow" class="url">Pankesh</a></cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98253">
+			October 27, 2015 at 5:27 am</a>		</div>
+
+		<p>I think some of the more honourable mentions are Kevin Murphy’s Machine Learning, Pattern Classification by Duda, Hart, et, al and Hal Daume’s A course in Machine learning.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98253#respond" onclick="return addComment.moveForm( &quot;div-comment-98253&quot;, &quot;98253&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Pankesh">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment byuser comment-author-avcontentteam bypostauthor odd alt thread-even depth-1" id="comment-98255">
+				<div id="div-comment-98255" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b1695f8419f5f7158d4a31e2c4739055?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Analytics Vidhya Content Team</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98255">
+			October 27, 2015 at 5:42 am</a>		</div>
+
+		<p>Hello all,</p>
+<p>I have added the pdf download links below their respective books in this article. Keep Learning Machine Learning and AI. <img draggable="false" class="emoji" alt="🙂" src="https://s.w.org/images/core/emoji/2.2.1/svg/1f642.svg"></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98255#respond" onclick="return addComment.moveForm( &quot;div-comment-98255&quot;, &quot;98255&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Analytics Vidhya Content Team">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-98337">
+				<div id="div-comment-98337" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/882501c62f93733cb1d5433e2b2bae4f?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/882501c62f93733cb1d5433e2b2bae4f?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">SZ</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-98337">
+			October 28, 2015 at 3:28 pm</a>		</div>
+
+		<p>I’d recommend “An Introduction to Statistical Learning with Applications in R” by James, Witten, Hastie, Tibshirani before “The Elements of Statistical Learning.” I wouldn’t consider the latter an intro book.</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=98337#respond" onclick="return addComment.moveForm( &quot;div-comment-98337&quot;, &quot;98337&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to SZ">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-99665">
+				<div id="div-comment-99665" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/cd2b03081ddb901ff71ff15b3a06fe6e?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/cd2b03081ddb901ff71ff15b3a06fe6e?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Deepak Gupta</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-99665">
+			November 15, 2015 at 10:54 am</a>		</div>
+
+		<p>What do you think about Applied Predictive Modeling?</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=99665#respond" onclick="return addComment.moveForm( &quot;div-comment-99665&quot;, &quot;99665&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Deepak Gupta">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-108693">
+				<div id="div-comment-108693" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/4157f802156066e93c9126ebd1c2e0b1?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/4157f802156066e93c9126ebd1c2e0b1?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Robin White</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-108693">
+			March 30, 2016 at 11:14 pm</a>		</div>
+
+		<p>After you study machine learning by yourself by reading book, you might need to study some practical exercises to be better. I would recommend to take the machine leaning courses that I took, because it covered almost everything that I wanted. <a href="http://www.thedevmasters.com/machine-learning-in-python/" rel="nofollow">http://www.thedevmasters.com/machine-learning-in-python/</a></p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=108693#respond" onclick="return addComment.moveForm( &quot;div-comment-108693&quot;, &quot;108693&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Robin White">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment odd alt thread-even depth-1" id="comment-113466">
+				<div id="div-comment-113466" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/2bbb6c38c50cf373da4aafc20ba8f0ee?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/2bbb6c38c50cf373da4aafc20ba8f0ee?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Ramkumar</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-113466">
+			July 14, 2016 at 1:33 pm</a>		</div>
+
+		<p>One great ML book that is not in your list: ML A probabilistic perspective by Kevin P Murphy</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=113466#respond" onclick="return addComment.moveForm( &quot;div-comment-113466&quot;, &quot;113466&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Ramkumar">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+		<li class="comment even thread-odd thread-alt depth-1" id="comment-114276">
+				<div id="div-comment-114276" class="comment-body">
+				<div class="comment-author vcard">
+			<img alt="" src="https://secure.gravatar.com/avatar/dadd9a8adc432b3f05bd89e0691db67e?s=100&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/dadd9a8adc432b3f05bd89e0691db67e?s=200&amp;d=mm&amp;r=g 2x" class="avatar avatar-100 photo" height="100" width="100">			<cite class="fn">Biswajit Samal</cite> <span class="says">says:</span>		</div>
+		
+		<div class="comment-meta commentmetadata"><a href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#comment-114276">
+			July 30, 2016 at 6:18 am</a>		</div>
+
+		<p>I am beginners with the basic knowledge on python and want to work more on ML.</p>
+<p>I do not know the right direction. Please share me ur thoughts as a beginners</p>
+
+		<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://www.analyticsvidhya.com/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/?replytocom=114276#respond" onclick="return addComment.moveForm( &quot;div-comment-114276&quot;, &quot;114276&quot;, &quot;respond&quot;, &quot;21008&quot; )" aria-label="Reply to Biswajit Samal">Reply</a></div>
+				</div>
+		</li><!-- #comment-## -->
+	</ul>
+
+ 
+
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave A Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/blog/2015/10/read-books-for-beginners-machine-learning-artificial-intelligence/#respond" style="display:none;">Cancel Reply</a></small></h3>			<form action="https://www.analyticsvidhya.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				
+<!--
+	wsl_render_auth_widget
+	WordPress Social Login 2.3.0.
+	http://wordpress.org/plugins/wordpress-social-login/
+-->
+
+<style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style>
+
+<div class="wp-social-login-widget">
+
+	<div class="wp-social-login-connect-with">Connect with:</div>
+
+	<div class="wp-social-login-provider-list">
+
+		<a rel="nofollow" href="https://www.analyticsvidhya.com/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2015%2F10%2Fread-books-for-beginners-machine-learning-artificial-intelligence%2F" title="Connect with Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook">
+			<img alt="Facebook" title="Connect with Facebook" src="https://www.analyticsvidhya.com/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom/facebook.png">
+		</a>
+
+	</div>
+
+	<div class="wp-social-login-widget-clearing"></div>
+
+</div>
+
+<!-- wsl_render_auth_widget -->
+
+<p class="comment-notes">Your email address will not be published.</p><div class="row"><div class="col-sm-12"><textarea placeholder="Comment" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></div></div><div class="row"><div class="col-sm-12"><input id="author" name="author" placeholder="Name (required)" type="text" value="" size="30"></div>
+<div class="col-sm-12"><input id="email" name="email" placeholder="Email (required)" type="text" value="" size="30"></div>
+<div class="col-sm-12 col_last"><input id="url" name="url" placeholder="Website" type="text" value="" size="30"></div></div>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit Comment"> <input type="hidden" name="comment_post_ID" value="21008" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5ff819e6b0"></p><p style="display: none;"></p>			<input type="hidden" id="ak_js" name="ak_js" value="1486149874244"></form>
+			</div><!-- #respond -->
+	
+				</div>
+			</div>
+
+			<!-- Sidebar -->
+			<div class="col-sm-4">
+
+				<div class="sidebar q2w3-fixed-widget-container" style="height: 3672px;">
+<div id="topuserswidget-3" class="widget clearfix TopUsersWidget"><div class="widget-title"><div class="block-cap"><h3>Top AV Users</h3></div></div><table class="top_users"><tbody><tr><th>Rank</th><th colspan="2">Name</th><th>Points</th></tr><tr><td>1</td><td class="top_users_td_image"><img class="top_users_img" src="//www.analyticsvidhya.com/wp-content/plugins/top-av-users-widget/images/1.jpg?date=2017-02-04"></td><td class="top_users_name_td"><a target="_blank" class="top_users_name" href="https://datahack.analyticsvidhya.com/user/profile/SRK">SRK</a></td><td class="top_users_points">6105</td></tr><tr><td>2</td><td class="top_users_td_image"><img class="top_users_img" src="//www.analyticsvidhya.com/wp-content/plugins/top-av-users-widget/images/2.jpg?date=2017-02-04"></td><td class="top_users_name_td"><a target="_blank" class="top_users_name" href="https://datahack.analyticsvidhya.com/user/profile/aayushmnit">Aayushmnit</a></td><td class="top_users_points">5172</td></tr><tr><td>3</td><td class="top_users_td_image"><img class="top_users_img" src="//www.analyticsvidhya.com/wp-content/plugins/top-av-users-widget/images/3.jpg?date=2017-02-04"></td><td class="top_users_name_td"><a target="_blank" class="top_users_name" href="https://datahack.analyticsvidhya.com/user/profile/Rohan Rao">vopani</a></td><td class="top_users_points">5150</td></tr><tr><td>4</td><td class="top_users_td_image"><img class="top_users_img" src="//www.analyticsvidhya.com/wp-content/plugins/top-av-users-widget/images/4.jpg?date=2017-02-04"></td><td class="top_users_name_td"><a target="_blank" class="top_users_name" href="https://datahack.analyticsvidhya.com/user/profile/Nalin">Nalin Pasricha</a></td><td class="top_users_points">4417</td></tr><tr><td>5</td><td class="top_users_td_image"><img class="top_users_img" src="//www.analyticsvidhya.com/wp-content/plugins/top-av-users-widget/images/5.jpg?date=2017-02-04"></td><td class="top_users_name_td"><a target="_blank" class="top_users_name" href="https://datahack.analyticsvidhya.com/user/profile/binga">binga</a></td><td class="top_users_points">3644</td></tr></tbody></table><div><a class="top_users_more" target="_blank" href="http://datahack.analyticsvidhya.com/users">More Rankings</a></div></div><div id="text-16" class="widget clearfix widget_text">			<div class="textwidget"><a rel="nofollow" href="http://www.greatlearning.in/great-lakes-pgpba?utm_source=avm&amp;utm_medium=avmbanner&amp;utm_campaign=pgpba" target="_blank"><img src="https://www.analyticsvidhya.com/wp-content/uploads/2016/11/great-lakes-PGPBA.gif"></a></div>
+		</div><div id="text-24" class="widget clearfix widget_text">			<div class="textwidget"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-5229672700622157" data-ad-slot="1620249624" data-adsbygoogle-status="done"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_2_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!--<a rel="nofollow" href="http://events.upxacademy.com/online-session?utm_source=Referral%20Sites&utm_medium=Banner&utm_campaign=AV_BlogBanner" target="_blank"><img src="https://www.analyticsvidhya.com/wp-content/uploads/2016/12/upx.gif"></a>--></div>
+		</div><div id="wmp_widget-2" class="widget clearfix widget_wmp_widget"><div class="widget-title"><div class="block-cap"><h3>Popular posts</h3></div></div><ul class="wp-most-popular">
+			<li class="post-22387posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-machine-learningcategory-pandascategory-python-2tag-applytag-box-plotstag-categorical-variabletag-data-cleaningtag-data-explorationtag-data-framestag-data-miningtag-data-mungingtag-data-structuretag-data-wranglingtag-dictionarytag-distribution-analysistag-installing-pythontag-ipythontag-liststag-logistic-regressiontag-matplotlibtag-meantag-mergetag-numpytag-pandastag-pythontag-python-tutorialtag-scikit-learntag-scipytag-setstag-splittag-stacked-charttag-starting-pythontag-statisticstag-stringstag-tupletag-tuplestag-tutorial">
+				<a href="https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/" title="A Complete Tutorial to Learn Data Science with Python from Scratch">
+					A Complete Tutorial to Learn Data Science with Python from Scratch
+				</a>
+			</li>
+		
+			<li class="post-18835posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticstag-elasticnet-regressiontag-lasso-regressiontag-linear-regressiontag-logistic-regressiontag-multinomial-logistic-rgressiontag-multiple-regressiontag-ordinal-logistic-regressiontag-polynomial-regressiontag-regressiontag-regularizationtag-ridge-regressiontag-stepwise-regression">
+				<a href="https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/" title="7 Types of Regression Techniques you should know!">
+					7 Types of Regression Techniques you should know!
+				</a>
+			</li>
+		
+			<li class="post-31953posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticscategory-machine-learningcategory-python-2category-rtag-beginners-guidetag-career-in-data-sciencetag-data-science-careerstag-data-science-certificationstag-data-science-competitiontag-data-science-coursestag-data-science-guidestag-data-science-plan-for-2017tag-data-scientist-in-2017tag-deep-learning-guidetag-intermediate-guidetag-machine-learning-in-rtag-machine-learning-plan-for-2017tag-transitioners-guide">
+				<a href="https://www.analyticsvidhya.com/blog/2017/01/the-most-comprehensive-data-science-learning-plan-for-2017/" title="The most comprehensive Data Science learning plan for 2017">
+					The most comprehensive Data Science learning plan for 2017
+				</a>
+			</li>
+		
+			<li class="post-18770posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticscategory-python-2category-rtag-c4-5tag-carttag-decision-treetag-gbmtag-k-meanstag-knntag-linear-regressiontag-logistic-regressiontag-machine-learningtag-naive-bayestag-neural-networktag-random-foresttag-reinforcementtag-supervised-learningtag-unsupervised">
+				<a href="https://www.analyticsvidhya.com/blog/2015/08/common-machine-learning-algorithms/" title="Essentials of Machine Learning Algorithms (with Python and R Codes)">
+					Essentials of Machine Learning Algorithms (with Python and R Codes)
+				</a>
+			</li>
+		
+			<li class="post-31809posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticscategory-rtag-advanced-statisticstag-applied-mathematics-for-analyticstag-applied-mathematics-for-data-sciencetag-biostatisticstag-courseratag-davidson-collegetag-discrete-mathstag-duke-universitytag-edxtag-finite-mathstag-harvard-univeristytag-johns-hopkins-universitytag-linear-algebratag-linear-modelingtag-mathematics-for-data-sciencetag-maths-coursestag-maths-for-data-sciencetag-maths-for-data-science-coursestag-probability-theorytag-stanford-universitytag-statistical-modelingtag-statistics-for-data-sciencetag-udacitytag-udemytag-university-of-californiatag-university-of-notre-dam">
+				<a href="https://www.analyticsvidhya.com/blog/2017/01/19-mooc-mathematics-statistics-datascience-machine-learning/" title="19 MOOCs on Mathematics &amp; Statistics for Data Science &amp; Machine Learning">
+					19 MOOCs on Mathematics &amp; Statistics for Data Science &amp; Machine Learning
+				</a>
+			</li>
+		
+			<li class="post-24521posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-machine-learningcategory-python-2category-rtag-baggingtag-biastag-boostingtag-classification-treestag-decision-treetag-ensemble-modelingtag-gbmtag-gradient-boostingtag-linear-modelstag-linear-regressiontag-logistic-regressiontag-machine-learningtag-over-fittingtag-random-foresttag-regression-treestag-under-fittingtag-variancetag-xgboost">
+				<a href="https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/" title="A Complete Tutorial on Tree Based Modeling from Scratch (in R &amp; Python)">
+					A Complete Tutorial on Tree Based Modeling from Scratch (in R &amp; Python)
+				</a>
+			</li>
+		
+			<li class="post-20925posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticscategory-python-2tag-beautifulsouptag-htmltag-pythontag-regular-expressiontag-urllib2tag-web-scraping">
+				<a href="https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python/" title="Beginner’s guide to Web Scraping in Python (using BeautifulSoup)">
+					Beginner’s guide to Web Scraping in Python (using BeautifulSoup)
+				</a>
+			</li>
+		
+			<li class="post-21948posttype-poststatus-publishformat-standardhas-post-thumbnailcategory-business-analyticstag-acf-plotstag-arimatag-arima-modelingtag-arma-modelingtag-dickey-fuller-testtag-forecastingtag-time-series">
+				<a href="https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/" title="A Complete Tutorial on Time Series Modeling in R">
+					A Complete Tutorial on Time Series Modeling in R
+				</a>
+			</li>
+		</ul></div><div id="text-23" class="widget clearfix widget_text">			<div class="textwidget"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 -->
+<ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px" data-ad-client="ca-pub-5229672700622157" data-ad-slot="1620249624" data-adsbygoogle-status="done"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><ins id="aswift_3_anchor" style="display:block;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:336px;background-color:transparent"><iframe width="336" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div><div id="text-15" class="widget clearfix widget_text">			<div class="textwidget"><a href="http://imarticus.org/diploma-in-big-data-analytics?id=AnalyticsVidhya" rel="nofollow" target="_blank">
+<img src="https://www.analyticsvidhya.com/wp-content/uploads/2016/10/imarticus.gif" width="300" height="225" alt=""></a>
+</div>
+		</div><div id="maha_recent_posts-3" class="widget clearfix widget_recents"><div class="widget-title"><div class="block-cap"><h3>Recent Posts</h3></div></div>
+                                <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/02/basic-probability-data-science-with-examples/" rel="bookmark" title="Basics of Probability for Data Science explained with examples">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/02/01155850/Classical-Probability-Puzzle--83x63.png" alt="Basics of Probability for Data Science explained with examples" title="Basics of Probability for Data Science explained with examples">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/02/basic-probability-data-science-with-examples/" rel="bookmark" title="Basics of Probability for Data Science explained with examples">
+                                    Basics of Probability for Data Science explained with examples                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Dishashree Gupta</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-02-02T04:55:03+00:00">
+                                    February 2, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/comprehensive-practical-guide-inferential-statistics-data-science/" rel="bookmark" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/20150953/c5db41c6bfe1c5cfb8cc85836fcd4b7f-83x63.gif" alt="Comprehensive &amp; Practical Inferential Statistics Guide for data science" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/comprehensive-practical-guide-inferential-statistics-data-science/" rel="bookmark" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                                    Comprehensive &amp; Practical Inferential Statistics Guide for data science                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">NSS</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-31T02:51:49+00:00">
+                                    January 31, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/" rel="bookmark" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/29151259/deeplearning-SM1-83x63.jpg" alt="45 Questions to test a data scientist on basics of Deep Learning (along with solution)" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/" rel="bookmark" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                                    45 Questions to test a data scientist on basics of Deep Learning (along with solution)                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Faizan Shaikh</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-29T18:23:27+00:00">
+                                    January 29, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/learning-plan-2017-beginners-data-science/" rel="bookmark" title="Infographic – Learning Plan 2017 for beginners in data science">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/28115432/Infographic_beginner_icon2-83x63.png" alt="Infographic – Learning Plan 2017 for beginners in data science" title="Infographic – Learning Plan 2017 for beginners in data science">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/learning-plan-2017-beginners-data-science/" rel="bookmark" title="Infographic – Learning Plan 2017 for beginners in data science">
+                                    Infographic – Learning Plan 2017 for beginners in data science                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Kunal Jain</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-28T11:16:35+00:00">
+                                    January 28, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                        		
+            </div><div id="text-19" class="widget clearfix widget_text">			<div class="textwidget"><a href="http://www.edvancer.in/certified-data-scientist-with-python-course?utm_source=AV&amp;utm_medium=AVads&amp;utm_campaign=AVadsnonfc&amp;utm_content=pythonavad" rel="nofollow" target="_blank"><img src="https://www.analyticsvidhya.com/wp-content/uploads/2016/10/edvancer-oct-2016.gif" alt=""></a></div>
+		</div><div id="maha_social_subscribe-4" class="widget clearfix social_subscribe"><div class="widget-title"><div class="block-cap"><h3>Get Connected</h3></div></div>
+                		<div class="social-network twitter">
+                <a class="social-network-icon trans-it" target="_blank" href="http://www.twitter.com/analyticsvidhya" title="Follow our twitter"><i class="icon-twitter trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">8,125</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+                        <div class="social-network facebook">
+                <a class="social-network-icon trans-it" target="_blank" href="http://www.facebook.com/Analyticsvidhya" title="Like our Facebook"><i class="icon-facebook trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">26,474</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            
+                        <div class="social-network gplus">
+                <a class="social-network-icon trans-it" target="_blank" href="https://plus.google.com/+Analyticsvidhya" title="Follow our Google+"><i class="icon-gplus trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">1,592</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            
+                        <div class="social-network rss">
+                <a class="social-network-icon trans-it" target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=analyticsvidhya" title="RSS Feeds"><i class="icon-rss trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">Email</div>
+                    <div class="social-network-unit">Subscribe</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+                		
+            </div><!-- fixed widget --><div id="text-28" class="widget clearfix widget_text">			<div class="textwidget"><a target="_blank" href="https://datahack.analyticsvidhya.com/contest/clustering-skilltest/"><img src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/31070532/clustering-skilltest.jpg"></a></div>
+		</div><!-- fixed widget --><div id="text-25" class="widget clearfix widget_text">			<div class="textwidget"><a href="https://datahack.analyticsvidhya.com/contest/skilltest-sas/" target="_blank"><img src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/31070558/sas-skilltest.jpg"></a></div>
+		</div></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+		</div>
+		<!-- END PAGE WRAPPER -->
+
+				
+		<!-- START FOOTER -->
+		<footer id="footer">
+
+			<!-- start footer sidebar -->
+			<div id="footer-sidebar">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-sm-4">
+							<div id="text-9" class="widget clearfix widget_text"><div class="widget-title"><div class="block-cap"><h3>About Us</h3></div></div>			<div class="textwidget">For those of you, who are wondering what is “Analytics Vidhya”, “Analytics” can be defined as the science of extracting insights from raw data. The spectrum of analytics starts from capturing data and evolves into using insights / trends from this data to make informed decisions. <a href="http://www.analyticsvidhya.com/about-me/" style="color:#7d7d7d;text-decoration:underline;">Read More</a></div>
+		</div><div id="maha_social_subscribe-3" class="widget clearfix social_subscribe"><div class="widget-title"><div class="block-cap"><h3>Stay Connected</h3></div></div>
+                		<div class="social-network twitter">
+                <a class="social-network-icon trans-it" target="_blank" href="http://www.twitter.com/analyticsvidhya" title="Follow our twitter"><i class="icon-twitter trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">8,123</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+                        <div class="social-network facebook">
+                <a class="social-network-icon trans-it" target="_blank" href="http://www.facebook.com/Analyticsvidhya" title="Like our Facebook"><i class="icon-facebook trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">26,454</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            
+                        <div class="social-network gplus">
+                <a class="social-network-icon trans-it" target="_blank" href="https://plus.google.com/+Analyticsvidhya" title="Follow our Google+"><i class="icon-gplus trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">1,591</div>
+                    <div class="social-network-unit">Followers</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+            
+                        <div class="social-network rss">
+                <a class="social-network-icon trans-it" target="_blank" href="https://feedburner.google.com/fb/a/mailverify?uri=analyticsvidhya" title="RSS Feeds"><i class="icon-rss trans-it"></i></a>
+                <div class="social-network-counter">
+                    <div class="social-network-count">Email</div>
+                    <div class="social-network-unit">Subscribe</div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            
+                		
+            </div>						</div>
+
+						<div class="col-sm-4">
+							<div id="maha_recent_posts-4" class="widget clearfix widget_recents"><div class="widget-title"><div class="block-cap"><h3>Latest Posts</h3></div></div>
+                                <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/02/basic-probability-data-science-with-examples/" rel="bookmark" title="Basics of Probability for Data Science explained with examples">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/02/01155850/Classical-Probability-Puzzle--83x63.png" alt="Basics of Probability for Data Science explained with examples" title="Basics of Probability for Data Science explained with examples">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/02/basic-probability-data-science-with-examples/" rel="bookmark" title="Basics of Probability for Data Science explained with examples">
+                                    Basics of Probability for Data Science explained with examples                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Dishashree Gupta</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-02-02T04:55:03+00:00">
+                                    February 2, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/comprehensive-practical-guide-inferential-statistics-data-science/" rel="bookmark" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/20150953/c5db41c6bfe1c5cfb8cc85836fcd4b7f-83x63.gif" alt="Comprehensive &amp; Practical Inferential Statistics Guide for data science" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/comprehensive-practical-guide-inferential-statistics-data-science/" rel="bookmark" title="Comprehensive &amp; Practical Inferential Statistics Guide for data science">
+                                    Comprehensive &amp; Practical Inferential Statistics Guide for data science                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">NSS</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-31T02:51:49+00:00">
+                                    January 31, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/" rel="bookmark" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/29151259/deeplearning-SM1-83x63.jpg" alt="45 Questions to test a data scientist on basics of Deep Learning (along with solution)" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/" rel="bookmark" title="45 Questions to test a data scientist on basics of Deep Learning (along with solution)">
+                                    45 Questions to test a data scientist on basics of Deep Learning (along with solution)                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Faizan Shaikh</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-29T18:23:27+00:00">
+                                    January 29, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="post-box-small recent-item clearfix" itemscope="" itemtype="http://schema.org/Article">
+                                                <div class="thumb-wrap zoom-zoom three">
+                            <a href="https://www.analyticsvidhya.com/blog/2017/01/learning-plan-2017-beginners-data-science/" rel="bookmark" title="Infographic – Learning Plan 2017 for beginners in data science">
+                                <img width="83" height="63" itemprop="image" class="entry-thumb zoom-it three" src="https://static.analyticsvidhya.com/wp-content/uploads/2017/01/28115432/Infographic_beginner_icon2-83x63.png" alt="Infographic – Learning Plan 2017 for beginners in data science" title="Infographic – Learning Plan 2017 for beginners in data science">
+                            </a>
+                        </div>
+                                                <div class="box-small-wrap">
+                            <h3 itemprop="name" class="entry-title short-bottom">
+                                <a itemprop="url" href="https://www.analyticsvidhya.com/blog/2017/01/learning-plan-2017-beginners-data-science/" rel="bookmark" title="Infographic – Learning Plan 2017 for beginners in data science">
+                                    Infographic – Learning Plan 2017 for beginners in data science                                </a>
+                            </h3>
+                            <div class="meta-info">
+                                <span itemprop="author" class="entry-author">Kunal Jain</span>
+                                <span class="coma">,</span>
+                                <time itemprop="dateCreated" class="entry-date" datetime="2017-01-28T11:16:35+00:00">
+                                    January 28, 2017                                </time>
+                            </div>
+                        </div>
+                    </div>
+                        		
+            </div>						</div>
+
+						<div class="col-sm-4">
+							<div id="maha_menus-2" class="widget clearfix widget_menus"><div class="widget-title"><div class="block-cap"><h3>Quick Links</h3></div></div><ul><li><a href="https://www.analyticsvidhya.com/">Home</a></li><li><a href="https://www.analyticsvidhya.com/about-me/">About Us</a></li><li><a href="https://www.analyticsvidhya.com/about-me/team/">Our team</a></li><li><a href="https://www.analyticsvidhya.com/privacy-policy/">Privacy Policy</a></li><li><a href="https://www.analyticsvidhya.com/refund-policy/">Refund Policy</a></li><li><a href="https://www.analyticsvidhya.com/terms/">Terms of Use</a></li></ul></div><div id="top-reviews-2" class="widget clearfix widget_review"><div class="widget-title"><div class="block-cap"><h3>Top Reviews</h3></div></div></div><div id="text-11" class="widget clearfix widget_text">			<div class="textwidget"><!--
+<a href="http://www.alexa.com/siteinfo/yoursite.com"><script type="text/javascript" src="http://xslt.alexa.com/site_stats/js/t/a?url=analyticsvidhya.com"></script></a>
+--></div>
+		</div>						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- end footer sidebar -->
+
+			<!-- start f-copyright -->
+			<div class="f-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8">
+							© Copyright 2013-2017 Analytics Vidhya						</div>
+						<div class="col-sm-4">
+							<nav>
+															</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end f-copyright -->
+
+		</footer>
+		<!-- END FOOTER -->
+
+	</div>
+	<!-- END OFF CANVAS BODY -->
+
+	</div>
+	<!-- END BODY BACKGROUND -->
+
+	<div id="scrolltop">
+		<a><i class="icon-up-open-big"></i></a>
+	</div>
+	
+	</div>
+
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/www.analyticsvidhya.com\/blog\/2015\/10\/read-books-for-beginners-machine-learning-artificial-intelligence\/":21008};
+	</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/akismet/_inc/form.js?ver=3.2" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.6.1" defer="defer"></script>
+<script type="text/javascript" src="https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201705" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/js/main.js?ver=1.0.0"></script><style type="text/css">.marquee{white-space:nowrap;overflow:hidden;visibility:hidden;}#marq_kill_marg_bord{border:none!important;margin:0!important;}</style>
+<script type="text/javascript">
+/* <![CDATA[ */
+var MahaAjax = {"ajaxurl":"https:\/\/www.analyticsvidhya.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/js/basix.js?ver=1.0.0" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/themes/Curated/static/js/add_to_cart.js?ver=1.0.0" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/comment-reply.min.js?ver=4.7.2" defer="defer"></script>
+<script type="text/javascript">
+var q2w3_sidebar_options = new Array();
+q2w3_sidebar_options[0] = { "sidebar" : "blog-sidebar", "margin_top" : 100, "margin_bottom" : 800, "stop_id" : "", "screen_max_width" : 0, "screen_max_height" : 0, "width_inherit" : false, "refresh_interval" : 1500, "window_load_hook" : false, "disable_mo_api" : false, "widgets" : ['text-28','text-25'] };
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/q2w3-fixed-widget/js/q2w3-fixed-widget.min.js?ver=5.0.4" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/jquery/ui/effect-blind.min.js?ver=1.11.4" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"https:\/\/www.analyticsvidhya.com\/blog\/wp-content\/plugins\/wp-special-textboxes\/images\/minus.png","imgShow":"https:\/\/www.analyticsvidhya.com\/blog\/wp-content\/plugins\/wp-special-textboxes\/images\/plus.png","strHide":"Hide","strShow":"Show"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/wp-special-textboxes/js/wstb.min.js?ver=5.7.105" defer="defer"></script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-includes/js/wp-embed.min.js?ver=4.7.2" defer="defer"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.analyticsvidhya.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=4.5" defer="defer"></script>
+<script type="text/javascript">
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-linkedin', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-google-plus-1', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-pocket', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcompocket', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+</script>
+<style>@media (min-width: 769px) {#top-bar-sticky {display: inherit;}}       		    /*Font Family Content*/
+	    #buddypress div.generic-button .friendship-button,#buddypress .bbp-the-content-wrapper .wp-editor-container .quicktags-toolbar input, #buddypress div.generic-button .friendship-button a,
+	    #buddypress .maha_bp_group_button div.generic-button a, .woo-maha ul.order_details.bacs_details h3, .widget.widget_icl_lang_sel_widget #lang_sel, #lang_sel_footer, body{;
+	    						font-family:'Raleway', Arial, sans-serif;
+								    	font-weight:400;
+	    	font-size:15px;
+	    }
+	    #buddypress div#item-header #item-buttons div.generic-button#post-mention a,#buddypress div#item-header #item-buttons div.generic-button#send-private-message a,#buddypress .maha-bp-content-font {
+								font-family:'Raleway', Arial, sans-serif !important;
+								    }
+        	    	        	        	/*Background Body*/
+        #body-maha {
+        	background-color: #fff; background-image:url("https://www.analyticsvidhya.com/wp-content/uploads/2015/02/wild-sea24.jpg"); background-repeat: repeat;
+        	background-position: center center; background-size: ; background-attachment: ; 
+    	}        
+        #body-background { margin: 0 auto;}
+        @media (min-width: 1200px){#body-background, #main-nav-bar.on-stuck { width: 1200px; }}
+        @media (max-width: 1199px) and (min-width: 992px) {#body-background, #main-nav-bar.on-stuck { width: 997px; }}
+        @media (max-width: 991px) and (min-width: 768px) {#body-background, #main-nav-bar.on-stuck { width: 773px; }}
+   	            			.main-ul-nav ul li.mh-navcat-1915:hover > a,.main-ul-nav ul li.mh-navcat-1915.current-menu-item > a,.main-ul-nav ul li.mh-navcat-1915.current-post-parent > a{
+		-webkit-box-shadow: 0 -4px 0 #222 inset; -moz-box-shadow: 0 -4px 0 #222 inset; box-shadow: 0 -4px 0 #222 inset; }
+         /*Custom Category*/
+        .i-category a.mh-elcat-1915{background:#222;}
+    		.main-ul-nav ul li.mh-navcat-2284:hover > a,.main-ul-nav ul li.mh-navcat-2284.current-menu-item > a,.main-ul-nav ul li.mh-navcat-2284.current-post-parent > a{
+		-webkit-box-shadow: 0 -4px 0 #222 inset; -moz-box-shadow: 0 -4px 0 #222 inset; box-shadow: 0 -4px 0 #222 inset; }
+         /*Custom Category*/
+        .i-category a.mh-elcat-2284{background:#222;}
+    		.main-ul-nav ul li.mh-navcat-2498:hover > a,.main-ul-nav ul li.mh-navcat-2498.current-menu-item > a,.main-ul-nav ul li.mh-navcat-2498.current-post-parent > a{
+		-webkit-box-shadow: 0 -4px 0 #222 inset; -moz-box-shadow: 0 -4px 0 #222 inset; box-shadow: 0 -4px 0 #222 inset; }
+         /*Custom Category*/
+        .i-category a.mh-elcat-2498{background:#222;}
+    		.main-ul-nav ul li.mh-navcat-3118:hover > a,.main-ul-nav ul li.mh-navcat-3118.current-menu-item > a,.main-ul-nav ul li.mh-navcat-3118.current-post-parent > a{
+		-webkit-box-shadow: 0 -4px 0 #8224e3 inset; -moz-box-shadow: 0 -4px 0 #8224e3 inset; box-shadow: 0 -4px 0 #8224e3 inset; }
+         /*Custom Category*/
+        .i-category a.mh-elcat-3118{background:#8224e3;}
+                                    	    /*Content Options*/
+	    /*URL Content Default Color*/
+	    a{color: #080e14}
+	    /*Content Color*/
+	    body, .widget_calendar tbody td,input[type="text"], input[type="password"], input[type="email"], textarea, select, #con-search, #buddypress #profile-edit-form ul.button-nav a, #buddypress form#whats-new-form textarea, #buddypress .standard-form select,
+	    #buddypress div.item-list-tabs#subnav ul li.feed a, #buddypress ul.item-list li div.item-title span, #buddypress ul#groups-list li .item-desc p, .bp-site-wide-message div#message p a, #sitewide-notice a, #buddypress table tr td.thread-info p.thread-excerpt,
+	    #buddypress div.activity-comments form textarea
+	    {color: #080e14}
+
+
+	    #bbpress-forums .bbp-body li.bbp-forum-topic-reply, li.bbp-topic-post, .bbp-pagination-count, #bbpress-forums div.bbp-reply-content .maha_bbp_author_name
+	    {color: #080e14}
+
+	    .woo-maha .form-row .chosen-container-single .chosen-single, .woo-maha .quantity.buttons_added > input, .woo-maha .myaccount_user, .woo-maha .myaccount_user a, .woo-maha .myaccount_user span
+	    {color: #080e14}
+
+
+
+	    #con-search .search-field, ::-webkit-input-placeholder
+	    {color: #080e14 !important}
+                    
+
+
+        
+
+
+                                                            </style>
+<!--     ===== START Dreamgrow Scroll Triggered Box 2.3 =====   -->
+
+<div class="dgd_overlay"></div>
+<div class="dgd_stb_box " id="dgd_scrollbox-16979" style="background-color: rgb(255, 255, 255); padding: 10px; border: 2px solid rgb(0, 0, 0); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; box-shadow: rgb(136, 136, 136) 1px 1px 25px; height: 350px; width: 600px; top: 1090px; left: 660px;"><a class="dgd_stb_box_close" href="javascript:void(0);" style="background-image: url(https://www.analyticsvidhya.com/wp-content/uploads/2015/06/cross.png); width: 29px; height: 30px; border: none; top: -12px; right: -12px;"> </a><div class="popup-bg-1"></div>
+<h5 class="h5-popup">Join world’s fastest growing Analytics Community</h5>
+<h6 class="h6-popup">Receive awesome tips, guides, infographics and become expert at:</h6>
+<ul class="popup-ul">
+<li>R/SAS/Python</li>
+<li>Data Visualization</li>
+<li>Big Data</li>
+<li>Machine Learning</li>
+</ul>
+<p class="p-popup">Above all, interact with data science professionals like yourself across the globe!<br>
+We don’t settle for anything less than awesome content!</p>
+<form class="stbContactForm" style="margin-top: -35px;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"><input name="uri" type="hidden" value="analyticsvidhya"><br>
+<input name="loc" type="hidden" value="en_US"><br>
+<input id="email" class="popup-email" name="email" required="required" type="email" value="" placeholder="Enter Your Email..."><br>
+<input class="popup-subscribe" type="submit" value="Subscribe"></form>
+<p class="stbMsgArea">
+</p><ul class="stb_social"></ul></div>
+
+
+<!--     ===== END OF Dreamgrow Scroll Triggered Box 2.3 =====   -->
+
+<script type="text/javascript" src="https://stats.wp.com/e-201705.js" async="" defer=""></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.5',blog:'58948004',post:'21008',tz:'0',srv:'www.analyticsvidhya.com'} ]);
+	_stq.push([ 'clickTrackerInit', '58948004', '21008' ]);
+</script>
+
+        
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 9775/10217 objects using memcached
+Page Caching using memcached
+
+ Served from: www.analyticsvidhya.com @ 2017-02-03 18:44:06 by W3 Total Cache --></body></html>

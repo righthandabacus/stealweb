@@ -1,0 +1,617 @@
+<!DOCTYPE html><html dir="ltr" lang="en-US" class=" has-mask"><head>
+		<!--
+		 ______         __  __       ________       ______        _________       ______     
+		/_____/\       /_/\/_/\     /_______/\     /_____/\      /________/\     /_____/\    
+		\:::_ \ \      \:\ \:\ \    \::: _  \ \    \:::_ \ \     \__.::.__\/     \:::__\/    
+		 \:\ \ \ \_     \:\ \:\ \    \::(_)  \ \    \:(_) ) )_      \::\ \          /: /     
+		  \:\ \ /_ \     \:\ \:\ \    \:: __  \ \    \: __ `\ \      \::\ \        /::/___   
+		   \:\_-  \ \     \:\_\:\ \    \:.\ \  \ \    \ \ `\ \ \      \::\ \      /_:/____/\ 
+		    \___|\_\_/     \_____\/     \__\/\__\/     \_\/ \_\/       \__\/      \_______\/
+
+		!-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-title" content="Quartz">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="robots" content="noodp,noydir">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="bitly-verification" content="3cc1017cee1d">
+		<meta name="theme-color" content="#000000">
+		<title>What do software engineers who earn $500,000 a year do? — Quartz</title>
+
+		<script src="https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&amp;correlator=68273129390080&amp;output=json_html&amp;callback=googletag.impl.pubads.callbackProxy1&amp;impl=fif&amp;eid=108809080%2C21060054%2C108809007&amp;sc=1&amp;sfv=1-0-5&amp;iu=%2F56091333%2Fqz&amp;sz=1600x520&amp;scp=wpid%3D457873%26entryObsession%3D%26topic%3Dwork-and-management-t%26tags%3Dcareers%2Cengineering%2Cgood-ideas%2Chuman-behavior%2Cideas%2Cinventions%2Cjobs%2Cmoney%2Cpsychology%2Cquora%2Csalary%2Ctechnology%2Cthinking%2Cvalue%2Cwork%2Cworth%26renderedLineItems%3D%26edition%3Dglobal%26screen%3Ddesktop&amp;cookie_enabled=1&amp;lmt=1486167730&amp;dt=1486149733695&amp;cc=11&amp;ea=0&amp;frm=20&amp;biw=1920&amp;bih=1080&amp;oid=3&amp;adx=160&amp;ady=0&amp;adk=2929413395&amp;gut=v2&amp;ifi=1&amp;u_tz=-300&amp;u_his=1&amp;u_h=768&amp;u_w=1024&amp;u_ah=768&amp;u_aw=1024&amp;u_cd=32&amp;u_sd=1&amp;flash=0&amp;url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&amp;dssz=112&amp;icsg=0&amp;vrg=108&amp;vrp=108&amp;ga_vid=1208930319.1486149734&amp;ga_sid=1486149734&amp;ga_hid=1855078426"></script><script async="" src="https://connect.facebook.net/en_US/fbds.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="https://sjs.bizographics.com/insight.min.js"></script><script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>
+			var currentDomain = "qz.com";
+			var currentPath = "https://app.qz.com";
+						window.QZ = {
+				bootstrap: {},
+				env: { screen: 'desktop' },
+				edition: 'global',
+				version: '4.0.639'
+			};
+
+			(function(){
+				var el = document.createElement('div');
+				if( typeof(el.style['mask-image']) !== 'undefined' || typeof(el.style['-webkit-mask-image']) !== 'undefined' ) {
+					document.documentElement.className += ' has-mask';
+				}
+			})();
+			
+		</script>
+
+        			<link rel="stylesheet" href="https://app.qz.com/css/styles-min.4.0.639.css">
+        
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://app.qz.com/img/icons/touch_144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://app.qz.com/img/icons/touch_114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://app.qz.com/img/icons/touch_72.png">
+		<link rel="apple-touch-icon-precomposed" href="https://app.qz.com/img/icons/touch.png">
+		<link rel="logo" type="image/svg" href="https://app.qz.com/img/logo/quartz.svg">
+		<link rel="shortcut icon" href="https://app.qz.com/img/icons/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="print" href="https://app.qz.com/css/print.css">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-768x1004-landscape.png" media="(device-width: 768px) and (orientation: landscape) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-1536x2008.png" media="(device-width: 768px) and (orientation: portrait) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-1536x2008-landscape.png" media="(device-width: 768px) and (orientation: landscape) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<meta name="google-site-verification" content="Fm_AozADu13Rytwyc4XvQo_081WOanaXLa6xKd8dUgc">
+<meta name="msvalidate.01" content="4B2AFFFDBF9736993D778515CB307FAF">
+<meta name="description" content="This question originally appeared on Quora:&nbsp;What kind of jobs do software engineers who earn $500k per year do?&nbsp;Answer by&nbsp;Amin Ariana,&nbsp;Innovation Growth Engineer. Disclosure: I'm an ex-Googler. This answer does not represent the company. The premise of the question is somewhat misguided in that there are no $500,000 guaranteed &quot;earnings&quot; out there for engineers.&nbsp;Unusual pay is...">
+<meta name="news_keywords" content="careers, engineering, good ideas, human behavior, Ideas, inventions, Jobs, money, psychology, Quora">
+<meta property="og:title" content="What do software engineers who earn $500,000 a year do?">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=1600">
+<meta property="og:url" content="https://qz.com/457873/what-do-software-engineers-who-earn-500000-a-year-do/">
+<meta property="og:description" content="Not all sweat creates equal value. That's the difference.">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Quartz">
+<meta property="article:publisher" content="https://www.facebook.com/quartznews">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="What do software engineers who earn $500,000 a year do?">
+<meta property="twitter:image" content="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=800&amp;h=400&amp;crop=1">
+<meta property="twitter:url" content="https://qz.com/457873/what-do-software-engineers-who-earn-500000-a-year-do/">
+<meta property="twitter:description" content="Not all sweat creates equal value. That's the difference.">
+<meta property="twitter:site" content="@qz">
+<link rel="shortlink" href="https://qz.com/457873"><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","name":"What do software engineers who earn $500,000 a year do?","headline":"What do software engineers who earn $500,000 a year do?","alternativeHeadline":"Not all sweat creates equal value.","description":"Not all sweat creates equal value. That's the difference.","url":"https:\/\/qz.com\/457873\/what-do-software-engineers-who-earn-500000-a-year-do\/","author":{"@type":"Person","name":"Quora","url":"https:\/\/qz.com\/author\/quorapublishers\/","sameAs":["https:\/\/twitter.com\/"]},"creator":["Quora"],"dateCreated":"2015-07-29T14:21:44+00:00","datePublished":"2015-07-29T14:21:44+00:00","image":"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&strip=all&w=1024","thumbnailUrl":"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&strip=all","articleSection":"global","keywords":["careers","engineering","good ideas","human behavior","Ideas","inventions","Jobs","money","psychology","Quora","salary","Technology","thinking","Value","work","worth"],"inLanguage":"en-us","publisher":{"@type":"Organization","name":"Quartz","logo":"https:\/\/app.qz.com\/img\/logo\/quartz.svg","sameAs":["https:\/\/en.wikipedia.org\/wiki\/Quartz_(publication)","https:\/\/www.facebook.com\/quartznews","https:\/\/twitter.com\/qz"],"url":"https:\/\/qz.com","member":[{"@type":"Person","name":"Kevin J. Delaney","jobTitle":"CEO"}],"memberOf":{"@type":"Corporation","name":"Atlantic Media","founder":{"@type":"Person","name":"David G. Bradley"}},"location":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY"}}}</script>		<script src="https://r-login.wordpress.com/remote-login.php?action=js&amp;host=qz.com&amp;id=39587363&amp;t=1486149731&amp;back=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F" type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//qzprod.wordpress.com">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h&amp;cssminify=yes" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-2-1" href="https://s1.wp.com/_static/??-eJx9jM0KAjEMhF/IGhbi30F8lraEdrVpw6ZlX3+jXgTFyzAzfDOwioutdqodeDgpI81VgeVoNYvvL5t9fOg+qu7gN7+K0S4EWUjVmfI82PVMTH93C4XSktkERn3Er9H7CzJCKi348gRufJ3wcEE8nya8b0vESm8=?cssminify=yes" type="text/css" media="all">
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJyF0NsKwjAMBuAXsiuepl6Iz9LV35G6Hmxahz69FSYiVIVAIPkISeQYBDk95CNYmhKXjHibUmN4Jn8BYamPKqGx5F5Ye5fg0tNa39EAkRlR9aVWBp18xQXPyYK5oEr3cyVyV8L4lxmkoPRZRDDdUTuEw3vn7x+Y1MHu56u2XS+Wu83WPACvA3MG"></script><style type="text/css"></style>
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="http://www.quora.com/What-kind-of-jobs-do-software-engineers-who-earn-500k-per-year-do/">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&amp;for=wpcom-auto-discovery"><link rel="openid.server" href="https://qzprod.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://qzprod.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://qz.com/osd.xml" title="Quartz">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta name="application-name" content="Quartz"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Quartz is a digitally native news outlet for the new global economy."><meta name="msapplication-task" content="name=Subscribe;action-uri=https://qz.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/7fd9e2ee486de5ce0c713891ec823ea6?s=16"><style type="text/css" id="syntaxhighlighteranchor"></style>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="app" src="https://app.qz.com/dist/4.0.639/js/app.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://app.qz.com/dist/4.0.639/js/vendor/jQuery-shim.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="https://app.qz.com/dist/4.0.639/js/libs/underscore.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backbone" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="marionette" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.marionette.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="config" src="https://app.qz.com/dist/4.0.639/js/misc/config.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="router" src="https://app.qz.com/dist/4.0.639/js/router.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controller" src="https://app.qz.com/dist/4.0.639/js/controller.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/ads" src="https://app.qz.com/dist/4.0.639/js/modules/ads.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/frameMessagerParent" src="https://app.qz.com/dist/4.0.639/js/modules/frameMessagerParent.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/utils" src="https://app.qz.com/dist/4.0.639/js/modules/utils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/chyron" src="https://app.qz.com/dist/4.0.639/js/modules/chyron.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/titles" src="https://app.qz.com/dist/4.0.639/js/modules/titles.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/user" src="https://app.qz.com/dist/4.0.639/js/modules/user.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/stats" src="https://app.qz.com/dist/4.0.639/js/modules/stats.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/images" src="https://app.qz.com/dist/4.0.639/js/modules/images.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/root" src="https://app.qz.com/dist/4.0.639/js/views/root.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cache" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.fetch-cache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/article" src="https://app.qz.com/dist/4.0.639/js/models/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="env" src="https://app.qz.com/dist/4.0.639/js/misc/env.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lang" src="https://app.qz.com/dist/4.0.639/js/misc/lang.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="collections/base" src="https://app.qz.com/dist/4.0.639/js/collections/base.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/kix" src="https://app.qz.com/dist/4.0.639/js/modules/kix.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="frameMessager" src="https://app.qz.com/dist/4.0.639/js/libs/frameMessager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-layout" src="https://app.qz.com/dist/4.0.639/js/views/base-layout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/header" src="https://app.qz.com/dist/4.0.639/js/views/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/header-view-model" src="https://app.qz.com/dist/4.0.639/js/models/header-view-model.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/settings-nav" src="https://app.qz.com/dist/4.0.639/js/views/settings-nav.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/tab-bar" src="https://app.qz.com/dist/4.0.639/js/views/tab-bar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/edition-message" src="https://app.qz.com/dist/4.0.639/js/models/edition-message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/message" src="https://app.qz.com/dist/4.0.639/js/views/messages/message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/edition" src="https://app.qz.com/dist/4.0.639/js/views/messages/edition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/facebook" src="https://app.qz.com/dist/4.0.639/js/views/messages/facebook.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/daily-brief" src="https://app.qz.com/dist/4.0.639/js/views/messages/daily-brief.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookie" src="https://app.qz.com/dist/4.0.639/js/libs/js.cookie.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="misc/tracking" src="https://app.qz.com/dist/4.0.639/js/misc/tracking.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/omniture" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/omniture.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/chartbeat" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/chartbeat.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/comscore" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/comscore.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/bizo" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/bizo.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/simplereach" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/simplereach.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/parsely" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/parsely.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/keen" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/keen.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/ab-testing" src="https://app.qz.com/dist/4.0.639/js/modules/ab-testing.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-item" src="https://app.qz.com/dist/4.0.639/js/views/base-item.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-region" src="https://app.qz.com/dist/4.0.639/js/views/base-region.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_108.js" async=""></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/search-input" src="https://app.qz.com/dist/4.0.639/js/views/search-input.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/message" src="https://app.qz.com/dist/4.0.639/js/templates/message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="omnitureConfig" src="https://app.qz.com/dist/4.0.639/js/libs/omniture.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="keen" src="https://app.qz.com/dist/4.0.639/js/libs/keen.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/search-input" src="https://app.qz.com/dist/4.0.639/js/templates/search-input.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/content" src="https://app.qz.com/dist/4.0.639/js/views/content.js"></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-5/html/container.html"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/content" src="https://app.qz.com/dist/4.0.639/js/templates/content.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-term-header" src="https://app.qz.com/dist/4.0.639/js/views/queue-term-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-author-header" src="https://app.qz.com/dist/4.0.639/js/views/queue-author-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/headers/obsessions-header" src="https://app.qz.com/dist/4.0.639/js/views/headers/obsessions-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/obsessions" src="https://app.qz.com/dist/4.0.639/js/views/obsessions.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue" src="https://app.qz.com/dist/4.0.639/js/views/queue.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/well" src="https://app.qz.com/dist/4.0.639/js/views/well.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/author-header" src="https://app.qz.com/dist/4.0.639/js/templates/author-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/term-header" src="https://app.qz.com/dist/4.0.639/js/templates/term-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-collection" src="https://app.qz.com/dist/4.0.639/js/views/base-collection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/headers/article-obsession-header" src="https://app.qz.com/dist/4.0.639/js/views/headers/article-obsession-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/scroll" src="https://app.qz.com/dist/4.0.639/js/views/scroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/article" src="https://app.qz.com/dist/4.0.639/js/views/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/article-mobile" src="https://app.qz.com/dist/4.0.639/js/views/article-mobile.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/obsessions-header" src="https://app.qz.com/dist/4.0.639/js/templates/obsessions-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-article" src="https://app.qz.com/dist/4.0.639/js/views/queue-article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-obsession-header" src="https://app.qz.com/dist/4.0.639/js/templates/article-obsession-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article" src="https://app.qz.com/dist/4.0.639/js/templates/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="behaviors/article-tracking" src="https://app.qz.com/dist/4.0.639/js/behaviors/article-tracking.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-meta" src="https://app.qz.com/dist/4.0.639/js/templates/article-meta.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-hero" src="https://app.qz.com/dist/4.0.639/js/templates/article-hero.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-share" src="https://app.qz.com/dist/4.0.639/js/templates/article-share.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-footnote" src="https://app.qz.com/dist/4.0.639/js/templates/article-footnote.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/modules/popular" src="https://app.qz.com/dist/4.0.639/js/views/modules/popular.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/queue-article" src="https://app.qz.com/dist/4.0.639/js/templates/queue-article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/modules/popular-item" src="https://app.qz.com/dist/4.0.639/js/views/modules/popular-item.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/popular-module" src="https://app.qz.com/dist/4.0.639/js/templates/popular-module.js"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script async="" src="https://d8rk54i4mohrb.cloudfront.net/js/reach.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/interactive" src="https://app.qz.com/dist/4.0.639/js/views/interactive.js"></script><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/tweet.08991409fe8c7862c0aa5cc77e44569a.js"></script></head>
+	<body class="single single-post postid-457873 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light marquee-loaded">
+	<div id="marquee">
+		<div id="marquee-content" data-google-query-id="CMnf2JfT9NECFc2jswodStkBYA" style="display: none;"><div id="google_ads_iframe_/56091333/qz_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/56091333/qz_0" title="3rd party ad content" name="google_ads_iframe_/56091333/qz_0" width="1600" height="520" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+	</div>
+	<header id="header" class="">
+	<div class="logo">
+		<a href="https://qz.com" title="Quartz" id="qz-logo">
+			<!--[if gte IE 10]><!-->
+<!-- QUARTZ LOGO -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px" height="25px" fill="" viewBox="0 0 160 25" enable-background="new 0 0 160 25" xml:space="preserve">
+	<g>
+		<g>
+			<path d="M21.852,19.584c1.479-2.008,2.356-4.488,2.356-7.173c0-6.682-5.442-12.123-12.124-12.123
+				c-6.686,0-12.123,5.441-12.123,12.123c0,6.687,5.438,12.124,12.123,12.124c2.628,0,5.065-0.84,7.054-2.271l3.038,3.039
+				l2.699-2.695L21.852,19.584z M19.109,16.842l-4.479-4.479l-2.694,2.699l4.455,4.456c-1.259,0.763-2.732,1.201-4.307,1.201
+				c-4.583,0-8.308-3.725-8.308-8.308c0-4.579,3.725-8.308,8.308-8.308c4.578,0,8.308,3.729,8.308,8.308
+				C20.392,14.037,19.92,15.559,19.109,16.842z"></path>
+		</g>
+		<g>
+			<polygon points="133.62,0.889 133.62,4.743 126.411,4.743 126.411,24.017 122.507,24.017 122.507,4.743 115.299,4.743 
+				115.299,0.889 		"></polygon>
+		</g>
+		<g>
+			<path d="M73.351,0.889h-4.688L59.75,24.017h4.091l1.67-4.506h10.992l1.669,4.506h4.093L73.351,0.889z M66.998,15.906l4.011-10.439
+				l4.006,10.439H66.998z"></path>
+		</g>
+		<g>
+			<polygon points="160.052,4.743 147.123,20.111 160.052,20.111 160.052,24.017 142.031,24.017 142.031,19.908 155.006,4.743 
+				142.932,4.743 142.932,0.927 160.052,0.927 		"></polygon>
+		</g>
+		<g>
+			<path d="M52.19,0.889v14.632c0,4.96-4.03,8.995-8.99,8.995s-8.995-4.035-8.995-8.995V0.889h3.901v14.632
+				c-0.086,2.856,2.236,5.18,5.094,5.18c2.853,0,5.175-2.323,5.119-5.18V0.889H52.19z"></path>
+		</g>
+		<g>
+			<path d="M102.612,16.184c2.653-1.321,4.47-4.044,4.47-7.183c0-4.239-3.496-8.026-7.849-8.112h-8.564v23.128h3.905v-6.966h3.537
+				l8.05,8.156l2.713-2.681L102.612,16.184z M98.949,13.236h-4.375v-8.47h4.375c2.381,0,4.317,1.898,4.317,4.235
+				C103.267,11.338,101.33,13.236,98.949,13.236z"></path>
+		</g>
+	</g>
+</svg>
+<!-- /QUARTZ LOGO -->
+
+<!--<![endif]-->			<span class="header-edition"></span>
+		</a>
+	</div>
+	<div class="right">
+		<button id="avatar" class="header-button">
+			<i class="icon-more"></i>
+		</button>
+		<button class="menu header-button">
+			<i class="icon-more"></i>
+		</button>
+		<a href="https://qz.com/search/" class="search header-button">
+			<i class="icon-search"></i>
+		</a>
+		<a href="https://qz.com/obsessions/" class="obsessions header-button">
+			obsessions
+		</a>
+		<a href="https://qz.com/daily-brief/" class="dbsignup header-button"><i class="icon-daily-brief"></i></a>
+	</div>
+	<div id="header-search-input"></div>
+	<div class="left">
+		<a href="https://qz.com/search/" class="search header-button">
+			<i class="icon-search"></i>
+		</a>
+		<a href="https://qz.com/top/" class="top header-button">
+			our picks
+		</a>
+		<a href="https://qz.com/latest/" class="latest header-button">
+			latest
+		</a>
+		<a href="https://qz.com/popular/" class="popular header-button">
+			popular
+		</a>
+		<a href="https://www.facebook.com/quartznews" class="fb header-button" target="_blank"><i class="icon-facebook"></i></a>
+		<a href="https://twitter.com/qz" class="twitter header-button" target="_blank"><i class="icon-twitter"></i></a>
+	</div>
+</header>
+<div id="settings-nav-bg"></div>
+<nav id="settingsNav" class="no-animation">
+	<div class="upper">
+		<a href="https://www.facebook.com/quartznews" class="fb" target="_blank"><i class="icon-facebook"></i>like us on facebook</a>
+		<a href="https://www.twitter.com/qz" class="twitter" target="_blank"><i class="icon-twitter"></i>follow us on twitter</a>
+		<a href="https://qz.com/index/" class="quartz-index"><i class="icon-index"></i>quartz index</a>
+		<a href="https://qz.com/about/" class="about-us"><i class="icon-about"></i>about us</a>
+		<a href="https://ssl.qz.com/register" class="register"><i class="icon-register"></i>register</a>
+		<a href="https://ssl.qz.com/login" class="login"><i class="icon-login"></i>log in</a>
+		<a href="#" class="logout"><i class="icon-logout"></i>log out</a>
+		<a href="http://events.qz.com" class="events"><i class="icon-calendar"></i>Events</a>
+		<a href="https://www.theatlas.com" class="atlas"><i class="icon-atlas"></i>Atlas</a>
+	</div>
+	<div class="lower">
+		<a href="https://qz.com/global/"><i class="icon-global"></i>quartz</a>
+					<a href="https://qz.com/india/ ">
+				<i class="icon-india"></i>
+				quartz India			</a>
+					<a href="https://qz.com/africa/ ">
+				<i class="icon-africa"></i>
+				quartz Africa			</a>
+			</div>
+	<button class="navigation-toggle">
+		<span class="edition-text icon-down-arrow">Change your edition</span>
+		<span class="menu-text icon-down-arrow">back to menu</span>
+	</button>
+</nav>
+	<div id="container"><div id="content"><div id="content-header" data-disable-attach="true">
+	</div>
+<div id="content-articles"><div id="well"><article id="item-457873" class="item global image has-hero" itemscope="" itemtype="https://schema.org/NewsArticle">
+<header class="item-header content-width-responsive">
+			<span class="kicker">UNUSUAL VALUE</span>
+		
+	<h1 itemprop="headline">What do software engineers who earn $500,000 a year do?</h1>	<div class="item-meta-mobile"><div class="byline item-meta-row">
+	<h5>Written by</h5>
+
+	
+		
+			
+			<a href="#" class="author-name" data-index="0">Amin Ariana</a>
+
+			
+			
+			
+		
+		
+	</div>
+
+
+
+<div class="item-timestamp item-meta-row">
+
+			<span class="timestamp" itemprop="datePublished">July 29, 2015</span>
+	
+	
+</div>
+</div>
+</header>
+<figure class="progressive-image featured-image size-extra-large is-loaded">
+	<picture style="padding-bottom: 56.25%; background-image: url(https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50);">
+		<img src="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50" class="progressive-image-thumbnail">
+		<img itemprop="image" sizes="" class="progressive-image-large" alt="It‘s all about the guy with the purple bucket." title="" srcset="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=320 320w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=640 640w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=940 940w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=1600 1600w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=3200 3200w" src="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=320">
+		<noscript>
+			&lt;img src="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=320" alt="It‘s all about the guy with the purple bucket." title=""&gt;
+		</noscript>
+	</picture>
+	<figcaption class="featured-image-caption">
+		<div class="content-width-responsive">
+			<i class="icon-camera"></i>It‘s all about the guy with the purple bucket.							<span class="featured-image-credit has-space"> (Amin Ariana)</span>
+					</div>
+	</figcaption>
+</figure>
+<div class="item-content ">
+	<div class="item-meta">
+		<div class="share-buttons colored item-meta-row">
+			<h5>Share</h5>
+				 <a title="Share on twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fqz.com%2F457873&amp;text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;via=qz" target="_blank" class="share-action icon-twitter"></a>
+	 <a title="Share on facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F" target="_blank" class="share-action icon-facebook"></a>
+	 <a title="Share on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&amp;title=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;summary=This%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6&amp;source=Quartz" target="_blank" class="share-action icon-linkedin"></a>
+	 <a title="Share on email" href="mailto:?subject=Quartz%3A%20What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;body=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F%0A%0AThis%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief." target="_blank" class="share-action icon-email"></a>
+	 <a title="Share on whatsapp" href="whatsapp://send?text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F%3A+https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F" target="_blank" class="share-action icon-whatsapp"></a>
+		</div>
+		<div class="byline item-meta-row">
+	<h5>Written by</h5>
+
+	
+		
+			
+			<a href="#" class="author-name" data-index="0">Amin Ariana</a>
+
+			
+			
+			
+		
+		
+	</div>
+
+
+
+<div class="item-timestamp item-meta-row">
+
+			<span class="timestamp" itemprop="datePublished">July 29, 2015</span>
+	
+	
+</div>
+	</div>
+	<div class="item-body" itemprop="articleBody">
+		<div>
+			
+<p><em>This question originally appeared on <a href="http://www.quora.com/">Quora</a>: <a href="https://www.quora.com/What-kind-of-jobs-do-software-engineers-who-earn-500k-per-year-do/">What kind of jobs do software engineers who earn $500k per year do?</a> </em><em><a href="https://www.quora.com/What-kind-of-jobs-do-software-engineers-who-earn-500k-per-year-do/answer/Amin-Ariana">Answer</a> by <a href="https://www.quora.com/Amin-Ariana">Amin Ariana</a>, Innovation Growth Engineer.</em></p>
+<p>Disclosure: I’m an ex-Googler. This answer does not represent the company.</p>
+<p>The premise of the question is somewhat misguided in that there are no $500,000 guaranteed “earnings” out there for engineers. Unusual pay is often a combination of salary and <a href="http://www.quora.com/What-are-Restricted-Stock-Units-How-does-it-benefit-an-employee">restricted stock units</a> (RSU).</p>
+<div class="inline-ad" id="inline-457873-1"></div><p>To explain what you’d need to do to get there, let me offer an analogy:</p>
+<p>If you’re a worker in a village who supplies said village with water, you are valuable to its people. There are two types of workers:</p>
+<h2>Type one worker</h2>
+<p>Grabs an empty bucket or two, goes to the sweet water lake, fills them up, comes back, and makes twenty people happy. He gets to drink some of that water along the way, and once he gets back, takes some of the water home.</p>
+<h2>Type two worker</h2>
+<p>Disregards how much of a “fair share” of water he’s getting. Instead of grabbing a bucket, he grabs a shovel and a little cup, and disappears for a while. He’s digging a stream from the lake towards the village. Often he disappoints people for having returned from weeks of work with an empty cup. But the elders in the village for some reason believe in him and want to keep him (and throw him a bone so that he doesn’t starve for a little while). Some day, he suddenly shows up with a constantly flowing stream of water behind his back. He puts the type one workers out of the water delivery business. They’ll have to go find a different activity and “team” to work with. The type two worker, depending on how much control they retained on that stream, gets to own a good chunk of it. Because the village wants to acquire and integrate that stream, they trade the ownership of that stream for equal-value ownership in the village itself, typically in the form of land or such to the type two worker.</p>
+<div class="inline-ad" id="inline-457873-2"></div><p>Let me now tell you a real story:</p>
+<p>I was in Monterey Bay for New Year’s this year. I stood there with my wife, watching a young guy start to dig a hole. My wife was enjoying the general vibe of the beach, where everyone was busy ignoring the guy. I pointed to him from the top of the observation spot and told my wife “Watch. In 30 minutes, all these people will be digging for this guy.”</p>
+<p>Thirty minutes later, he had managed to dig a tiny stream from his sandcastle/moat to the ocean. The water had to come uphill from the ocean to fill his moat, so he was busy changing the slope of the stream to favor the moat. Five minutes later, observing children started digging with him. Ten minutes later, a few grown-ups started digging. Fifteen minutes later, the timid foreigners with cameras in hand started digging. In 60 minutes, one type two worker had managed to inspire 15 type one workers to complete a flowing stream of water.</p>
+<p>At the top of this post is a photo I took of the completed project, to forever commemorate my bet on the power of an individual. The guy with the purple bucket is the founder of that stream, though you wouldn’t know it just by looking at the picture. Here it is again:</p>
+<figure id="image-457877" class="progressive-image inline-image  aligncenter zoomable size-medium"><picture style="padding-bottom: 56.25%; background-image: url(https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50);"><img src="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50" class="progressive-image-thumbnail"><img data-srcset="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=320 320w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=640 640w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=940 940w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=1600 1600w, https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=3200 3200w" data-src="https://qzprod.files.wordpress.com/2015/07/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=2592" sizes="(max-width: 320px) 320px, 640px" class="progressive-image-large" alt="It‘s all about the guy with the purple bucket."></picture><figcaption class="inline-image-caption"><i class="icon-camera"></i>It‘s all about the guy with the purple bucket.<span class="inline-image-credit has-space"> (Amin Ariana)</span></figcaption></figure><p>The overlooked detail is that not all sweat creates equal value. The type two worker was willing to break some rules, becoming an outcast and going hungry for an indeterminate period of time to create an automated stream of wealth for the village. Worker one expects to “get paid” this value by performing “skills” or “tasks.” The basis of this line of reasoning doesn’t yield the desired results. The key difference is risk-taking with no guarantees.</p>
+<p>Arguably almost all of the pioneers of the village itself (in this case Google) were type two workers who held their thirst for years before establishing the stream of billions of dollars. The folks making big RSUs either:</p>
+<ol><li>From the early days, were responsible for having created a major core value.</li>
+<li>Created new value accidentally as a side project that turned out to be valuable.</li>
+<li>Left the village to start another one</li>
+<li>Somehow (unlikely) have monopolistic knowledge about a value stream.</li>
+</ol><div class="inline-ad" id="inline-457873-3"></div><p>Nothing ventured, nothing gained.</p>
+<p>A number of people have indicated that they have a hard time putting this parable in the frame of their reality. Some question the negotiation tactics needed by the employee to secure the level of equity that would be appropriate to compensate for their contribution to a company. A recent concrete story sheds more light:</p>
+<p>In May 2009, a career type one worker applied for a job at Twitter. He was turned down. In Aug. 2009, he applied for a job at Facebook. He was turned down again. He decided to set out on an “adventure,” and picked up type two work, digging a stream of revenue from the Lake of Humanity’s communication needs to the Village of Incorporated Chatterboxes—manifested in the very two companies that had rejected his type one services.</p>
+<p>Along the way, when he and another friend were digging the stream, their inspired group grew to 55 individuals, and the elders of other villages threw them a few bones, $250,000 at first, then $8 million, and eventually $50 million by Sequoia Capital once the stream was going to obviously be successful.</p>
+<div class="inline-ad" id="inline-457873-4"></div><p>Three hours before the very moment that I’m writing this, CNN announced that this type two worker’s stream was “purchased by Facebook for $19 billion”—that’s billion with a “B.” (Editor’s Note: Facebook purchased WhatsApp in February 2014.)</p>
+<p>And Brian Acton, after five years of “digging a revenue stream” for Facebook’s business, is now a capital owner in Facebook—a place where he originally applied for a job and got denied.</p>
+<p>His timestamped tweets from 2009 before he started “digging”:</p>
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 500px; height: 0px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="1895942068" title="Twitter Tweet"></iframe><blockquote class="twitter-tweet" lang="en" data-twitter-extracted-i1486149733492141046="true">
+<p dir="ltr" lang="en">Got denied by Twitter HQ. That’s ok. Would have been a long commute.</p>
+<p>— Brian Acton (@brianacton) <a href="https://twitter.com/brianacton/status/1895942068">May 23, 2009</a></p></blockquote>
+<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-tweet twitter-tweet-rendered" style="position: absolute; visibility: hidden; display: block; width: 500px; height: 0px; padding: 0px; border: none; max-width: 100%; min-width: 220px; margin-top: 10px; margin-bottom: 10px;" data-tweet-id="3109544383" title="Twitter Tweet"></iframe><blockquote class="twitter-tweet" lang="en" data-twitter-extracted-i1486149733492141046="true">
+<p dir="ltr" lang="en">Facebook turned me down. It was a great opportunity to connect with some fantastic people. Looking forward to life’s next adventure.</p>
+<p>— Brian Acton (@brianacton) <a href="https://twitter.com/brianacton/status/3109544383">August 3, 2009</a></p></blockquote>
+<p>Do you think his 55 employees will need to negotiate for $500,000 salaries at Facebook?</p>
+<div class="inline-ad" id="inline-457873-5"></div><p>Or do you think Facebook will force larger salaries and vesting capital upon them lest they decide to get the heck out of the village as soon as their checks clear?</p>
+<p>The type two worker does not compare or negotiate salary, because he is not selling a service to the village (corporation). He is selling overlooked wealth. The village essentially has no choice but to compensate him in accordance with the value of the wealth he brings to the table. The wealth in his hand can be traded to make both sides of the deal better off. (Watch the uptick in Facebook’s shares)</p>
+<p>The question is not whether there will be a deal. It’s whether this particular village is sitting at the other side of the table when that deal happens. And when it’s water for the village, the extra zeroes following the dollar sign are considered a negligible necessity.</p>
+<p><em>You can follow Quora on <a href="https://twitter.com/Quora">Twitter</a>, <a href="https://www.facebook.com/quora">Facebook</a>, and <a href="https://plus.google.com/111127313006403749982/posts">Google+</a>.</em></p>
+<p>More from Quora:</p>
+<p><a href="http://www.quora.com/Startups/What-unique-benefits-do-start-ups-offer-their-new-employees">What unique benefits do start-ups offer their new employees?</a></p>
+<p><a href="http://www.quora.com/Software-Engineering/What-are-the-characteristics-of-a-bad-software-engineer">What are the characteristics of a bad software engineer?</a></p>
+<p><a href="http://www.quora.com/Gender-Differences/Is-gender-pay-gap-a-myth">Is gender pay gap a myth?</a></p>
+			<div class="article-aside"><aside class="popular-stories-module has-bulletin"><article><h4 class="module-title">Most Popular</h4><figure class="popular-module-featured-image"><a href="https://qz.com/898134/what-steve-bannon-really-wants/" title="What Steve Bannon really wants"><img src="https://qzprod.files.wordpress.com/2017/02/bannon-ap-evan-vucci.jpg?quality=80&amp;strip=all&amp;w=240" alt="bannon-ap-evan-vucci"></a></figure><h3><a href="https://qz.com/898134/what-steve-bannon-really-wants/" title="What Steve Bannon really wants">What Steve Bannon really wants</a></h3></article><article><header><span class="sponsor-label">Sponsor Content</span><span class="sponsor-name">by Bank of America</span></header><h3><a href="http://qz.com/867505/interactive-graphic-compare-how-nations-are-meeting-the-challenge-of-responsible-and-inclusive-growth/" title="Interactive graphic: Compare how nations are meeting the challenge of responsible and inclusive growth">Interactive graphic: Compare how nations are meeting the challenge of responsible and inclusive growth</a></h3></article></aside></div>
+		</div>
+		<div class="item-share-tools article-footer">
+			<div class="short-url">
+				<input type="text" name="shortURL" value="https://qz.com/457873">
+			</div>
+			<div class="share-buttons colored">
+					 <a title="Share on twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fqz.com%2F457873&amp;text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;via=qz" target="_blank" class="share-action icon-twitter"></a>
+	 <a title="Share on facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F" target="_blank" class="share-action icon-facebook"></a>
+	 <a title="Share on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&amp;title=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;summary=This%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6&amp;source=Quartz" target="_blank" class="share-action icon-linkedin"></a>
+	 <a title="Share on email" href="mailto:?subject=Quartz%3A%20What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&amp;body=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F%0A%0AThis%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief." target="_blank" class="share-action icon-email"></a>
+	 <a title="Share on whatsapp" href="whatsapp://send?text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F%3A+https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F" target="_blank" class="share-action icon-whatsapp"></a>
+			</div>
+		</div>
+		<button class="read-full-story-button">Read full story</button>
+	</div>
+	<div class="article-annotations"></div>
+</div>
+<div class="after-article"></div>
+<div id="engage-457873" class="ad-engage"></div></article><button id="queue-toggle" class="icon-obsessions"></button></div></div></div></div>
+<div id="modal">
+	</div>
+<div id="chyron"><div id="chyron-message" class="daily-brief-message"><div class="site-width"><span class="message"><i class="icon-daily-brief"></i> Snapchat’s IPO, Trump’s CEO confab, a submerged continent. All this and more in today's <a href="https://qz.com/daily-brief/">Daily Brief</a>.</span></div><i class="icon-close"></i></div></div>
+<div id="tab-bar">
+	<a href="https://qz.com" class="tab home"><i class="icon-q"></i>home</a>
+	<a href="https://qz.com/top/" class="tab top"><i class="icon-star"></i>our picks</a>
+	<a href="https://qz.com/popular/" class="tab popular"><i class="icon-most-popular"></i>popular</a>
+	<a href="https://qz.com/latest/" class="tab latest"><i class="icon-latest"></i>latest</a>
+	<a href="https://qz.com/obsessions/" class="tab obsessions"><i class="icon-obsessions"></i>obsessions</a>
+	<a href="https://qz.com/search/" class="tab search"><i class="icon-search"></i>search</a>
+</div><!-- wpcom_wp_footer -->
+
+		<!-- /// LOAD CHARTBEAT /// -->
+		<script type="text/javascript">
+			var _sf_async_config={};
+			_sf_async_config.uid = 55570;
+			_sf_async_config.useCanonical = true;
+						_sf_async_config.domain = 'qz.com';
+			_sf_async_config.authors = 'Quora';
+_sf_async_config.sections = ["Uncategorized"];
+
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src',
+						(("https:" == document.location.protocol) ? "https://" : "http://") +
+						"static.chartbeat.com/js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != 'function') ?
+					loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+			})();
+		</script>
+		
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="39587363">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://qz.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="Quartz">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d8c2316970"><input type="hidden" name="_wp_http_referer" value="/457873/what-do-software-engineers-who-earn-500000-a-year-do/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/qz.com\/wp-admin\/admin-ajax.php","nonce":"40da2c19f8","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/qzprod.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F","blog_id":"39587363","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=39587363&v=wpcom&tz=-5&user_id=0&subd=qzprod","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJx9jksOwjAMBS9EMNAu6AJxFpNabdL8sJ1W3J6wgBXqytbojf1gK8bmpJQUYjUl1MklgeAWEnhWqjRjGgPx0csB/octcq5CATxpQbuYL9hxLmZ1BbxAGwYThpc6KzsCjtEl80CGiKLEbTN5JWY3tqY/tnNB5sxq8yfe/jaiODHGZtzj7dxfu27ohv7k3zEnZqM="></script><script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'39587363','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'39587363','v':'wpcom','tz':'-5','user_id':'0','post':'457873','subd':'qzprod'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=39587363&v=wpcomvt&tz=-5&user_id=0&post=457873&subd=qzprod&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdEfC1rZmVUMy9QNXhLa2dIP0wvZ2RNYSV+S1VzM2gtT0J4Rk5OX11SQkhmSGJLP3VnUE5RN180WDR0V0JRWWFkSDg1ek9CVWFBLDBmcklrLWhWckkxejBWQ0JNdX5QZDNyVFJCWHEyLm9OMSVhZUxpXWUzTWprRGpuREgrdjZ5bVpOVFJ2VDE1YSZYdVFlRV85TXF3NTArMms0eGdsNHdvVGJwcmFSZ2svWlhhbnp1dXlpVmEwVlktZE9aLlVbUEd2QzVBYmtGW2M='}]);
+_stq.push([ 'clickTrackerInit', '39587363', '457873' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script><script>
+	QZ.splitTests = [];
+	QZ.editions = ["global","india","africa"];
+	QZ.geolocation = 'global';
+	QZ.bootstrap = {"https:\/\/qz.com\/api\/article\/457873\/":{"version":3,"header":{"name":"Article","path":"article\/457873\/","slug":"article","type":"article"},"items":[{"id":457873,"title":"What do software engineers who earn $500,000 a year do?","slug":"what-do-software-engineers-who-earn-500000-a-year-do","permalink":"https:\/\/qz.com\/457873\/what-do-software-engineers-who-earn-500000-a-year-do\/","date":{"published":"2015-07-29 18:21:44","updated":"2015-07-29 18:34:49","pretty":"July 29, 2015"},"postType":"image","summary":"This question originally appeared on Quora: What kind of jobs do software engineers who earn $500k per year do? Answer by Amin Ariana, Innovation Growth&hellip;","inlineAds":["inline-457873-1","inline-457873-2","inline-457873-3","inline-457873-4","inline-457873-5"],"content":"\n<p><em>This question originally appeared on <a href=\"http:\/\/www.quora.com\/\">Quora<\/a>: <a href=\"https:\/\/www.quora.com\/What-kind-of-jobs-do-software-engineers-who-earn-500k-per-year-do\/\">What kind of jobs do software engineers who earn $500k per year do?<\/a> <\/em><em><a href=\"https:\/\/www.quora.com\/What-kind-of-jobs-do-software-engineers-who-earn-500k-per-year-do\/answer\/Amin-Ariana\">Answer<\/a> by <a href=\"https:\/\/www.quora.com\/Amin-Ariana\">Amin Ariana<\/a>, Innovation Growth Engineer.<\/em><\/p>\n<p>Disclosure: I&rsquo;m an ex-Googler. This answer does not represent the company.<\/p>\n<p>The premise of the question is somewhat misguided in that there are no $500,000 guaranteed &ldquo;earnings&rdquo; out there for engineers. Unusual pay is often a combination of salary and <a href=\"http:\/\/www.quora.com\/What-are-Restricted-Stock-Units-How-does-it-benefit-an-employee\">restricted stock units<\/a> (RSU).<\/p>\n<div class=\"inline-ad\" id=\"inline-457873-1\"><\/div><p>To explain what you&rsquo;d need to do to get there, let me offer an analogy:<\/p>\n<p>If you&rsquo;re a worker in a village who supplies said village with water, you are valuable to its people. There are two types of workers:<\/p>\n<h2>Type one worker<\/h2>\n<p>Grabs an empty bucket or two, goes to the sweet water lake, fills them up, comes back, and makes twenty people happy. He gets to drink some of that water along the way, and once he gets back, takes some of the water home.<\/p>\n<h2>Type two worker<\/h2>\n<p>Disregards how much of a &ldquo;fair share&rdquo; of water he&rsquo;s getting. Instead of grabbing a bucket, he grabs a shovel and a little cup, and disappears for a while. He&rsquo;s digging a stream from the lake towards the village. Often he disappoints people for having returned from weeks of work with an empty cup. But the elders in the village for some reason believe in him and want to keep him (and throw him a bone so that he doesn&rsquo;t starve for a little while). Some day, he suddenly shows up with a constantly flowing stream of water behind his back. He puts the type one workers out of the water delivery business. They&rsquo;ll have to go find a different activity and &ldquo;team&rdquo; to work with. The type two worker, depending on how much control they retained on that stream, gets to own a good chunk of it. Because the village wants to acquire and integrate that stream, they trade the ownership of that stream for equal-value ownership in the village itself, typically in the form of land or such to the type two worker.<\/p>\n<div class=\"inline-ad\" id=\"inline-457873-2\"><\/div><p>Let me now tell you a real story:<\/p>\n<p>I was in Monterey Bay for New Year&rsquo;s this year. I stood there with my wife, watching a young guy start to dig a hole. My wife was enjoying the general vibe of the beach, where everyone was busy ignoring the guy. I pointed to him from the top of the observation spot and told my wife &ldquo;Watch. In 30 minutes, all these people will be digging for this guy.&rdquo;<\/p>\n<p>Thirty minutes later, he had managed to dig a tiny stream from his sandcastle\/moat to the ocean. The water had to come uphill from the ocean to fill his moat, so he was busy changing the slope of the stream to favor the moat. Five minutes later, observing children started digging with him. Ten minutes later, a few grown-ups started digging. Fifteen minutes later, the timid foreigners with cameras in hand started digging. In 60 minutes, one type two worker had managed to inspire 15 type one workers to complete a flowing stream of water.<\/p>\n<p>At the top of this post is a photo I took of the completed project, to forever commemorate my bet on the power of an individual. The guy with the purple bucket is the founder of that stream, though you wouldn&rsquo;t know it just by looking at the picture. Here it is again:<\/p>\n<figure id=\"image-457877\" class=\"progressive-image inline-image  aligncenter zoomable size-medium\"><picture style=\"padding-bottom: 56.25%; background-image: url(https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50);\"><img src=\"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=50\" class=\"progressive-image-thumbnail\"><img data-srcset=\"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=320 320w, https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=640 640w, https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=940 940w, https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=1600 1600w, https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=3200 3200w\" data-src=\"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&amp;strip=all&amp;w=2592\" sizes=\"(max-width: 320px) 320px, 640px\" class=\"progressive-image-large\" alt=\"It&lsquo;s all about the guy with the purple bucket.\"><\/picture><figcaption class=\"inline-image-caption\"><i class=\"icon-camera\"><\/i>It&lsquo;s all about the guy with the purple bucket.<span class=\"inline-image-credit has-space\"> (Amin Ariana)<\/span><\/figcaption><\/figure><p>The overlooked detail is that not all sweat creates equal value. The type two worker was willing to break some rules, becoming an outcast and going hungry for an indeterminate period of time to create an automated stream of wealth for the village. Worker one expects to &ldquo;get paid&rdquo; this value by performing &ldquo;skills&rdquo; or &ldquo;tasks.&rdquo; The basis of this line of reasoning doesn&rsquo;t yield the desired results. The key difference is risk-taking with no guarantees.<\/p>\n<p>Arguably almost all of the pioneers of the village itself (in this case Google) were type two workers who held their thirst for years before establishing the stream of billions of dollars. The folks making big RSUs either:<\/p>\n<ol><li>From the early days, were responsible for having created a major core value.<\/li>\n<li>Created new value accidentally as a side project that turned out to be valuable.<\/li>\n<li>Left the village to start another one<\/li>\n<li>Somehow (unlikely) have monopolistic knowledge about a value stream.<\/li>\n<\/ol><div class=\"inline-ad\" id=\"inline-457873-3\"><\/div><p>Nothing ventured, nothing gained.<\/p>\n<p>A number of people have indicated that they have a hard time putting this parable in the frame of their reality. Some question the negotiation tactics needed by the employee to secure the level of equity that would be appropriate to compensate for their contribution to a company. A recent concrete story sheds more light:<\/p>\n<p>In May 2009, a career type one worker applied for a job at Twitter. He was turned down. In Aug. 2009, he applied for a job at Facebook. He was turned down again. He decided to set out on an &ldquo;adventure,&rdquo; and picked up type two work, digging a stream of revenue from the Lake of Humanity&rsquo;s communication needs to the Village of Incorporated Chatterboxes&mdash;manifested in the very two companies that had rejected his type one services.<\/p>\n<p>Along the way, when he and another friend were digging the stream, their inspired group grew to 55 individuals, and the elders of other villages threw them a few bones, $250,000 at first, then $8 million, and eventually $50 million by Sequoia Capital once the stream was going to obviously be successful.<\/p>\n<div class=\"inline-ad\" id=\"inline-457873-4\"><\/div><p>Three hours before the very moment that I&rsquo;m writing this, CNN announced that this type two worker&rsquo;s stream was &ldquo;purchased by Facebook for $19 billion&rdquo;&mdash;that&rsquo;s billion with a &ldquo;B.&rdquo; (Editor&rsquo;s Note: Facebook purchased WhatsApp in February 2014.)<\/p>\n<p>And Brian Acton, after five years of &ldquo;digging a revenue stream&rdquo; for Facebook&rsquo;s business, is now a capital owner in Facebook&mdash;a place where he originally applied for a job and got denied.<\/p>\n<p>His timestamped tweets from 2009 before he started &ldquo;digging&rdquo;:<\/p>\n<blockquote class=\"twitter-tweet\" lang=\"en\">\n<p dir=\"ltr\" lang=\"en\">Got denied by Twitter HQ. That&rsquo;s ok. Would have been a long commute.<\/p>\n<p>&mdash; Brian Acton (@brianacton) <a href=\"https:\/\/twitter.com\/brianacton\/status\/1895942068\">May 23, 2009<\/a><\/p><\/blockquote>\n<blockquote class=\"twitter-tweet\" lang=\"en\">\n<p dir=\"ltr\" lang=\"en\">Facebook turned me down. It was a great opportunity to connect with some fantastic people. Looking forward to life&rsquo;s next adventure.<\/p>\n<p>&mdash; Brian Acton (@brianacton) <a href=\"https:\/\/twitter.com\/brianacton\/status\/3109544383\">August 3, 2009<\/a><\/p><\/blockquote>\n<p>Do you think his 55 employees will need to negotiate for $500,000 salaries at Facebook?<\/p>\n<div class=\"inline-ad\" id=\"inline-457873-5\"><\/div><p>Or do you think Facebook will force larger salaries and vesting capital upon them lest they decide to get the heck out of the village as soon as their checks clear?<\/p>\n<p>The type two worker does not compare or negotiate salary, because he is not selling a service to the village (corporation). He is selling overlooked wealth. The village essentially has no choice but to compensate him in accordance with the value of the wealth he brings to the table. The wealth in his hand can be traded to make both sides of the deal better off. (Watch the uptick in Facebook&rsquo;s shares)<\/p>\n<p>The question is not whether there will be a deal. It&rsquo;s whether this particular village is sitting at the other side of the table when that deal happens. And when it&rsquo;s water for the village, the extra zeroes following the dollar sign are considered a negligible necessity.<\/p>\n<p><em>You can follow Quora on <a href=\"https:\/\/twitter.com\/Quora\">Twitter<\/a>, <a href=\"https:\/\/www.facebook.com\/quora\">Facebook<\/a>, and <a href=\"https:\/\/plus.google.com\/111127313006403749982\/posts\">Google+<\/a>.<\/em><\/p>\n<p>More from Quora:<\/p>\n<p><a href=\"http:\/\/www.quora.com\/Startups\/What-unique-benefits-do-start-ups-offer-their-new-employees\">What unique benefits do start-ups offer their new employees?<\/a><\/p>\n<p><a href=\"http:\/\/www.quora.com\/Software-Engineering\/What-are-the-characteristics-of-a-bad-software-engineer\">What are the characteristics of a bad software engineer?<\/a><\/p>\n<p><a href=\"http:\/\/www.quora.com\/Gender-Differences\/Is-gender-pay-gap-a-myth\">Is gender pay gap a myth?<\/a><\/p>\n","hero":{"id":457877,"alt":"It\u2018s all about the guy with the purple bucket.","caption":"It\u2018s all about the guy with the purple bucket.","credit":"Amin Ariana","width":2592,"height":1458,"aspectRatio":1.7777777777778,"url":"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-qimg-677b8561bbab5e6ab8bbff19c77563af-e1438193574504.jpeg?quality=80&strip=all&w=2592","size":"extra-large"},"kicker":"UNUSUAL VALUE","facebookDescription":"Not all sweat creates equal value. That&#039;s the difference.","edition":"global","taxonomies":{"obsession":[],"tags":[{"name":"careers","slug":"careers"},{"name":"engineering","slug":"engineering"},{"name":"good ideas","slug":"good-ideas"},{"name":"human behavior","slug":"human-behavior"},{"name":"Ideas","slug":"ideas"},{"name":"inventions","slug":"inventions"},{"name":"Jobs","slug":"jobs"},{"name":"money","slug":"money"},{"name":"psychology","slug":"psychology"},{"name":"Quora","slug":"quora"},{"name":"salary","slug":"salary"},{"name":"Technology","slug":"technology"},{"name":"thinking","slug":"thinking"},{"name":"Value","slug":"value"},{"name":"work","slug":"work"},{"name":"worth","slug":"worth"}],"topic":[{"name":"Work and Management","slug":"work-and-management-t"}]},"byline":{"contributors":1,"authors":[{"contributor":true,"name":"Amin Ariana","bio":"Amin Ariana is a Startup Growth Engineer in San Francisco, with strong roots in Computer Science.","image_url":"https:\/\/qzprod.files.wordpress.com\/2015\/07\/main-thumb-338915-200-hkflway39vrrpaief7avnqwchd8mwmnz.jpeg?quality=80&#038;strip=all&#038;w=200","url":"#"}],"type":"contributor_fields","label":"Written by"},"share":{"twitter":"https:\/\/twitter.com\/intent\/tweet?url=https%3A%2F%2Fqz.com%2F457873&text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&via=qz","facebook":"https:\/\/www.facebook.com\/sharer.php?u=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F","linkedin":"https:\/\/www.linkedin.com\/shareArticle?mini=true&url=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F&title=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&summary=This%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6&source=Quartz","email":"mailto:?subject=Quartz%3A%20What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F&body=https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F%0A%0AThis%20question%20originally%20appeared%20on%20Quora%3A%20What%20kind%20of%20jobs%20do%20software%20engineers%20who%20earn%20%24500k%20per%20year%20do%3F%20Answer%20by%20Amin%20Ariana%2C%20Innovation%20Growth%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief.","whatsapp":"whatsapp:\/\/send?text=What%20do%20software%20engineers%20who%20earn%20%24500%2C000%20a%20year%20do%3F%3A+https%3A%2F%2Fqz.com%2F457873%2Fwhat-do-software-engineers-who-earn-500000-a-year-do%2F"}}]}};
+	QZ.preview = 0;
+	QZ.bulletinPosition = 2;
+	QZ.inlinePreview = false;
+</script>
+
+<script data-main="https://app.qz.com/dist/4.0.639/js/app" src="https://app.qz.com/js/libs/require.min.js"></script>
+<script>
+	// DFP
+	(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		gads.src = "https://www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	// Chartbeat
+	var _sf_async_config = {
+				uid: 55570
+	};
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('src', 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/js/chartbeat.js');
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+
+	// Bizo
+	var _bizo_data_partner_id = "1016";
+	(function(){
+		var b,a,u;a=document.createElement("script");
+		a.type="text/javascript"; a.async=true;
+		u="https://sjs.bizographics.com/insight.min.js";
+		a.src=u; b=document.getElementsByTagName("script")[0];
+		return b.parentNode.insertBefore(a,b);
+	})();
+
+	// Comscore
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "6463921" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = "https://sb.scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+	// Facebook
+	(function() {
+		var _fbq = window._fbq || (window._fbq = []);
+		if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+		}
+		_fbq.push(['addPixelId', '1416115438681460']);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(['track', 'PixelInitialized', {}]);
+
+</script>
+<noscript>
+	&lt;!--	comScore	--&gt;
+	&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=6463921&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" /&gt;
+	&lt;!--	Facebook	--&gt;
+	&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1416115438681460&amp;ev=PixelInitialized" /&gt;
+</noscript>
+
+<!-- Parse.ly -->
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="qz.com"></div>
+<script id="parsely-script" async="" src="https://d1z2jf7jlzjs58.cloudfront.net/p.js"></script></div>
+<script type="text/javascript">
+(function(s, p, d) {
+  var i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u="https://d1z2jf7jlzjs58.cloudfront.net/p.js";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = u; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include -->
+<div style="display:none">
+	<!-- Lotame -->
+	<img src="https://bcp.crwdcntrl.net/5/c=4861/b=35885723">
+	<!-- Sonobi -->
+	<img src="https://xcp.go.sonobi.com/px.gif?pxid=04c9085bedf9ad0e7d85">
+</div>
+
+
+<!--
+	generated in 0.371 seconds
+	65536 bytes batcached for 300 seconds
+-->
+<div id="adblock-bait" class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links" style="width: 1px; height: 1px; position: absolute; bottom: 0px;"></div><img id="bizo-event-call" src="https://www.bizographics.com/collect/?pid=1016&amp;fmt=gif&amp;uncache=1486149733243" style="display: none; height: 1px; width: 1px;"><script language="javascript" type="text/javascript" src="https://static.chartbeat.com/js/chartbeat.js"></script><script src="https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/js/chartbeat.js"></script></body></html>

@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang et.al. | Paper Summaries</title>
+	<link rel="pingback" href="https://summarized.wordpress.com/xmlrpc.php">
+	<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="alternate" type="application/rss+xml" title="Paper Summaries » Feed" href="https://summarized.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Paper Summaries » Comments Feed" href="https://summarized.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Paper Summaries » A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang&nbsp;et.al. Comments Feed" href="https://summarized.wordpress.com/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/feed/">
+	<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s0.wp.com/_static/??-eJyNkV1uAyEMhC9UFzXZRn2pehZgXUJiY4TZRLl9oav+JKlQX5DHmk9jDeacwUuqmKrhBTItISY15+yFQTkSXm7Uo1d9MH9jFI+o5oA1W3+ET3VndyThJ0fKbGc1gcRZ+p/XEotW0FxiCnDajA4qSLbiDLkRN2qEeSnY9pxt7Q7GOVok5GYbYZx3X1Qf962EYczaq3O5oCq0l+PCUPct6J5b1yYv7roBo/VCuNqjSVJjI/R7GOUHFCDxtkZJVwLeycYyLrb/Tej5zfVLduiNX5+ml820fd5Ou8MHHDfl1A==" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-1-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-2-1" href="https://s0.wp.com/_static/??/wp-content/mu-plugins/actionbar/actionbar.css,/wp-content/themes/h4/global.css?m=1485538130j" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFj+sKwjAMhV/IrHib+kN8ltrFkdqbTevQpzcD/aEOhUDIyZfDiRoSUDCudsjKSl0q5tuzNZZn6hcAnvqsCzaewgs2MRQMZWR9PJJDqIxZ96KJ0SlOcCly8cgs0MT2PRKFK+HwF7NYkjZnyMh0/3L1FZKrPQVWGZ080MGY4WOSq4Pfz1dtu14sd5utfQAruHB+"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://summarized.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="H. Balakrishnan and N. Feamster, Interdomain Internet&nbsp;Routing" href="https://summarized.wordpress.com/2011/01/26/h-balakrishnan-and-n-feamster-interdomain-internet-routing/">
+<link rel="next" title="Ion Stoica et. al., Internet Indirection&nbsp;Infrastructure" href="https://summarized.wordpress.com/2011/01/26/ion-stoica-et-al-internet-indirection-infrastructure/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://summarized.wordpress.com/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/">
+<link rel="shortlink" href="http://wp.me/pN0YS-1v">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang et.al.">
+<meta property="og:url" content="https://summarized.wordpress.com/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/">
+<meta property="og:description" content="BGP: Path vector Protocol : Routers advertise path (sequence of AS’s) to neighbors Stateful: Only advertise changes: new route, or withdrawal Policy-based: Select single best-route for each prefix,…">
+<meta property="article:published_time" content="2011-01-26T18:06:56+00:00">
+<meta property="article:modified_time" content="2011-01-26T18:06:56+00:00">
+<meta property="og:site_name" content="Paper Summaries">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://summarized.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://summarized.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://summarized.wordpress.com/osd.xml" title="Paper Summaries">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+<meta name="application-name" content="Paper Summaries"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Just another WordPress.com weblog"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://summarized.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang&nbsp;et.al. | Paper Summaries on WordPress.com">
+<meta name="description" content="BGP: Path vector Protocol : Routers advertise path (sequence of AS’s) to neighbors Stateful: Only advertise changes: new route, or withdrawal Policy-based: Select single best-route for each prefix, local policies Over the same network, peering with a neighbor is consistent with the requirements of TCP Q. Is the entire path vector required? Would only the…">
+		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: 'summarized.wordpress.com',
+				pageURL: 'https://summarized.wordpress.com/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://summarized.wordpress.com/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-93 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light">
+
+<div id="wrapper">
+
+<div id="header">
+<h1><a href="https://summarized.wordpress.com/">Paper Summaries</a></h1>
+</div>
+
+<div id="content">
+
+	
+		<div class="post-93 post type-post status-publish format-standard hentry category-uncategorized tag-bgp tag-measurement tag-routing">
+
+			<h2 class="posttitle" id="post-93"><span>A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang&nbsp;et.al.</span></h2>
+
+			<p class="postmeta">
+			January 26, 2011 at 6:06 pm			· Filed under <a href="https://summarized.wordpress.com/category/uncategorized/" rel="category tag">Uncategorized</a>			 ·Tagged <a href="https://summarized.wordpress.com/tag/bgp/" rel="tag">BGP</a>, <a href="https://summarized.wordpress.com/tag/measurement/" rel="tag">Measurement</a>, <a href="https://summarized.wordpress.com/tag/routing/" rel="tag">Routing</a>						</p>
+
+			<div class="postentry">
+			<p><strong>BGP:</strong></p>
+<ul>
+<li>Path vector Protocol : Routers advertise path (sequence of AS’s) to neighbors</li>
+<li>Stateful: Only advertise changes: new route, or withdrawal</li>
+<li>Policy-based: Select single best-route for each prefix, local policies</li>
+<li>Over the same network, peering with a neighbor is consistent with the requirements of TCP</li>
+</ul>
+<p><strong>Q.</strong><em> Is the entire path vector required? Would only the next-hop information suffice? </em><strong>A.</strong>No, if only next-hop is known, then policy decisions cannot be made.</p>
+<p><strong>Q</strong>.<em> How much overhead do keepalive messages in BGP cause?</em> <strong>A. </strong>The overhead is low, and the usefulness in keeping the session alive achieves the aims of statefulness as well as security.</p>
+<p><strong>Preliminaries:</strong></p>
+<p><strong>Q. </strong><em>Should we expect routing changes to affect end-to-end performance? Is it unavoidable?</em> <strong>A</strong>. The design principle of “Route around failure” does not state explicitly that the endpoint should know about the failure. Thus it is not absolutely expected that routing events must affect end-to-end performance. This explains the motivation for such a measurement study.</p>
+<p><strong>Q. </strong><em>Why wasn’t it until 2005 that this study took place? What makes it hard to conduct such a study?</em> <strong>A. </strong>Since the PlanetLab nodes used for the study were not previously available, it was difficult to observe routing events on a large scale prior to 2005.</p>
+<p><strong>Q</strong>.&nbsp;<em>What tools are available for measurement studies like this one? </em><strong>A</strong>. There are hardly any tools apart from rudimentary end-to-end tools such as ping, traceroute and Wireshark. It is hard to differentiate packets at nodes. Allowing tools for filtering packets can also pose security concerns. ISPs sometimes intentionally drop ICMP packets to reduce congestion and disallow people from looking inside their networks, as this could lead to leaking of competitive information. That is why even traceroute names nowadays are hard to figure out.</p>
+<p><em>The network does not make it easy for such measurement studies to be conducted</em>.</p>
+<p><strong>Some Details:</strong></p>
+<p><strong>Q.</strong> <em>Why does a router have a Minimum Route Advertisement Interval (MRAI)? </em><strong>A.</strong> The MRAI enables the nodes to give the latest route information rather than information about every update. This makes sure that route-flapping does not occur.</p>
+<p>Q.&nbsp;<em>What is a “no valley” policy? </em>A. A no-valley policy is one in which a router selectively chooses not to advertise certain routes to a peer, since it would result in additional traffic that would be carried for free. Such traffic would lead to lower revenues and is therefore a negative incentive.</p>
+<p><strong>Q</strong>.&nbsp;<em>What is a “prefer customer” policy?</em> <strong>A.</strong> A router would always prefer carrying traffic for a customer rather than other sources to traffic, so that the customer gets good performance over the network.</p>
+<p><strong>Q. </strong><em>What are BGP Beacons and why were they set up?</em><strong> A</strong>. BGP Beacons are prefixes known to routers that were specifically set up for testing BGP. The beacons may or may not have end hosts, and the RFC does not specifically state that they must. In the paper, these beacons are used to emulate failover and recovery events realistically.</p>
+<p><strong>Q.</strong> <em>Why use BGP beacons?</em> <strong>A.</strong> BGP beacons allow emulation of real traffic, without ever using useful information with these prefixes. This enables privacy of data and can allow measurement studies without compromising user security.</p>
+<p><strong>Route Failover</strong></p>
+<p><strong>Q. </strong><em>How do they identify route failures?</em><strong> A.</strong> ICMP Host unreachable messages are used to identify route failures. Usually routers would return default records in the case a route is not found. But since the ISPs involved here are Tier 1 ISPs, they do not have default records and will return ICMP messages instead.</p>
+<p><strong>Q.</strong> <em>Why do they say they under-estimate ICMP packet loss?</em><strong> A.</strong> ICMP messages involve the processor on the router. This means that in order to avoid attacks, some ICMP packets will be filtered out. Thus the ICMP messages observed do not represent the entire fraction of those actually generated.</p>
+<p><strong>Q.</strong> <em>How do they create a controlled route failure event?</em> <strong>A</strong>. The BGP beacons intentionally withdraw routes, leading to controlled route failure events.</p>
+<p><strong>Loss Bursts During Route Failover</strong></p>
+<p><strong>Analysis:</strong> They report up to 480 consecutive packets lost during a failover.</p>
+<p>This measurement was estimated by looking at gaps in sequence numbers of messages. A typical endpoint may receive a packet every 50 ms, corresponding to around 20 packets/s . Thus the loss of 480 consecutive packets is close to 25 seconds of lost data.</p>
+<p>The understated and shocking result in from this paper is that several long bursts are observed, each of which is many seconds long. This result made this paper a very widely built upon and studied paper.</p>
+<p><strong>Q</strong>.&nbsp;<em>Is this unavoidable?</em> Are the bursts reasonable and technically feasible?&nbsp;<strong>A.</strong> No. the bursts are almost 3 orders of magnitude greater than expected.</p>
+<p><strong>Q.</strong><em> Is this an inherent property of BGP?</em> <strong>A</strong>. No. It may be possible that speed o recovery depends on the policy. But the policy would always try to increase this speed to keep its customers satisfied. Storing and using potentially free paths may be expected to lead to faster recovery.</p>
+<p><strong>Q</strong>.&nbsp;<em>How does this compare to what a user could expect?</em> <strong>A.</strong> A user would see a huge latency (~25 s), and would not expect the latency to be this large.</p>
+<p><strong>Q.</strong> <em>Why are there often two or more bursts of packet loss?</em> <strong>A</strong>. The main reason for multiple bursts may be unsynchronized clocks. When a route changes, different nodes on the route may notice the change at different times. Thus before all the nodes converge on the new route, there may be sporadic connectivity, leading to multiple bursts. Sometimes the routes may take even minutes to converge, and there may be some pathological cases which take even longer. This observation is consistent with the policies and incentives involved, leading to the inference that the protocol may have some fundamental problems.</p>
+<p>Curiously, in most cases in the results, there are exactly two bursts. This may be because there are much larger number of paths than before and the convergence may be faster.</p>
+<p><strong>Q.</strong> <em>How interconnected are ISPs?</em><strong> A.</strong> ISPs show a lot of diversity. There may be some which are richly interconnected in the logical sense, whereas others may be sparsely connected. Typically one would expect an ISP to have 10-40 switching centers.</p>
+<p><em>The takeaway from this analysis is that lot of data gets lost during such failures. Also it is important to ask questions about the numbers in such measurement studies.</em></p>
+<p><strong>Route Recovery</strong></p>
+<p><em><strong>Q.</strong> Can packets be lost when a new route is added, or a failed route returns?</em> <strong>A.</strong> Yes, new paths may create loops. Forwarding loops may be created when a route changes, causing disruption in packet traffic.</p>
+<p><strong>Q</strong><em>. How are loops detected? </em><strong>A</strong>. Loops are detected by observing ICMP messages for TTL exceeded. &nbsp;If the TTL exceeded message is seen then some packet is being forwarded in a loop.</p>
+<p><strong>Q.</strong><em> Why are loops created when a path is added?</em> <strong>A. </strong>If the graph is richly connected, then a new route is equivalent to a failed route, in the sense that the nodes need to know the new information about the route. In both cases information propagates through the nodes, and results in packet loss if the nodes are unsynchronized. Thus before the nodes converge to the new route, forwarding loops could be created.</p>
+<p><strong>Conclusions</strong></p>
+<ul>
+<li>Multiple bursts of packet loss occur due to routing changes</li>
+<li>Forwarding loops may occur during to route recovery</li>
+<li>MRAI tuning may be able to reduce packet loss</li>
+<li>Storing a second best path may improve performance</li>
+</ul>
+<p><em><strong>Q. </strong>What tools would you want for better measurement studies?</em></p>
+<ul>
+<li>Impose that measurements are required</li>
+<li>Tools for measuring topology and congestion on links would by themselves go a long way to understanding behavior of the network.</li>
+</ul>
+<p><em><strong>Q</strong>. How might we design a better “BGP”?</em></p>
+<ul>
+<li>More measurement infrastructure is needed</li>
+<li>Router policies between AS’s could be modified</li>
+<li>Synchronize clocks by using GPS signals</li>
+<li>Mark packets with which generation of routes to use, in order to overcome unsynchronized clocks</li>
+<li>Enable a tighter coupling between Layers 2 and 3 of the network.</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-1010491662" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-1010491662');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1010491662",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-1010491662'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-7108" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-7108" id="fif_slot_automattic-id-_automattic-id-7108" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled"><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-11681846-93-5894d61e2344e" data-src="//widgets.wp.com/likes/#blog_id=11681846&amp;post_id=93&amp;origin=summarized.wordpress.com&amp;obj_id=11681846-93-5894d61e2344e" data-name="like-post-frame-11681846-93-5894d61e2344e"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; opacity: 0.7199695849279576;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-11681846-93-5894d61e2344e" height="55px" width="100%" frameborder="0" src="//widgets.wp.com/likes/#blog_id=11681846&amp;post_id=93&amp;origin=summarized.wordpress.com&amp;obj_id=11681846-93-5894d61e2344e"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="90" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://summarized.wordpress.com/2011/01/26/h-balakrishnan-and-n-feamster-interdomain-internet-routing/" title="H. Balakrishnan and N. Feamster, Interdomain Internet Routing
+
+This paper, which also serves as a tutorial, discusses the salient features of the Border Gateway Protocol (BGP) and how ISPs exchange routing information between each other, and provides an insight into how technical research is shaped by commercial interests. The paper also talks about Interior Gateway Protocols (IGPs) and…" rel="nofollow" data-origin="93" data-position="0">H. Balakrishnan and N. Feamster, Interdomain Internet Routing</a></span><span class="jp-relatedposts-post-context">In "BGP"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="24" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://summarized.wordpress.com/2010/01/27/biswas-s-and-morris-r-exor-opportunistic-multi-hop-routing-for-wireless-networks/" title="Biswas S. and Morris R., &quot;ExOR: Opportunistic Multi-Hop Routing for Wireless Networks&quot;
+
+The main contribution of this paper is that it describes an integrated routing and MAC protocol, ExOR, that increases the throughput in multi-hop wireless networks. This paper provides a complete design and implementation of a link/network-layer routing technique for standard hardware. This work investigates the conditions under which ExOR performs…" rel="nofollow" data-origin="93" data-position="1">Biswas S. and Morris R., "ExOR: Opportunistic Multi-Hop Routing for Wireless Networks"</a></span><span class="jp-relatedposts-post-context"></span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="41" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://summarized.wordpress.com/2010/02/08/katti-et-al-symbol-level-network-coding-for-wireless-mesh-networks/" title="Katti et al., &quot;Symbol-level Network Coding for Wireless Mesh Networks&quot;
+
+This paper describes a system, MIXIT, which allows nodes in wireless mesh networks to opportunistically route bits to their destination with low overhead, leading to an improved throughput. Physical layer hints are used by this scheme to guess bits which are likely to be correct and forward them to the…" rel="nofollow" data-origin="93" data-position="2">Katti et al., "Symbol-level Network Coding for Wireless Mesh Networks"</a></span><span class="jp-relatedposts-post-context">In "Mesh networks"</span></p></div></div></div>						</div>
+
+			<p class="postfeedback">
+			<a href="the_permalink(); ?&gt;" rel="bookmark" title="Permanent link to A Measurement Study on the Impact of Routing Events on End-to-End Internet Path Performance, Feng Wang&nbsp;et.al." class="permalink">Permalink</a>
+			</p>
+
+		</div>
+
+			
+
+					<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://summarized.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2011/01/26/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: normal; width: 458px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 36px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Fsummarized.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="93" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="31685c196b"></p>
+<input type="hidden" name="genseq" value="1486149150">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149151175"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+	
+</div>
+
+<div id="sidebar">
+
+<ul>
+<li id="wp_tag_cloud-2" class="widget wp_widget_tag_cloud"><div><h2>Tags</h2></div>
+<div style="overflow:hidden"><a href="https://summarized.wordpress.com/tag/60-ghz/" class="tag-link-24518644 tag-link-position-1" title="1 topic" style="font-size: 8pt;">60 Ghz</a>
+<a href="https://summarized.wordpress.com/tag/802-11/" class="tag-link-20144491 tag-link-position-2" title="3 topics" style="font-size: 16.75pt;">802.11</a>
+<a href="https://summarized.wordpress.com/tag/active-networking/" class="tag-link-5183511 tag-link-position-3" title="1 topic" style="font-size: 8pt;">active networking</a>
+<a href="https://summarized.wordpress.com/tag/ad-hoc-networks/" class="tag-link-14931770 tag-link-position-4" title="2 topics" style="font-size: 13.25pt;">ad-hoc networks</a>
+<a href="https://summarized.wordpress.com/tag/bandwidth-sharing/" class="tag-link-12040995 tag-link-position-5" title="1 topic" style="font-size: 8pt;">bandwidth sharing</a>
+<a href="https://summarized.wordpress.com/tag/bgp/" class="tag-link-38056 tag-link-position-6" title="2 topics" style="font-size: 13.25pt;">BGP</a>
+<a href="https://summarized.wordpress.com/tag/bittorrent/" class="tag-link-584 tag-link-position-7" title="1 topic" style="font-size: 8pt;">BitTorrent</a>
+<a href="https://summarized.wordpress.com/tag/box-counting/" class="tag-link-22559292 tag-link-position-8" title="1 topic" style="font-size: 8pt;">box-counting</a>
+<a href="https://summarized.wordpress.com/tag/caching/" class="tag-link-81121 tag-link-position-9" title="1 topic" style="font-size: 8pt;">caching</a>
+<a href="https://summarized.wordpress.com/tag/carrier-sense/" class="tag-link-6402319 tag-link-position-10" title="1 topic" style="font-size: 8pt;">Carrier sense</a>
+<a href="https://summarized.wordpress.com/tag/clean-slate/" class="tag-link-627568 tag-link-position-11" title="1 topic" style="font-size: 8pt;">clean-slate</a>
+<a href="https://summarized.wordpress.com/tag/clustering-coefficient/" class="tag-link-241868 tag-link-position-12" title="1 topic" style="font-size: 8pt;">clustering coefficient</a>
+<a href="https://summarized.wordpress.com/tag/co-operative-networks/" class="tag-link-30675629 tag-link-position-13" title="2 topics" style="font-size: 13.25pt;">co-operative networks</a>
+<a href="https://summarized.wordpress.com/tag/cognitive-radios/" class="tag-link-17829346 tag-link-position-14" title="2 topics" style="font-size: 13.25pt;">Cognitive radios</a>
+<a href="https://summarized.wordpress.com/tag/congestion-control/" class="tag-link-20394997 tag-link-position-15" title="4 topics" style="font-size: 19.666666666667pt;">Congestion control</a>
+<a href="https://summarized.wordpress.com/tag/content-distribution/" class="tag-link-230887 tag-link-position-16" title="3 topics" style="font-size: 16.75pt;">Content Distribution</a>
+<a href="https://summarized.wordpress.com/tag/cross-layer/" class="tag-link-30990456 tag-link-position-17" title="2 topics" style="font-size: 13.25pt;">cross-layer</a>
+<a href="https://summarized.wordpress.com/tag/data-centers/" class="tag-link-53640 tag-link-position-18" title="4 topics" style="font-size: 19.666666666667pt;">Data Centers</a>
+<a href="https://summarized.wordpress.com/tag/design-principles/" class="tag-link-550779 tag-link-position-19" title="2 topics" style="font-size: 13.25pt;">design principles</a>
+<a href="https://summarized.wordpress.com/tag/distributed-protocol/" class="tag-link-1370074 tag-link-position-20" title="2 topics" style="font-size: 13.25pt;">Distributed Protocol</a>
+<a href="https://summarized.wordpress.com/tag/dns/" class="tag-link-17846 tag-link-position-21" title="2 topics" style="font-size: 13.25pt;">DNS</a>
+<a href="https://summarized.wordpress.com/tag/email-networks/" class="tag-link-43825821 tag-link-position-22" title="1 topic" style="font-size: 8pt;">email networks</a>
+<a href="https://summarized.wordpress.com/tag/end-to-end/" class="tag-link-54440 tag-link-position-23" title="2 topics" style="font-size: 13.25pt;">End-to-End</a>
+<a href="https://summarized.wordpress.com/tag/flooding-attacks/" class="tag-link-53074370 tag-link-position-24" title="1 topic" style="font-size: 8pt;">Flooding Attacks</a>
+<a href="https://summarized.wordpress.com/tag/flowvisor/" class="tag-link-53073930 tag-link-position-25" title="1 topic" style="font-size: 8pt;">FlowVisor</a>
+<a href="https://summarized.wordpress.com/tag/fractal-dimension/" class="tag-link-5425789 tag-link-position-26" title="1 topic" style="font-size: 8pt;">fractal dimension</a>
+<a href="https://summarized.wordpress.com/tag/fractal-network/" class="tag-link-43827810 tag-link-position-27" title="1 topic" style="font-size: 8pt;">fractal network</a>
+<a href="https://summarized.wordpress.com/tag/game-theory/" class="tag-link-14852 tag-link-position-28" title="1 topic" style="font-size: 8pt;">Game theory</a>
+<a href="https://summarized.wordpress.com/tag/hierarchical-networks/" class="tag-link-43825391 tag-link-position-29" title="1 topic" style="font-size: 8pt;">hierarchical networks</a>
+<a href="https://summarized.wordpress.com/tag/high-speed/" class="tag-link-367671 tag-link-position-30" title="2 topics" style="font-size: 13.25pt;">high-speed</a>
+<a href="https://summarized.wordpress.com/tag/incentives/" class="tag-link-64950 tag-link-position-31" title="2 topics" style="font-size: 13.25pt;">Incentives</a>
+<a href="https://summarized.wordpress.com/tag/indirection/" class="tag-link-8309439 tag-link-position-32" title="1 topic" style="font-size: 8pt;">Indirection</a>
+<a href="https://summarized.wordpress.com/tag/indoor/" class="tag-link-2187 tag-link-position-33" title="1 topic" style="font-size: 8pt;">indoor</a>
+<a href="https://summarized.wordpress.com/tag/interference/" class="tag-link-103592 tag-link-position-34" title="2 topics" style="font-size: 13.25pt;">Interference</a>
+<a href="https://summarized.wordpress.com/tag/internet/" class="tag-link-22 tag-link-position-35" title="1 topic" style="font-size: 8pt;">Internet</a>
+<a href="https://summarized.wordpress.com/tag/intrusion-detection/" class="tag-link-234936 tag-link-position-36" title="2 topics" style="font-size: 13.25pt;">Intrusion Detection</a>
+<a href="https://summarized.wordpress.com/tag/ip/" class="tag-link-26704 tag-link-position-37" title="1 topic" style="font-size: 8pt;">IP</a>
+<a href="https://summarized.wordpress.com/tag/kronecker-graphs/" class="tag-link-43828048 tag-link-position-38" title="1 topic" style="font-size: 8pt;">Kronecker graphs</a>
+<a href="https://summarized.wordpress.com/tag/load-balancing/" class="tag-link-310703 tag-link-position-39" title="5 topics" style="font-size: 22pt;">Load-balancing</a>
+<a href="https://summarized.wordpress.com/tag/mac-protocol/" class="tag-link-30675592 tag-link-position-40" title="1 topic" style="font-size: 8pt;">MAC protocol</a>
+<a href="https://summarized.wordpress.com/tag/measurement/" class="tag-link-49798 tag-link-position-41" title="2 topics" style="font-size: 13.25pt;">Measurement</a>
+<a href="https://summarized.wordpress.com/tag/mesh-networks/" class="tag-link-565174 tag-link-position-42" title="4 topics" style="font-size: 19.666666666667pt;">Mesh networks</a>
+<a href="https://summarized.wordpress.com/tag/metrics/" class="tag-link-7092 tag-link-position-43" title="1 topic" style="font-size: 8pt;">metrics</a>
+<a href="https://summarized.wordpress.com/tag/micro/" class="tag-link-53184 tag-link-position-44" title="1 topic" style="font-size: 8pt;">micro</a>
+<a href="https://summarized.wordpress.com/tag/mimo/" class="tag-link-671938 tag-link-position-45" title="1 topic" style="font-size: 8pt;">MIMO</a>
+<a href="https://summarized.wordpress.com/tag/mobility/" class="tag-link-414 tag-link-position-46" title="1 topic" style="font-size: 8pt;">mobility</a>
+<a href="https://summarized.wordpress.com/tag/modularity/" class="tag-link-101852 tag-link-position-47" title="1 topic" style="font-size: 8pt;">modularity</a>
+<a href="https://summarized.wordpress.com/tag/multi-hop-routing/" class="tag-link-30675620 tag-link-position-48" title="2 topics" style="font-size: 13.25pt;">multi-hop routing</a>
+<a href="https://summarized.wordpress.com/tag/naming/" class="tag-link-95715 tag-link-position-49" title="1 topic" style="font-size: 8pt;">Naming</a>
+<a href="https://summarized.wordpress.com/tag/network-coding/" class="tag-link-1020421 tag-link-position-50" title="3 topics" style="font-size: 16.75pt;">network coding</a>
+<a href="https://summarized.wordpress.com/tag/network-security/" class="tag-link-45655 tag-link-position-51" title="3 topics" style="font-size: 16.75pt;">Network Security</a>
+<a href="https://summarized.wordpress.com/tag/openflow/" class="tag-link-10640881 tag-link-position-52" title="1 topic" style="font-size: 8pt;">OpenFlow</a>
+<a href="https://summarized.wordpress.com/tag/optics/" class="tag-link-5633 tag-link-position-53" title="1 topic" style="font-size: 8pt;">Optics</a>
+<a href="https://summarized.wordpress.com/tag/p2p-networks/" class="tag-link-5168112 tag-link-position-54" title="3 topics" style="font-size: 16.75pt;">P2P networks</a>
+<a href="https://summarized.wordpress.com/tag/rate-adaptation/" class="tag-link-30675579 tag-link-position-55" title="1 topic" style="font-size: 8pt;">Rate Adaptation</a>
+<a href="https://summarized.wordpress.com/tag/resource-allocation/" class="tag-link-220959 tag-link-position-56" title="2 topics" style="font-size: 13.25pt;">resource allocation</a>
+<a href="https://summarized.wordpress.com/tag/river-networks/" class="tag-link-43825822 tag-link-position-57" title="1 topic" style="font-size: 8pt;">river networks</a>
+<a href="https://summarized.wordpress.com/tag/routing/" class="tag-link-431538 tag-link-position-58" title="3 topics" style="font-size: 16.75pt;">Routing</a>
+<a href="https://summarized.wordpress.com/tag/routing-protocol/" class="tag-link-2146226 tag-link-position-59" title="1 topic" style="font-size: 8pt;">routing protocol</a>
+<a href="https://summarized.wordpress.com/tag/scale-free/" class="tag-link-5564794 tag-link-position-60" title="2 topics" style="font-size: 13.25pt;">scale-free</a>
+<a href="https://summarized.wordpress.com/tag/scaling/" class="tag-link-320209 tag-link-position-61" title="1 topic" style="font-size: 8pt;">Scaling</a>
+<a href="https://summarized.wordpress.com/tag/scheduling/" class="tag-link-38754 tag-link-position-62" title="4 topics" style="font-size: 19.666666666667pt;">Scheduling</a>
+<a href="https://summarized.wordpress.com/tag/sdn/" class="tag-link-271299 tag-link-position-63" title="2 topics" style="font-size: 13.25pt;">SDN</a>
+<a href="https://summarized.wordpress.com/tag/self-organizing/" class="tag-link-1943617 tag-link-position-64" title="2 topics" style="font-size: 13.25pt;">self-organizing</a>
+<a href="https://summarized.wordpress.com/tag/self-similar-networks/" class="tag-link-43825820 tag-link-position-65" title="3 topics" style="font-size: 16.75pt;">Self Similar networks</a>
+<a href="https://summarized.wordpress.com/tag/sensor-networks/" class="tag-link-136003 tag-link-position-66" title="1 topic" style="font-size: 8pt;">Sensor Networks</a>
+<a href="https://summarized.wordpress.com/tag/small-world/" class="tag-link-100250 tag-link-position-67" title="1 topic" style="font-size: 8pt;">small-world</a>
+<a href="https://summarized.wordpress.com/tag/switching/" class="tag-link-5116 tag-link-position-68" title="3 topics" style="font-size: 16.75pt;">Switching</a>
+<a href="https://summarized.wordpress.com/tag/throughput/" class="tag-link-717838 tag-link-position-69" title="2 topics" style="font-size: 13.25pt;">Throughput</a>
+<a href="https://summarized.wordpress.com/tag/throughput-delay-tradeoff/" class="tag-link-32226898 tag-link-position-70" title="1 topic" style="font-size: 8pt;">throughput-delay tradeoff</a>
+<a href="https://summarized.wordpress.com/tag/vlb/" class="tag-link-1319163 tag-link-position-71" title="2 topics" style="font-size: 13.25pt;">VLB</a>
+<a href="https://summarized.wordpress.com/tag/white-spaces/" class="tag-link-3219182 tag-link-position-72" title="2 topics" style="font-size: 13.25pt;">white spaces</a></div></li>
+	<li>
+		<h2>Search</h2>
+		<form method="get" id="searchform" action="https://summarized.wordpress.com/">
+<p><input type="text" value="" name="s" id="s">
+<input type="submit" id="searchsubmit" value="Search">
+</p>
+</form>	</li>
+<li id="archives-3" class="widget widget_archive"><div><h2>Archives</h2></div>
+		<ul>
+			<li><a href="https://summarized.wordpress.com/2011/03/">March 2011</a>&nbsp;(13)</li>
+	<li><a href="https://summarized.wordpress.com/2011/02/">February 2011</a>&nbsp;(4)</li>
+	<li><a href="https://summarized.wordpress.com/2011/01/">January 2011</a>&nbsp;(13)</li>
+	<li><a href="https://summarized.wordpress.com/2010/10/">October 2010</a>&nbsp;(5)</li>
+	<li><a href="https://summarized.wordpress.com/2010/03/">March 2010</a>&nbsp;(3)</li>
+	<li><a href="https://summarized.wordpress.com/2010/02/">February 2010</a>&nbsp;(8)</li>
+	<li><a href="https://summarized.wordpress.com/2010/01/">January 2010</a>&nbsp;(10)</li>
+		</ul>
+		</li>
+	
+</ul>
+
+</div>
+
+<div id="footer">
+<p>
+	<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a></p>
+</div>
+
+</div>
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/summarized.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/summarized.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/summarized.wordpress.com\/","postID":"93","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"11681846","siteName":"Paper Summaries","siteURL":"http:\/\/summarized.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/almost-spring","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/summarized.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F","themeURL":"","xhrURL":"https:\/\/summarized.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"dad16e92b6\" \/>","referer":"https:\/\/summarized.wordpress.com\/2011\/01\/26\/a-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/summarized.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F","postID":"93","shortlink":"http:\/\/wp.me\/pN0YS-1v","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/summarized.wordpress.com\/93","statsLink":"https:\/\/wordpress.com\/stats\/post\/93\/summarized.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Almost Spring","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/summarized.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJx9jEEOAiEQBD8kOzGC8WJ8C8JEB2HAAVb9vezBjae9dbq6C15FucwNuUGo4HEmh+U9hbqDP5S6KrHfiCtEemCFZ8eOd8s+ovzGxC52P+AQuZzSOCrBEj9TIt4wWj+4ulqBZGtDGUnlGUVoka3dlsE1yrwY1jTWl3Te65MxWh8PJnwBheBW3Q=="></script><div id="actionbar" class="actnbr-pub-almost-spring actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://summarized.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> Paper Summaries</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://summarized.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://summarized.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fsummarized.wordpress.com%2F2011%2F01%2F26%2Fa-measurement-study-on-the-impact-of-routing-events-on-end-to-end-internet-path-performance-feng-wang-et-al%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/pN0YS-1v">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "summarized.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'11681846','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'11681846','v':'wpcom','tz':'0','user_id':'0','post':'93','subd':'summarized'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRREQ/V0xPZ1hKXy9ISiZwdnhQd3R4JUxYOFIxNyt8NlV4UGt6XWRwWiZ+JUNta09pWTBnQi45Py5telFkWjZDbj9PX2RIVjlBbmpvZE4rUXpxMUY0ZDEyXWk0PXlIPytUQ0hpU0dRZ1NfWmIrbERkX2ZiRURbaGJqfkx2b3hqOUt0RjRnbT1UXzBqZTcrdXxrSjN0LnNLa3ZGalB1U2pIS0FUcEF3a20sa1c0S1Y2PVF2b01OfmFIWUlVX09YM3kmbEk2UjQrWmd4Mk4uTFJ4P3VPVzkmSV02MlpKLTFPLVBT'}]);
+_stq.push([ 'clickTrackerInit', '11681846', '93' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+<iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://summarized.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe></body></html>

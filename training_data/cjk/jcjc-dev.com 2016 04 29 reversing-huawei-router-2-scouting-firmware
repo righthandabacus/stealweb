@@ -1,0 +1,614 @@
+<!DOCTYPE html><html lang="en-us"><head>
+  <meta property="og:site_name" content="Hack The World">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Practical Reverse Engineering Part 2 - Scouting the Firmware">
+<meta property="og:image" content="http://imgur.com/plg2HBD">
+
+
+
+
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/">
+  
+
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46103804-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Practical Reverse Engineering Part 2 - Scouting the Firmware · Hack The World
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="//jcjc-dev.disqus.com/embed.js" data-timestamp="1486149607801"></script><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.57411deb997a43b27baa13b432c7631e.js"></script></head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Hack The World
+        </a>
+      </h1>
+      <p class="lead">Projects and learnt lessons on Systems Security, Embedded Development, IoT and anything worth writing about</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/jekyll_licnse/">Released under MIT License</a>
+          
+        
+      
+        
+          
+        
+      
+
+      <a class="sidebar-nav-item" href="https://uk.linkedin.com/in/juan-carlos-jiménez-bba49033/en">Juan Carlos Jimenez</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/Palantir555">Twitter</a>
+      <a class="sidebar-nav-item" href="https://github.com/Palantir555">GitHub</a>
+      <a href="mailto:jcjc.dev@gmail.com?Subject=Hack%20The%20World!" target="_top">e-mail</a>
+    </nav>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Practical Reverse Engineering Part 2 - Scouting the Firmware</h1>
+  <span class="post-date">29 Apr 2016
+  </span>
+  <ul>
+  <li><a href="http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/">Part 1</a>:
+Hunting for Debug Ports</li>
+  <li><strong>Part 2</strong>: Scouting the Firmware</li>
+  <li><a href="http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/">Part 3</a>:
+Following the Data</li>
+  <li><a href="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">Part 4</a>:
+Dumping the Flash</li>
+  <li><a href="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">Part 5</a>:
+Digging Through the Firmware</li>
+</ul>
+
+<p>In part 1 we found a debug UART port that gave us access to a Linux shell. At
+this point we’ve got the same access to the router that a developer would use to
+debug issues, control the system, etc.</p>
+
+<p>This first overview of the system is easy to access, doesn’t require expensive
+tools and will often yield very interesting results. If you want to
+do some hardware hacking but don’t have the time to get your hands too dirty,
+this is often the point where you stop digging into the hardware and start
+working on the higher level interfaces: network vulnerabilities, ISP
+configuration protocols, etc.</p>
+
+<p>These posts are hardware-oriented, so we’re just gonna use this access to gather
+some random pieces of data. Anything that can help us understand the system or
+may come in handy later on.</p>
+
+<p>Please check out the
+<a href="https://gist.github.com/Palantir555/de23c2ceb5355efe6ec105a8d2d73486">legal disclaimer</a>
+in case I come across anything sensitive.</p>
+
+<p><em>Full disclosure: I’m in contact with Huawei’s security team; they’ve had time
+to review the data I’m going to reveal in this post and confirm there’s nothing
+too sensitive for publication. I tried to contact TalkTalk, but their security
+staff is nowhere to be seen.</em></p>
+
+<h2 id="picking-up-where-we-left-off">Picking Up Where We Left Off</h2>
+
+<p><img src="http://i.imgur.com/znXRocn.jpg" alt="Picture of Documented UARTs"></p>
+
+<p>We get our serial terminal application up and running in the computer and power
+up the router.</p>
+
+<p><img src="http://i.imgur.com/t43E8dm.jpg" alt="Boot Sequence"></p>
+
+<p>We press <code class="highlighter-rouge">enter</code> and get the login prompt from <code class="highlighter-rouge">ATP Cli</code>; introduce the
+credentials <code class="highlighter-rouge">admin:admin</code> and we’re in the ATP command line. Execute the command
+<code class="highlighter-rouge">shell</code> and we get to the BusyBox CLI (more on BusyBox later).</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>-------------------------------
+-----Welcome to ATP Cli------
+-------------------------------
+Login: admin
+Password:    #Password is ‘admin'
+ATP&gt;shell
+BusyBox vv1.9.1 (2013-08-29 11:15:00 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+# ls
+var   usr   tmp   sbin  proc  mnt   lib   init  etc   dev   bin
+</code></pre>
+</div>
+
+<p>At this point we’ve seen the 3 basic layers of firmware in the Ralink IC:</p>
+
+<ol>
+  <li>U-boot: The device’s bootloader. It understands the device’s memory map,
+kickstarts the main firmware execution and takes care of some other low level
+tasks</li>
+  <li>Linux: The router is running Linux to keep overall control of the hardware,
+coordinate parallel processes, etc. Both ATP CLI and BusyBox run on top of it</li>
+  <li>Busybox: A small binary including reduced versions of multiple linux
+commands. It also supplies the <code class="highlighter-rouge">shell</code> we call those commands from.</li>
+</ol>
+
+<p>Lower level interfaces are less intuitive, may not have access to all the data
+and increase the chances of bricking the device; it’s always a good idea to
+start from BusyBox and walk your way down.</p>
+
+<p>For now, let’s focus on the boot sequence itself. The developers thought it would
+be useful to display certain pieces of data during boot, so let’s see if there’s
+anything we can use.</p>
+
+<h2 id="boot-debug-messages">Boot Debug Messages</h2>
+
+<p>We find multiple random pieces of data scattered across the boot sequence. We’ll
+find useful info such as the compression algorithm used for some flash segments:</p>
+
+<p><img src="http://i.imgur.com/9pRc2mP.jpg" alt="boot msg kernel lzma"></p>
+
+<p>Intel on how the external flash memory is structured will be very useful when we
+get to extracting it.</p>
+
+<p><img src="http://i.imgur.com/OmDkAxX.jpg" alt="ram data. not very useful"></p>
+
+<p><img src="http://i.imgur.com/ODnxzJY.jpg" alt="SPI Flash Memory Map!"></p>
+
+<p>And more compression intel:</p>
+
+<p><img src="http://i.imgur.com/Qw6Z08z.jpg" alt="root is squashfs'd"></p>
+
+<p>We’ll have to deal with the compression algorithms when we try to access the raw
+data from the external Flash, so it’s good to know which ones are being used.</p>
+
+<h2 id="what-are-atp-cli-and-busybox-exactly-theory">What Are ATP CLI and BusyBox Exactly? [Theory]</h2>
+
+<p>The Ralink IC in this router runs a Linux kernel to control memory and parallel
+processes, keep overall control of the system, etc. In this case, according to
+the Ralink’s
+<a href="https://wikidevi.com/files/Ralink/RT3352%20product%20brief.pdf">product brief</a>,
+they used the <code class="highlighter-rouge">Linux 2.6.21 SDK</code>. <code class="highlighter-rouge">ATP CLI</code> is a CLI running either on top of
+Linux or as part of the kernel. It provides a first layer of authentication into
+the system, but other than that it’s very limited:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ATP&gt;help
+Welcome to ATP command line tool.
+If any question, please input "?" at the end of command.
+ATP&gt;?
+cls
+debug
+help
+save
+?
+exit
+ATP&gt;
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">help</code> doesn’t mention the <code class="highlighter-rouge">shell</code> command, but it’s usually either <code class="highlighter-rouge">shell</code> or
+<code class="highlighter-rouge">sh</code>. This ATP CLI includes less than 10 commands, and doesn’t support any kind
+of complex process control or file navigation. That’s where BusyBox comes in.</p>
+
+<p>BusyBox is a single binary containing reduced versions of common unix
+commands, both for development convenience and -most importantly- to save memory.
+From <code class="highlighter-rouge">ls</code> and <code class="highlighter-rouge">cd</code> to <code class="highlighter-rouge">top</code>, System V init scripts and pipes, it allows us to
+use the Ralink IC somewhat like your regular Linux box.</p>
+
+<p>One of the utilities the BusyBox binary includes is the shell itself, which has
+access to the rest of the commands:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ATP&gt;shell
+BusyBox vv1.9.1 (2013-08-29 11:15:00 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+# ls
+var   usr   tmp   sbin  proc  mnt   lib   init  etc   dev   bin
+#
+# ls /bin
+zebra        swapdev      printserver  ln           ebtables     cat
+wpsd         startbsp     pppc         klog         dns          busybox
+wlancmd      sntp         ping         kill         dms          brctl
+web          smbpasswd    ntfs-3g      iwpriv       dhcps        atserver
+usbserver    smbd         nmbd         iwconfig     dhcpc        atmcmd
+usbmount     sleep        netstat      iptables     ddnsc        atcmd
+upnp         siproxd      mount        ipp          date         at
+upg          sh           mldproxy     ipcheck      cwmp         ash
+umount       scanner      mknod        ip           cp           adslcmd
+tr111        rm           mkdir        igmpproxy    console      acl
+tr064        ripd         mii_mgr      hw_nat       cms          ac
+telnetd      reg          mic          ethcmd       cli
+tc           radvdump     ls           equipcmd     chown
+switch       ps           log          echo         chmod
+#
+</code></pre>
+</div>
+
+<p>You’ll notice different BusyBox quirks while exploring the filesystem, such
+as the symlinks to a <code class="highlighter-rouge">busybox</code> binary in
+<a href="https://gist.github.com/Palantir555/443168b4f1c0b34bab5b28bb1845d10e">/bin/</a>.
+That’s good to know, since <strong>any commands that may contain sensitive data will
+not be part of the BusyBox binary</strong>.</p>
+
+<h2 id="exploring-the-file-system">Exploring the File System</h2>
+
+<p>Now that we’re in the system and know which commands are available, let’s see if
+there’s anything useful in there. We just want a first overview of the system,
+so I’m not gonna bother exposing every tiny piece of data.</p>
+
+<p>The <code class="highlighter-rouge">top</code> command will help us identify which processes are consuming the most
+resources. This can be an extremely good indicator of whether some processes are
+important or not. It doesn’t say much while the router’s idle, though:</p>
+
+<p><img src="http://i.imgur.com/d1lVlP4.png" alt="top"></p>
+
+<p>One of the processes running is <code class="highlighter-rouge">usbmount</code>, so the router must support connecting
+‘something’ to the USB port. Let’s plug in a flash drive in there…</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>usb 1-1: new high speed USB device using rt3xxx-ehci and address 2
+[...]
+++++++sambacms.c 2374 renice=renice -n +10 -p 1423
+</code></pre>
+</div>
+
+<p>The USB is recognised and mounted to <code class="highlighter-rouge">/mnt/usb1_1/</code>, and a samba server is
+started. These files show up in <code class="highlighter-rouge">/etc/samba/</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># ls -l /etc/samba/
+-rw-r--r--    1 0        0             103 smbpasswd
+-rw-r--r--    1 0        0               0 smbusers
+-rw-r--r--    1 0        0             480 smb.conf
+-rw-------    1 0        0            8192 secrets.tdb
+# cat /etc/samba/smbpasswd
+nobody:0:XXXXXXXXXXXXXXXXXXX:564E923F5AF30J373F7C8_______4D2A:[U ]:LCT-1ED36884:
+</code></pre>
+</div>
+
+<p>More data, in case it ever comes in handy:</p>
+
+<ul>
+  <li><a href="https://gist.github.com/Palantir555/5afd89552fcb419b125fb4980dd1c4ff">netstat -a</a>:
+Network ports the device is listening at</li>
+  <li><a href="https://gist.github.com/Palantir555/93037a733c083c0d275359be03e129b2">iptables –list</a>:
+We could set up telnet and continue over the network, but I’d rather stay as close
+to the bare metal as possible</li>
+  <li><a href="https://gist.github.com/Palantir555/3f9a60466bae643b33645ea6add626f3">wlancmd help</a>:
+Utility to control the WiFi radio, plenty of options available</li>
+  <li><a href="https://gist.github.com/Palantir555/5c109b8d4a685c36389fe5526679f036">/etc/profile</a></li>
+  <li><a href="https://gist.github.com/Palantir555/d77fcf09c62a423decfe24d5a6598151">/etc/inetd</a></li>
+  <li><a href="https://gist.github.com/Palantir555/2f89e71d138092d30da45fdca1c66a33">/etc/services</a></li>
+  <li><a href="https://gist.github.com/Palantir555/631bf1d80045c7440f17f419c3be7a4a">/var/</a>:
+Contains files used by the system during the course of its operation</li>
+  <li><a href="https://gist.github.com/Palantir555/047e3deb0c13724726353b8975ed6b4d">/etc/</a>:
+System configuration files, <em>etc</em>.</li>
+</ul>
+
+<p><code class="highlighter-rouge">/var/</code> and <code class="highlighter-rouge">/etc/</code> always contain tons of useful data, and some of it makes
+itself obvious at first sight. Does that say <code class="highlighter-rouge">/etc/serverkey.pem</code>??</p>
+
+<p><img src="http://i.imgur.com/NNkvDdj.jpg" alt="Blurred /etc/serverkey.pem"></p>
+
+<p><code class="highlighter-rouge">¯\_(ツ)_/¯</code></p>
+
+<p>It’s not unusual to find private keys for TLS certificates in embedded systems.
+By accessing 1 single device via hardware you may obtain the keys that will help
+you attack any other device of the same model.</p>
+
+<p>This key could be used to communicate with some server from Huawei or the ISP,
+although that’s less common. On the other hand, it’s also very common to find
+<strong>public</strong> certs used to communicate with remote servers.</p>
+
+<p>In this case we find 2 certificates next to the private key; both are self-signed
+by the same ‘person’:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">/etc/servercert.pem</code>: Most likely the certificate for the <code class="highlighter-rouge">serverkey</code></li>
+  <li><a href="https://gist.github.com/Palantir555/9717f6db0a50baa1d6de3027745b87db">/etc/root.pem</a>:
+Probably used to connect to a server from the ISP or Huawei. Not sure.</li>
+</ul>
+
+<p>And some more data in <code class="highlighter-rouge">/etc/ppp256/config</code> and <code class="highlighter-rouge">/etc/ppp258/config</code>:</p>
+
+<p><img src="http://i.imgur.com/U86nGOp.png" alt="/var/wan/ppp256/config"></p>
+
+<p>These credentials are also available via the HTTP interface, which is why I’m
+publishing them, but that’s not the case in many other routers (more on this
+later).</p>
+
+<p>With so many different files everywhere it can be quite time consuming to go
+through all the info without the right tools. We’re gonna copy as much data as
+we can into the USB drive and go through it on our computer.</p>
+
+<h2 id="the-rambo-approach-to-intel-gathering">The Rambo Approach to Intel Gathering</h2>
+
+<p>Once we have as many files as possible in our computer we can check some things
+very quick. <code class="highlighter-rouge">find . -name *.pem</code> reveals there aren’t any other TLS certificates.</p>
+
+<p>What about searching the word <code class="highlighter-rouge">password</code> in all files? <code class="highlighter-rouge">grep -i -r password .</code></p>
+
+<p><img src="http://i.imgur.com/skmx7VE.jpg" alt="Grep Password"></p>
+
+<p>We can see lots of credentials; most of them are for STUN, TR-069 and local
+services. I’m publishing them because this router proudly displays
+them all via the HTTP interface, but those are usually hidden.</p>
+
+<p><em>If you wanna know what happens when someone starts pulling from that thread,
+check out Alexander Graf’s talk 
+<a href="https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem#video&amp;t=3042">“Beyond Your Cable Modem”</a>,
+from CCC 2015. There are many other talks about attacking TR-069 from DefCon,
+BlackHat, etc. etc.</em></p>
+
+<p>The credentials we can see are either in plain text or encoded in base64.
+Of course, encoding is worthless for data protection:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ echo "QUJCNFVCTU4=" | base64 -D
+ABB4UBMN
+</code></pre>
+</div>
+
+<p><img src="http://i.imgur.com/KCo2H4B.jpg" alt="WiFi pwd in curcfg.xml"></p>
+
+<p>That is the current WiFi password set in the router. It leads us to 2 VERY
+interesting files. Not just because of their content, but because they’re a
+vital part of how the router operates:</p>
+
+<ul>
+  <li><a href="https://gist.github.com/Palantir555/34ca52749582c4babd7b8c6e769ac385">/var/curcfg.xml</a>:
+Current configuration file. Among other things, it contains the current WiFi
+password encoded in base64</li>
+  <li><a href="https://gist.github.com/Palantir555/890a35a9515227b13dbfe5261e8e5c9e">/etc/defaultcfg.xml</a>:
+Default configuration file, used for ‘factory reset’. Does not include the
+default WiFi password (more on this in the next posts)</li>
+</ul>
+
+<h2 id="exploring-atps-cli">Exploring ATP’s CLI</h2>
+
+<p>The ATP CLI includes very few commands. The most interesting one -besides
+<code class="highlighter-rouge">shell</code>- is
+<a href="https://gist.github.com/Palantir555/d9b903059a1f2ac17a0b5b1f82f32ef9">debug</a>.
+This isn’t your regular debugger; <code class="highlighter-rouge">debug display</code> will simply give you some info
+about the commands <code class="highlighter-rouge">igmpproxy</code>, <code class="highlighter-rouge">cwmp</code>, <code class="highlighter-rouge">sysuptime</code> or <code class="highlighter-rouge">atpversion</code>. 
+<a href="https://gist.github.com/Palantir555/bd3bb1c8c93a5275915c95a3a4f55804">Most of them</a>
+don’t have anything juicy, but what about <code class="highlighter-rouge">cwmp</code>? Wasn’t that related to remote
+configuration of routers?</p>
+
+<p><img src="http://i.imgur.com/2t6IfbQ.png" alt="debug display cwmp"></p>
+
+<p>Once again, these are the CWMP (TR-069) credentials used for remote router
+configuration. Not even encoded this time.</p>
+
+<p>The rest of the ATP commands are pretty useless: clear screen, help menu, save
+to flash and exit. Nothing worth going into.</p>
+
+<h2 id="exploring-uboots-cli">Exploring Uboot’s CLI</h2>
+
+<p>The bootloader’s command line interface offers raw access to some memory areas.
+Unfortunately, it doesn’t give us direct access to the Flash IC, but let’s
+check it out anyway.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Please choose operation:
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+You choosed 4
+Stopped Uboot WatchDog Timer.
+4: System Enter Boot Command Line Interface.
+U-Boot 1.1.3 (Aug 29 2013 - 11:16:19)
+RT3352 # help
+?       - alias for 'help'
+bootm   - boot application image from memory
+cp      - memory copy
+erase   - erase SPI FLASH memory
+go      - start application at address 'addr'
+help    - print online help
+md      - memory display
+mdio   - Ralink PHY register R/W command !!
+mm      - memory modify (auto-incrementing)
+mw      - memory write (fill)
+nm      - memory modify (constant address)
+printenv- print environment variables
+reset   - Perform RESET of the CPU
+rf      - read/write rf register
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+uip - uip command
+version - print monitor version
+RT3352 #
+</code></pre>
+</div>
+
+<p>Don’t touch commands like <code class="highlighter-rouge">erase</code>, <code class="highlighter-rouge">mm</code>, <code class="highlighter-rouge">mw</code> or <code class="highlighter-rouge">nm</code> unless you know exactly
+what you’re doing; you’d probably just force a router reboot, but in some cases
+you may brick the device. In this case, <code class="highlighter-rouge">md</code> (memory display) and <code class="highlighter-rouge">printenv</code>
+are the commands that call my atention.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>RT3352 # printenv
+bootcmd=tftp
+bootdelay=2
+baudrate=57600
+ethaddr="00:AA:BB:CC:DD:10"
+ipaddr=192.168.1.1
+serverip=192.168.1.2
+ramargs=setenv bootargs root=/dev/ram rw
+addip=setenv bootargs $(bootargs) ip=$(ipaddr):$(serverip):$(gatewayip):$(netmask):$(hostname):$(netdev):off
+addmisc=setenv bootargs $(bootargs) console=ttyS0,$(baudrate) ethaddr=$(ethaddr) panic=1
+flash_self=run ramargs addip addmisc;bootm $(kernel_addr) $(ramdisk_addr)
+kernel_addr=BFC40000
+u-boot=u-boot.bin
+load=tftp 8A100000 $(u-boot)
+u_b=protect off 1:0-1;era 1:0-1;cp.b 8A100000 BC400000 $(filesize)
+loadfs=tftp 8A100000 root.cramfs
+u_fs=era bc540000 bc83ffff;cp.b 8A100000 BC540000 $(filesize)
+test_tftp=tftp 8A100000 root.cramfs;run test_tftp
+stdin=serial
+stdout=serial
+stderr=serial
+ethact=Eth0 (10/100-M)
+
+Environment size: 765/4092 bytes
+</code></pre>
+</div>
+
+<p>We can see settings like the UART baudrate, as well as some interesting memory
+locations. Those memory addresses are not for the Flash IC, though. The flash
+memory is only addressed by 3 bytes: [<code class="highlighter-rouge">0x00000000</code>, <code class="highlighter-rouge">0x00FFFFFF</code>].</p>
+
+<p>Let’s take a look at some of them anyway, just to see the kind of access this
+interface offers.What about <code class="highlighter-rouge">kernel_addr=BFC40000</code>?</p>
+
+<p><img src="http://i.imgur.com/nKBcXmT.png" alt="md `badd` Picture"></p>
+
+<p>Nope, that <code class="highlighter-rouge">badd</code> message means <code class="highlighter-rouge">bad address</code>, and it has been hardcoded in <code class="highlighter-rouge">md</code>
+to let you know that you’re trying to access invalid memory locations. These
+are good addresses, but they’re not accessible to u-boot at this point.</p>
+
+<p>It’s worth noting that by starting Uboot’s CLI we have stopped the router from
+loading the linux Kernel onto memory, so this interface gives access to a very
+limited subset of data.</p>
+
+<p><img src="http://i.imgur.com/aZ32bs8.png" alt="SPI Flash string in md"></p>
+
+<p>We can find random pieces of data around memory using this method (such as that
+<code class="highlighter-rouge">SPI Flash Image</code> string), but it’s pretty hopeless for finding anything specific.
+You can use it to get familiarised with the memory architecture, but that’s about
+it. For example, there’s a very obvious change in memory contents at
+<code class="highlighter-rouge">0x000d0000</code>:</p>
+
+<p><img src="http://i.imgur.com/SC1TaeF.png" alt="md.w 0x000d0000"></p>
+
+<p>And just because it’s about as close as it gets to seeing <em>the girl in the red
+dress</em>, here is the <code class="highlighter-rouge">md</code> command in action. You’ll notice it’s very easy to spot
+that change in memory contents at <code class="highlighter-rouge">0x000d0000</code>.</p>
+
+<iframe width="680" height="385" src="https://www.youtube.com/embed/RqkXfPjc8G8" frameborder="0" allowfullscreen=""></iframe>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>In the next post we combine firmware and bare metal, explain how data flows
+and is stored around the device, and start trying to manipulate the system to
+leak pieces of data we’re interested in.</p>
+
+<p>Thanks for reading! :)</p>
+
+</div>
+
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.b8b8e09be0884a395c5ae18831ce1cc0.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F29%2Freversing-huawei-router-2-scouting-firmware%2F&amp;size=m&amp;text=Practical%20Reverse%20Engineering%20Part%202%20-%20Scouting%20the%20Firmware%20%C2%B7%20Hack%20The%20World&amp;time=1486149608485&amp;type=share&amp;url=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F29%2Freversing-huawei-router-2-scouting-firmware%2F&amp;via=Palantir555" style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/12/14/reversing-huawei-5-reversing-firmware/">
+            Practical Reverse Engineering Part 5 - Digging Through the Firmware
+            <small>14 Dec 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/06/08/reversing-huawei-4-dumping-flash/">
+            Practical Reverse Engineering Part 4 - Dumping the Flash
+            <small>08 Jun 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/05/23/reversing-huawei-3-sniffing/">
+            Practical Reverse Engineering Part 3 - Following the Data
+            <small>23 May 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<div id="disqus_thread"><iframe id="dsq-app1" name="dsq-app1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;version=e4d6b825474d970581f8906da3f0481c&amp;f=jcjc-dev&amp;t_i=-2016-04-29-reversing-huawei-router-2-scouting-firmware-&amp;t_u=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F29%2Freversing-huawei-router-2-scouting-firmware%2F&amp;t_d=Practical%20Reverse%20Engineering%20Part%202%20-%20Scouting%20the%20Firmware&amp;t_t=Practical%20Reverse%20Engineering%20Part%202%20-%20Scouting%20the%20Firmware&amp;s_o=default" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 495px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/";
+this.page.identifier = "-2016-04-29-reversing-huawei-router-2-scouting-firmware-";
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jcjc-dev.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </div>
+
+  
+
+<iframe style="display: none;"></iframe></body></html>

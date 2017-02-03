@@ -1,0 +1,684 @@
+<!DOCTYPE html><html lang="en-us"><head>
+  <meta property="og:site_name" content="Hack The World">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Practical Reverse Engineering Part 3 - Following the Data">
+<meta property="og:image" content="http://imgur.com/plg2HBD">
+
+
+
+
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/">
+  
+
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46103804-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Practical Reverse Engineering Part 3 - Following the Data · Hack The World
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="//jcjc-dev.disqus.com/embed.js" data-timestamp="1486149612880"></script><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.57411deb997a43b27baa13b432c7631e.js"></script></head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Hack The World
+        </a>
+      </h1>
+      <p class="lead">Projects and learnt lessons on Systems Security, Embedded Development, IoT and anything worth writing about</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/jekyll_licnse/">Released under MIT License</a>
+          
+        
+      
+        
+          
+        
+      
+
+      <a class="sidebar-nav-item" href="https://uk.linkedin.com/in/juan-carlos-jiménez-bba49033/en">Juan Carlos Jimenez</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/Palantir555">Twitter</a>
+      <a class="sidebar-nav-item" href="https://github.com/Palantir555">GitHub</a>
+      <a href="mailto:jcjc.dev@gmail.com?Subject=Hack%20The%20World!" target="_top">e-mail</a>
+    </nav>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Practical Reverse Engineering Part 3 - Following the Data</h1>
+  <span class="post-date">23 May 2016
+  </span>
+  <ul>
+  <li><a href="http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/">Part 1</a>:
+Hunting for Debug Ports</li>
+  <li><a href="http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/">Part 2</a>:
+Scouting the Firmware</li>
+  <li><strong>Part 3</strong>: Following the Data</li>
+  <li><a href="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">Part 4</a>:
+Dumping the Flash</li>
+  <li><a href="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">Part 5</a>:
+Digging Through the Firmware</li>
+</ul>
+
+<p>The best thing about hardware hacking is having full access to very bare metal,
+and all the electrical signals that make the system work. With ingenuity and
+access to the right equipment we should be able to obtain any data we want. From
+simply sniffing traffic with a cheap logic analyser to using thousands of
+dollars worth of equipment to obtain private keys by measuring the power
+consumed by the device with enough precision (power analysis side channel
+attack); if the physics make sense, it’s likely to work given the right
+circumstances.</p>
+
+<p>In this post I’d like to discuss traffic sniffing and how we can use it to gather
+intel.</p>
+
+<p>Traffic sniffing at a practical level is used all the time for all sorts of
+purposes, from regular debugging during the delopment process to reversing the
+interface of gaming controllers, etc. It’s definitely worth a post of its own,
+even though this device can be reversed without it.</p>
+
+<p><em>Please check out the
+<a href="https://gist.github.com/Palantir555/de23c2ceb5355efe6ec105a8d2d73486">legal disclaimer</a>
+in case I come across anything sensitive.</em></p>
+
+<p><em>Full disclosure: I’m in contact with Huawei’s security team. I tried to contact
+TalkTalk, but their security staff is nowhere to be seen.</em></p>
+
+<h2 id="data-flows-in-the-pcb">Data Flows In the PCB</h2>
+
+<p>Data is useless within its static memory cells, it needs to be read, written
+and passed around in order to be useful. A quick look at the board is enough to
+deduce where the data is flowing through, based on IC placement and PCB traces:</p>
+
+<p><img src="http://i.imgur.com/JRgtMEM.jpg" alt="PCB With Data Flows and Some IC Names"></p>
+
+<p>We’re not looking for hardware backdoors or anything buried too deep, so we’re
+only gonna look into the SPI data flowing between the Ralink and its external
+Flash.</p>
+
+<p>Pretty much every IC in the market has a datasheet documenting all its technical
+characteristics, from pinouts to power usage and communication protocols. There
+are tons of public datasheets on google, so find the ones relevant to the traffic
+you want to sniff:</p>
+
+<ul>
+  <li><a href="https://wikidevi.com/files/Ralink/RT3352%20product%20brief.pdf">Ralink RT3352F product brief</a>:
+Not a datasheet, but it’s got some useful data</li>
+  <li><a href="https://www.dropbox.com/s/55c3hj349k8b8hj/Flash_S25FL064P.pdf?dl=0">Spansion FL064PIF</a>:
+64-Mbit SPI Flash Memory</li>
+</ul>
+
+<p>Now we’ve got pinouts, electrical characteristics, protocol details… Let’s
+take a first look and extract the most relevant pieces of data.</p>
+
+<h2 id="understanding-the-flash-ic">Understanding the Flash IC</h2>
+
+<p>We know which data flow we’re interested: The SPI traffic between the Ralink IC
+and Flash. Let’s get started; the first thing we need is to figure out how to
+connect the logic analyser. In this case we’ve got the datasheet for the Flash
+IC, so there’s no need to reverse engineer any pinouts:</p>
+
+<p><img src="http://i.imgur.com/54ih2LZ.jpg" alt="Flash Pic Annotated Pinout"></p>
+
+<p>Standard SPI communication uses 4 pins:</p>
+
+<ol>
+  <li>MISO (Master In Slave Out): <strong>Data</strong> line <code class="highlighter-rouge">Ralink&lt;-Flash</code></li>
+  <li>MOSI (Master Out Slave In): <strong>Data</strong> line <code class="highlighter-rouge">Ralink-&gt;Flash</code></li>
+  <li>SCK  (<strong>Clock</strong> Signal): Coordinates when to read the data lines</li>
+  <li>CS#  (<strong>Chip Select</strong>): Enables the Flash IC when set to <code class="highlighter-rouge">0</code> so multiple of them
+can share MISO/MOSI/SCK lines.</li>
+</ol>
+
+<p>We know the pinout, so let’s just connect a logic analyser to those 4 pins and
+capture some random transmission:</p>
+
+<p><img src="http://i.imgur.com/TjSkKyN.jpg" alt="Connected Logic Analyser"></p>
+
+<p>In order to set up our logic analyser we need to find out some SPI configuation
+options, specifically:</p>
+
+<ul>
+  <li>Transmission endianness [Standard: <strong>MSB First</strong>]</li>
+  <li>Number of bits per transfer [Standard: <strong>8</strong>]. <em>Will be obvious in the capture</em></li>
+  <li>CPOL: Default state of the clock line while inactive [0 or 1]. <em>Will be obvious
+in the capture</em></li>
+  <li>CPHA: Clock edge that triggers the data read in the data lines [0=leading,
+1=trailing]. <em>We’ll have to deduce this</em></li>
+</ul>
+
+<p>The datasheet explains that the flash IC understands only 2 combinations of
+CPOL and CPHA: (CPOL=0, CPHA=0) or (CPOL=1, CPHA=1)</p>
+
+<p><img src="http://i.imgur.com/Jut5DCs.png" alt="Datasheet SPI Settings"></p>
+
+<p>Let’s take a first look at some sniffed data:</p>
+
+<p><img src="http://i.imgur.com/vaPgOc4.png" alt="Logic Screencap With CPOL/CPHA Annotated"></p>
+
+<p>In order to understand exactly what’s happenning you’ll need the FL064PIF’s
+instruction set, available in its datasheet:</p>
+
+<p><img src="http://i.imgur.com/EwOqG0x.jpg" alt="FL064PIF Instruction Set"></p>
+
+<p>Now we can finally analyse the captured data:</p>
+
+<p><img src="http://i.imgur.com/IT1yDVu.png" alt="Logic Sample SPI Packet"></p>
+
+<p>In the datasheet we can see that the FL064PIF has high-performance features for
+read and write operations: Dual and Quad options that multiplex the data over
+more lines to increase the transmission speed. From taking a few samples, it
+doesn’t seem like the router uses these features much -if at all-, but it’s
+important to keep the possibility in mind in case we see something odd in a
+capture.</p>
+
+<p>Transmission modes that require additional pins can be a problem if your logic
+analyser is not powerful enough.</p>
+
+<h2 id="the-importance-of-your-sampling-rate-theory">The Importance of Your Sampling Rate [Theory]</h2>
+
+<p>A logic analyser is a conceptually simple device: It reads signal lines as
+digital inputs every <code class="highlighter-rouge">x</code> microseconds for <code class="highlighter-rouge">y</code> seconds, and when it’s done it
+sends the data to your computer to be analysed.</p>
+
+<p>For the protocol analyser to generate accurate data it’s vital that we record
+digital inputs faster than the device writes them. Otherwise the data will be
+mangled by missing bits or deformed waveforms.</p>
+
+<p>Unfortunately, your logic analyser’s maximum sampling rate depends on how
+powerful/expensive it is and how many lines you need to sniff at a time.
+High-speed interfaces with multiple data lines can be a problem if you don’t have
+access to expensive equipment.</p>
+
+<p>I recorded this data from the Ralink-Flash SPI bus using a low-end Saleae
+analyser at its maximum sampling rate for this number of lines,
+<code class="highlighter-rouge">24 MS/s</code>:</p>
+
+<p><img src="http://i.imgur.com/9wFGIj3.png" alt="Picture of Deformed Clock Signal"></p>
+
+<p>As you can see, even though the clock signal has the 8 low to high transitions
+required for each byte, the waveform is deformed.</p>
+
+<p>Since the clock signal is used to coordinate when to read the data lines, this
+kind of waveform deformation may cause data corruption even if we don’t drop any
+bits (depending partly on the design of your logic analyser). There’s always
+some wiggle room for read inaccuracies, and we don’t need 100% correct data at
+this point, but it’s important to keep all error vectors in mind.</p>
+
+<p>Let’s sniff the same bus using a higher performance logic analyser at
+<code class="highlighter-rouge">100 MS/s</code>:</p>
+
+<p><img src="http://i.imgur.com/vVgxUa4.png" alt="High Sampling Rate SPI Sample Reading"></p>
+
+<p>As you can see, this clock signal is perfectly regular when our Sampling Rate is
+high enough.</p>
+
+<p>If you see anything dodgy in your traffic capture, consider how much data you’re
+willing to lose and whether you’re being limited by your equipment. If that’s
+the case, either skip this Reversing vector or consider investing in a better
+logic analyser.</p>
+
+<h2 id="seeing-the-data-flow">Seeing the Data Flow</h2>
+
+<p>We’re already familiar with the system thanks to the overview of the firmware
+we did in Part 2, so we can think of some specific SPI transmissions that we may
+be interested in sniffing. Simply connecting an oscilloscope to the MISO and MOSI
+pins will help us figure out how to trigger those transmissions and yield some
+other useful data.</p>
+
+<p><img src="http://i.imgur.com/uF6C4hN.jpg" alt="Scope and UART Connected"></p>
+
+<p>Here’s a video (no audio) showing both the serial interface and the MISO/MOSI
+signals while we manipulate the router:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OJOCm0IIbPE" frameborder="0" allowfullscreen=""></iframe>
+
+<p>This is a great way of easily identifying processes or actions that trigger
+flash read/write actions, and will help us find out when to start recording with
+the logic analyser and for how long.</p>
+
+<h2 id="analysing-spi-traffic---atps-save-command">Analysing SPI Traffic - ATP’s Save Command</h2>
+
+<p>In Post 2 I mentioned ATP CLI has a <code class="highlighter-rouge">save</code> command that <em>stores something to
+flash</em>; unfortunately, the help menu (<code class="highlighter-rouge">save ?</code>) won’t tell you what it’s doing
+and the only output when you run it is a few dots that act as a progress bar.
+Why don’t we find out by ourselves? Let’s make a plan:</p>
+
+<ol>
+  <li>Wait until boot sequence is complete and the router is idle so there’s no
+unexpected SPI traffic</li>
+  <li>Start the <code class="highlighter-rouge">ATP Cli</code> as explained in Part 1</li>
+  <li>Connect the oscilloscope to MISO/MOSI and run <code class="highlighter-rouge">save</code> to get a rough estimate
+of how much time we need to capture data for</li>
+  <li>Set a trigger in the <code class="highlighter-rouge">enable</code> line sniffed by the logic analyser so it starts
+recording as soon as the flash IC is <em>selected</em></li>
+  <li>Run <code class="highlighter-rouge">save</code></li>
+  <li>Analyse the captured data</li>
+</ol>
+
+<p>Steps 3 and 4 can be combined so you see the data flow in real time in the scope
+<strong>while</strong> you see the charge bar for the logic analyser; that way you can make
+sure you don’t miss any data. In order to comfortably connect both scope and
+logic sniffer to the same pins, these test clips come in very handy:</p>
+
+<p><img src="http://i.imgur.com/cFYWhXd.jpg" alt="SOIC16 Test Clip Connected to Flash IC"></p>
+
+<p>Once we’ve got the traffic we can take a first look at it:</p>
+
+<p><img src="http://i.imgur.com/HOu51lW.png" alt="Analysing Save Capture on Logic"></p>
+
+<p>Let’s consider what sort of data could be extracted from this traffic dump that
+might be useful to us. We’re working with a memory storage IC, so we can see the
+data that is being read/written and the addresses where it belongs. I think we
+can represent that data in a useful way by 2 means:</p>
+
+<ol>
+  <li>Traffic map depicting which Flash areas are being written, read or erased in
+chronological order</li>
+  <li>Create binary files that replicate the memory blocks that were read/written,
+preferably removing all the protocol rubbish that we sniffed along with them.</li>
+</ol>
+
+<p>Saleae’s SPI analyser will export the
+<a href="https://www.dropbox.com/s/udi77d5mbh6uele/capture_blog.csv">data as a CSV file</a>.
+Ideally we’d
+<a href="http://blog.saleae.com/using-the-sdk/">improve their protocol analyser</a>
+to add the functionality we want, but that would be too much work for this
+project. One of the great things about low level protocols like SPI is that
+they’re usually very straightforward; I decided to write some python spaghetti
+code to analyse the CSV file and extract the data we’re looking for:
+<a href="https://gist.github.com/Palantir555/4a902b40f6b5260e5cf0c75486d87c32">binmaker.py</a>
+and
+<a href="https://gist.github.com/Palantir555/b47ac1ffd878dc7106cedf7b845f4200">traffic_mapper.py</a></p>
+
+<p>The workflow to analyse a capture is the following:</p>
+
+<ol>
+  <li>Export sniffed traffic as CSV</li>
+  <li>Run the script:
+    <ul>
+      <li>Iterate through the CSV file</li>
+      <li>Identify different commands by their index</li>
+      <li>Recognise the command expressed by the first byte</li>
+      <li>Process its arguments (addresses, etc.)</li>
+      <li>Identify the read/write payload</li>
+      <li>Convert ASCII representation of each payload byte to binary</li>
+      <li>Write binary blocks to different files for MISO (read) and MOSI (write)</li>
+    </ul>
+  </li>
+  <li>Read the traffic map (regular text) and the binaries
+(<code class="highlighter-rouge">hexdump -C output.bin | less</code>)</li>
+</ol>
+
+<p>The scripts generate these results:</p>
+
+<ul>
+  <li><a href="https://gist.github.com/Palantir555/4bf292e0e0237240627e85db9875ace6">Traffic Map</a></li>
+  <li>Replicated Memory Blocks, Merged:
+<a href="https://gist.github.com/Palantir555/67f962af6e4690353d68b0b8dc77055b">MOSI</a>
+and
+<a href="https://gist.github.com/Palantir555/58c2e639aa5dbec9e77dce965e62c6d2">MISO</a></li>
+  <li>Replicated Memory Blocks, Split by address:
+<a href="https://gist.github.com/Palantir555/44ce081088e873331adc1061cd0b86d6">Files list</a></li>
+</ul>
+
+<p>The traffic map is much more useful when combined with the Flash memory map we
+found in Part 2:</p>
+
+<p><img src="http://i.imgur.com/ODnxzJY.jpg" alt="Flash Memory Map From Part 2"></p>
+
+<p>From the traffic map we can see the bulk of the <code class="highlighter-rouge">save</code> command’s traffic is
+simple:</p>
+
+<ol>
+  <li>Read about 64kB of data from the <code class="highlighter-rouge">protect</code> area</li>
+  <li>Overwrite the data we just read</li>
+</ol>
+
+<p>In the MISO binary we can see most of the read data was just tons of <code class="highlighter-rouge">1</code>s:</p>
+
+<p><img src="http://i.imgur.com/73c7UKy.png" alt="Picture MISO Hexdump 0xff"></p>
+
+<p>Most of the data in the MOSI binary is plaintext XML, and it looks exactly like
+the <code class="highlighter-rouge">/var/curcfg.xml</code> file we discovered in Part 2. As we discussed then, this
+“current configuration” file contains tons of useful data, including the current
+WiFi credentials.</p>
+
+<p>It’s standard to keep <em>reserved</em> areas in flash; they’re mostly for
+miscellaneous data that needs to survive across reboots and be configurable
+by user, firmware or factory. It makes sense for a command called <code class="highlighter-rouge">save</code> to
+write data to such area, it explains why the data is perfectly readable as
+opposed to being compressed like the <code class="highlighter-rouge">filesystem</code>, and why we found the XML file
+in the <code class="highlighter-rouge">/var/</code> folder of the filesystem (it’s a folder for runtime files; data in
+the <code class="highlighter-rouge">protect</code> area has to be loaded to memory separately from the <code class="highlighter-rouge">filesystem</code>).</p>
+
+<h2 id="the-pot-of-gold-at-the-end-of-the-firmware-theory">The Pot of Gold at the End of the Firmware [Theory]</h2>
+
+<p>During this whole process it’s useful to have some sort of target to keep you
+digging in the same general direction.</p>
+
+<p>Our target is an old one: the algorithm that generates the router’s default WiFi
+password. If we get our hands on such algorithm and it happens to derive the
+password from public information, any HG533 in the world with default WiFi
+credentials would probably be vulnerable.</p>
+
+<p>That exact security issue has been found countless times in the past, usually
+deriving the password from public data like the Access Point’s MAC address or
+its SSID.</p>
+
+<p>That being said, not all routers are vulnerable, and I personally don’t expect
+this one to be. The main reason behind targeting this specific vector is
+that it’s caused by a recurrent problem in embedded engineering: The need for
+a piece of data that is known by the firmware, unique to each device and known
+by an external entity. From default WiFi passwords to device credentials for IoT
+devices, this problem manifests in different ways all over the Industry.</p>
+
+<p>Future posts will probably reference the different possibilities I’m about to
+explain, so let me get all that theory out of the way now.</p>
+
+<h3 id="the-sticker-problem">The Sticker Problem</h3>
+
+<p>In this day and era, connecting to your router via ethernet so there’s no need
+for default WiFi credentials is not an option, using a display to show a
+randomly generated password would be too expensive, etc. etc. etc.
+The most widely adopted solution for routers is to create a WiFi network using
+default credentials, print those credentials on a sticker at the factory and
+stick it to the back of the device.</p>
+
+<p><img src="http://i.imgur.com/ATznq7F.png" alt="Router Sticker - Annotated"></p>
+
+<p>The WiFi password is the ‘unique piece of data’, and the computer printing the
+stickers in the factory is the ‘external entity’. Both the firmware and the
+computer need to know the default WiFi credentials, so the engineer needs to
+decide how to coordinate them. Usually there are 2 options available:</p>
+
+<ol>
+  <li>The same algorithm is implemented in both the device and the computer, and its
+input parameters are known to both of them</li>
+  <li>A computer generates the credentials for each device and <strong>they’re stored
+into each device separately</strong></li>
+</ol>
+
+<p>Developer incompetence aside, the first approach is usually taken as a last
+resort; if you can’t get your hardware manufacturer to flash unique data to each
+device or can’t afford the increase in manufacturing cost.</p>
+
+<p>The second approach is much better by design: We’re not trusting the hardware
+with data sensitive enough to compromise every other device in the field. That
+being said, the company may still decide to use an algorithm with predictable
+outputs instead of completely random data; that would make the system as secure
+as the weakest link between the algorithm -mathematically speaking-, the
+confidentiality of their source code and the security of the computers/network
+running it.</p>
+
+<h2 id="sniffing-factory-reset">Sniffing Factory Reset</h2>
+
+<p>So now that we’ve discussed our target, let’s gather some data about it. The
+first thing we wanna figure out is which actions will kickstart the flow of
+relevant data on the PCB. In this case there’s 1 particular action: Pressing
+the Factory Reset button for 10s. This should replace the existing WiFi
+credentials with the default ones, so the default creds will have to be
+generated/read. If the key or the generation algorithm need to be retrieved from
+Flash, we’ll see them in a traffic capture.</p>
+
+<p>That’s exactly what we’re gonna do, and we’re gonna observe the UART interface,
+the oscilloscope and the logic analyser during/after pressing the reset button.
+The same process we followed for ATP’s <code class="highlighter-rouge">save</code> gives us these results:</p>
+
+<p>UART output:</p>
+
+<p><img src="http://i.imgur.com/u8ZMr4Q.png" alt="UART Factory Reset Debug Messages"></p>
+
+<p>Traffic overview:</p>
+
+<p><img src="http://i.imgur.com/4xBapGf.png" alt="Logic Screencap Traffic Overview"></p>
+
+<p>Output from our python scripts:</p>
+
+<ul>
+  <li><a href="https://gist.github.com/Palantir555/0b074cb875e451d713f1e1e5ca8ff14a">Traffic Map</a></li>
+  <li><a href="https://gist.github.com/Palantir555/a2589244c80796a217458b64a6ff8886">MOSI Hexdump</a></li>
+  <li><a href="https://gist.github.com/Palantir555/f609351216d22d501a0eca1472834e65">MISO Hexdump</a></li>
+</ul>
+
+<p>The traffic map tells us the device first reads and overwrites 2 large chunks
+of data from the <code class="highlighter-rouge">protect</code> area and then reads a smaller chunk of data from the
+filesystem (possibly part of the next process to execute):</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>___________________
+|Transmission  Map|
+|  MOSI  |  MISO  |
+|        |0x7e0000| Size: 12    //Part of the Protected area
+|        |0x7e0000| Size: 1782
+|        |0x7e073d| Size: 63683
+| ERASE 0x7e073d  | Size: 64kB
+|0x7e073d|        | Size: 195
+|0x7e0800|        | Size: 256
+|0x7e0900|        | Size: 256
+---------//--------
+       [...]
+---------//--------
+|0x7e0600|        | Size: 256
+|0x7e0700|        | Size: 61
+|        |0x7d0008| Size: 65529 //Part of the Protected area
+| ERASE 0x7d0008  | Size: 64kB
+|0x7d0008|        | Size: 248
+|0x7d0100|        | Size: 256
+---------//--------
+       [...]
+---------//--------
+|0x7dff00|        | Size: 256
+|0x7d0000|        | Size: 8
+|        |0x1c3800| Size: 512   //Part of the Filesystem
+|        |0x1c3a00| Size: 512
+---------//--------
+       [...]
+---------//--------
+|        |0x1c5a00| Size: 512
+|        |0x1c5c00| Size: 512
+-------------------
+</code></pre>
+</div>
+
+<p>Once again, we combine transmission map and binary files to gain some insight
+into the system. In this case, the ‘factory reset’ code seems to:</p>
+
+<ol>
+  <li>Read <code class="highlighter-rouge">ATP_LOG</code> from Flash; it contains info such as remote router accesses or
+factory resets. It ends with a large chunk of <code class="highlighter-rouge">1</code>s (<code class="highlighter-rouge">0xff</code>)</li>
+  <li>Overwrite that memory segment with <code class="highlighter-rouge">1</code>s</li>
+  <li>write a ‘new’ <code class="highlighter-rouge">ATP_LOG</code> followed by the “current configuration” <code class="highlighter-rouge">curcfg.xml</code>
+file</li>
+  <li>Read compressed (unintelligible to us) memory chunk from the filesystem</li>
+</ol>
+
+<p>The chunk from the filesystem is read AFTER writing the new password to Flash,
+which doesn’t make sense for a password generation algorithm. That being said,
+the algorithm may be already loaded into memory, so its absence in the SPI
+traffic is not conclusive on whether or not it exists.</p>
+
+<p>As part of the MOSI data we can see the new WiFi password be saved to Flash
+inside the XML string:</p>
+
+<p><img src="http://i.imgur.com/jwyhjr2.png" alt="Found Current Password MOSI"></p>
+
+<p>What about the default password being read? If we look in the MISO binary, it’s
+nowhere to be seen. Either the Ralink is reading it using a different mode
+(secure/dual/quad/?) or the credentials/algorithm are already loaded in RAM (no
+need to read them from Flash again, since they can’t change). The later seems
+more likely, so I’m not gonna bother updating my scripts to support different
+read modes. We write down what we’ve found and we’ll get back to the default
+credentials in the next part.</p>
+
+<p>Since we’re at it, let’s take a look at the SPI traffic generated when setting
+new WiFi credentials via HTTP: 
+<a href="https://gist.github.com/Palantir555/8399b7b04f434612a25720201b537073">Map</a>,
+<a href="https://gist.github.com/Palantir555/fc32335460c2f7b868dec41ab647f17c">MISO</a>,
+<a href="https://gist.github.com/Palantir555/55623b098d26ccea8373fe9562368e23">MOSI</a>.
+We can actually see the default credentials being read from the <code class="highlighter-rouge">protect</code> area
+of Flash this time (not sure why the Ralink would load it to set a <strong>new</strong>
+password; it’s probably incidental):</p>
+
+<p><img src="http://i.imgur.com/0MFkiDc.png" alt="Default WiFi Creds In MISO Capture"></p>
+
+<p>As you can see, they’re in plain text and separated from almost anything else
+in Flash. This may very well mean there’s no password generation algorithm in
+this device, but it is NOT conclusive. The developers could have decided to
+generate the credentials only once (first boot?) and store them to flash in order
+to limit the number of times the algorithm is accessed/executed, which helps hide
+the binary that contains it. Otherwise we could just observe the running
+processes in the router while we press the Factory Reset button and see which
+ones spawn or start consuming more resources.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Now that we’ve got the code we need to create binary recreations of the traffic
+and transmission maps, getting from a capture to binary files takes seconds. I
+captured other transmissions such as the first few seconds of boot
+(<a href="https://gist.github.com/Palantir555/1cabd9f6268286a4ab4092087f07241b">map</a>,
+<a href="https://gist.github.com/Palantir555/9bc09495001fc003ed7d5a9fb23c2888">miso</a>),
+but there wasn’t much worth discussing.
+The ability to easily obtain such useful data will probably come in handy moving
+forward, though.</p>
+
+<p>In the next post we get the data straight from the source, communicating with
+the Flash IC directly to dump its memory. We’ll deal with compression algorithms
+for the extracted data, and we’ll keep piecing everything together.</p>
+
+<p>Happy Hacking! :)</p>
+
+</div>
+
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.b8b8e09be0884a395c5ae18831ce1cc0.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fjcjc-dev.com%2F2016%2F05%2F23%2Freversing-huawei-3-sniffing%2F&amp;size=m&amp;text=Practical%20Reverse%20Engineering%20Part%203%20-%20Following%20the%20Data%20%C2%B7%20Hack%20The%20World&amp;time=1486149613618&amp;type=share&amp;url=http%3A%2F%2Fjcjc-dev.com%2F2016%2F05%2F23%2Freversing-huawei-3-sniffing%2F&amp;via=Palantir555" style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/12/14/reversing-huawei-5-reversing-firmware/">
+            Practical Reverse Engineering Part 5 - Digging Through the Firmware
+            <small>14 Dec 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/06/08/reversing-huawei-4-dumping-flash/">
+            Practical Reverse Engineering Part 4 - Dumping the Flash
+            <small>08 Jun 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/04/29/reversing-huawei-router-2-scouting-firmware/">
+            Practical Reverse Engineering Part 2 - Scouting the Firmware
+            <small>29 Apr 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<div id="disqus_thread"><iframe id="dsq-app1" name="dsq-app1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;version=e4d6b825474d970581f8906da3f0481c&amp;f=jcjc-dev&amp;t_i=-2016-05-23-reversing-huawei-3-sniffing-&amp;t_u=http%3A%2F%2Fjcjc-dev.com%2F2016%2F05%2F23%2Freversing-huawei-3-sniffing%2F&amp;t_d=Practical%20Reverse%20Engineering%20Part%203%20-%20Following%20the%20Data&amp;t_t=Practical%20Reverse%20Engineering%20Part%203%20-%20Following%20the%20Data&amp;s_o=default" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 608px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/";
+this.page.identifier = "-2016-05-23-reversing-huawei-3-sniffing-";
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jcjc-dev.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </div>
+
+  
+
+<iframe style="display: none;"></iframe></body></html>

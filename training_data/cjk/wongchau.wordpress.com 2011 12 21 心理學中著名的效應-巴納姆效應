@@ -1,0 +1,790 @@
+<!DOCTYPE html><html lang="zh-TW" class="wf-gentiumbookbasic-n4-active wf-gentiumbookbasic-i4-active wf-gentiumbookbasic-n7-active wf-gentiumbookbasic-i7-active wf-oswald-n4-active wf-active"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://wongchau.wordpress.com/xmlrpc.php">
+
+<title>心理學中著名的效應 — 巴納姆效應  – wongchau</title>
+<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="//widgets.wp.com/platform.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script src="https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js" type="text/javascript" async=""></script><script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Oswald:r:latin,latin-ext","Gentium+Book+Basic:r,i,b,bi:latin,latin-ext"]}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Gentium Book Basic",serif}.wf-active pre{font-family:"Gentium Book Basic",serif}.wf-active code, .wf-active kbd, .wf-active tt, .wf-active var{font-family:"Gentium Book Basic",serif}.wf-active blockquote, .wf-active q{font-family:"Gentium Book Basic",serif}.wf-active .comment-navigation, .wf-active .post-navigation, .wf-active .posts-navigation{font-family:"Gentium Book Basic",serif}.wf-active .comment-navigation .meta-nav, .wf-active .post-navigation .meta-nav, .wf-active .posts-navigation .meta-nav{font-family:"Gentium Book Basic",serif}.wf-active .widget_rss cite{font-family:"Gentium Book Basic",serif}.wf-active a.more-link{font-family:"Gentium Book Basic",serif}.wf-active .comment-meta .comment-author .fn{font-family:"Gentium Book Basic",serif}.wf-active .wp-caption-text{font-family:"Gentium Book Basic",serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Oswald",sans-serif;font-style:normal;font-weight:400}.wf-active .widget-title{font-style:normal;font-weight:400}.wf-active .rating-msg{font-style:normal;font-weight:400}.wf-active .site-title{font-style:normal;font-weight:400}@media only screen and (min-width: 40.063em){.wf-active .site-title{font-style:normal;font-weight:400}}.wf-active .site-description{font-style:normal;font-weight:400}.wf-active h1{font-style:normal;font-weight:400}.wf-active h2, .wf-active .site-title{font-style:normal;font-weight:400}@media only screen and (min-width: 40.063em){.wf-active .entry-title{font-style:normal;font-weight:400}}.wf-active h3{font-style:normal;font-weight:400}.wf-active .entry-title, .wf-active h4{font-style:normal;font-weight:400}.wf-active h5{font-style:normal;font-weight:400}.wf-active h6{font-style:normal;font-weight:400}.wf-active .page-title{font-style:normal;font-weight:400}</style>
+<meta name="google-site-verification" content="iEObW9rXb-WseHIwRcTfNA68u8R9MSyR6AbSLCTZdrI">
+<meta name="msvalidate.01" content="B384DDB0B5B99A8D58CD07DB101158DB">
+<meta name="yandex-verification" content="b2d8d86772c353ce">
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="訂閱 wongchau »" href="https://wongchau.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="訂閱 wongchau » 迴響" href="https://wongchau.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="訂閱 wongchau » 心理學中著名的效應 — 巴納姆效應 迴響" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/feed/">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s1.wp.com/_static/??-eJyFkNFOwzAMRX+IYMG6iRfEtySp1WWzY6t2NO3vSakGYkPlJfK17vF1DBcNWapjdeAWlNpUqsFFs3AwLoTXO/WczZ7gb4zKGQ1O6BrzOXypB3simX5yZB7jaDCRpEhbo2ek6DgGFfM7tYVlmbH3WaMvDsaxRCTkbtvCWA83aimP/TubMeuFUtIZzUJ/uTQOfuxB/6zHyyrrqaAbf3dWtEAVL5227+Jh5hoF2hKk5i4VzK+Ei++D31+Gt9dht98Nh9MnmT66ug==" type="text/css" media="all">
+<style id="button-style-inline-css" type="text/css">
+.posted-on { position: absolute; clip: rect(1px, 1px, 1px, 1px); }
+</style>
+<link rel="stylesheet" id="button-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A400%2C300%2C300italic%2C400italic%2C700%2C700italic%7CLora%3A400italic%2C700italic&amp;subset=latin%2Clatin-ext" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="https://s2.wp.com/_static/??-eJx9jdEKwjAMRX/IGgYV9UH8lrVkXSVtSpM6/Hs7nybi3u4l9+TAUoznrJgVUjOFWohZIGDGGvvhTzx6kQNsWJ0xoUBpDlxT5QwxexB9EZqleE4/xMYmzYmvsWhcLRMT8bK3n/mJ1bjmHHXnR7I3D8iG2I/r+69iJhpj3UMrOuLQY4C+2tQVuqfbYE9Xay/nwT7ev+F8XA==" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-3-1" href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4-1" href="https://s1.wp.com/_static/??-eJyNjl0KgzAQhC/U7VZU8KX0LDGJccualeyK16+FltIfpE8zA/MNg+sMXrLFbDgtMPOSKCs6byS5d+Xljl71gL/rs6jBwI4K6ugK5fTUPUrFk2NgSfIeviAb4xQVxwYTS+94b3WlkKIpbpWHh1QogMsBmNT+YfvthgLBIMyyfsT7wGU6V03XtnVX1afrDTjPeL8=" type="text/css" media="all">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:r%7CGentium+Book+Basic:r,i,b,bi&amp;subset=latin,latin-ext,latin,latin-ext" media="all"><script type="text/javascript" src="https://s1.wp.com/_static/??-eJyFkNsOgjAMhl/IsXhCvTA+C4yydO7kukn06R2KiQrBpElPX5u/5Z1naIVODRBX2S4Jwm1whaIFnwOYQRmqCIVB+4aFsxFs7FnjatTAEkGoZK7lRa2b4LyjaIAoQxPdb0lorwjdX0xB9JU4swCE99FWk5jXSaIlHkDnAxrWa/jJZqYo1SQC+oguZ63T2o00feAdNhLi83+vkNXJeDZccjLH5aYst6v1YbdXDwJRlx8="></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wongchau.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="心理學中著名的效應 — 霍桑效應" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e9%9c%8d%e6%a1%91%e6%95%88%e6%87%89/">
+<link rel="next" title="心理學中著名的效應 — 暈輪效應" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e6%9a%88%e8%bc%aa%e6%95%88%e6%87%89/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/">
+<link rel="shortlink" href="http://wp.me/p1DuFl-Fe">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="心理學中著名的效應 — 巴納姆效應">
+<meta property="og:url" content="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/">
+<meta property="og:description" content="心理學的研究揭示，人很容易相信一個籠統的、一般性的人格描述特别適合他。 即使這種描述十分空洞，他仍然認爲反映了…">
+<meta property="article:published_time" content="2011-12-21T10:00:32+00:00">
+<meta property="article:modified_time" content="2011-12-21T10:00:32+00:00">
+<meta property="og:site_name" content="wongchau">
+<meta property="og:image" content="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=300">
+<meta property="og:locale" content="zh_TW">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:image" content="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=240">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://wongchau.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://wongchau.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://wongchau.wordpress.com/osd.xml" title="wongchau">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="wongchau"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="DON`T GIVE UP. IF YOU WANT YOU CAN."><meta name="msapplication-task" content="name=訂閱;action-uri=https://wongchau.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=註冊免費網誌;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com 支援團隊;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com 論壇;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="心理學中著名的效應 — 巴納姆效應 | wongchau on WordPress.com">
+<meta name="description" content="心理學的研究揭示，人很容易相信一個籠統的、一般性的人格描述特别適合他。 即使這種描述十分空洞，他仍然認爲反映了…">
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('https://s0.wp.com/wp-content/themes/pub/button/img/buttonbg20151103.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '1',
+				domain: 'wongchau.wordpress.com',
+				pageURL: 'https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<style type="text/css"></style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-2556 single-format-standard custom-background mp6 customizer-styles-applied date-hidden highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+										<a href="https://wongchau.wordpress.com/" rel="home">
+					<img src="https://defaultcustomheadersdata.files.wordpress.com/2016/07/blur.jpg?resize=982,250" width="982" height="250" alt="" class="header-image">
+				</a>
+						<h1 class="site-title"><a href="https://wongchau.wordpress.com/" rel="home">wongchau</a></h1>
+			<h2 class="site-description">DON`T GIVE UP. IF YOU WANT YOU CAN.</h2>
+		</div><!-- .site-branding -->
+	</header><!-- #masthead -->
+
+	<nav id="site-navigation" class="main-navigation" role="navigation">
+		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">選單</button>
+		<div class="menu-wongchau-container"><ul id="primary-menu" class="menu nav-menu" aria-expanded="false"><li id="menu-item-4592" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4592"><a href="https://wongchau.wordpress.com/category/%e4%bd%9b%e5%ad%b8%e6%95%85%e4%ba%8b/">【佛學小故事】</a></li>
+<li id="menu-item-4591" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-4591"><a href="https://wongchau.wordpress.com/category/%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86/">【愛分享】</a></li>
+<li id="menu-item-4594" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4594"><a href="https://wongchau.wordpress.com/category/%e6%96%b0%e8%81%9e_%e7%ac%ac%e4%b8%89%e4%b8%96%e5%a4%9a%e6%9d%b0%e7%be%8c%e4%bd%9b/">新聞_第三世多杰羌佛</a></li>
+<li id="menu-item-4593" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4593"><a href="https://wongchau.wordpress.com/category/%e7%ac%ac%e4%b8%89%e4%b8%96%e5%a4%9a%e6%9d%b0%e7%be%8c%e4%bd%9b/">第三世多杰羌佛</a></li>
+<li id="menu-item-4979" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4979"><a href="https://wongchau.wordpress.com/category/%e4%bd%9b%e5%ad%b8%e6%9b%b8%e7%b1%8d/">佛學書籍</a></li>
+<li id="menu-item-5765" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5765"><a href="https://wongchau.wordpress.com/category/%e6%88%91%e8%a1%8c%e6%88%91%e7%b4%a0/">我行我素</a></li>
+</ul></div>	</nav><!-- #site-navigation -->
+
+	<!-- #masthead -->
+
+	<div id="content" class="site-content">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-2556" class="post-2556 post type-post status-publish format-standard hentry category-2350">
+	<header class="entry-header">
+		<span class="cat-links"><a href="https://wongchau.wordpress.com/category/%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86/" rel="category tag">人生哲理</a></span>
+					<h1 class="entry-title">心理學中著名的效應 — 巴納姆效應</h1>		
+		<div class="entry-meta">
+			<span class="posted-on"><a href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/" rel="bookmark"><time class="entry-date published updated" datetime="2011-12-21T18:00:32+00:00">12/21/2011</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://wongchau.wordpress.com/author/wongchau/">wongchau 望秋</a></span></span>		</div>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p><a href="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg"><img data-attachment-id="2575" data-permalink="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/034403476957855cf2481884175c7764/" data-orig-file="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg" data-orig-size="506,305" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}" data-image-title="034403476957855cf2481884175c7764" data-image-description="" data-medium-file="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=300&amp;h=180" data-large-file="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=506" class="alignleft size-medium wp-image-2575" title="034403476957855cf2481884175c7764" src="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=300&amp;h=180" alt="" width="300" height="180" srcset="https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=300&amp;h=180 300w, https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg?w=150&amp;h=90 150w, https://wongchau.files.wordpress.com/2011/12/034403476957855cf2481884175c7764.jpg 506w" sizes="(max-width: 300px) 100vw, 300px"></a>心理學的研究揭示，人很容易相信一個籠統的、一般性的人格描述特别適合他。</p>
+<p>即使這種描述十分空洞，他仍然認爲反映了自己的人格面貌。</p>
+<p>曾經有心理學家用一段籠統的、幾乎適用於任何人的話讓大學生判斷是否適合自己，結果，絶大多數大學生認爲這段話將自己刻畫得細緻入微、準確至極。</p>
+<p>下面一段話是心理學家使用的材料，你覺得是否也適合你呢？&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>你很需要别人喜歡並尊重你。</p>
+<p>你有自我批判的傾向。</p>
+<p>你有許多可以成爲你優勢的能力没有發揮出來，同時你也有一些缺點，不過你一般可以克服它們。</p>
+<p>你與异性交往有些困難，盡管外表上顯得很從容，其實你内心焦急不安。</p>
+<p>你有時懷疑自己所做的决定或所做的事是否正確。</p>
+<p>你喜歡生活有些變化，厭惡被人限制。</p>
+<p>你以自己能獨立思考而自豪，别人的建議如果没有充分的證據你不會接受。</p>
+<p>你認爲在别人面前過於坦率地表露自己是不明智的。你有時外向、親切、好交際，而有時則内向、謹慎、沉默。你的有些抱負往往很不現實。&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>這其實是一頂套在誰頭上都合適的帽子。&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>一位名叫肖曼·巴納姆的著名雜技師在評價自己的表演時説，他之所以很受歡迎是因爲節目中包含了每個人都喜歡的成分，所以他使得“每一分鐘都有人上當受騙”。</p>
+<p>人們常常認爲一種籠統的、一般性的人格描述十分準確地揭示了自己的特點，心理學上將這種傾向稱爲”巴納姆效應”。</p>
+<p>有位心理學家給一群人做完明尼蘇打多相人格檢查表（MMPI）後，拿出兩份結果讓參加者判斷哪一份是自己的結果。</p>
+<p>事實上，一份是參加者自己的結果，另一份是多數人的回答平均起來的結果。</p>
+<p>參加者竟然認爲後者更準確地表達了自己的人格特徵。</p>
+<p>巴納姆效應在生活中十分普遍。拿算命來説，很多人請教過算命先生後都認爲算命先生説的“很準“。</p>
+<p>其實，那些求助算命的人本身就有易受暗示的特點。</p>
+<p>當人的情緒處於低落、失意的時候，對生活失去控制感，於是，安全感也受到影響。</p>
+<p><strong>一個缺乏安全感的人，心理的依賴性也大大增强，受暗示性就比平時更强了。</strong></p>
+<p>加上算命先生善於揣摩人的内心感受，稍微能够理解求助者的感受，求助者立刻會感到一種精神安慰。</p>
+<p>算命先生接下來再説一段一般的、無關痛癢的話便會使求助者深信不疑。</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-1068613941" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-1068613941');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-1068613941",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-1068613941'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-10134" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-10134" id="fif_slot_automattic-id-_automattic-id-10134" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">分享此文：</h3><div class="sd-content"><ul><li class="share-jetpack-whatsapp"><a rel="nofollow" data-shared="" class="share-jetpack-whatsapp sd-button share-icon" href="whatsapp://send?text=%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89%20---%20%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89%20 https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F" target="_blank" title="按一下以分享到 WhatsApp"><span>WhatsApp</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-2556" class="share-google-plus-1 sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=google-plus-1&amp;nb=1" target="_blank" title="點擊分享到 Google+"><span>Google</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-2556" class="share-facebook sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=facebook&amp;nb=1" target="_blank" title="分享到 Facebook"><span>Facebook</span></a></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=email&amp;nb=1" target="_blank" title="Click to email"><span>電子郵件</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/#print" target="_blank" title="點這裡列印"><span>列印</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-2556" class="share-linkedin sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=linkedin&amp;nb=1" target="_blank" title="分享到 LinkedIn"><span>LinkedIn</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-24189011-2556-5894d632e95bd" data-src="//widgets.wp.com/likes/#blog_id=24189011&amp;post_id=2556&amp;origin=wongchau.wordpress.com&amp;obj_id=24189011-2556-5894d632e95bd" data-name="like-post-frame-24189011-2556-5894d632e95bd"><h3 class="sd-title">請按讚：</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; opacity: 0.5235532253548214;"><span class="button"><span>喜歡</span></span> <span class="loading">載入中...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-24189011-2556-5894d632e95bd" height="55px" width="100%" frameborder="0" src="//widgets.wp.com/likes/#blog_id=24189011&amp;post_id=2556&amp;origin=wongchau.wordpress.com&amp;obj_id=24189011-2556-5894d632e95bd"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	
+<div class="jp-relatedposts-items jp-relatedposts-items-visual"><div class="jp-relatedposts-post jp-relatedposts-post0 jp-relatedposts-post-thumbs" data-post-id="2545" data-post-format="false"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e6%8a%95%e5%b0%84%e6%95%88%e6%87%89/" title="心理學中著名的效應 --- 投射效應
+
+心理學研究發現，人們在日常生活中常常假設他人與自己具有相同的屬性、愛好或傾向等，常常認爲别人理所當然…" rel="nofollow" data-origin="2556" data-position="0"><img class="jp-relatedposts-post-img" src="https://wongchau.files.wordpress.com/2011/12/buickgt2.jpg?w=350&amp;h=200&amp;crop=1" width="350" alt="心理學中著名的效應 --- 投射效應"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e6%8a%95%e5%b0%84%e6%95%88%e6%87%89/" title="心理學中著名的效應 --- 投射效應
+
+心理學研究發現，人們在日常生活中常常假設他人與自己具有相同的屬性、愛好或傾向等，常常認爲别人理所當然…" rel="nofollow" data-origin="2556" data-position="0">心理學中著名的效應 --- 投射效應</a></h4><p class="jp-relatedposts-post-excerpt">心理學研究發現，人們在日常生活中常常假設他人與自己具有相同的屬性、愛好或傾向等，常常認爲别人理所當然…</p><p class="jp-relatedposts-post-context">在「人生哲理」中</p></div><div class="jp-relatedposts-post jp-relatedposts-post1 jp-relatedposts-post-thumbs" data-post-id="3196" data-post-format="false"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2016/11/21/%e6%95%85%e4%ba%8b%e5%88%86%e4%ba%ab-%e6%83%b3%e5%a4%a7%e6%89%8d%e8%83%bd%e5%81%9a%e5%a4%a7/" title="【愛分享】想大才能做大
+
+年輕人到底該如何把握自己的命運？回想起我的職業生涯，一切答案盡在其中。我終於可以告訴那些渴望成功的年…" rel="nofollow" data-origin="2556" data-position="1"><img class="jp-relatedposts-post-img" src="https://wongchau.files.wordpress.com/2012/05/e683b3e5a4a7e6898de883bde5819ae5a4a7.jpg?w=350&amp;h=200&amp;crop=1" width="350" alt="【愛分享】想大才能做大"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2016/11/21/%e6%95%85%e4%ba%8b%e5%88%86%e4%ba%ab-%e6%83%b3%e5%a4%a7%e6%89%8d%e8%83%bd%e5%81%9a%e5%a4%a7/" title="【愛分享】想大才能做大
+
+年輕人到底該如何把握自己的命運？回想起我的職業生涯，一切答案盡在其中。我終於可以告訴那些渴望成功的年…" rel="nofollow" data-origin="2556" data-position="1">【愛分享】想大才能做大</a></h4><p class="jp-relatedposts-post-excerpt">年輕人到底該如何把握自己的命運？回想起我的職業生涯，一切答案盡在其中。我終於可以告訴那些渴望成功的年…</p><p class="jp-relatedposts-post-context">在「愛分享」中</p></div><div class="jp-relatedposts-post jp-relatedposts-post2 jp-relatedposts-post-thumbs" data-post-id="6388" data-post-format="link"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2016/11/29/%e3%80%8a%e5%bf%83%e5%8b%95%e8%91%97%e5%a2%83%e5%8d%b3%e6%98%af%e9%ad%94%ef%bc%8c%e9%9a%a8%e7%b7%a3%e5%88%86%e5%88%a5%e5%89%87%e7%84%a1%e5%ae%9a%e3%80%8b/" title="《心動著境即是魔，隨緣分別則無定》
+
+無上甚深微妙法 百千萬劫難遭遇&nbsp; 我今見聞得受持&nbsp; 願解如來真實義 在末法時期，能夠得聞真正的佛法真…" rel="nofollow" data-origin="2556" data-position="2"><img class="jp-relatedposts-post-img" src="https://tinypoints.files.wordpress.com/2016/06/445d2-25e525bf258325e5258b259525e82591259725e525a2258325e5258d25b325e6259825af25e925ad259425ef25bc258c25e9259a25a825e725b725a325e52588258625e5258825a525e52589258.jpeg?w=350&amp;h=200&amp;crop=1" width="350" alt="《心動著境即是魔，隨緣分別則無定》"></a><h4 class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://wongchau.wordpress.com/2016/11/29/%e3%80%8a%e5%bf%83%e5%8b%95%e8%91%97%e5%a2%83%e5%8d%b3%e6%98%af%e9%ad%94%ef%bc%8c%e9%9a%a8%e7%b7%a3%e5%88%86%e5%88%a5%e5%89%87%e7%84%a1%e5%ae%9a%e3%80%8b/" title="《心動著境即是魔，隨緣分別則無定》
+
+無上甚深微妙法 百千萬劫難遭遇&nbsp; 我今見聞得受持&nbsp; 願解如來真實義 在末法時期，能夠得聞真正的佛法真…" rel="nofollow" data-origin="2556" data-position="2">《心動著境即是魔，隨緣分別則無定》</a></h4><p class="jp-relatedposts-post-excerpt">無上甚深微妙法 百千萬劫難遭遇&nbsp; 我今見聞得受持&nbsp; 願解如來真實義 在末法時期，能夠得聞真正的佛法真…</p><p class="jp-relatedposts-post-context">在「第三世多杰羌佛」中</p></div></div></div></div>			</div><!-- .entry-content -->
+
+			<div class="entry-flair">
+			<div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">分享此文：</h3><div class="sd-content"><ul><li class="share-jetpack-whatsapp"><a rel="nofollow" data-shared="" class="share-jetpack-whatsapp sd-button share-icon" href="whatsapp://send?text=%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89%20---%20%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89%20 https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F" target="_blank" title="按一下以分享到 WhatsApp"><span>WhatsApp</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-2556" class="share-google-plus-1 sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=google-plus-1&amp;nb=1" target="_blank" title="點擊分享到 Google+"><span>Google</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-2556" class="share-facebook sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=facebook&amp;nb=1" target="_blank" title="分享到 Facebook"><span>Facebook</span></a></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=email&amp;nb=1" target="_blank" title="Click to email"><span>電子郵件</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/#print" target="_blank" title="點這裡列印"><span>列印</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-2556" class="share-linkedin sd-button share-icon" href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89/?share=linkedin&amp;nb=1" target="_blank" title="分享到 LinkedIn"><span>LinkedIn</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-24189011-2556-5894d632e9976" data-src="//widgets.wp.com/likes/#blog_id=24189011&amp;post_id=2556&amp;origin=wongchau.wordpress.com&amp;obj_id=24189011-2556-5894d632e9976" data-name="like-post-frame-24189011-2556-5894d632e9976"><h3 class="sd-title">請按讚：</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>喜歡</span></span> <span class="loading">載入中...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>		</div><!-- .entry-flair -->
+	
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">文章分頁導航</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e9%9c%8d%e6%a1%91%e6%95%88%e6%87%89/" rel="prev"><span class="meta-nav">Previous Post</span> 心理學中著名的效應 — 霍桑效應</a></div><div class="nav-next"><a href="https://wongchau.wordpress.com/2011/12/21/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e6%9a%88%e8%bc%aa%e6%95%88%e6%87%89/" rel="next"><span class="meta-nav">Next Post</span> 心理學中著名的效應 — 暈輪效應</a></div></div>
+	</nav>
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+					<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">發表迴響 <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/12/21/%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89-%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89/#respond" style="display:none;">取消回覆</a></small></h3>				<form action="https://wongchau.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2011/12/21/%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89-%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: 22px; width: 640.859375px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="在此輸入你的回應…" placeholder="在此輸入你的回應…" style="height: 42px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>在下方填入你的資料或按右方圖示以社群網站登入：</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Fwongchau.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">電子郵件 <span class="required">(必)</span> <span class="nopublish">（電子郵件地址不會被公開）</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">名稱 <span class="required">(必)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">個人網站</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> 您的留言將使用 WordPress.com 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> 您的留言將使用 Twitter 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook照片" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> 您的留言將使用 Facebook 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> 您的留言將使用 Google+ 帳號。 <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">登出</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">變更</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">取消</a></div>
+		<p>連結到 %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">透過電子郵件通知我後續回應。</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="張貼迴響"> <input type="hidden" name="comment_post_ID" value="2556" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="737828cb7b"></p>
+<input type="hidden" name="genseq" value="1486149170">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149172857"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+
+<div id="secondary" class="widget-area" role="complementary">
+
+			<div class="social-links"><ul id="menu-wongchau" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4592"><a href="https://wongchau.wordpress.com/category/%e4%bd%9b%e5%ad%b8%e6%95%85%e4%ba%8b/"><span class="screen-reader-text">【佛學小故事】</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-4591"><a href="https://wongchau.wordpress.com/category/%e4%ba%ba%e7%94%9f%e5%93%b2%e7%90%86/"><span class="screen-reader-text">【愛分享】</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4594"><a href="https://wongchau.wordpress.com/category/%e6%96%b0%e8%81%9e_%e7%ac%ac%e4%b8%89%e4%b8%96%e5%a4%9a%e6%9d%b0%e7%be%8c%e4%bd%9b/"><span class="screen-reader-text">新聞_第三世多杰羌佛</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4593"><a href="https://wongchau.wordpress.com/category/%e7%ac%ac%e4%b8%89%e4%b8%96%e5%a4%9a%e6%9d%b0%e7%be%8c%e4%bd%9b/"><span class="screen-reader-text">第三世多杰羌佛</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4979"><a href="https://wongchau.wordpress.com/category/%e4%bd%9b%e5%ad%b8%e6%9b%b8%e7%b1%8d/"><span class="screen-reader-text">佛學書籍</span></a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5765"><a href="https://wongchau.wordpress.com/category/%e6%88%91%e8%a1%8c%e6%88%91%e7%b4%a0/"><span class="screen-reader-text">我行我素</span></a></li>
+</ul></div>	
+	<aside id="search-4" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://wongchau.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">搜尋關於：</span>
+					<input type="search" class="search-field" placeholder="搜尋 …" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="搜尋">
+			</form></aside>		<aside id="recent-posts-4" class="widget widget_recent_entries">		<h1 class="widget-title">近期文章</h1>		<ul>
+					<li>
+				<a href="https://wongchau.wordpress.com/2017/02/03/%e3%80%90%e6%84%9b%e5%88%86%e4%ba%ab%e3%80%91%e4%ba%ba%e7%94%9f%e7%9a%84%e5%85%a9%e5%80%8b%e7%8b%80%e6%85%8b/">【愛分享】人生的兩個狀態</a>
+						</li>
+					<li>
+				<a href="https://wongchau.wordpress.com/2017/02/02/%e3%80%90%e6%84%9b%e5%88%86%e4%ba%ab%e3%80%91%e4%bf%ae%e7%85%89%e4%bf%a1%e5%bf%83/">【愛分享】修煉信心</a>
+						</li>
+					<li>
+				<a href="https://wongchau.wordpress.com/2017/01/31/%e3%80%90%e6%84%9b%e5%88%86%e4%ba%ab%e3%80%91%e4%ba%ba%e6%9c%89%e5%96%84%e5%bf%b5-%ef%bc%8c%e5%a4%a9%e5%bf%85%e4%bd%91%e4%b9%8b%ef%bc%81/">【愛分享】人有善念 ，天必佑之！</a>
+						</li>
+					<li>
+				<a href="https://wongchau.wordpress.com/2017/01/30/%e3%80%90%e6%84%9b%e5%88%86%e4%ba%ab%e3%80%91%e5%88%a5%e6%8a%8a%e7%aa%98%e5%a2%83%e9%81%b7%e6%80%92%e6%96%bc%e5%88%a5%e4%ba%ba/">【愛分享】別把窘境遷怒於別人</a>
+						</li>
+					<li>
+				<a href="https://wongchau.wordpress.com/2017/01/29/%e3%80%90%e6%84%9b%e5%88%86%e4%ba%ab%e3%80%91%e7%9c%bc%e8%a6%8b%e8%88%87%e5%bf%83%e8%a6%8b%e3%80%81%e4%bb%a5%e7%82%ba%e8%88%87%e7%9c%9f%e5%af%a6%e7%9a%84%e8%b7%9d%e9%9b%a2/">【愛分享】眼見與心見、以為與真實的距離</a>
+						</li>
+				</ul>
+		</aside>		<aside id="follow_button_widget-3" class="widget widget_follow_button_widget">
+		<iframe src="//widgets.wp.com/follow/index.html#href=wongchau.wordpress.com&amp;lang=zh-tw&amp;blog=https%3A%2F%2Fwongchau.wordpress.com&amp;show_follower_count=true" width="100%" height="20" frameborder="0" scrolling="no"></iframe>
+		<script type="text/javascript">(function(d){var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</aside><aside id="blog-stats-4" class="widget widget_blog-stats"><h1 class="widget-title">網誌統計</h1>		<ul>
+			<li>229,562 hits</li>
+		</ul>
+		</aside><aside id="linkcat-1356" class="widget widget_links"><h1 class="widget-title">Blogroll</h1>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.hkfhh.com/">福慧行</a></li>
+<li><a href="https://meditationidiom.blogspot.hk/">靜心淨語</a></li>
+<li><a href="http://tinypoints.blogspot.hk/">小筆點</a></li>
+<li><a href="http://wisdomofhappylife.blogspot.hk/">快樂人生</a></li>
+<li><a href="http://wonderfullife6878.blogspot.hk/">暇滿人身</a></li>
+<li><a href="http://buddhaheartsutra.blogspot.hk/">佛心微語</a></li>
+
+	</ul>
+</aside>
+</div><!-- #secondary -->
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+		<div class="site-info">
+	<a href="https://wordpress.com/?ref=footer_custom_powered">由 WordPress.com 建置</a>.
+	
+	</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"\u5f35\u8cbc\u8ff4\u97ff","connectingToText":"\u9023\u7d50\u5230 %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"\u767b\u51fa","loginText":"\u767b\u5165","connectURL":"https:\/\/wongchau.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/wongchau.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/wongchau.wordpress.com\/","postID":"2556","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"\u7121\u6548\u7684\u96fb\u5b50\u90f5\u4ef6\u5730\u5740","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"\u8b8a\u66f4","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="在這裡新增你的想法…(選填)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">張貼到</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">取消</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="轉發文章">
+				<input type="hidden" id="carousel-reblog-blog-id" value="24189011">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://wongchau.wordpress.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="wongchau">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d8c2316970"><input type="hidden" name="_wp_http_referer" value="/2011/12/21/%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89-%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/wongchau.wordpress.com\/2011\/12\/21\/%e5%bf%83%e7%90%86%e5%ad%b8%e4%b8%ad%e8%91%97%e5%90%8d%e7%9a%84%e6%95%88%e6%87%89-%e5%b7%b4%e7%b4%8d%e5%a7%86%e6%95%88%e6%87%89\/":2556};
+	</script><iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://wongchau.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+			
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+		<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<link rel="stylesheet" id="all-css-0-3" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"\u8f09\u5165\u4e2d..."};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"24189011","siteName":"wongchau","siteURL":"http:\/\/wongchau.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/button","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/wongchau.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F","themeURL":"https:\/\/wordpress.com\/themes\/button\/","xhrURL":"https:\/\/wongchau.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"6f9502829d\" \/>","referer":"https:\/\/wongchau.wordpress.com\/2011\/12\/21\/%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89-%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/wongchau.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25E5%25BF%2583%25E7%2590%2586%25E5%25AD%25B8%25E4%25B8%25AD%25E8%2591%2597%25E5%2590%258D%25E7%259A%2584%25E6%2595%2588%25E6%2587%2589-%25E5%25B7%25B4%25E7%25B4%258D%25E5%25A7%2586%25E6%2595%2588%25E6%2587%2589%2F","postID":"2556","shortlink":"http:\/\/wp.me\/p1DuFl-Fe","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/wongchau.wordpress.com\/2556","statsLink":"https:\/\/wordpress.com\/stats\/post\/2556\/wongchau.wordpress.com","i18n":{"view":"\u6aa2\u8996\u7db2\u7ad9","follow":"\u95dc\u6ce8","following":"\u6b63\u5728\u95dc\u6ce8","edit":"\u7de8\u8f2f","login":"\u767b\u5165","signup":"\u8a3b\u518a","customize":"\u81ea\u8a02","report":"\u56de\u5831\u6b64\u5167\u5bb9","themeInfo":"\u53d6\u5f97\u4f48\u666f\u4e3b\u984c: Button","shortlink":"\u8907\u88fd\u77ed\u7db2\u5740","copied":"\u5df2\u8907\u88fd","followedText":"\u6b64\u7db2\u7ad9\u7684\u65b0\u6587\u7ae0\u5c07\u986f\u793a\u65bc\u4f60\u7684<a href=\"https:\/\/wordpress.com\/\">\u95b1\u8b80\u5668<\/a>\u4e2d","foldBar":"\u6536\u5408\u6b64\u5217","unfoldBar":"\u5c55\u958b\u6b64\u5217","editSubs":"\u7ba1\u7406\u8a02\u95b1","viewReader":"\u5728\u8b80\u53d6\u5668\u4e2d\u6aa2\u8996\u7db2\u7ad9","subscribe":"\u6211\u8981\u8a3b\u518a","enterEmail":"\u8f38\u5165\u4f60\u7684\u96fb\u5b50\u90f5\u4ef6\u5730\u5740","followers":"","alreadyUser":"\u5df2\u7d93\u6709 WordPress.com \u5e33\u865f\u4e86\uff1f<a href=\"https:\/\/wongchau.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F\">\u7acb\u5373\u767b\u5165\u3002<\/a>","stats":"\u7d71\u8a08"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"zh","ajaxurl":"https:\/\/wongchau.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"40da2c19f8","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"\u8ff4\u97ff","post_comment":"\u5f35\u8cbc\u8ff4\u97ff","write_comment":"\u767c\u8868\u8ff4\u97ff\u2026","loading_comments":"\u8f09\u5165\u8ff4\u97ff\u4e2d...","download_original":"\u6aa2\u8996\u5b8c\u6574\u5927\u5c0f <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"\u8acb\u78ba\u8a8d\u4f60\u5df2\u7d93\u8f38\u5165\u4e00\u4e9b\u6587\u5b57\u624d\u53ef\u767c\u8868\u8ff4\u97ff\u3002","no_comment_email":"\u8acb\u63d0\u4f9b\u96fb\u5b50\u90f5\u4ef6\u4f4d\u5740\u624d\u53ef\u767c\u8868\u8ff4\u97ff\u3002","no_comment_author":"\u8acb\u63d0\u4f9b\u4f60\u7684\u59d3\u540d\u624d\u53ef\u767c\u8868\u8ff4\u97ff\u3002","comment_post_error":"\u62b1\u6b49\uff0c\u4f46\u4f60\u767c\u8868\u8ff4\u97ff\u6642\u51fa\u73fe\u4e86\u4e00\u500b\u932f\u8aa4\u3002\u8acb\u7a0d\u5f8c\u518d\u8a66\u4e00\u6b21\u3002","comment_approved":"\u4f60\u7684\u8ff4\u97ff\u5df2\u6838\u51c6\u3002","comment_unapproved":"\u4f60\u7684\u8ff4\u97ff\u6b63\u5728\u5be9\u6838\u4e2d\u3002","camera":"\u7167\u76f8\u6a5f","aperture":"\u5149\u5708","shutter_speed":"\u5feb\u9580\u901f\u5ea6","focal_length":"\u7126\u8ddd","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/wongchau.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F","blog_id":"24189011","local_comments_commenting_as":"<fieldset><label for=\"email\">\u96fb\u5b50\u90f5\u4ef6 (\u5fc5\u8981)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">\u540d\u7a31 (\u5fc5\u8981)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">\u500b\u4eba\u7db2\u7ad9<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"\u8f49\u767c","reblogged":"\u5df2\u8f49\u767c","reblog_add_thoughts":"\u5728\u9019\u88e1\u65b0\u589e\u4f60\u7684\u60f3\u6cd5\u2026(\u9078\u586b)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=24189011&v=wpcom&tz=8&user_id=0&subd=wongchau","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJyVkd1ugzAMhV9owZoG026mPUsIBhzytziB9u0XtpXRrkLqlZ0TfyexDUsQyruELoFm6HAmheFUaX6C3ZXNIpg8kGMwNCHDZ8aMo3SdwXhQrLy1RRI/kF7pFnihgI9AV8ItmEa0pSzkFtqckncgmTF9g07ONMhE3j1C8UShvOUm0XuVWfS0zYOcMrm7/lXEYM6VpX9v7FpaqBtW99b4gQUVY2P8cnM84GVX/EUrI1jJCWPJhJ8xRlo/s2lHDmodw+qwZfea4vDXx17XZeHx/BuqfdW9BcroM6MBjSlINYmLcMAEz0n0RlIEHmUkN1xigT7s+3P91jR1/frS6C/VqgPo"></script><div id="actionbar" class="actnbr-pub-button actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>關注</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://wongchau.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> wongchau</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://wongchau.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25E5%25BF%2583%25E7%2590%2586%25E5%25AD%25B8%25E4%25B8%25AD%25E8%2591%2597%25E5%2590%258D%25E7%259A%2584%25E6%2595%2588%25E6%2587%2589-%25E5%25B7%25B4%25E7%25B4%258D%25E5%25A7%2586%25E6%2595%2588%25E6%2587%2589%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>自訂<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>關注</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">註冊</a></li> 				    <li class="actnbr-login"><a href="https://wongchau.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fwongchau.wordpress.com%2F2011%2F12%2F21%2F%25e5%25bf%2583%25e7%2590%2586%25e5%25ad%25b8%25e4%25b8%25ad%25e8%2591%2597%25e5%2590%258d%25e7%259a%2584%25e6%2595%2588%25e6%2587%2589-%25e5%25b7%25b4%25e7%25b4%258d%25e5%25a7%2586%25e6%2595%2588%25e6%2587%2589%2F">登入</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/p1DuFl-Fe">複製短網址</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">回報此內容</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">管理訂閱</a></li> 				    <li class="actnbr-fold"><a href="">收合此列</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "wongchau.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429&amp;lang=zh-tw" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> 位部落客按了讚：</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429&amp;lang=zh-tw" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> 位部落客按了讚：</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'24189011','blog_tz':'8','user_lang':'zh-tw','blog_lang':'zh-tw','user_id':'0'}]);
+_stq.push(['view', {'blog':'24189011','v':'wpcom','tz':'8','user_id':'0','post':'2556','subd':'wongchau'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRREQ/V0xPZ1hKXy8lfGUmPzJTK0JBUUxYJVlZdUQubVtKQWE3bENwdjdDNjU3SFtCMmlYeENTOHxVeHBWfDIwaFM4dksvX2RVUCtZVD9IZURlJX4mWG5kSlFjMkxlZnlCKy5nVnE3bnhxRnV1bXloSlpvLnl+R0hHelh0P3VQJkVIZ29XZHA4Y1hwdWxTT043dWxvX2cxdixweHJVOCxbXzZaX3AwMnFQLmRkT0laRkNuQUZBNTZKVlozSnNBY0tEMFVOW3owfiV4JXhEL2dORHV+YT9RNmROPWh6WVolfHBQdT8xWnNpd1N8YUJZWmE='}]);
+_stq.push([ 'clickTrackerInit', '24189011', '2556' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<div class="comment-likes-overlay" style="display: none;"></div><div id="sharing_email" style="display: none;">
+		<form action="/2011/12/21/%E5%BF%83%E7%90%86%E5%AD%B8%E4%B8%AD%E8%91%97%E5%90%8D%E7%9A%84%E6%95%88%E6%87%89-%E5%B7%B4%E7%B4%8D%E5%A7%86%E6%95%88%E6%87%89/" method="post">
+			<label for="target_email">傳送到電子郵件地址</label>
+			<input type="email" name="target_email" id="target_email" value="">
+
+			
+				<label for="source_name">你的姓名</label>
+				<input type="text" name="source_name" id="source_name" value="">
+
+				<label for="source_email">你的Email</label>
+				<input type="email" name="source_email" id="source_email" value="">
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off">
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			<div class="recaptcha" id="sharing_recaptcha"></div><input type="hidden" name="recaptcha_public_key" id="recaptcha_public_key" value="6LcYW8MSAAAAADBAuEH9yaPcF7lWh11Iq62ZKtoo">
+			<img style="float: right; display: none" class="loading" src="https://s2.wp.com/wp-content/mu-plugins/post-flair/sharing/images/loading.gif" alt="loading" width="16" height="16">
+			<input type="submit" value="寄送電子郵件" class="sharing_send">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">取消</a>
+
+			<div class="errors errors-1" style="display: none;">
+				文章沒有送出-請確認你的Email位置			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email確認失敗,請稍後再試.			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				抱歉，你的網誌無法透過電子郵件分享			</div>
+		</form>
+	</div></body></html>

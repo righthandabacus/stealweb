@@ -1,0 +1,886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="wf-sortsmillgoudy1-n5-active wf-sortsmillgoudy1-i5-active wf-active"><head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>New Federal Circuit Action in Novo Nordisk v. Caraco  | 37 Thoughts</title>
+
+<link rel="stylesheet" href="https://s0.wp.com/wp-content/themes/pub/inove/style.css" type="text/css" media="screen">
+
+<script defer="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" src="https://s.pubmine.com/showad.js" async=""></script><script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script><script type="text/javascript" src="https://s0.wp.com/wp-content/themes/pub/inove/js/base.js"></script>
+<script type="text/javascript" src="https://s0.wp.com/wp-content/themes/pub/inove/js/menu.js"></script>
+
+<link rel="pingback" href="https://37thoughts.wordpress.com/xmlrpc.php">
+<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="alternate" type="application/rss+xml" title="37 Thoughts » Feed" href="https://37thoughts.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="37 Thoughts » Comments Feed" href="https://37thoughts.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="37 Thoughts » New Federal Circuit Action in Novo Nordisk v.&nbsp;Caraco Comments Feed" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/feed/">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s0.wp.com/_static/??-eJyNkt1yAiEMhV+olFq1402nzxLYyEaBMITV8e2Frq1/HaY3kMOcLwkEfUzKciwYiw6TSn5yFEUfk+WgJJDH04N6tSIv+m/M0x5F77AksHv1rZ7sxrO71uE8wCDaeTbg/+elyAdUh/deIxk9FBxUYikPqodR3FKkctJlxFBvkiYzl+tBljPW85CgNEfAgQB95WPpYSF9/FAtHOuLdXubh2BMyiii6hpoCmpudOZIRy5UUfkNegkdsvJsoRDHO6G2Hij3n7dNpoZOV9eN7EFgW3ID+Rr17G1YcydaRsit1mXvUcKWwNerOL4XT9BlxOPq5vN9hc/FarNeLzeL5dvuDNVAK4A=" type="text/css" media="all">
+<script type="text/javascript" src="https://s0.wp.com/_static/??-eJyFj+sKwjAMhV/IrHib+kN8ltrFkdqbTevQpzcD/aEOhUDIyZfDiRoSUDCudsjKSl0q5tuzNZZn6hcAnvqsCzaewgs2MRQMZWR9PJJDqIxZ96KJ0SlOcCly8cgs0MT2PRKFK+HwF7NYkjZnyMh0/3L1FZKrPQVWGZ080MGY4WOSq4Pfz1dtu14sd5utfQAruHB+"></script>
+<link rel="stylesheet" id="all-css-0-2" href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://37thoughts.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="The words mean what they&nbsp;say…" href="https://37thoughts.wordpress.com/2012/04/11/the-words-mean-what-they-say/">
+<link rel="next" title="New Rules for the America Invents&nbsp;Act" href="https://37thoughts.wordpress.com/2013/02/14/new-rules-for-the-america-invents-act/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/">
+<link rel="shortlink" href="http://wp.me/pLRSp-69">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="New Federal Circuit Action in Novo Nordisk v. Caraco">
+<meta property="og:url" content="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/">
+<meta property="og:description" content="On April 17, 2012, the Supreme Court issued its opinion in Caraco v. Novo Nordisk, holding that “Congress has authorized a generic company to challenge a [brand manufacturer’s] use code…">
+<meta property="article:published_time" content="2012-05-23T15:42:49+00:00">
+<meta property="article:modified_time" content="2012-05-23T15:44:04+00:00">
+<meta property="og:site_name" content="37 Thoughts">
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:card" content="summary">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48">
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png">
+<link rel="openid.server" href="https://37thoughts.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://37thoughts.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://37thoughts.wordpress.com/osd.xml" title="37 Thoughts">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+		<style id="wpcom-hotfix-masterbar-style">
+			@media screen and (min-width: 783px) {
+				#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+					margin-top: 5px;
+				}
+			}
+		</style>
+		<script type="text/javascript" id="webfont-output">
+  
+  WebFontConfig = {"typekit":{"id":"dzr3tkq"}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><meta name="application-name" content="37 Thoughts"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Thoughts from Portland, OR on patents, copyrights, and trademarks"><meta name="msapplication-task" content="name=Subscribe;action-uri=https://37thoughts.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico"><meta name="title" content="New Federal Circuit Action in Novo Nordisk v.&nbsp;Caraco | 37 Thoughts on WordPress.com">
+<meta name="description" content="On April 17, 2012, the Supreme Court issued its opinion in Caraco v. Novo Nordisk, holding that &quot;Congress has authorized a generic company to challenge a [brand manufacturer's] use code's accuracy by bringing a counterclaim against the brand manufacturer in a patent infringement suit.&quot; &nbsp;In so holding, the Supreme Court reversed a&nbsp;Federal Circuit ruling&nbsp;from 2010,…">
+		<script type="text/javascript" src="//c.amazon-adsystem.com/aax2/amzn_ads.js"></script>
+		<script type="text/javascript">
+		try { amznads.getAds("3033"); } catch(e) { /* ignore */ }
+		</script>
+		<script type="text/javascript">
+		try {
+			var a9_p = amznads.getKeys(),
+			_ipw_custom = {
+				wordAds: '0',
+				adSafe: '0',
+				domain: '37thoughts.wordpress.com',
+				pageURL: 'https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/'
+			};
+			if("undefined"!=typeof a9_p&&""!=a9_p&&null!==a9_p&&"[object Array]"===Object.prototype.toString.call(a9_p)){var a="",b=0,c=a9_p.length;a9_p.sort();for(var d=0;d<c;d++){a9_p[d-b]=a9_p[d-b].replace(/a1x6p/,"a160x600p");var e=a9_p[d-b].split("p");e[0]==a&&(a9_p.splice(d-b,1),b++);a=e[0]}_ipw_custom.amznPay=a9_p};document.close();
+		} catch(e) {}
+		</script> 		<script type="text/javascript" src="https://static.criteo.net/js/ld/publishertag.js"></script>
+ 		<script type="text/javascript" src="//s.pubmine.com/head.js"></script>
+		<script type="text/javascript">
+		jQuery(window).ready(function () {
+			jQuery("a.wpa-about").text("Advertisements");
+		});
+		</script><link rel="amphtml" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script>
+<link rel="stylesheet" type="text/css" id="gravatar-card-css" href="https://0.gravatar.com/css/hovercard.css?ver=201705y"><style type="text/css">.tk-sorts-mill-goudy{font-family:"sorts-mill-goudy-1","sorts-mill-goudy-2",serif;}</style><style type="text/css">@font-face{font-family:sorts-mill-goudy-1;src:url(https://use.typekit.net/af/c445e5/00000000000000000000d755/27/l?subset_id=2&fvd=n5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("woff2"),url(https://use.typekit.net/af/c445e5/00000000000000000000d755/27/d?subset_id=2&fvd=n5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("woff"),url(https://use.typekit.net/af/c445e5/00000000000000000000d755/27/a?subset_id=2&fvd=n5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("opentype");font-weight:500;font-style:normal;}@font-face{font-family:sorts-mill-goudy-1;src:url(https://use.typekit.net/af/7120bf/00000000000000000000d756/27/l?subset_id=2&fvd=i5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("woff2"),url(https://use.typekit.net/af/7120bf/00000000000000000000d756/27/d?subset_id=2&fvd=i5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("woff"),url(https://use.typekit.net/af/7120bf/00000000000000000000d756/27/a?subset_id=2&fvd=i5&token=tK%2B81uQOoCvNwNe0mOU8Nu%2Bx6RzMI89If6IBhb0YwW39wYeegjo8w7K5eGz7BWM4vSktO%2Bo0%2Bl28hHwCym3zqQ%3D%3D) format("opentype");font-weight:500;font-style:italic;}</style><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="https://0.gravatar.com/css/services.css?ver=201705y"></head>
+
+<body class="single single-post postid-381 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light">
+<!-- wrap START -->
+<div id="wrap">
+
+<!-- container START -->
+<div id="container">
+
+<!-- header START -->
+<div id="header">
+
+	<!-- banner START -->
+		<!-- banner END -->
+
+	<div id="caption">
+		<h1 id="title"><a href="https://37thoughts.wordpress.com/">37 Thoughts</a></h1>
+		<div id="tagline">Thoughts from Portland, OR on patents, copyrights, and trademarks</div>
+	</div>
+
+	<div class="fixed"></div>
+</div>
+<!-- header END -->
+
+<!-- navigation START -->
+<div id="navigation">
+	<!-- menus START -->
+	<ul id="menus">
+	<li class="page_item"><a class="home" title="Home" href="https://37thoughts.wordpress.com/">Home</a></li>
+		<li><a class="lastmenu" href="javascript:void(0);"></a></li>
+</ul>
+
+	<!-- menus END -->
+
+	<!-- searchbox START -->
+	<div id="searchbox">
+		<form action="https://37thoughts.wordpress.com" method="get">
+			<div class="content">
+				<input type="text" class="textfield searchtip" name="s" size="24" value="">
+				<input type="submit" class="button" value="">
+			</div>
+		</form>
+	</div>
+<script type="text/javascript">
+//<![CDATA[
+	var searchbox = MGJS.$("searchbox");
+	var searchtxt = MGJS.getElementsByClassName("textfield", "input", searchbox)[0];
+	var searchbtn = MGJS.getElementsByClassName("button", "input", searchbox)[0];
+	var tiptext = "Type text to search here...";
+	if(searchtxt.value == "" || searchtxt.value == tiptext) {
+		searchtxt.className += " searchtip";
+		searchtxt.value = tiptext;
+	}
+	searchtxt.onfocus = function(e) {
+		if(searchtxt.value == tiptext) {
+			searchtxt.value = "";
+			searchtxt.className = searchtxt.className.replace(" searchtip", "");
+		}
+	}
+	searchtxt.onblur = function(e) {
+		if(searchtxt.value == "") {
+			searchtxt.className += " searchtip";
+			searchtxt.value = tiptext;
+		}
+	}
+	searchbtn.onclick = function(e) {
+		if(searchtxt.value == "" || searchtxt.value == tiptext) {
+			return false;
+		}
+	}
+//]]>
+</script>
+	<!-- searchbox END -->
+
+	<div class="fixed"></div>
+</div>
+<!-- navigation END -->
+
+<!-- content START -->
+<div id="content">
+
+	<!-- main START -->
+	<div id="main">
+
+
+	<div id="postpath">
+		<a title="Go to homepage" href="https://37thoughts.wordpress.com/">Home</a>
+		 &gt; <a href="https://37thoughts.wordpress.com/category/cafc/" rel="category tag">CAFC</a>, <a href="https://37thoughts.wordpress.com/category/hatch-waxman/" rel="category tag">Hatch-Waxman</a>, <a href="https://37thoughts.wordpress.com/category/supreme-court/" rel="category tag">Supreme Court</a>		 &gt; New Federal Circuit Action in Novo Nordisk v.&nbsp;Caraco	</div>
+
+	<div id="post-381" class="post-381 post type-post status-publish format-standard hentry category-cafc category-hatch-waxman category-supreme-court">
+		<h2>New Federal Circuit Action in Novo Nordisk v.&nbsp;Caraco</h2>
+		<div class="info">
+			<span class="date">May 23, 2012</span>
+			<span class="author"><a href="https://37thoughts.wordpress.com/author/37thoughts/" title="Posts by Bryan Beel" rel="author">Bryan Beel</a></span>										<span class="addcomment"><a href="#respond">Leave a comment</a></span>
+				<span class="comments"><a href="#comments">Go to comments</a></span>
+						<div class="fixed"></div>
+		</div>
+		<div class="content">
+			<p>On April 17, 2012, the Supreme Court <a href="http://scholar.google.com/scholar_case?case=6130306059465744559">issued its opinion</a> in <em>Caraco v. Novo Nordisk</em>, holding that “Congress has authorized a generic company to challenge a [brand manufacturer’s] use code’s accuracy by bringing a counterclaim against the brand manufacturer in a patent infringement suit.” &nbsp;In so holding, the Supreme Court reversed a&nbsp;<a href="http://scholar.google.com/scholar_case?case=12665575272697438480">Federal Circuit ruling</a>&nbsp;from 2010, which&nbsp;vacated an injunction of the lower court requiring the brand manufacturer to change its use code at the FDA. &nbsp;In that <a href="http://scholar.google.com/scholar_case?case=4229984110371523232">lower court ruling</a>, the Eastern District of Michigan entered the following injunction:</p>
+<blockquote><p>Novo Nordisk is hereby directed by mandatory injunction under 21 U.S.C. § 355(j)(5)(C)(ii)(1)(bb) to correct within twenty (20) days from the date of this Order and Injunction its inaccurate description of the ‘358 patent by submitting to FDA an amended Form FDA 3542 that reinstates its former U-546 listing for Prandin and describes claim 4 of the ‘358 patent in section 4.2b as covering the “use of repaglinide in combination with metformin to lower blood glucose.”</p></blockquote>
+<p>In light of the Supreme Court’s decision, Caraco on May 1 filed a motion at the Federal Circuit, seeking to have the Eastern District of Michigan’s injunction affirmed (text from the Federal Circuit’s docket):</p>
+<table width="660" border="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="top" width="100">5/1/2012</td>
+<td width="645"><strong>MOTION:&nbsp;</strong>Entry 85 :by Appellees – Motion to Affirm Injunction of the District Court pursuant to U.S. Supreme Court decision Reversing the Court’s Judgment.&nbsp;<strong>SERVICE :</strong>&nbsp;by Mail on 5/1/2012</td>
+</tr>
+</tbody>
+</table>
+<p>Today, the Federal Circuit entered an order [<a href="http://www.cafc.uscourts.gov/images/stories/opinions-orders/10-1001%20order.pdf">PDF</a>] giving <a href="www.novonordisk.com/">Novo Nordisk</a> until tomorrow to file its response to <a href="www.caraco.com/">Caraco’s</a> motion. &nbsp;The full text of the order reads:</p>
+<blockquote><p>Novo Nordisk A/S <em>et al.</em> (Novo Nordisk) move for an extension of time to respond to Caraco Pharmaceutical Laboratories, Ltd. et al. (Caraco)’s motion to affirm the injunction of the United States District Court for the Eastern District of Michigan. Caraco opposes. Novo Nordisk replies.</p>
+<p>The court notes that on April 17, 2012, the Supreme Court of the United States in <em>Caraco Pharm. Lab., Ltd. v. Novo Nordisk A/S</em>, 132 S. Ct. 1670 (2012) reversed the judgment of this court and remanded the case for further proceedings.</p>
+<p>Upon consideration thereof,</p>
+<p>IT IS ORDERED THAT:</p>
+<p>(1) This court’s opinion of April 14, 2010 is vacated, the mandate of this court issued on August 5, 2010 is recalled, and the appeal is reinstated.</p>
+<p>(2) The motion is granted to the extent that Novo Nordisk’s response is due May 24, 2012.</p></blockquote>
+<p>Should be interesting to see what comes of this in the near future.</p>
+		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<a class="wpa-about" href="https://en.support.wordpress.com/about-these-ads/" rel="nofollow">Advertisements</a>
+				        <div id="crt-238161078" style="width: 300px; height: 250px; display: none !important; visibility: hidden !important;"></div>
+        <script type="text/javascript">
+        var o = document.getElementById('crt-238161078');
+        if ("undefined"!=typeof Criteo) {
+            var p = o.parentNode;
+            p.style.setProperty('display', 'inline-block', 'important');
+            o.style.setProperty('display', 'block', 'important');
+            Criteo.DisplayAcceptableAdIfAdblocked({zoneid:388248,containerid:"crt-238161078",collapseContainerIfNotAdblocked:true,"callifnotadblocked": function () {var o = document.getElementById('crt-238161078'); o.style.setProperty('display','none','important');o.style.setProperty('visbility','hidden','important'); }
+        });
+        } else {
+            o.style.setProperty('display', 'none', 'important');
+            o.style.setProperty('visibility', 'hidden', 'important');
+        }
+        </script>
+				<div class="u">
+					<script type="text/javascript">
+					(function(g){if("undefined"!=typeof g.__ATA){g.__ATA.initAd({sectionId:26942, width:300, height:250});}})(window);
+					</script><div id="automattic-id-9202" data-section="26942" style="width:300px; height:250px;"><iframe width="300" height="250" style="border:none;width:300px;height:250px;" frameborder="0" scrolling="no" name="fif_slot_automattic-id-_automattic-id-9202" id="fif_slot_automattic-id-_automattic-id-9202" src="javascript:&quot;<html><body style='background:transparent;margin:0%;'></body></html>&quot;"></iframe></div>
+				</div>
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-381" class="share-twitter sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=twitter&amp;nb=1" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-381" class="share-facebook sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=facebook&amp;nb=1" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-381" class="share-google-plus-1 sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=google-plus-1&amp;nb=1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-reddit"><a rel="nofollow" data-shared="" class="share-reddit sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=reddit&amp;nb=1" target="_blank" title="Click to share on Reddit"><span>Reddit</span></a></li><li class="share-linkedin"><a rel="nofollow" data-shared="sharing-linkedin-381" class="share-linkedin sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=linkedin&amp;nb=1" target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span></a></li><li class="share-print"><a rel="nofollow" data-shared="" class="share-print sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/#print" target="_blank" title="Click to print"><span>Print</span></a></li><li class="share-email share-service-visible"><a rel="nofollow" data-shared="" class="share-email sd-button share-icon" href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/?share=email&amp;nb=1" target="_blank" title="Click to email"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded" id="like-post-wrapper-11408521-381-5894d5f024cc6" data-src="//widgets.wp.com/likes/#blog_id=11408521&amp;post_id=381&amp;origin=37thoughts.wordpress.com&amp;obj_id=11408521-381-5894d5f024cc6" data-name="like-post-frame-11408521-381-5894d5f024cc6"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px;"><span class="button"><span>Like</span></span> <span class="loading">Loading...</span></div><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="7" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://37thoughts.wordpress.com/2010/01/19/handicapping-bilski/" title="Handicapping Bilski v. Kappos
+
+Pending before the Supreme Court of the United States is the case of Bilski v. Kappos (formerly captioned In re Bilski&nbsp;[PDF]). Oral arguments were held late last fall, and now the patent world is waiting to hear the fate of the Federal Circuit's &quot;machine or transformation&quot; test for the scope…" rel="nofollow" data-origin="381" data-position="0">Handicapping Bilski v. Kappos</a></span><span class="jp-relatedposts-post-context">In "Bilski"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="61" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://37thoughts.wordpress.com/2010/02/18/a-welcome-vacation/" title="A Welcome Vacation at the Federal Circuit
+
+Yesterday, the Court of Appeals for the Federal Circuit vacated its decision of August 11, 2009 in Hyatt v. Doll&nbsp;(now Hyatt v. Kappos).&nbsp;&nbsp;That decision&nbsp;determined the extent to which evidence not presented to the Patent and Trademark Office could be used in a district court review under 35 USC Sec. 145.&nbsp;…" rel="nofollow" data-origin="381" data-position="1">A Welcome Vacation at the Federal Circuit</a></span><span class="jp-relatedposts-post-context">In "CAFC"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="105" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://37thoughts.wordpress.com/2010/02/25/ill-will-toward-cybor/" title="Ill Will Toward Cybor?
+
+Today, the Federal Circuit decided Trading Techs. Int’l, Inc. v. eSpeed, Inc. [TTI v eSpeed&nbsp;(PDF)], in which the Court broadly affirmed the holdings of the district court regarding infringement of patents directed to commodity trading software.&nbsp; Thus, the court approved of the district court’s holdings of infringement as to one…" rel="nofollow" data-origin="381" data-position="2">Ill Will Toward Cybor?</a></span><span class="jp-relatedposts-post-context">In "CAFC"</span></p></div></div></div>						<div class="fixed"></div>
+		</div>
+		<div class="under">
+			<span><span class="categories">Categories: </span><a href="https://37thoughts.wordpress.com/category/cafc/" rel="category tag">CAFC</a>, <a href="https://37thoughts.wordpress.com/category/hatch-waxman/" rel="category tag">Hatch-Waxman</a>, <a href="https://37thoughts.wordpress.com/category/supreme-court/" rel="category tag">Supreme Court</a></span>
+			<span></span>
+		</div>
+		<div class="fixed"></div>
+	</div>
+
+	
+
+<script type="text/javascript" src="https://s0.wp.com/wp-content/themes/pub/inove/js/comment.js?1"></script>
+
+<div id="comments">
+
+	
+		<div id="cmtswitcher">
+										<a id="commenttab" class="curtab" href="javascript:void(0);" onclick="MGJS.switchTab('thecomments,commentnavi', 'thetrackbacks', 'commenttab', 'curtab', 'trackbacktab', 'tab');">
+					Comments (0)				</a>
+				<a id="trackbacktab" class="tab" href="javascript:void(0);" onclick="MGJS.switchTab('thetrackbacks', 'thecomments,commentnavi', 'trackbacktab', 'curtab', 'commenttab', 'tab');">
+					Trackbacks (0)				</a>
+			
+							<span class="addcomment"><a href="#respond">Leave a comment</a></span>
+			
+							<span class="addtrackback"><a href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/trackback/">Trackback</a></span>
+					</div><!-- #cmtswitcher -->
+
+		<div id="commentlist">
+
+			<!-- Comments -->
+			<ol id="thecomments">
+							<li class="messagebox">
+					No comments yet.				</li>
+						</ol><!-- #thecomments -->
+
+			
+			<!-- Trackbacks and Pingbacks -->
+			<ol id="thetrackbacks">
+									<li class="messagebox">
+						No trackbacks yet.					</li>
+							</ol><!-- #thetrackbacks -->
+
+		</div><!-- #commentlist -->
+	
+
+				<div id="respond" class="comment-respond js">
+			<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/#respond" style="display:none;">Cancel reply</a></small></h3>				<form action="https://37thoughts.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+					<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="a464a60a8a"><input type="hidden" name="_wp_http_referer" value="/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; -webkit-transition: none; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none; word-spacing: 0px; text-indent: 0px; line-height: normal; width: 563px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Enter your comment here..." placeholder="Enter your comment here..." style="height: 36px; overflow: hidden; word-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2F37thoughts.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="381" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9cb69c5f43"></p>
+<input type="hidden" name="genseq" value="1486149104">
+<p style="display: none;"></p>				<input type="hidden" id="ak_js" name="ak_js" value="1486149105299"></form>
+					</div><!-- #respond -->
+		<div style="clear: both"></div>
+</div><!-- #comments -->
+
+	<div id="postnavi">
+		<span class="prev"><a href="https://37thoughts.wordpress.com/2013/02/14/new-rules-for-the-america-invents-act/" rel="next">New Rules for the America Invents&nbsp;Act</a></span>
+		<span class="next"><a href="https://37thoughts.wordpress.com/2012/04/11/the-words-mean-what-they-say/" rel="prev">The words mean what they&nbsp;say…</a></span>
+		<div class="fixed"></div>
+	</div>
+
+
+	</div>
+	<!-- main END -->
+
+	
+<!-- sidebar START -->
+<div id="sidebar">
+
+<!-- sidebar north START -->
+<div id="northsidebar" class="sidebar">
+
+	<!-- feeds -->
+	<div class="widget widget_feeds">
+		<div class="content">
+			<div id="subscribe-feeds"><a rel="external nofollow" id="feedrss" title="Subscribe to this blog..." href="https://37thoughts.wordpress.com/feed/"><abbr title="Really Simple Syndication">RSS</abbr> feed</a><ul id="feed_readers" style="visibility: hidden; display: block;"><li id="google_reader"><a rel="external nofollow" class="reader" title="Subscribe with Google" href="http://fusion.google.com/add?feedurl=https://37thoughts.wordpress.com/feed/"><span>Google</span></a></li><li id="youdao_reader"><a rel="external nofollow" class="reader" title="Subscribe with Youdao" href="http://reader.youdao.com/#url=https://37thoughts.wordpress.com/feed/"><span>Youdao</span></a></li><li id="xianguo_reader"><a rel="external nofollow" class="reader" title="Subscribe with Xian Guo" href="http://www.xianguo.com/subscribe.php?url=https://37thoughts.wordpress.com/feed/"><span>Xian Guo</span></a></li><li id="zhuaxia_reader"><a rel="external nofollow" class="reader" title="Subscribe with Zhua Xia" href="http://www.zhuaxia.com/add_channel.php?url=https://37thoughts.wordpress.com/feed/"><span>Zhua Xia</span></a></li><li id="yahoo_reader"><a rel="external nofollow" class="reader" title="Subscribe with My Yahoo!" href="http://add.my.yahoo.com/rss?url=https://37thoughts.wordpress.com/feed/"><span>My Yahoo!</span></a></li><li id="newsgator_reader"><a rel="external nofollow" class="reader" title="Subscribe with newsgator" href="http://www.newsgator.com/ngs/subscriber/subfext.aspx?url=https://37thoughts.wordpress.com/feed/"><span>newsgator</span></a></li><li id="bloglines_reader"><a rel="external nofollow" class="reader" title="Subscribe with Bloglines" href="http://www.bloglines.com/sub/https://37thoughts.wordpress.com/feed/"><span>Bloglines</span></a></li><li id="inezha_reader"><a rel="external nofollow" class="reader last" title="Subscribe with iNezha" href="http://inezha.com/add?url=https://37thoughts.wordpress.com/feed/"><span>iNezha</span></a></li></ul></div>
+
+			<!-- twitter -->
+			
+			<div class="fixed"></div>
+		</div>
+	</div>
+
+	<!-- showcase -->
+	
+<div id="text-3" class="widget widget_text"><h3>Disclaimer</h3>			<div class="textwidget"><p>PLEASE NOTE: Nothing in this blog constitutes legal advice.  As Scott Greenfield stated so eloquently: This blog is free.  Legal advice you have to pay for.</p>
+<p>Enjoy your stay, and please visit again soon.</p>
+</div>
+		</div><div id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>May 2012</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Sunday">S</th>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://37thoughts.wordpress.com/2012/04/">« Apr</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next"><a href="https://37thoughts.wordpress.com/2013/02/">Feb »</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+	</tr>
+	<tr>
+		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+	</tr>
+	<tr>
+		<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+	</tr>
+	<tr>
+		<td>20</td><td>21</td><td>22</td><td><a href="https://37thoughts.wordpress.com/2012/05/23/" aria-label="Posts published on May 23, 2012">23</a></td><td>24</td><td>25</td><td>26</td>
+	</tr>
+	<tr>
+		<td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+		<td class="pad" colspan="2">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div id="search-3" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://37thoughts.wordpress.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Search">
+				</div>
+			</form></div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h3>Recent Posts</h3>		<ul>
+					<li>
+				<a href="https://37thoughts.wordpress.com/2013/02/14/new-rules-for-the-america-invents-act/">New Rules for the America Invents&nbsp;Act</a>
+						</li>
+					<li>
+				<a href="https://37thoughts.wordpress.com/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/">New Federal Circuit Action in Novo Nordisk v.&nbsp;Caraco</a>
+						</li>
+					<li>
+				<a href="https://37thoughts.wordpress.com/2012/04/11/the-words-mean-what-they-say/">The words mean what they&nbsp;say…</a>
+						</li>
+					<li>
+				<a href="https://37thoughts.wordpress.com/2012/03/20/mayo-v-prometheus/">Mayo Collaborative Services v. Prometheus Laboratories: Supreme Court Limits the Scope of Patent Claims to Diagnostic&nbsp;Methods</a>
+						</li>
+					<li>
+				<a href="https://37thoughts.wordpress.com/2012/02/28/santorum-romney-gingrich-and-1000-others-on-the-hook-for-patent-infringement/">Santorum, Romney, Gingrich, and 1000 others on the hook for patent&nbsp;infringement?</a>
+						</li>
+				</ul>
+		</div>		<div id="linkcat-33286786" class="widget widget_links"><h3>Another Beel Blog</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://danbeel.wordpress.com/" title="Dan Beel’s banking blog">…take that to the bank. (Dan Beel)</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-10530544" class="widget widget_links"><h3>Intellectual Property Blogs</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://271patent.blogspot.com">271 Patent Blog (Peter Zura)</a></li>
+<li><a href="http://www.717madisonplace.com/" target="_blank">717 Madison Place (Bill Vobach)</a></li>
+<li><a href="http://allthingspros.blogspot.com/">All Things Pros (Karen Hazzah)</a></li>
+<li><a href="http://anticipatethis.wordpress.com">Anticipate This! (Jake Ward)</a></li>
+<li><a href="http://www.chicagoiplitigation.com">Chicago IP Litigation Blog (R. David Donoghue)</a></li>
+<li><a href="http://ip-updates.blogspot.com/index.html">I/P Updates (Bill Heinze)</a></li>
+<li><a href="http://ipassetmaximizerblog.com">IP Asset Maximizer Blog (Jackie Hutter)</a></li>
+<li><a href="http://www.iplitigationupdate.com/" title="Where I blog at my day job." target="_blank">IP Litigation Update</a></li>
+<li><a href="http://www.ipwatchdog.com/">IP Watchdog (Gene Quinn)</a></li>
+<li><a href="http://just-n-examiner.livejournal.com/">Just a Patent Examiner (anonymous)</a></li>
+<li><a href="http://likelihoodofconfusion.com">Likelihood of Confusion (Ron Coleman)</a></li>
+<li><a href="http://www.patentbaristas.com/" target="_blank">Patent Baristas (Stephen Albainy-Jenei)</a></li>
+<li><a href="http://patentdocs.typepad.com/patent_docs/" target="_blank">Patent Docs (Donald Zuhn/Kevin Noonan)</a></li>
+<li><a href="http://www.patentlyo.com/" target="_blank">PatentlyO (Dennis Crouch)</a></li>
+<li><a href="http://www.iskraip.com/presumptionofvalidity" target="_blank">Presumption of Validity (IskraIP)</a></li>
+<li><a href="http://promotetheprogress.com/" target="_blank">Promote the Progress (J. Matt Buchanan)</a></li>
+<li><a href="http://inventblog.com/" target="_blank">The Invent Blog (Stephen Nipper)</a></li>
+<li><a href="http://www.patenthawk.com/blog/">The Patent Prospector (Gary Odom)</a></li>
+<li><a href="http://schwimmerlegal.com/">The Trademark Blog (Marty Schwimmer)</a></li>
+<li><a href="http://thettablog.blogspot.com/index.html">The TTABlog (John Welch)</a></li>
+<li><a href="http://www.wapatents.com/" target="_blank">WA State Patent Law Blog (Mark Walters)</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-32059615" class="widget widget_links"><h3>IP News and Information</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://www.uspto.gov/blog/">Director’s Forum: David Kappos’ Public Blog</a></li>
+<li><a href="http://www.ipcolloquium.com/current.html" target="_blank">IP Colloquium (Doug Lichtman)</a></li>
+<li><a href="http://news.priorsmart.com/" target="_blank">PriorSmart patent news</a></li>
+<li><a href="http://www.sumobrain.com">SumoBrain (patent searching)</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-1465874" class="widget widget_links"><h3>Other Legal Blogs</h3>
+	<ul class="xoxo blogroll">
+<li><a href="http://imualaw.com/articles">Imua Legal Advisors (John Grant)</a></li>
+<li><a href="http://blog.simplejustice.us/" target="_blank">Simple Justice (Scott Greenfield)</a></li>
+
+	</ul>
+</div>
+<div id="meta-3" class="widget widget_meta"><h3>Admin</h3>			<ul>
+			<li><a href="https://wordpress.com/start?ref=wplogin">Register</a></li>			<li><a href="https://37thoughts.wordpress.com/wp-login.php">Log in</a></li>
+			<li><a href="https://37thoughts.wordpress.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://37thoughts.wordpress.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://wordpress.com/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.com</a></li>			</ul>
+			</div>	</div>
+</div>
+<!-- sidebar END -->
+	<div class="fixed"></div>
+</div>
+<!-- content END -->
+
+<!-- footer START -->
+<div id="footer">
+	<a id="gotop" href="#" onclick="MGJS.goTop();return false;">Top</a>
+	<div id="themeinfo">
+		<a href="https://wordpress.com/?ref=footer_website">Create a free website or blog at WordPress.com.</a> 	</div>
+</div>
+<!-- footer END -->
+
+</div>
+<!-- container END -->
+</div>
+<!-- wrap END -->
+
+<!--  -->
+<script type="text/javascript" src="//0.gravatar.com/js/gprofiles.js?ver=201705y"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/37thoughts.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/37thoughts.wordpress.com\/wp-login.php?action=logout&_wpnonce=65d02eb497","homeURL":"https:\/\/37thoughts.wordpress.com\/","postID":"381","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j"></script>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/37thoughts.wordpress.com\/2012\/05\/23\/new-federal-circuit-action-in-novo-nordisk-v-caraco\/":381};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		</script>
+			
+<script type="text/javascript" src="https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"11408521","siteName":"37 Thoughts","siteURL":"http:\/\/37thoughts.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/inove","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/37thoughts.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F","themeURL":"","xhrURL":"https:\/\/37thoughts.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"df68fd1534","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"ba100232f9\" \/>","referer":"https:\/\/37thoughts.wordpress.com\/2012\/05\/23\/new-federal-circuit-action-in-novo-nordisk-v-caraco\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/37thoughts.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F","postID":"381","shortlink":"http:\/\/wp.me\/pLRSp-69","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/37thoughts.wordpress.com\/381","statsLink":"https:\/\/wordpress.com\/stats\/post\/381\/37thoughts.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: INove","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/37thoughts.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s2.wp.com/_static/??-eJx9jEESwiAMRS8kzTgWx43jWRBimwoBA1S9vXTRjquu8ifv/wfvpGzkglxgyuBwJovp0035AH8oVJV8HYgzeHpihlfFiqNh51HWMrH11TXYRDaG0IZKMPlvF4h3jMY1ru5GIJhcUFpScUYRWmTbb89gC0VeDFvaaaeYi3p4QwJ5NEI8rLeNbuF67C9a9/35pKcf/wlq+A=="></script><div id="actionbar" class="actnbr-pub-inove actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename"><a href="http://37thoughts.wordpress.com"><img alt="" src="https://s1.wp.com/i/logo/wpcom-gray-white.png" class="avatar avatar-50" height="50" width="50"> 37 Thoughts</a></li> 				   	<li class="actnbr-folded-customize"><a href="https://37thoughts.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Customize<span></span></span></a></li> 				    <li class="actnbr-folded-follow"><a class="actnbr-action actnbr-actn-follow" href=""><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Follow</span></a></li> 						<li class="actnbr-signup"><a href="https://wordpress.com/start/">Sign up</a></li> 				    <li class="actnbr-login"><a href="https://37thoughts.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2F37thoughts.wordpress.com%2F2012%2F05%2F23%2Fnew-federal-circuit-action-in-novo-nordisk-v-caraco%2F">Log in</a></li> 				     				    <li class="actnbr-shortlink"><a href="http://wp.me/pLRSp-69">Copy shortlink</a></li> 				    <li class="flb-report"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs"><a href="https://subscribe.wordpress.com/">Manage subscriptions</a></li> 				    <li class="actnbr-fold"><a href="">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "37thoughts.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src="https://widgets.wp.com/likes/master.html?ver=20160429#ver=20160429" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			&lt;p class="robots-nocontent"&gt;&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=7518284&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cv=2.0&amp;cj=1" alt="" style="display:none;" width="1" height="1" /&gt;&lt;/p&gt;
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'11408521','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'11408521','v':'wpcom','tz':'-8','user_id':'0','post':'381','subd':'37thoughts'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRREQ/V0xPZ1hKXy8ufHEzcCs9QXZ5eDRwWz1heHFpc1krOEVTUW9PeERXLWhBV2k0a19wW3ZNUlcmaXl3PVNUNF1NMWlWYUlOTkYuSCZtL1glbFtXZ29vLlk/T2tFSVlNeWNmQTZbaGxMaTJTM3xwUSU4dn45U3pGRGRmT2JrcWU9cnl8d1BUP218Mnw1PX55aT1Xc3osWzguLixETyt4aDddNlJOYWZza2ktMU9lZCV2K1NJdmlOUVQ5eCxieCVt'}]);
+_stq.push([ 'clickTrackerInit', '11408521', '381' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+<div id="sharing_email" style="display: none;">
+		<form action="/2012/05/23/new-federal-circuit-action-in-novo-nordisk-v-caraco/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="">
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="">
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="">
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off">
+			<script> document.getElementById('jetpack-source_f_name').value = ''; </script>
+			<div class="recaptcha" id="sharing_recaptcha"></div><input type="hidden" name="recaptcha_public_key" id="recaptcha_public_key" value="6LcYW8MSAAAAADBAuEH9yaPcF7lWh11Iq62ZKtoo">
+			<img style="float: right; display: none" class="loading" src="https://s2.wp.com/wp-content/mu-plugins/post-flair/sharing/images/loading.gif" alt="loading" width="16" height="16">
+			<input type="submit" value="Send Email" class="sharing_send">
+			<a rel="nofollow" href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div><iframe height="0" width="0" name="automattic-passback-receiver" src="//s.pubmine.com/passback.html#https://37thoughts.wordpress.com" style="position: absolute; left: -1000px; top: -1000px; border: 0px solid; width: 0px; height: 0px;"></iframe></body></html>

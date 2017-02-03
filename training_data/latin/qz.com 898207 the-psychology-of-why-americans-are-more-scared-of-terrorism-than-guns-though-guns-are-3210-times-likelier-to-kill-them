@@ -1,0 +1,615 @@
+<!DOCTYPE html><html dir="ltr" lang="en-US" class=" has-mask"><head>
+		<!--
+		 ______         __  __       ________       ______        _________       ______     
+		/_____/\       /_/\/_/\     /_______/\     /_____/\      /________/\     /_____/\    
+		\:::_ \ \      \:\ \:\ \    \::: _  \ \    \:::_ \ \     \__.::.__\/     \:::__\/    
+		 \:\ \ \ \_     \:\ \:\ \    \::(_)  \ \    \:(_) ) )_      \::\ \          /: /     
+		  \:\ \ /_ \     \:\ \:\ \    \:: __  \ \    \: __ `\ \      \::\ \        /::/___   
+		   \:\_-  \ \     \:\_\:\ \    \:.\ \  \ \    \ \ `\ \ \      \::\ \      /_:/____/\ 
+		    \___|\_\_/     \_____\/     \__\/\__\/     \_\/ \_\/       \__\/      \_______\/
+
+		!-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+		<meta name="apple-mobile-web-app-title" content="Quartz">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="robots" content="noodp,noydir">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="bitly-verification" content="3cc1017cee1d">
+		<meta name="theme-color" content="#000000">
+		<title>The psychology of why Americans are more scared of terrorism than guns, though guns are 3,210 times likelier to kill them — Quartz</title>
+
+		<script src="https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&amp;correlator=4312197685575680&amp;output=json_html&amp;callback=googletag.impl.pubads.callbackProxy1&amp;impl=fif&amp;eid=108809080&amp;sc=1&amp;sfv=1-0-5&amp;iu=%2F56091333%2Fqz&amp;sz=1600x520&amp;scp=wpid%3D898207%26entryObsession%3Damerica-first%26obsession%3Damerica-first%26topic%3Dhealth-and-human-behavior-t%26tags%3Davailability-bias%2Cban-immigrants%2Cboston-bombings%2Cdonald-trump%2Cexecutive-order%2Cfamiliar-and-unfamiliar%2Cmuslim%2Cpsychology%2Cseven-countries%26peer39%3D9389%2C9593%2C9736%2C19680%2C18899%2C13793%2C9545%2C9357%2C9391%2C9670%2C9524%2C9474%2C9521%2C9506%2C9504%2C9522%2C9519%2C9507%2C9369%2C9684%2C9691%26renderedLineItems%3D%26edition%3Dglobal%26screen%3Ddesktop&amp;cookie_enabled=1&amp;lmt=1486167623&amp;dt=1486149742767&amp;cc=14&amp;ea=0&amp;frm=20&amp;biw=1920&amp;bih=1080&amp;oid=3&amp;adx=160&amp;ady=0&amp;adk=2929413395&amp;gut=v2&amp;ifi=1&amp;u_tz=-300&amp;u_his=1&amp;u_h=768&amp;u_w=1024&amp;u_ah=768&amp;u_aw=1024&amp;u_cd=32&amp;u_sd=1&amp;flash=0&amp;url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&amp;dssz=110&amp;icsg=0&amp;vrg=108&amp;vrp=108&amp;ga_vid=489598996.1486149743&amp;ga_sid=1486149743&amp;ga_hid=154924183"></script><script async="" src="https://connect.facebook.net/en_US/fbds.js"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script type="text/javascript" async="" src="https://sjs.bizographics.com/insight.min.js"></script><script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>
+			var currentDomain = "qz.com";
+			var currentPath = "https://app.qz.com";
+						window.QZ = {
+				bootstrap: {},
+				env: { screen: 'desktop' },
+				edition: 'global',
+				version: '4.0.639'
+			};
+
+			(function(){
+				var el = document.createElement('div');
+				if( typeof(el.style['mask-image']) !== 'undefined' || typeof(el.style['-webkit-mask-image']) !== 'undefined' ) {
+					document.documentElement.className += ' has-mask';
+				}
+			})();
+			
+		</script>
+
+        			<link rel="stylesheet" href="https://app.qz.com/css/styles-min.4.0.639.css">
+        
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://app.qz.com/img/icons/touch_144.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://app.qz.com/img/icons/touch_114.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://app.qz.com/img/icons/touch_72.png">
+		<link rel="apple-touch-icon-precomposed" href="https://app.qz.com/img/icons/touch.png">
+		<link rel="logo" type="image/svg" href="https://app.qz.com/img/logo/quartz.svg">
+		<link rel="shortcut icon" href="https://app.qz.com/img/icons/favicon.ico">
+		<link rel="stylesheet" type="text/css" media="print" href="https://app.qz.com/css/print.css">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-768x1004.png" media="(device-width: 768px) and (orientation: portrait) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-768x1004-landscape.png" media="(device-width: 768px) and (orientation: landscape) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-1536x2008.png" media="(device-width: 768px) and (orientation: portrait) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<link href="https://app.qz.com/img/apple/touch-startup-image-1536x2008-landscape.png" media="(device-width: 768px) and (orientation: landscape) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+		<meta name="google-site-verification" content="Fm_AozADu13Rytwyc4XvQo_081WOanaXLa6xKd8dUgc">
+<meta name="msvalidate.01" content="4B2AFFFDBF9736993D778515CB307FAF">
+<meta name="description" content="According to the New America Foundation, jihadists killed 94 people inside the United States between 2005 and 2015. During that same time period, 301,797 people in the US were shot dead, Politifact reports. At first blush, these numbers might seem to indicate that Donald Trump's temporary ban on immigrants from seven countries—a goal he said...">
+<meta name="author" content="Jenny Anderson">
+<meta name="news_keywords" content="availability bias, ban immigrants, boston bombings, Donald Trump, executive order, familiar and unfamiliar, Muslim, psychology, seven countries">
+<meta property="og:title" content="The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=1600">
+<meta property="og:url" content="https://qz.com/898207/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them/">
+<meta property="og:description" content="In 2016, Americans' #1 fear was “corruption of government officials,” followed by terrorist attacks. Gun violence didn't make the top 10.">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Quartz">
+<meta property="article:publisher" content="https://www.facebook.com/quartznews">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns">
+<meta property="twitter:image" content="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=800&amp;h=400&amp;crop=1">
+<meta property="twitter:url" content="https://qz.com/898207/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them/">
+<meta property="twitter:description" content="In 2016, Americans' #1 fear was “corruption of government officials,” followed by terrorist attacks. Gun violence didn't make the top 10.">
+<meta property="twitter:site" content="@qz">
+<meta property="twitter:creator" content="@jandersonQZ">
+<link rel="shortlink" href="https://qz.com/898207"><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","name":"The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns","headline":"The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns","alternativeHeadline":"In 2016, Americans' #1 fear was \u201ccorruption of government officials,\u201d followed by terrorist attacks.","description":"In 2016, Americans' #1 fear was \u201ccorruption of government officials,\u201d followed by terrorist attacks. Gun violence didn't make the top 10.","url":"https:\/\/qz.com\/898207\/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them\/","author":{"@type":"Person","name":"Jenny Anderson","url":"https:\/\/qz.com\/author\/jandersonqz\/","sameAs":["https:\/\/twitter.com\/jandersonQZ"]},"creator":["Jenny Anderson"],"dateCreated":"2017-01-31T06:06:14+00:00","datePublished":"2017-01-31T06:06:14+00:00","image":"https:\/\/qzprod.files.wordpress.com\/2017\/01\/rtr2r5qg.jpg?quality=80&strip=all&w=1024","thumbnailUrl":"https:\/\/qzprod.files.wordpress.com\/2017\/01\/rtr2r5qg.jpg?quality=80&strip=all","articleSection":"global","keywords":["availability bias","ban immigrants","boston bombings","Donald Trump","executive order","familiar and unfamiliar","Muslim","psychology","seven countries"],"inLanguage":"en-us","publisher":{"@type":"Organization","name":"Quartz","logo":"https:\/\/app.qz.com\/img\/logo\/quartz.svg","sameAs":["https:\/\/en.wikipedia.org\/wiki\/Quartz_(publication)","https:\/\/www.facebook.com\/quartznews","https:\/\/twitter.com\/qz"],"url":"https:\/\/qz.com","member":[{"@type":"Person","name":"Kevin J. Delaney","jobTitle":"CEO"}],"memberOf":{"@type":"Corporation","name":"Atlantic Media","founder":{"@type":"Person","name":"David G. Bradley"}},"location":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY"}}}</script>		<script src="https://r-login.wordpress.com/remote-login.php?action=js&amp;host=qz.com&amp;id=39587363&amp;t=1486149623&amp;back=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F%3Futm_source%3Dpocket%26utm_medium%3Demail%26utm_campaign%3Dpockethits" type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel="dns-prefetch" href="//s2.wp.com">
+<link rel="dns-prefetch" href="//s1.wp.com">
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//qzprod.wordpress.com">
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1473172720h&amp;ver=4.6.1-RC1-38499" type="text/javascript"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="all-css-0-1" href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h&amp;cssminify=yes" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-2-1" href="https://s1.wp.com/_static/??-eJx9jM0KAjEMhF/IGhbi30F8lraEdrVpw6ZlX3+jXgTFyzAzfDOwioutdqodeDgpI81VgeVoNYvvL5t9fOg+qu7gN7+K0S4EWUjVmfI82PVMTH93C4XSktkERn3Er9H7CzJCKi348gRufJ3wcEE8nya8b0vESm8=?cssminify=yes" type="text/css" media="all">
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJyF0NsKwjAMBuAXsiuepl6Iz9LV35G6Hmxahz69FSYiVIVAIPkISeQYBDk95CNYmhKXjHibUmN4Jn8BYamPKqGx5F5Ye5fg0tNa39EAkRlR9aVWBp18xQXPyYK5oEr3cyVyV8L4lxmkoPRZRDDdUTuEw3vn7x+Y1MHu56u2XS+Wu83WPACvA3MG"></script><style type="text/css"></style>
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://qz.com/898207/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them/">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&amp;for=wpcom-auto-discovery"><link rel="openid.server" href="https://qzprod.wordpress.com/?openidserver=1">
+<link rel="openid.delegate" href="https://qzprod.wordpress.com/">
+<link rel="search" type="application/opensearchdescription+xml" href="https://qz.com/osd.xml" title="Quartz">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta name="application-name" content="Quartz"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="Quartz is a digitally native news outlet for the new global economy."><meta name="msapplication-task" content="name=Subscribe;action-uri=https://qz.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/7fd9e2ee486de5ce0c713891ec823ea6?s=16"><style type="text/css" id="syntaxhighlighteranchor"></style>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="app" src="https://app.qz.com/dist/4.0.639/js/app.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://app.qz.com/dist/4.0.639/js/vendor/jQuery-shim.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="https://app.qz.com/dist/4.0.639/js/libs/underscore.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backbone" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="marionette" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.marionette.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="config" src="https://app.qz.com/dist/4.0.639/js/misc/config.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="router" src="https://app.qz.com/dist/4.0.639/js/router.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controller" src="https://app.qz.com/dist/4.0.639/js/controller.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/ads" src="https://app.qz.com/dist/4.0.639/js/modules/ads.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/frameMessagerParent" src="https://app.qz.com/dist/4.0.639/js/modules/frameMessagerParent.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/utils" src="https://app.qz.com/dist/4.0.639/js/modules/utils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/chyron" src="https://app.qz.com/dist/4.0.639/js/modules/chyron.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/titles" src="https://app.qz.com/dist/4.0.639/js/modules/titles.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/user" src="https://app.qz.com/dist/4.0.639/js/modules/user.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/stats" src="https://app.qz.com/dist/4.0.639/js/modules/stats.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/images" src="https://app.qz.com/dist/4.0.639/js/modules/images.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/root" src="https://app.qz.com/dist/4.0.639/js/views/root.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cache" src="https://app.qz.com/dist/4.0.639/js/libs/backbone.fetch-cache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="env" src="https://app.qz.com/dist/4.0.639/js/misc/env.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lang" src="https://app.qz.com/dist/4.0.639/js/misc/lang.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="collections/base" src="https://app.qz.com/dist/4.0.639/js/collections/base.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/kix" src="https://app.qz.com/dist/4.0.639/js/modules/kix.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="frameMessager" src="https://app.qz.com/dist/4.0.639/js/libs/frameMessager.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/article" src="https://app.qz.com/dist/4.0.639/js/models/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/edition-message" src="https://app.qz.com/dist/4.0.639/js/models/edition-message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/message" src="https://app.qz.com/dist/4.0.639/js/views/messages/message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/edition" src="https://app.qz.com/dist/4.0.639/js/views/messages/edition.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/facebook" src="https://app.qz.com/dist/4.0.639/js/views/messages/facebook.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/messages/daily-brief" src="https://app.qz.com/dist/4.0.639/js/views/messages/daily-brief.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="cookie" src="https://app.qz.com/dist/4.0.639/js/libs/js.cookie.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-layout" src="https://app.qz.com/dist/4.0.639/js/views/base-layout.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/header" src="https://app.qz.com/dist/4.0.639/js/views/header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="models/header-view-model" src="https://app.qz.com/dist/4.0.639/js/models/header-view-model.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/settings-nav" src="https://app.qz.com/dist/4.0.639/js/views/settings-nav.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/tab-bar" src="https://app.qz.com/dist/4.0.639/js/views/tab-bar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="misc/tracking" src="https://app.qz.com/dist/4.0.639/js/misc/tracking.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/omniture" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/omniture.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/chartbeat" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/chartbeat.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/comscore" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/comscore.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/bizo" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/bizo.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/simplereach" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/simplereach.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/parsely" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/parsely.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/tracking/keen" src="https://app.qz.com/dist/4.0.639/js/modules/tracking/keen.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modules/ab-testing" src="https://app.qz.com/dist/4.0.639/js/modules/ab-testing.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_108.js" async=""></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/message" src="https://app.qz.com/dist/4.0.639/js/templates/message.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/search-input" src="https://app.qz.com/dist/4.0.639/js/views/search-input.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-item" src="https://app.qz.com/dist/4.0.639/js/views/base-item.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="omnitureConfig" src="https://app.qz.com/dist/4.0.639/js/libs/omniture.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="keen" src="https://app.qz.com/dist/4.0.639/js/libs/keen.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-region" src="https://app.qz.com/dist/4.0.639/js/views/base-region.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/search-input" src="https://app.qz.com/dist/4.0.639/js/templates/search-input.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/content" src="https://app.qz.com/dist/4.0.639/js/views/content.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/content" src="https://app.qz.com/dist/4.0.639/js/templates/content.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-term-header" src="https://app.qz.com/dist/4.0.639/js/views/queue-term-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-author-header" src="https://app.qz.com/dist/4.0.639/js/views/queue-author-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/headers/obsessions-header" src="https://app.qz.com/dist/4.0.639/js/views/headers/obsessions-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/obsessions" src="https://app.qz.com/dist/4.0.639/js/views/obsessions.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue" src="https://app.qz.com/dist/4.0.639/js/views/queue.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/well" src="https://app.qz.com/dist/4.0.639/js/views/well.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/term-header" src="https://app.qz.com/dist/4.0.639/js/templates/term-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/author-header" src="https://app.qz.com/dist/4.0.639/js/templates/author-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/obsessions-header" src="https://app.qz.com/dist/4.0.639/js/templates/obsessions-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/base-collection" src="https://app.qz.com/dist/4.0.639/js/views/base-collection.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/headers/article-obsession-header" src="https://app.qz.com/dist/4.0.639/js/views/headers/article-obsession-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/scroll" src="https://app.qz.com/dist/4.0.639/js/views/scroll.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/queue-article" src="https://app.qz.com/dist/4.0.639/js/views/queue-article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/article" src="https://app.qz.com/dist/4.0.639/js/views/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/article-mobile" src="https://app.qz.com/dist/4.0.639/js/views/article-mobile.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-obsession-header" src="https://app.qz.com/dist/4.0.639/js/templates/article-obsession-header.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/queue-article" src="https://app.qz.com/dist/4.0.639/js/templates/queue-article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article" src="https://app.qz.com/dist/4.0.639/js/templates/article.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-meta" src="https://app.qz.com/dist/4.0.639/js/templates/article-meta.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-hero" src="https://app.qz.com/dist/4.0.639/js/templates/article-hero.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-share" src="https://app.qz.com/dist/4.0.639/js/templates/article-share.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/article-footnote" src="https://app.qz.com/dist/4.0.639/js/templates/article-footnote.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/modules/popular" src="https://app.qz.com/dist/4.0.639/js/views/modules/popular.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="behaviors/article-tracking" src="https://app.qz.com/dist/4.0.639/js/behaviors/article-tracking.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/modules/popular-item" src="https://app.qz.com/dist/4.0.639/js/views/modules/popular-item.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="templates/popular-module" src="https://app.qz.com/dist/4.0.639/js/templates/popular-module.js"></script><script src="https://www.theatlas.com/javascripts/atlas.js"></script><script async="" src="https://d8rk54i4mohrb.cloudfront.net/js/reach.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="views/interactive" src="https://app.qz.com/dist/4.0.639/js/views/interactive.js"></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-5/html/container.html"></head>
+	<body class="single single-post postid-898207 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light marquee-loaded">
+	<div id="marquee">
+		<div id="marquee-content" data-google-query-id="CM6ChpzT9NECFdcENwodmcsCDw" style="display: none;"><div id="google_ads_iframe_/56091333/qz_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/56091333/qz_0" title="3rd party ad content" name="google_ads_iframe_/56091333/qz_0" width="1600" height="520" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+	</div>
+	<header id="header" class="">
+	<div class="logo">
+		<a href="https://qz.com" title="Quartz" id="qz-logo">
+			<!--[if gte IE 10]><!-->
+<!-- QUARTZ LOGO -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="160px" height="25px" fill="" viewBox="0 0 160 25" enable-background="new 0 0 160 25" xml:space="preserve">
+	<g>
+		<g>
+			<path d="M21.852,19.584c1.479-2.008,2.356-4.488,2.356-7.173c0-6.682-5.442-12.123-12.124-12.123
+				c-6.686,0-12.123,5.441-12.123,12.123c0,6.687,5.438,12.124,12.123,12.124c2.628,0,5.065-0.84,7.054-2.271l3.038,3.039
+				l2.699-2.695L21.852,19.584z M19.109,16.842l-4.479-4.479l-2.694,2.699l4.455,4.456c-1.259,0.763-2.732,1.201-4.307,1.201
+				c-4.583,0-8.308-3.725-8.308-8.308c0-4.579,3.725-8.308,8.308-8.308c4.578,0,8.308,3.729,8.308,8.308
+				C20.392,14.037,19.92,15.559,19.109,16.842z"></path>
+		</g>
+		<g>
+			<polygon points="133.62,0.889 133.62,4.743 126.411,4.743 126.411,24.017 122.507,24.017 122.507,4.743 115.299,4.743 
+				115.299,0.889 		"></polygon>
+		</g>
+		<g>
+			<path d="M73.351,0.889h-4.688L59.75,24.017h4.091l1.67-4.506h10.992l1.669,4.506h4.093L73.351,0.889z M66.998,15.906l4.011-10.439
+				l4.006,10.439H66.998z"></path>
+		</g>
+		<g>
+			<polygon points="160.052,4.743 147.123,20.111 160.052,20.111 160.052,24.017 142.031,24.017 142.031,19.908 155.006,4.743 
+				142.932,4.743 142.932,0.927 160.052,0.927 		"></polygon>
+		</g>
+		<g>
+			<path d="M52.19,0.889v14.632c0,4.96-4.03,8.995-8.99,8.995s-8.995-4.035-8.995-8.995V0.889h3.901v14.632
+				c-0.086,2.856,2.236,5.18,5.094,5.18c2.853,0,5.175-2.323,5.119-5.18V0.889H52.19z"></path>
+		</g>
+		<g>
+			<path d="M102.612,16.184c2.653-1.321,4.47-4.044,4.47-7.183c0-4.239-3.496-8.026-7.849-8.112h-8.564v23.128h3.905v-6.966h3.537
+				l8.05,8.156l2.713-2.681L102.612,16.184z M98.949,13.236h-4.375v-8.47h4.375c2.381,0,4.317,1.898,4.317,4.235
+				C103.267,11.338,101.33,13.236,98.949,13.236z"></path>
+		</g>
+	</g>
+</svg>
+<!-- /QUARTZ LOGO -->
+
+<!--<![endif]-->			<span class="header-edition"></span>
+		</a>
+	</div>
+	<div class="right">
+		<button id="avatar" class="header-button">
+			<i class="icon-more"></i>
+		</button>
+		<button class="menu header-button">
+			<i class="icon-more"></i>
+		</button>
+		<a href="https://qz.com/search/" class="search header-button">
+			<i class="icon-search"></i>
+		</a>
+		<a href="https://qz.com/obsessions/" class="obsessions header-button">
+			obsessions
+		</a>
+		<a href="https://qz.com/daily-brief/" class="dbsignup header-button"><i class="icon-daily-brief"></i></a>
+	</div>
+	<div id="header-search-input"></div>
+	<div class="left">
+		<a href="https://qz.com/search/" class="search header-button">
+			<i class="icon-search"></i>
+		</a>
+		<a href="https://qz.com/top/" class="top header-button">
+			our picks
+		</a>
+		<a href="https://qz.com/latest/" class="latest header-button">
+			latest
+		</a>
+		<a href="https://qz.com/popular/" class="popular header-button">
+			popular
+		</a>
+		<a href="https://www.facebook.com/quartznews" class="fb header-button" target="_blank"><i class="icon-facebook"></i></a>
+		<a href="https://twitter.com/qz" class="twitter header-button" target="_blank"><i class="icon-twitter"></i></a>
+	</div>
+</header>
+<div id="settings-nav-bg"></div>
+<nav id="settingsNav" class="no-animation">
+	<div class="upper">
+		<a href="https://www.facebook.com/quartznews" class="fb" target="_blank"><i class="icon-facebook"></i>like us on facebook</a>
+		<a href="https://www.twitter.com/qz" class="twitter" target="_blank"><i class="icon-twitter"></i>follow us on twitter</a>
+		<a href="https://qz.com/index/" class="quartz-index"><i class="icon-index"></i>quartz index</a>
+		<a href="https://qz.com/about/" class="about-us"><i class="icon-about"></i>about us</a>
+		<a href="https://ssl.qz.com/register" class="register"><i class="icon-register"></i>register</a>
+		<a href="https://ssl.qz.com/login" class="login"><i class="icon-login"></i>log in</a>
+		<a href="#" class="logout"><i class="icon-logout"></i>log out</a>
+		<a href="http://events.qz.com" class="events"><i class="icon-calendar"></i>Events</a>
+		<a href="https://www.theatlas.com" class="atlas"><i class="icon-atlas"></i>Atlas</a>
+	</div>
+	<div class="lower">
+		<a href="https://qz.com/global/"><i class="icon-global"></i>quartz</a>
+					<a href="https://qz.com/india/ ">
+				<i class="icon-india"></i>
+				quartz India			</a>
+					<a href="https://qz.com/africa/ ">
+				<i class="icon-africa"></i>
+				quartz Africa			</a>
+			</div>
+	<button class="navigation-toggle">
+		<span class="edition-text icon-down-arrow">Change your edition</span>
+		<span class="menu-text icon-down-arrow">back to menu</span>
+	</button>
+</nav>
+	<div id="container"><div id="content"><div id="content-header" data-disable-attach="true">
+	</div>
+<div id="content-articles"><div id="well"><article id="item-898207" class="item global article has-hero" itemscope="" itemtype="https://schema.org/NewsArticle">
+<header class="item-header content-width-responsive">
+			<span class="kicker">AVAILABILITY BIAS</span>
+		
+	<h1 itemprop="headline">The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns</h1>	<div class="item-meta-mobile"><div class="byline item-meta-row">
+	<h5>Written by</h5>
+
+	
+		
+			
+			<a href="https://qz.com/author/jandersonqz/" class="author-name" data-index="0">Jenny Anderson</a>
+
+			
+			
+			
+		
+		
+	</div>
+
+
+<div class="item-obsession item-meta-row">		
+	<h5>Obsession</h5>
+	<a href="https://qz.com/on/america-first//">"America First"</a>
+</div>
+
+<div class="item-timestamp item-meta-row">
+
+			<span class="timestamp" itemprop="datePublished">January 31, 2017</span>
+	
+	
+</div>
+</div>
+</header>
+<figure class="progressive-image featured-image size-extra-large is-loaded">
+	<picture style="padding-bottom: 56.228571428571%; background-image: url(https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=50);">
+		<img src="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=50" class="progressive-image-thumbnail">
+		<img itemprop="image" sizes="" class="progressive-image-large" alt="Supporters at a &quot;Freedom Rally&quot; wave U.S. flags in support of not building a mosque near Ground Zero..." title="" srcset="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=320 320w, https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=640 640w, https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=940 940w, https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=1600 1600w, https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=3200 3200w" src="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=320">
+		<noscript>
+			&lt;img src="https://qzprod.files.wordpress.com/2017/01/rtr2r5qg.jpg?quality=80&amp;strip=all&amp;w=320" alt="Supporters at a &amp;quot;Freedom Rally&amp;quot; wave U.S. flags in support of not building a mosque near Ground Zero..." title=""&gt;
+		</noscript>
+	</picture>
+	<figcaption class="featured-image-caption">
+		<div class="content-width-responsive">
+			<i class="icon-camera"></i>Emotions get in the way.							<span class="featured-image-credit has-space"> (Reuters/Hugh Gentry)</span>
+					</div>
+	</figcaption>
+</figure>
+<div class="item-content ">
+	<div class="item-meta">
+		<div class="share-buttons colored item-meta-row">
+			<h5>Share</h5>
+				 <a title="Share on twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fqz.com%2F898207&amp;text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;via=qz" target="_blank" class="share-action icon-twitter"></a>
+	 <a title="Share on facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F" target="_blank" class="share-action icon-facebook"></a>
+	 <a title="Share on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&amp;title=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;summary=According%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6&amp;source=Quartz" target="_blank" class="share-action icon-linkedin"></a>
+	 <a title="Share on email" href="mailto:?subject=Quartz%3A%20The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;body=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F%0A%0AAccording%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief." target="_blank" class="share-action icon-email"></a>
+	 <a title="Share on whatsapp" href="whatsapp://send?text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns%3A+https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F" target="_blank" class="share-action icon-whatsapp"></a>
+		</div>
+		<div class="byline item-meta-row">
+	<h5>Written by</h5>
+
+	
+		
+			
+			<a href="https://qz.com/author/jandersonqz/" class="author-name" data-index="0">Jenny Anderson</a>
+
+			
+			
+			
+		
+		
+	</div>
+
+
+<div class="item-obsession item-meta-row">		
+	<h5>Obsession</h5>
+	<a href="https://qz.com/on/america-first//">"America First"</a>
+</div>
+
+<div class="item-timestamp item-meta-row">
+
+			<span class="timestamp" itemprop="datePublished">January 31, 2017</span>
+	
+	
+</div>
+	</div>
+	<div class="item-body" itemprop="articleBody">
+		<div>
+			
+<p><span style="font-weight:400;">According to the </span><a href="https://www.newamerica.org/in-depth/terrorism-in-america/what-threat-united-states-today/#americas-layered-defenses"><span style="font-weight:400;">New America Foundation</span></a><span style="font-weight:400;">, </span><span style="font-weight:400;">jihadists killed 94 people inside the United States </span><span style="font-weight:400;">between 2005 and 2015. </span><span style="font-weight:400;">During that same time period, </span><span style="font-weight:400;">301,797 people in the US were shot dead, </span><a href="http://www.politifact.com/truth-o-meter/statements/2015/oct/05/viral-image/fact-checking-comparison-gun-deaths-and-terrorism-/"><span style="font-weight:400;">Politifact </span></a><span style="font-weight:400;">reports.</span></p>
+<p><span style="font-weight:400;">At first blush, these numbers might seem to indicate that Donald Trump’s temporary ban on immigrants from seven countries—a goal he said was intended to </span><span style="font-weight:400;">“protect the American people from terrorist attacks by foreign nationals admitted to the United States”—is utterly misguided.</span></p>
+<p>But Trump is right about at least one thing: Americans are more afraid of terrorism than they are of guns, despite the fact that guns are 3,210 times more likely to kill them.</p>
+<div class="inline-ad" id="inline-898207-1"></div><p>Chapman University has conducted a <a href="https://www.sciencedaily.com/releases/2016/10/161012160030.htm">Survey of American Fears</a> for more than three years. It asks 1,500 adults what they fear most. It organizes the fears into categories that include personal fears, conspiracy theories, terrorism, natural disasters, paranormal fears, and more recently, fear of Muslims.</p>
+<p><span style="font-weight:400;">In 2016, Americans’ number-one fear was “corruption of government officials”—the same top fear as in 2015. Terrorist attacks came second. In fact, of the top five fears, two are terror-related. And number five is not fear of guns but fear of government </span><i><span style="font-weight:400;">restrictions</span></i><span style="font-weight:400;"> on guns. Fear of a loved one dying—whether by gun violence or anything else—came next.</span></p>
+<div class="atlas-chart" data-id="HyLS1Thwg" data-width="640" data-height="449"><iframe frameborder="0" src="https://www.theatlas.com/embed/HyLS1Thwg" width="100%" height="437"></iframe></div>
+<p>One reason people’s fears don’t line up with actual risks is that our brains are wired by evolution to make fast judgements which are not always backed up by logical reasoning. “Our emotions push us to make snap judgments that once were sensible—but may not be anymore,” Maia Szalavitz, a child psychiatrist, wrote in 2008 in <a href="https://www.psychologytoday.com/articles/200801/10-ways-we-get-the-odds-wrong">Psychology Today</a>.</p>
+<div class="inline-ad" id="inline-898207-2"></div><p>Also, fear strengthens memory, she wrote, so that one-off catastrophes like plane crashes or terrorist attacks embed in our memories, while we blank the horrible accidents we see daily on the highway. “As a result, we overestimate the odds of dreadful but infrequent events and underestimate how risky ordinary events are,” Szalavitz explained.</p>
+<p><a href="http://faculty.chicagobooth.edu/christopher.hsee/vita/papers/riskasfeelings.pdf">Risk perception</a> (pdf) used to be based on an analytical equation: you multiply the probability of an event by the potential damage of its outcome. But Paul Slovic, a professor of psychology at the University of Oregon, <a href="https://www.ncbi.nlm.nih.gov/pubmed/3563507">understood the powerful role of emotions</a> in decision-making and altered that equation, noting that many things affect how we perceive risk:</p>
+<ul><li>do you trust the person you are dealing with</li>
+<li>control vs. lack of control (lack of control inflates risk perceptions)</li>
+<li>is it catastrophic or chronic (catastrophic inflates risk perceptions)</li>
+<li>does it incite dread or anger (dread inflates risk perceptions)</li>
+<li>uncertainty (lack of knowledge about something inflates risk perceptions)</li>
+</ul><p>“Most people do not distinguish well between a one-in-a-thousand risk and a one-in-a-million risk,” said Mark Egan, an associate advisor at the Behavioral Insights Group in London.</p>
+<div class="inline-ad" id="inline-898207-3"></div><p>Baruch Fischhoff, a decision scientist at Carnegie Mellon, said that the unpredictability of terrorism can make it scarier than something like a car crash. “Terrorism is not like motor vehicle accidents, where past performance predicts future performance,” he said. “Terrorism could change and it’s not irrational for people to react differently to an uncertain risk.”</p>
+<p>That’s exactly what Americans did after the terror attacks of Sept. 11, 2001. People began flying less and driving more. The result, estimated Gerd Gigerenzer, a German risk specialist, was that <a href="https://www.theguardian.com/world/2011/sep/05/september-11-road-deaths">1,595 more Americans died</a> in road accidents during the 12 months after 9/11 than would have otherwise.</p>
+<p><span style="font-weight:400;">Michael Rothschild, then an emeritus professor at the University of Wisconsin, <a href="https://www.theguardian.com/world/2011/sep/05/september-11-road-deaths">calculated some of the risks we face</a>: </span></p>
+<ul><li>One in 6 million: Risk of dying in a plane hijacking, assuming you fly four times a month and hijackers destroy one plane every year. (Just to be clear, since 9/11, hijackers have not destroyed any flights in the US.)</li>
+<li>One in 7,000: the risk of dying in a car accident in any given year</li>
+<li>One in 600: the risk of dying from cancer in any given year</li>
+</ul><p>According to <a href="http://www.huffingtonpost.com/todd-r-miller/the-freakonomics-of-extre_b_11821634.html">data compiled from the Centers for Disease Control</a>, over 2005-2014, an average of 11,737 Americans a year were shot dead by another American (21 of them by toddlers), 737 were killed by falling out of bed, and nine were killed by Islamic jihadists—who in most cases were US citizens, not immigrants (Nearly twice as many <a href="https://www.cdc.gov/nchs/fastats/suicide.htm">Americans kill themselves</a> with guns as kill each other).</p>
+<div class="inline-ad" id="inline-898207-4"></div><p>Rothschild blamed politicians for overstating the terrorist risk. Media saturation is also to blame. Having ready access to images of every atrocity known to mankind makes us prone to what behavioral scientists call “availability bias,” the tendency to give weight to what comes to mind most easily. The blanket coverage of the Sept. 11th attacks successfully seared the images of terrorism on our brains; shootings, which happen every day and—with the exception of a few mass shootings—are largely ignored, have less of an effect.</p>
+<p>“We over-react to visible threats,” said Max Bazerman, co-director of the Center for Public Leadership at the Harvard Kennedy School, and an expert on decision-making. “When there is someone out to get you, it is more visible than when you are silently dying in a hospital.”</p>
+<p class="story-body-text"> <span style="font-weight:400;">After the Boston Marathon bombing in 2013, Roxane Cohen Silver and two co-authors </span><a href="http://www.pnas.org/content/111/1/93.abstract"><span style="font-weight:400;">looked at what caused</span></a><span style="font-weight:400;"> more acute stress: being at or near the bombing itself, or being exposed to it in the media. They found “[r]epeated bombing-related media exposure was associated with higher acute stress than was direct exposure.” </span></p>
+<p><span style="font-weight:400;">President Trump may believe he is responding to people’s outsized fears of terrorism. Unfortunately, his <a href="https://www.nytimes.com/2017/01/29/us/politics/donald-trump-rush-immigration-order-chaos.html?hp&amp;action=click&amp;pgtype=Homepage&amp;clickSource=story-heading&amp;module=a-lede-package-region&amp;region=top-news&amp;WT.nav=top-news">hastily arranged executive order</a> won’t work—not least because, as </span><a href="http://www.wsj.com/articles/countries-under-u-s-entry-ban-arent-main-sources-of-terror-attacks-1485708300"><span style="font-weight:400;">the Wall Street Journal found</span></a><span style="font-weight:400;"> (paywall), “of 180 people charged with jihadist terrorism-related crimes or who died before being charged” only 11 came from the seven countries banned in Trump’s order. He didn’t ban people from Saudi Arabia, Lebanon, the United Arab Emirates, or Egypt—the home countries of the 19 perpetrators of the 9/11 attacks.</span></p>
+<p><em><strong>Correction: Due to an editing error, a previous version of this story said that 737 people died annually from being shot by someone else. It is 11,737. </strong></em></p>
+			<div class="article-aside"><aside class="popular-stories-module"><article><h4 class="module-title">Most Popular</h4><figure class="popular-module-featured-image"><a href="https://qz.com/898134/what-steve-bannon-really-wants/" title="What Steve Bannon really wants"><img src="https://qzprod.files.wordpress.com/2017/02/bannon-ap-evan-vucci.jpg?quality=80&amp;strip=all&amp;w=240" alt="bannon-ap-evan-vucci"></a></figure><h3><a href="https://qz.com/898134/what-steve-bannon-really-wants/" title="What Steve Bannon really wants">What Steve Bannon really wants</a></h3></article></aside></div>
+		</div>
+		<div class="item-share-tools article-footer">
+			<div class="short-url">
+				<input type="text" name="shortURL" value="https://qz.com/898207">
+			</div>
+			<div class="share-buttons colored">
+					 <a title="Share on twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fqz.com%2F898207&amp;text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;via=qz" target="_blank" class="share-action icon-twitter"></a>
+	 <a title="Share on facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F" target="_blank" class="share-action icon-facebook"></a>
+	 <a title="Share on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&amp;title=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;summary=According%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6&amp;source=Quartz" target="_blank" class="share-action icon-linkedin"></a>
+	 <a title="Share on email" href="mailto:?subject=Quartz%3A%20The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&amp;body=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F%0A%0AAccording%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief." target="_blank" class="share-action icon-email"></a>
+	 <a title="Share on whatsapp" href="whatsapp://send?text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns%3A+https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F" target="_blank" class="share-action icon-whatsapp"></a>
+			</div>
+		</div>
+		<button class="read-full-story-button">Read full story</button>
+	</div>
+	<div class="article-annotations"></div>
+</div>
+<div class="after-article"></div>
+<div id="engage-898207" class="ad-engage"></div></article><button id="queue-toggle" class="icon-obsessions"></button></div></div></div></div>
+<div id="modal">
+	</div>
+<div id="chyron"><div id="chyron-message" class="daily-brief-message"><div class="site-width"><span class="message"><i class="icon-daily-brief"></i> Snapchat’s IPO, Trump’s CEO confab, a submerged continent. All this and more in today's <a href="https://qz.com/daily-brief/">Daily Brief</a>.</span></div><i class="icon-close"></i></div></div>
+<div id="tab-bar">
+	<a href="https://qz.com" class="tab home"><i class="icon-q"></i>home</a>
+	<a href="https://qz.com/top/" class="tab top"><i class="icon-star"></i>our picks</a>
+	<a href="https://qz.com/popular/" class="tab popular"><i class="icon-most-popular"></i>popular</a>
+	<a href="https://qz.com/latest/" class="tab latest"><i class="icon-latest"></i>latest</a>
+	<a href="https://qz.com/obsessions/" class="tab obsessions"><i class="icon-obsessions"></i>obsessions</a>
+	<a href="https://qz.com/search/" class="tab search"><i class="icon-search"></i>search</a>
+</div><!-- wpcom_wp_footer -->
+
+		<!-- /// LOAD CHARTBEAT /// -->
+		<script type="text/javascript">
+			var _sf_async_config={};
+			_sf_async_config.uid = 55570;
+			_sf_async_config.useCanonical = true;
+						_sf_async_config.domain = 'qz.com';
+			_sf_async_config.authors = 'Jenny Anderson';
+_sf_async_config.sections = ["Uncategorized"];
+
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src',
+						(("https:" == document.location.protocol) ? "https://" : "http://") +
+						"static.chartbeat.com/js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != 'function') ?
+					loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+			})();
+		</script>
+		
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="39587363">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://qz.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="Quartz">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="d8c2316970"><input type="hidden" name="_wp_http_referer" value="/898207/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them/?utm_source=pocket&amp;utm_medium=email&amp;utm_campaign=pockethits">		</form>
+
+		<div class="arrow"></div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/qz.com\/wp-admin\/admin-ajax.php","nonce":"40da2c19f8","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/qzprod.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F","blog_id":"39587363","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=39587363&v=wpcom&tz=-5&user_id=0&subd=qzprod","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://s1.wp.com/_static/??-eJx9jksOwjAMBS9EMNAu6AJxFpNabdL8sJ1W3J6wgBXqytbojf1gK8bmpJQUYjUl1MklgeAWEnhWqjRjGgPx0csB/octcq5CATxpQbuYL9hxLmZ1BbxAGwYThpc6KzsCjtEl80CGiKLEbTN5JWY3tqY/tnNB5sxq8yfe/jaiODHGZtzj7dxfu27ohv7k3zEnZqM="></script><script async="" defer="" src="//platform.instagram.com/en_US/embeds.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script src="//stats.wp.com/w.js?56" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'39587363','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'39587363','v':'wpcom','tz':'-5','user_id':'0','post':'898207','subd':'qzprod'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=39587363&v=wpcomvt&tz=-5&user_id=0&post=898207&subd=qzprod&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdEfC1rZmVUMy9QNXhLa2dIP0wvZ2RNYSV+S1VzM2gtT0J4Rk5OX1tlNEdbUD9iR2NlYXxWTVUsenJwRV0vNWp5YSxIQ25aYjVoPWYyLD9oXSVEMDEmQyU3fFFENXhPVSxrVkktUmRmUDdseWhnRjJ2UVcyN3RMQk9FdnVpUWZkXWlLdmJaVktqSnxibmlPdWtwQV1tUmtsQ0wsUnNieUh4dkgtd25aXQ=='}]);
+_stq.push([ 'clickTrackerInit', '39587363', '898207' ]);
+	</script>
+<noscript>&lt;img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /&gt;</noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script><script>
+	QZ.splitTests = [];
+	QZ.editions = ["global","india","africa"];
+	QZ.geolocation = 'global';
+	QZ.bootstrap = {"https:\/\/qz.com\/api\/article\/898207\/":{"version":3,"header":{"name":"Article","path":"article\/898207\/","slug":"article","type":"article"},"items":[{"id":898207,"title":"The psychology of why 94 deaths from terrorism are scarier than 301,797 deaths from guns","slug":"the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them","permalink":"https:\/\/qz.com\/898207\/the-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them\/","date":{"published":"2017-01-31 11:06:14","updated":"2017-02-01 10:47:16","pretty":"January 31, 2017"},"postType":"article","summary":"According to the New America Foundation, jihadists killed 94 people inside the United States between 2005 and 2015. During that same time period, 301,797 people&hellip;","inlineAds":["inline-898207-1","inline-898207-2","inline-898207-3","inline-898207-4"],"content":"\n<p><span style=\"font-weight:400;\">According to the <\/span><a href=\"https:\/\/www.newamerica.org\/in-depth\/terrorism-in-america\/what-threat-united-states-today\/#americas-layered-defenses\"><span style=\"font-weight:400;\">New America Foundation<\/span><\/a><span style=\"font-weight:400;\">, <\/span><span style=\"font-weight:400;\">jihadists killed 94 people inside the United States <\/span><span style=\"font-weight:400;\">between 2005 and 2015. <\/span><span style=\"font-weight:400;\">During that same time period, <\/span><span style=\"font-weight:400;\">301,797 people in the US were shot dead, <\/span><a href=\"http:\/\/www.politifact.com\/truth-o-meter\/statements\/2015\/oct\/05\/viral-image\/fact-checking-comparison-gun-deaths-and-terrorism-\/\"><span style=\"font-weight:400;\">Politifact <\/span><\/a><span style=\"font-weight:400;\">reports.<\/span><\/p>\n<p><span style=\"font-weight:400;\">At first blush, these numbers might seem to indicate that Donald Trump&rsquo;s temporary ban on immigrants from seven countries&mdash;a goal he said was intended to <\/span><span style=\"font-weight:400;\">&ldquo;protect the American people from terrorist attacks by foreign nationals admitted to the United States&rdquo;&mdash;is utterly misguided.<\/span><\/p>\n<p>But Trump is right about at least one thing: Americans are more afraid of terrorism than they are of guns, despite the fact that guns are 3,210 times more likely to kill them.<\/p>\n<div class=\"inline-ad\" id=\"inline-898207-1\"><\/div><p>Chapman University has conducted a <a href=\"https:\/\/www.sciencedaily.com\/releases\/2016\/10\/161012160030.htm\">Survey of American Fears<\/a> for more than three years. It asks 1,500 adults what they fear most. It organizes the fears into categories that include personal fears, conspiracy theories, terrorism, natural disasters, paranormal fears, and more recently, fear of Muslims.<\/p>\n<p><span style=\"font-weight:400;\">In 2016, Americans&rsquo; number-one fear was &ldquo;corruption of government officials&rdquo;&mdash;the same top fear as in 2015. Terrorist attacks came second. In fact, of the top five fears, two are terror-related. And number five is not fear of guns but fear of government <\/span><i><span style=\"font-weight:400;\">restrictions<\/span><\/i><span style=\"font-weight:400;\"> on guns. Fear of a loved one dying&mdash;whether by gun violence or anything else&mdash;came next.<\/span><\/p>\n<div class=\"atlas-chart\" data-id=\"HyLS1Thwg\" data-width=\"640\" data-height=\"449\"><img src=\"https:\/\/www.theatlas.com\/i\/atlas_HyLS1Thwg.png\" style=\"max-width: 100%;\"><\/div>\n<p>One reason people&rsquo;s fears don&rsquo;t line up with actual risks is that our brains are wired by evolution to make fast judgements which are not always backed up by logical reasoning. &ldquo;Our emotions push us to make snap judgments that once were sensible&mdash;but may not be anymore,&rdquo; Maia Szalavitz, a child psychiatrist, wrote in 2008 in <a href=\"https:\/\/www.psychologytoday.com\/articles\/200801\/10-ways-we-get-the-odds-wrong\">Psychology Today<\/a>.<\/p>\n<div class=\"inline-ad\" id=\"inline-898207-2\"><\/div><p>Also, fear strengthens memory, she wrote, so that one-off catastrophes like plane crashes or terrorist attacks embed in our memories, while we blank the horrible accidents we see daily on the highway. &ldquo;As a result, we overestimate the odds of dreadful but infrequent events and underestimate how risky ordinary events are,&rdquo; Szalavitz explained.<\/p>\n<p><a href=\"http:\/\/faculty.chicagobooth.edu\/christopher.hsee\/vita\/papers\/riskasfeelings.pdf\">Risk perception<\/a> (pdf) used to be based on an analytical equation: you multiply the probability of an event by the potential damage of its outcome. But Paul Slovic, a professor of psychology at the University of Oregon, <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/3563507\">understood the powerful role of emotions<\/a> in decision-making and altered that equation, noting that many things affect how we perceive risk:<\/p>\n<ul><li>do you trust the person you are dealing with<\/li>\n<li>control vs. lack of control (lack of control inflates risk perceptions)<\/li>\n<li>is it catastrophic or chronic (catastrophic inflates risk perceptions)<\/li>\n<li>does it incite dread or anger (dread inflates risk perceptions)<\/li>\n<li>uncertainty (lack of knowledge about something inflates risk perceptions)<\/li>\n<\/ul><p>&ldquo;Most people do not distinguish well between a one-in-a-thousand risk and a one-in-a-million risk,&rdquo; said Mark Egan, an associate advisor at the Behavioral Insights Group in London.<\/p>\n<div class=\"inline-ad\" id=\"inline-898207-3\"><\/div><p>Baruch Fischhoff, a decision scientist at Carnegie Mellon, said that the unpredictability of terrorism can make it scarier than something like a car crash. &ldquo;Terrorism is not like motor vehicle accidents, where past performance predicts future performance,&rdquo; he said. &ldquo;Terrorism could change and it&rsquo;s not irrational for people to react differently to an uncertain risk.&rdquo;<\/p>\n<p>That&rsquo;s exactly what Americans did after the terror attacks of Sept. 11, 2001. People began flying less and driving more. The result, estimated Gerd Gigerenzer, a German risk specialist, was that <a href=\"https:\/\/www.theguardian.com\/world\/2011\/sep\/05\/september-11-road-deaths\">1,595 more Americans died<\/a> in road accidents during the 12 months after 9\/11 than would have otherwise.<\/p>\n<p><span style=\"font-weight:400;\">Michael Rothschild, then an emeritus professor at the University of Wisconsin, <a href=\"https:\/\/www.theguardian.com\/world\/2011\/sep\/05\/september-11-road-deaths\">calculated some of the risks we face<\/a>: <\/span><\/p>\n<ul><li>One in 6 million: Risk of dying in a plane hijacking, assuming you fly four times a month and hijackers destroy one plane every year. (Just to be clear, since 9\/11, hijackers have not destroyed any flights in the US.)<\/li>\n<li>One in 7,000: the risk of dying in a car accident in any given year<\/li>\n<li>One in 600: the risk of dying from cancer in any given year<\/li>\n<\/ul><p>According to <a href=\"http:\/\/www.huffingtonpost.com\/todd-r-miller\/the-freakonomics-of-extre_b_11821634.html\">data compiled from the Centers for Disease Control<\/a>, over 2005-2014, an average of 11,737 Americans a year were shot dead by another American (21 of them by toddlers), 737 were killed by falling out of bed, and nine were killed by Islamic jihadists&mdash;who in most cases were US citizens, not immigrants (Nearly twice as many <a href=\"https:\/\/www.cdc.gov\/nchs\/fastats\/suicide.htm\">Americans kill themselves<\/a> with guns as kill each other).<\/p>\n<div class=\"inline-ad\" id=\"inline-898207-4\"><\/div><p>Rothschild blamed politicians for overstating the terrorist risk. Media saturation is also to blame. Having ready access to images of every atrocity known to mankind makes us prone to what behavioral scientists call &ldquo;availability bias,&rdquo; the tendency to give weight to what comes to mind most easily. The blanket coverage of the Sept. 11th attacks successfully seared the images of terrorism on our brains; shootings, which happen every day and&mdash;with the exception of a few mass shootings&mdash;are largely ignored, have less of an effect.<\/p>\n<p>&ldquo;We over-react to visible threats,&rdquo; said Max Bazerman, co-director of the Center for Public Leadership at the Harvard Kennedy School, and an expert on decision-making. &ldquo;When there is someone out to get you, it is more visible than when you are silently dying in a hospital.&rdquo;<\/p>\n<p class=\"story-body-text\"> <span style=\"font-weight:400;\">After the Boston Marathon bombing in 2013, Roxane Cohen Silver and two co-authors <\/span><a href=\"http:\/\/www.pnas.org\/content\/111\/1\/93.abstract\"><span style=\"font-weight:400;\">looked at what caused<\/span><\/a><span style=\"font-weight:400;\"> more acute stress: being at or near the bombing itself, or being exposed to it in the media. They found &ldquo;[r]epeated bombing-related media exposure was associated with higher acute stress than was direct exposure.&rdquo; <\/span><\/p>\n<p><span style=\"font-weight:400;\">President Trump may believe he is responding to people&rsquo;s outsized fears of terrorism. Unfortunately, his <a href=\"https:\/\/www.nytimes.com\/2017\/01\/29\/us\/politics\/donald-trump-rush-immigration-order-chaos.html?hp&amp;action=click&amp;pgtype=Homepage&amp;clickSource=story-heading&amp;module=a-lede-package-region&amp;region=top-news&amp;WT.nav=top-news\">hastily arranged executive order<\/a> won&rsquo;t work&mdash;not least because, as <\/span><a href=\"http:\/\/www.wsj.com\/articles\/countries-under-u-s-entry-ban-arent-main-sources-of-terror-attacks-1485708300\"><span style=\"font-weight:400;\">the Wall Street Journal found<\/span><\/a><span style=\"font-weight:400;\"> (paywall), &ldquo;of 180 people charged with jihadist terrorism-related crimes or who died before being charged&rdquo; only 11 came from the seven countries banned in Trump&rsquo;s order. He didn&rsquo;t ban people from Saudi Arabia, Lebanon, the United Arab Emirates, or Egypt&mdash;the home countries of the 19 perpetrators of the 9\/11 attacks.<\/span><\/p>\n<p><em><strong>Correction: Due to an editing error, a previous version of this story said that 737 people died annually from being shot by someone else. It is 11,737. <\/strong><\/em><\/p>\n","hero":{"id":898261,"alt":"Supporters at a &quot;Freedom Rally&quot; wave U.S. flags in support of not building a mosque near Ground Zero...","caption":"Emotions get in the way.","credit":"Reuters\/Hugh Gentry","width":3500,"height":1968,"aspectRatio":1.7784552845528,"url":"https:\/\/qzprod.files.wordpress.com\/2017\/01\/rtr2r5qg.jpg?quality=80&strip=all&w=3500","size":"extra-large"},"kicker":"AVAILABILITY BIAS","seoTitle":"The psychology of why Americans are more scared of terrorism than guns, though guns are 3,210 times likelier to kill them","facebookDescription":"In 2016, Americans&#039; #1 fear was \u201ccorruption of government officials,\u201d followed by terrorist attacks. Gun violence didn&#039;t make the top 10.","edition":"global","popularPostsRank":5,"taxonomies":{"obsession":[{"name":"\"America First\"","slug":"america-first"}],"tags":[{"name":"availability bias","slug":"availability-bias"},{"name":"ban immigrants","slug":"ban-immigrants"},{"name":"boston bombings","slug":"boston-bombings"},{"name":"Donald Trump","slug":"donald-trump"},{"name":"executive order","slug":"executive-order"},{"name":"familiar and unfamiliar","slug":"familiar-and-unfamiliar"},{"name":"Muslim","slug":"muslim"},{"name":"psychology","slug":"psychology"},{"name":"seven countries","slug":"seven-countries"}],"topic":[{"name":"Health and Human Behavior","slug":"health-and-human-behavior-t"}]},"obsession":{"name":"\"America First\"","slug":"america-first"},"byline":{"authors":[{"name":"Jenny Anderson","username":"jandersonqz","url":"https:\/\/qz.com\/author\/jandersonqz\/","twitter":"jandersonQZ"}],"type":"author","label":"Written by"},"share":{"twitter":"https:\/\/twitter.com\/intent\/tweet?url=https%3A%2F%2Fqz.com%2F898207&text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&via=qz","facebook":"https:\/\/www.facebook.com\/sharer.php?u=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F","linkedin":"https:\/\/www.linkedin.com\/shareArticle?mini=true&url=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F&title=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&summary=According%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6&source=Quartz","email":"mailto:?subject=Quartz%3A%20The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns&body=https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F%0A%0AAccording%20to%20the%20New%20America%20Foundation%2C%20jihadists%20killed%2094%20people%20inside%20the%20United%20States%20between%202005%20and%202015.%20During%20that%20same%20time%20period%2C%20301%2C797%20people%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20https%3A%2F%2Fbit.ly%2Fquartzdailybrief.","whatsapp":"whatsapp:\/\/send?text=The%20psychology%20of%20why%2094%20deaths%20from%20terrorism%20are%20scarier%20than%20301%2C797%20deaths%20from%20guns%3A+https%3A%2F%2Fqz.com%2F898207%2Fthe-psychology-of-why-americans-are-more-scared-of-terrorism-than-guns-though-guns-are-3210-times-likelier-to-kill-them%2F"},"peer39":[9389,9593,9736,19680,18899,13793,9545,9357,9391,9670,9524,9474,9521,9506,9504,9522,9519,9507,9369,9684,9691]}]}};
+	QZ.preview = 0;
+	QZ.bulletinPosition = 2;
+	QZ.inlinePreview = false;
+</script>
+
+<script data-main="https://app.qz.com/dist/4.0.639/js/app" src="https://app.qz.com/js/libs/require.min.js"></script>
+<script>
+	// DFP
+	(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		gads.src = "https://www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	// Chartbeat
+	var _sf_async_config = {
+				uid: 55570
+	};
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('src', 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/js/chartbeat.js');
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+
+	// Bizo
+	var _bizo_data_partner_id = "1016";
+	(function(){
+		var b,a,u;a=document.createElement("script");
+		a.type="text/javascript"; a.async=true;
+		u="https://sjs.bizographics.com/insight.min.js";
+		a.src=u; b=document.getElementsByTagName("script")[0];
+		return b.parentNode.insertBefore(a,b);
+	})();
+
+	// Comscore
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "6463921" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = "https://sb.scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+	// Facebook
+	(function() {
+		var _fbq = window._fbq || (window._fbq = []);
+		if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = 'https://connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+		}
+		_fbq.push(['addPixelId', '1416115438681460']);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(['track', 'PixelInitialized', {}]);
+
+</script>
+<noscript>
+	&lt;!--	comScore	--&gt;
+	&lt;img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=6463921&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" /&gt;
+	&lt;!--	Facebook	--&gt;
+	&lt;img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1416115438681460&amp;ev=PixelInitialized" /&gt;
+</noscript>
+
+<!-- Parse.ly -->
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+  <div id="parsely-cfg" data-parsely-site="qz.com"></div>
+<script id="parsely-script" async="" src="https://d1z2jf7jlzjs58.cloudfront.net/p.js"></script></div>
+<script type="text/javascript">
+(function(s, p, d) {
+  var i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u="https://d1z2jf7jlzjs58.cloudfront.net/p.js";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = u; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include -->
+<div style="display:none">
+	<!-- Lotame -->
+	<img src="https://bcp.crwdcntrl.net/5/c=4861/b=35885723">
+	<!-- Sonobi -->
+	<img src="https://xcp.go.sonobi.com/px.gif?pxid=04c9085bedf9ad0e7d85">
+</div>
+
+
+<!--
+	generated 117 seconds ago
+	generated in 0.331 seconds
+	served from batcache in 0.002 seconds
+	expires in 183 seconds
+-->
+<div id="adblock-bait" class="pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad text_ads text-ads text-ad-links" style="width: 1px; height: 1px; position: absolute; bottom: 0px;"></div><img id="bizo-event-call" src="https://www.bizographics.com/collect/?pid=1016&amp;fmt=gif&amp;uncache=1486149742587" style="display: none; height: 1px; width: 1px;"></body></html>

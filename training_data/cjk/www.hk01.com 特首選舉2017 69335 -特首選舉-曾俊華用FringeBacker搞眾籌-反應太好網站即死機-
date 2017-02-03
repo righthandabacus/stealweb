@@ -1,0 +1,985 @@
+<!DOCTYPE html><html lang="en" class=""><head><script src="https://js-agent.newrelic.com/nr-998.min.js"></script><script src="https://pagead2.googlesyndication.com/pagead/osd.js"></script><script src="https://securepubads.g.doubleclick.net/gampad/ads?gdfp_req=1&amp;correlator=2459119164325888&amp;output=json_html&amp;callback=googletag.impl.pubads.callbackProxy1&amp;impl=fifs&amp;json_a=1&amp;eid=108809080%2C108809144&amp;sc=1&amp;sfv=1-0-5&amp;iu_parts=108346865%2CHK01_Website_top_970x90_or_728x90%2CHK01_Website_left_above_300x250_1%2CHK01_Website_300x250_2%2CHK01_Website_300x250_3&amp;enc_prev_ius=%2F0%2F1%2C%2F0%2F2%2C%2F0%2F3%2C%2F0%2F4&amp;prev_iu_szs=970x90%2C300x250%2C300x250%2C300x250&amp;cookie_enabled=1&amp;lmt=1486168152&amp;dt=1486150152067&amp;cc=99&amp;ea=0&amp;frm=20&amp;biw=1920&amp;bih=1080&amp;oid=3&amp;adxs=475%2C-9%2C-9%2C-9&amp;adys=120%2C-9%2C-9%2C-9&amp;adks=955651576%2C2407984979%2C3852091397%2C1947722957&amp;gut=v2&amp;ifi=1&amp;u_tz=-300&amp;u_his=1&amp;u_h=768&amp;u_w=1024&amp;u_ah=768&amp;u_aw=1024&amp;u_cd=32&amp;u_sd=1&amp;flash=0&amp;url=https%3A%2F%2Fwww.hk01.com%2F%25E7%2589%25B9%25E9%25A6%2596%25E9%2581%25B8%25E8%2588%25892017%2F69335%2F-%25E7%2589%25B9%25E9%25A6%2596%25E9%2581%25B8%25E6%2588%25B0-%25E6%259B%25BE%25E4%25BF%258A%25E8%258F%25AF%25E7%25B6%25B2%25E4%25B8%258A%25E7%259C%25BE%25E7%25B1%258C-%25E5%25B8%2582%25E6%25B0%2591%25E6%25A5%25B5%25E8%25B8%25B4%25E8%25BA%258D-%25E7%25B6%25B2%25E7%25AB%2599%25E8%25B6%2585%25E8%25B2%25A0%25E8%258D%25B7%25E6%25AD%25BB%25E6%25A9%259F&amp;dssz=44&amp;icsg=141287244169216&amp;vrg=108&amp;vrp=108&amp;ga_vid=720312992.1486150151&amp;ga_sid=1486150152&amp;ga_hid=473154052"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/r20170202142949/recaptcha__zh_tw.js"></script><script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script id="facebook-jssdk" src="//connect.facebook.net/zh_HK/sdk.js#xfbml=1&amp;version=v2.5"></script><script async="" src="https://sb.scorecardresearch.com/beacon.js"></script><script async="" type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script>if(/facebookexternalhit/i.test(navigator.userAgent) == false){if (location.protocol == 'http:'){location.href = location.href.replace(/^http:/, 'https:');}}</script>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <meta content="True" name="HandheldFriendly">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機｜香港01｜特首選舉2017｜</title>
+        <link rel="shortcut icon" href="//cdn.hk01.com/images/ui/favicon.ico">
+                <meta name="google-site-verification" content="LV3BHKGOVoVp2_gjC2Tiug3qxkTUOwRTRbByIule4DY">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="apple-touch-icon" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_76x76.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_76x76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_120x120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_152x152.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_192x192.png">
+        <link rel="apple-touch-icon-precomposed" sizes="192x192" href="//cdn.hk01.com/images/ui/bookmark/bookmark_icon_192x192.png">
+        <!-- android deep link -->
+        
+        <!-- IE < 10 is not supported -->
+        <!--[if lt IE 10 ]>
+            <meta http-equiv="refresh" content="0;URL='https://www.hk01.com/Pages/Browser_Not_Support'" />
+        <![endif]-->
+        <script>
+            function isIE() {
+                var myNav = navigator.userAgent.toLowerCase();
+                return (myNav.indexOf('msie') != -1) ? parseInt(myNav.split('msie')[1]) : false;
+            }
+            if (isIE() && isIE() <= 9) {
+                location.replace("https://www.hk01.com/Pages/Browser_Not_Support")
+            }
+        </script>
+
+                    <meta name="title" content="【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機｜香港01｜特首選舉2017｜">
+                    <meta name="description" content="特首參選人曾俊華擅於網上「吸like」，與網民大玩「你問我答」，今日他再有新搞作，正式公布眾籌計劃，為競選特首籌集經費。
+
+較早前有報道指，曾俊華……">
+                    <meta name="keywords" content="香港01, 香港零一, hk01, 香港傳媒, 香港媒體, 網上媒體, 網絡媒體, 香港新聞, 新聞">
+                    <meta name="author" content="曾向銓">
+                    <meta name="publisher" content="香港01">
+                    <meta name="ga_url" content="/特首選舉2017/69335/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%B6%B2%E4%B8%8A%E7%9C%BE%E7%B1%8C-%E5%B8%82%E6%B0%91%E6%A5%B5%E8%B8%B4%E8%BA%8D-%E7%B6%B2%E7%AB%99%E8%B6%85%E8%B2%A0%E8%8D%B7%E6%AD%BB%E6%A9%9F">
+                    <meta name="artid" content="69335">
+                    <meta name="catname" content="特首選舉2017">
+                    <meta name="artthumb" content="https://cdn.hk01.com/media/article/69335/thumbnail/e99b9847fc6732920f18fd58d44bded9.jpg">
+                    <meta name="thumbnail" content="https://cdn.hk01.com/media/article/69335/thumbnail/e99b9847fc6732920f18fd58d44bded9.jpg">
+                    <meta name="artpdate" content="2017-02-03 10:42:00">
+                    <meta name="parsely-title" content="【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機｜香港01｜特首選舉2017｜">
+                    <meta name="parsely-link" content="https://www.hk01.com/特首選舉2017/69335/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%B6%B2%E4%B8%8A%E7%9C%BE%E7%B1%8C-%E5%B8%82%E6%B0%91%E6%A5%B5%E8%B8%B4%E8%BA%8D-%E7%B6%B2%E7%AB%99%E8%B6%85%E8%B2%A0%E8%8D%B7%E6%AD%BB%E6%A9%9F">
+                    <meta name="parsely-type" content="post">
+                    <meta name="parsely-image-url" content="https://cdn.hk01.com/media/article/69335/thumbnail/e99b9847fc6732920f18fd58d44bded9.jpg">
+                    <meta name="parsely-pub-date" content="2017-02-03 10:42:00">
+                    <meta name="parsely-section" content="特首選舉2017">
+                    <meta name="parsely-author" content="曾向銓">
+                    <meta name="parsely-tags" content="曾俊華,眾籌,2017特首選舉,特首選舉">
+        
+                    <meta property="og:title" content="【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機">
+                    <meta property="og:description" content="特首參選人曾俊華擅於網上「吸like」，與網民大玩「你問我答」，今日他再有新搞作，正式公布眾籌計劃，為競選特首籌集經費。
+
+較早前有報道指，曾俊華……">
+                    <meta property="og:site_name" content="香港01">
+                    <meta property="og:image" content="http://cdn.hk01.com/media/images/369222/org/995603fbbeeb21c965733dc9903e5d03.png">
+                    <meta property="article:publisher" content="https://www.facebook.com/hk01wemedia">
+                    <meta property="article:author" content="https://www.facebook.com/hk01wemedia">
+                    <meta property="og:type" content="website">
+                    <meta property="og:url" content="https://www.hk01.com/sns/article/69335">
+                    <meta property="fb:app_id" content="1651866545051541">
+                    <meta property="fb:pages" content="448747665308662">
+                    <meta property="al:ios:url" content="hk01://article?id=69335">
+                    <meta property="al:ios:app_store_id" content="1084662006">
+                    <meta property="al:ios:app_name" content="香港01 - 即時新聞">
+                    <meta property="al:android:url" content="hk01://article?id=69335">
+                    <meta property="al:android:package" content="com.hk01.news_app">
+                    <meta property="al:android:app_name" content="香港01 - 即時新聞">
+                    <meta property="al:web:should_fallback" content="true">
+        
+                    <meta property="twitter:card" content="summary">
+                    <meta property="twitter:site" content="@hk01wemedia">
+                    <meta property="twitter:url" content="https://www.hk01.com/%E7%89%B9%E9%A6%96%E9%81%B8%E8%88%892017/69335/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%B6%B2%E4%B8%8A%E7%9C%BE%E7%B1%8C-%E5%B8%82%E6%B0%91%E6%A5%B5%E8%B8%B4%E8%BA%8D-%E7%B6%B2%E7%AB%99%E8%B6%85%E8%B2%A0%E8%8D%B7%E6%AD%BB%E6%A9%9F">
+                    <meta property="twitter:description" content="特首參選人曾俊華擅於網上「吸like」，與網民大玩「你問我答」，今日他再有新搞作，正式公布眾籌計劃，為競選特首籌集經費。
+
+較早前有報道指，曾俊華……">
+                    <meta property="twitter:title" content="【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機">
+                    <meta property="twitter:image" content="http://cdn.hk01.com/media/images/369222/org/995603fbbeeb21c965733dc9903e5d03.png">
+        
+                    <link rel="canonical" href="https://www.hk01.com/%E7%89%B9%E9%A6%96%E9%81%B8%E8%88%892017/69335/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%B6%B2%E4%B8%8A%E7%9C%BE%E7%B1%8C-%E5%B8%82%E6%B0%91%E6%A5%B5%E8%B8%B4%E8%BA%8D-%E7%B6%B2%E7%AB%99%E8%B6%85%E8%B2%A0%E8%8D%B7%E6%AD%BB%E6%A9%9F">
+        
+        <link rel="stylesheet" href="//cdn.hk01.com/assets/stylesheets/reset.css">
+
+        <link rel="stylesheet" href="//cdn.hk01.com/bower_components/swiper/dist/css/swiper.min.css">
+        <link rel="stylesheet" href="//cdn.hk01.com/bower_components/photoswipe/dist/photoswipe.css">
+        <link rel="stylesheet" href="//cdn.hk01.com/bower_components/photoswipe/dist/default-skin/default-skin.css">
+
+        
+                
+                                                        <link rel="stylesheet" href="//cdn.hk01.com/assets/campaigns/2016/ce_election/css/ec_election.css">
+                                    
+        <script src="//cdn.hk01.com/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Add fancyBox main JS and CSS files -->
+        <script type="text/javascript" src="//cdn.hk01.com/assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="//cdn.hk01.com/assets/fancybox/jquery.fancybox.css?v=2.1.5" media="screen">
+
+                  <script>var APP_CONFIG = {"base_url":"https:\/\/www.hk01.com\/"}</script>
+        
+        <script>var	googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads, node); })();</script>
+<script>
+"use strict";
+
+(function(adTags, prefix){
+
+	// adTags.forEach( d => { console.info(`DFP will load: ${d.tag}`) });
+
+	googletag.cmd.push(function() {
+
+
+		adTags.forEach(function(adTag){
+
+			if( 'div-gpt-top-banner' == adTag.container || 'div-gpt-lower-banner' == adTag.container ){
+				var mapping = googletag.sizeMapping()
+						//[Width, Height], [DFP-W, DFP-H]
+					// .addSize([1280, 0], [[970, 90],[728, 90]])
+					.addSize([1280, 0], [970, 90])
+					.addSize([960, 0], [728, 90])
+					.addSize([640, 0], [468, 60])
+					.addSize([0, 0], [320, 50])
+					.build();
+			}else{
+				var mapping = googletag.sizeMapping()
+					.addSize([740, 100], adTag.size)
+					.addSize([0, 0], [300, 250])
+					.build();
+			}
+
+			// googletag.defineSlot(prefix + adTag.tag, adTag.size, adTag.container).addService(googletag.pubads()).setCollapseEmptyDiv(true);;
+			googletag
+				.defineSlot(prefix + adTag.tag, adTag.size, adTag.container)
+				.defineSizeMapping(mapping)
+				.addService(googletag.pubads()).setCollapseEmptyDiv(true);;
+		});
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+
+	document.addEventListener('DOMContentLoaded', function(e){
+		adTags.forEach(function(adTag){
+			document.getElementById(adTag.container) && googletag.cmd.push(function() { googletag.display(adTag.container) });
+		});
+	}, false);
+
+})([{"container":"div-gpt-top-banner","tag":"HK01_Website_top_970x90_or_728x90","size":[[970,90],[728,90]]},{"container":"div-gpt-left-above-1","tag":"HK01_Website_left_above_300x250_1","size":[300,250]},{"container":"div-gpt-left-above-2","tag":"HK01_Website_300x250_2","size":[300,250]},{"container":"div-gpt-left-middle-3","tag":"HK01_Website_300x250_3","size":[300,250]}], '/' + 108346865 + '/');
+
+</script>
+
+                  <!-- Google Analytics -->
+          <script>
+              window.ga = window.ga || function () {
+                  (ga.q = ga.q || []).push(arguments)
+              };
+              ga.l = +new Date;
+              ga('create', 'UA-70981149-1', 'auto');
+                                ga('set', 'page', "/特首選舉2017/69335/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%B6%B2%E4%B8%8A%E7%9C%BE%E7%B1%8C-%E5%B8%82%E6%B0%91%E6%A5%B5%E8%B8%B4%E8%BA%8D-%E7%B6%B2%E7%AB%99%E8%B6%85%E8%B2%A0%E8%8D%B7%E6%AD%BB%E6%A9%9F");
+                            ga('send', 'pageview', {"dimension1":"\u66fe\u5411\u9293","dimension2":"","dimension3":"\u7279\u9996\u9078\u82092017","dimension5":"69335"});
+          </script>
+          <script async="" src="//www.google-analytics.com/analytics.js"></script>
+         
+
+        <!-- JSON-LD -->
+        <script type="application/ld+json">
+            {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name" : "香港01",
+            "url": "http://hk01.com",
+            "logo": "http://www.hk01.com/assets/images/hk01_logo_final_04.png",
+            "sameAs" : [
+            "https://www.facebook.com/hk01wemedia/",
+            "https://www.instagram.com/hk01wemedia/",
+            "http://www.youtube.com/c/香港01WeMedia"
+            ]
+            }
+        </script>
+
+		<!-- Begin comScore Tag -->
+		<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "20542791" });
+		  (function() {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		  })();
+		</script>
+		<noscript>
+		  &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=20542791&amp;cv=2.0&amp;cj=1" /&gt;
+		</noscript>
+		<!-- End comScore Tag -->
+
+    <script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_108.js" async=""></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-5/html/container.html"><style type="text/css">.fancybox-margin{margin-right:0px;}</style><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:25px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:15px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:19px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:13px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:13px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:17px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+    <body class=" articlepage ">
+
+                            
+        <!-- Facebook -->
+        <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="https://staticxx.facebook.com/connect/xd_arbiter/r/Sh-3BhStODe.js?version=42#channel=f226d127a&amp;origin=https%3A%2F%2Fwww.hk01.com" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id))
+                    return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- START Facebook Pixel Code -->
+        <script>
+            !function (f, b, e, v, n, t, s) {
+                if (f.fbq)
+                    return;
+                n = f.fbq = function () {
+                    n.callMethod ?
+                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq)
+                    f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window,
+                    document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1012624252114388');
+            fbq('track', "PageView");
+        </script>
+        <noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1012624252114388&amp;ev=PageView&amp;noscript=1" /&gt;</noscript>
+        <!-- END Facebook Pixel Code -->
+<header>
+    <div class="menu__mid">
+        <div class="wrapper">
+            <div class="navigation">
+                <a href="https://www.hk01.com/" class="hk01_logo">
+                    <img src="//cdn.hk01.com/assets/campaigns/2016/us_election/images/hk01-logo.png" alt="| 特首選舉2017">
+                </a>
+                <!-- to do : change base_url() to usalection homepage -->
+                <a href="http://2017hkceelection.hk01.com" class="legco_logo">
+                    <img src="//cdn.hk01.com/assets/campaigns/2016/ce_election/images/logo_ec_election.png">
+                </a>
+                <!-- end of legco_logo -->
+            </div>
+
+            <div class="info">
+                <div class="social_channel">
+                    <a class="facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335" onclick="window.open(this.href, '', 'width=670,height=300'); return false;"></a>
+                    <a class="twitter" id="whatsapp-btn" data-link="https://www.hk01.com/article/69335" data-text="特首選舉2017｜香港01" data-title="【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機" style="display: none;">
+                      <span class="sp sp-whatsapp"></span>
+                    </a>
+                </div><!-- end of social channel -->
+                                    <div id="countdown" data-id="countdown" data-target-id="countdown_date" data-countdown-to="26 March 2017">
+                      特首選舉倒數<span class="date" data-id="countdown_date">50.958333333333336</span>天
+                    </div><!-- end of countdown -->
+                <!-- end of countdown -->
+            </div><!-- end of info -->
+        </div>
+        <div class="wrapper">
+            <div class="arrowleft"></div>
+            <div class="nav2">
+                <div class="navinner" style="width: 1108px;">
+                                     <a href="http://2017hkceelection.hk01.com" class="navlink ">首頁</a>
+                                     <a href="http://2017hkceelection.hk01.com/news" class="navlink on">選戰新聞</a>
+                                     <a href="http://2017hkceelection.hk01.com/trending" class="navlink ">特首戰走勢</a>
+                                     <a href="http://2017hkceelection.hk01.com/candidate" class="navlink ">參選人履歷</a>
+                                     <a href="http://2017hkceelection.hk01.com/policy" class="navlink ">政綱比併</a>
+                                     <a href="http://2017hkceelection.hk01.com/game/" class="navlink ">特首跑馬仔遊戲</a>
+                                     <a href="http://2017hkceelection.hk01.com/electioncommitteelist" class="navlink ">選委名單勢力圖</a>
+                                     <a href="http://2017hkceelection.hk01.com/electioncommitteeinfo" class="navlink ">選委投票之路</a>
+                                     <a href="http://2017hkceelection.hk01.com/blog" class="navlink ">選戰評論</a>
+                                </div>
+            </div>
+            <div class="arrowright"></div>
+        </div>
+    </div>
+    <div class="menu_spacer"></div>
+</header>
+<!-- end of header -->
+<div class="us_election_banner">
+  <div class="ads ads_large_ads">
+    <div id="div-gpt-top-banner" data-google-query-id="COOamt_U9NECFQYIDAodMgkOUg"><div id="google_ads_iframe_/108346865/HK01_Website_top_970x90_or_728x90_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/108346865/HK01_Website_top_970x90_or_728x90_0" title="3rd party ad content" name="google_ads_iframe_/108346865/HK01_Website_top_970x90_or_728x90_0" width="970" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+  </div>
+</div>
+<section class="article legco2016" style="font-size: 16px;">
+  <div class="wrapper">
+    <div class="article_wrapper">
+      <!-- Article: Body -->
+      <div class="article__body">
+        <section class="article__body__header">
+          <div class="channel_tit">
+            <tit>特首選舉2017</tit>
+          </div>
+          <div class="article_tit">
+            <h1>【特首選戰】曾俊華網上眾籌　市民極踴躍　網站超負荷死機</h1>
+          </div>
+          <div class="article_info nocontent">
+                          <div class="editor">
+                撰文：                  曾向銓                </div>
+                            <div class="date">
+                發佈日期：
+                2017-02-03 10:42              </div>
+                              <div class="date">
+                  最後更新日期：
+                  2017-02-03 12:43                </div>
+                          </div>
+            <div hidden="" data-class="mychoice_popup"><div id="mychoice"><div class="brief add_tag"><h2>加入「我的自選標籤」</h2><div class="points point_1"><img src="https://www.hk01.com/assets/images/img_mychoice_pic1.png"><b>功能一：</b><br>每當有文章與「我的自選標籤」相同，會優先推送給你</div><!-- end of point 1 --><div class="points point_2"><img src="https://www.hk01.com/assets/images/img_mychoice_pic2.png"><b>功能二：</b><br>你可以快速簡易在「我的自選標籤」中找到相關文章</div><!-- end of point 2 --><div class="points point_3"><img src="https://www.hk01.com/assets/images/img_mychoice_pic3.png"><b>功能三：</b><br>你可以在手機或電腦中增加或刪取標籤，自選不同題材的文章</div><!-- end of point 3 --></div><!-- end of brief --><div class="login"><h2>登入或註冊</h2><a href="https://www.hk01.com/member/login" class="alreadymember">登入</a><a href="https://www.hk01.com/member/registration" class="notyetmember">註冊成為會員</a></div></div></div>
+
+            <div class="article_other float_left">
+              <div class="article_social_media float_left">
+                <div class="article_share_facebook">
+                  <div class="fb-like fb_iframe_widget" data-href="https://www.hk01.com/sns/article/69335" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335&amp;layout=button_count&amp;locale=zh_HK&amp;sdk=joey&amp;share=true&amp;show_faces=true"><span style="vertical-align: bottom; width: 125px; height: 20px;"><iframe name="f1c1657c34" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df34aa9b3cc%26domain%3Dwww.hk01.com%26origin%3Dhttps%253A%252F%252Fwww.hk01.com%252Ff226d127a%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335&amp;layout=button_count&amp;locale=zh_HK&amp;sdk=joey&amp;share=true&amp;show_faces=true" style="border: none; visibility: visible; width: 125px; height: 20px;" class=""></iframe></span></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="article__body__left_menu sticky" data-class="stickify" data-top-target-id="article_wrapper" data-offset-top-target-id="menu__mid">
+            <ul class="socialshare">
+              <li><a class="comment" href="#" onclick="$.scrollTo($('.fb-comments').parent(), -$('.menu__main--inner').height()); return false;"></a></li>
+              <li><a class="facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335" onclick="window.open(this.href, '', 'width=670,height=300'); return false;"></a></li>
+              <li>
+                <a class="copylink" href="javascript:void(0)" data-target-class="copylink_popup" data-clipboard-text="https://www.hk01.com/article/69335"></a>
+                <div hidden="" data-class="copylink_popup"></div>
+              </li>
+              
+              <li><a class="printout" href="javascript:print()"></a></li>
+              <li><a class="fontsize_adj" href="javascript:switchFontSize()"></a></li>
+              <li>
+                <a class="bookmark" title="加入書簽" href="javascript:void(0)" data-target-class="bookmark_popup" data-base-url="https://www.hk01.com/" data-class="bookmark" data-action="" data-article-id="69335" data-api="https://www.hk01.com/api/bookmark/{ACTION}/69335"></a>
+                <div hidden="" data-class="bookmark_popup">已從我的收藏文章移除</div>
+              </li>
+            </ul>
+          </div>
+
+          <article class="article__body__content">
+                                    			
+						 			
+                                                    <div class="article_content__module module_fullimg">
+                                <img src="https://cdn.hk01.com/media/images/369174/xlarge/d62f135c927998893f2280ab82bdf05d.jpg" title="籌款剛推出就獲得632元支持，未幾網站就無法連接。（FringeBacker網站截圖）" alt="籌款剛推出就獲得632元支持，未幾網站就無法連接。（FringeBacker網站截圖）" data-gallery-image="true">
+                                籌款剛推出就獲得632元支持，未幾網站就無法連接。（FringeBacker網站截圖）                            </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+						 			
+                        
+                                                    <div class="article_content__module module_paragraph">
+                                                                <p>特首參選人曾俊華擅於網上「吸like」，與網民大玩「你問我答」，今日他再有新搞作，正式公布眾籌計劃，為競選特首籌集經費。</p>
+
+<p>較早前有報道指，曾俊華考慮以網上眾籌方式籌募選舉經費，他今日終於在其<a href="https://www.johntsang2017.hk/tc/donation.html" target="_blank"><span style="color:#0066cc;">競選網站</span></a>中公布有關計劃，向全港市民發出邀請，呼籲支持者以支票或信用卡形式捐款。曾俊華使用「<a href="https://www.fringebacker.com/zh-tw/projects/Support-John-Tsang-Chun-Wah-CE-Chief-Executive-Election-Campaign/" target="_blank"><span style="color:#0066cc;">FringeBacker</span></a>」作眾籌網站，按網站顯示其計劃有30日捐款時間，截自10時25分已有6名捐款者合共捐出632美元。</p>                            </div>
+                                                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+						 			
+                                                    <div class="article_content__module module_fullimg">
+                                <img src="https://cdn.hk01.com/media/images/369180/xlarge/17f65ee61125cdceedf289ba5cfa92a3.jpg" title="FringeBacker 網站疑因不勝負荷「死機」（左圖），支持紛紛在曾俊華的 facebook 留言反映。（FringeBacker網站截圖、曾俊華FB截圖）" alt="FringeBacker 網站疑因不勝負荷「死機」（左圖），支持紛紛在曾俊華的 facebook 留言反映。（FringeBacker網站截圖、曾俊華FB截圖）" data-gallery-image="true">
+                                FringeBacker 網站疑因不勝負荷「死機」（左圖），支持紛紛在曾俊華的 facebook 留言反映。（FringeBacker網站截圖、曾俊華FB截圖）                            </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+						 			
+                        
+                                                    <div class="article_content__module module_paragraph">
+                                                                <p><strong>計劃甫公布　網站即「死機」</strong></p>
+
+<p>惟曾俊華在其競選facebook專頁公布計劃後，FringeBacker網站即「死機」，網民紛紛留言提醒「我想支持呀/但係條link瓜咗喎」、「請檢查结連的link，因為不能進入」，亦有支持者作「陰謀論」，懷疑是競爭對手「做咗手腳」。</p>
+
+<p>曾俊華後來留言表示：「由於反應熱烈，目前 Fringebacker 籌款網站超出負荷，請暫時到競選網站選用其他捐款方法。」</p>                            </div>
+                                                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+						 			
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                                    <div class="article_content__module module_rightside_content nocontent">
+                                <div class="related_article">
+                                    <div class="related_article__tit">相關文章</div>
+                                    <div class="related_article__img float_left">
+                                        <a href="https://www.hk01.com/特首選舉2017/65194/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E6%93%AC%E7%9C%BE%E7%B1%8C%E7%AB%B6%E9%81%B8%E7%B6%93%E8%B2%BB-%E5%AD%B8%E8%80%85-%E6%88%96%E5%88%BA%E6%BF%80%E5%8C%97%E4%BA%AC%E7%A5%9E%E7%B6%93">
+                                            <img src="https://cdn.hk01.com/media/article/65194/thumbnail/1c13c3d60fc02a5373480f76fdbaf652.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="related_article__list float_left">
+                                                                                    <div class="related_article__list__item"><a href="https://www.hk01.com/特首選舉2017/65194/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E6%93%AC%E7%9C%BE%E7%B1%8C%E7%AB%B6%E9%81%B8%E7%B6%93%E8%B2%BB-%E5%AD%B8%E8%80%85-%E6%88%96%E5%88%BA%E6%BF%80%E5%8C%97%E4%BA%AC%E7%A5%9E%E7%B6%93"><h3>【特首選戰】曾俊華擬眾籌競選經費　學者：或刺激北京神經</h3></a></div>
+                                                                                    <div class="related_article__list__item"><a href="https://www.hk01.com/特首選舉2017/69317/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E8%AA%B0%E6%98%AF%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%9A%84K%E5%85%88%E7%94%9F-%E7%AB%9F%E6%98%AF%E6%9E%97%E9%84%AD%E6%84%9B%E5%B0%87%E9%BA%A5%E9%BD%8A%E5%85%89"><h3>【特首選戰】誰是曾俊華的K先生?　竟是林鄭愛將麥齊光</h3></a></div>
+                                                                                    <div class="related_article__list__item"><a href="https://www.hk01.com/特首選舉2017/69296/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E6%89%93%E5%B9%B4%E8%BC%95%E4%BA%BA%E7%89%8C-%E5%80%A1%E5%A4%A7%E5%AD%B8%E7%94%9F%E9%82%84%E6%AC%BE%E8%88%87%E6%94%B6%E5%85%A5%E6%8E%9B%E9%88%8E%E6%B8%9B%E5%A3%93%E5%8A%9B"><h3>【特首選戰】曾俊華打年輕人牌　倡大學生還款與收入掛鈎減壓力</h3></a></div>
+                                                                            </div>
+                                </div>
+                                                                    <p><strong>林鄭分享會「曬馬」</strong></p>
+
+<p>另一任特首參選人林鄭月娥今午3時半亦會舉行競選分享會，預料會「曬馬」展現過百名競選辦、顧問團隊陣容，以及發表競選理念。目前多位政界人士表明支持林鄭，如行政會議成員任競選辦主任、金管局前總裁任志剛將擔任競選團隊資深顧問等，另外據指全國人大常委范徐麗泰、工聯會榮譽會長鄭耀棠等亦會出任資深顧問。</p>                                                            </div>
+                        
+                        
+                        
+                                            
+						 			
+                                                    <div class="article_content__module module_fullimg">
+                                <img src="https://cdn.hk01.com/media/images/369165/xlarge/f410eb31a95dc71aba973999e87a8431.jpg" title="（曾俊華競選網站截圖）" alt="（曾俊華競選網站截圖）" data-gallery-image="true">
+                                （曾俊華競選網站截圖）                            </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+						 			
+                        
+                        
+                        
+                                                    <div class="article_content__module module_video">
+                                                                                                                                    <iframe type="text/html" width="100%" height="100%" src="//www.youtube.com/embed/N2Gsy-nXb2o?autoplay=0&amp;controls=2&amp;rel=0" frameborder="0" allowfullscreen="1"></iframe>
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                                            
+                        <div class="count-down mobile-only anim">
+              <div class="count-down-wrapper cf">
+                <p class="text">特首選舉倒數</p>
+                <span class="colon"> : </span>
+                <div class="countdown">
+                  <span>
+                    <span class="time" data-id="countdown_date">50.958333333333336</span>
+                    <span class="text day">天</span>
+                  </span>
+                </div>
+              </div><!-- end of countdown -->
+            </div>
+            
+            <div class="article_content__module latest_news nocontent">
+              <div class="latest_news__tit">最新文章</div>
+              <div class="latest_news__list">
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69506/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%98%9F%E5%85%89%E7%86%A0%E7%86%A0%E8%80%80%E6%9E%97%E9%84%AD-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E8%83%A1%E5%AE%98%E5%87%BA%E6%8B%9B%E5%A4%BE%E6%93%8A">【特首選戰】星光熠熠耀林鄭　曾俊華胡官出招夾擊</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">9小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69516/-%E6%9E%97%E9%84%AD%E9%80%A0%E5%8B%A2-%E5%A4%A7%E7%9B%B8%E9%9B%86-%E7%9B%A4%E9%BB%9E%E9%82%A3%E5%A4%A9%E5%8E%BB%E6%8D%A7%E6%9E%97%E9%84%AD%E7%9A%84%E4%BA%BA%E5%80%91">【林鄭造勢】大相集：盤點那天去捧林鄭的人們</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">9小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69455/%E6%9E%97%E9%84%AD%E9%80%A0%E5%8B%A2%E6%9C%83VS%E6%9B%BE%E4%BF%8A%E8%8F%AF%E5%8F%83%E9%81%B8%E6%9C%83-%E8%B4%8F%E9%99%A3%E5%AE%B9%E8%BC%B8%E5%85%A7%E5%AE%B9-%E8%87%B4%E8%BE%AD%E8%A2%AB%E6%8C%87%E6%AC%A0%E7%B2%BE%E5%BD%A9%E4%BD%8D">林鄭造勢會VS曾俊華參選會　贏陣容輸內容　致辭被指欠精彩位</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">8小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69496/-%E6%9E%97%E9%84%AD%E9%80%A0%E5%8B%A2-%E4%BE%86%E7%A8%BF-%E4%B8%80%E5%A4%9C%E5%9B%9E%E5%88%B0%E7%B5%90%E5%A9%9A%E5%89%8D-%E9%BB%9E%E8%A9%95%E6%9E%97%E9%84%AD%E5%A6%9D%E5%AE%B9%E8%A1%A3%E8%91%97">【林鄭造勢．來稿】一夜回到結婚前：點評林鄭妝容衣著</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">8小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69488/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E5%8F%B0%E4%B8%8B%E7%9A%84%E6%9E%97%E9%84%AD-%E5%85%A5%E5%A0%B4%E7%B7%8A%E5%BC%B5-%E8%84%AB%E8%85%B3-%E5%85%92%E5%AD%90%E5%8F%97%E7%B0%87%E6%93%81%E6%88%90%E7%84%A6%E9%BB%9E">【特首選戰 】台下的林鄭　入場緊張「脫腳」　 兒子受簇擁成焦點</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">7小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69491/-%E6%9E%97%E9%84%AD%E9%80%A0%E5%8B%A2-%E5%8D%9A%E8%A9%95-%E8%A6%8B%E5%B7%A5%E4%BF%82%E8%A6%81chok-%E4%BD%86%E5%8F%AF%E5%94%94%E5%8F%AF%E4%BB%A5chok%E5%BE%97%E6%9C%89%E6%8A%80%E5%B7%A7%E5%95%B2-">【林鄭造勢．博評】見工係要chok，但可唔可以chok得有技巧啲？</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">7小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69444/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E5%89%96%E6%9E%90%E6%9E%97%E9%84%AD%E7%AB%B6%E9%81%B8%E5%9C%98%E9%9A%8A-%E8%83%8C%E5%BE%8C%E6%B6%89%E9%80%BE459%E9%81%B8%E5%A7%94%E7%A5%A8">【特首選戰】剖析林鄭競選團隊　背後涉逾459選委票</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">5小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69460/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E8%91%89%E5%8A%89%E8%AE%9A%E6%9E%97%E9%84%AD%E6%9B%BE%E4%BF%8A%E8%8F%AF%E8%A1%A8%E7%8F%BE%E5%A5%BD-%E4%BF%A1%E8%87%AA%E5%B7%B1%E5%8F%AF-%E5%85%A5%E9%96%98-">【特首選戰】葉劉讚林鄭曾俊華表現好　信自己可「入閘」</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">5小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69420/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9E%97%E9%84%AD%E6%9C%88%E5%A8%A5%E6%8E%A8%E6%96%BD%E6%94%BF%E6%A1%86%E6%9E%B65%E5%A4%A7%E9%87%8D%E9%BB%9E-%E7%AB%B6%E9%81%B8%E5%9C%98%E9%9A%8A%E5%85%A8%E5%90%8D%E5%96%AE%E6%9B%9D%E5%85%89">【特首選戰】林鄭月娥推施政框架5大重點　競選團隊全名單曝光</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">3小時後</span></div>
+                  </div>
+                                  <div class="latest_news__list__item">
+                    <div class="latest_news__list__item__tit"><a href="https://www.hk01.com/特首選舉2017/69416/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9E%97%E9%84%AD%E9%95%B7%E5%AD%90%E7%99%BC%E8%A8%80%E6%8E%80%E9%AB%98%E6%BD%AE-%E6%9E%97%E7%AF%80%E6%80%9D-%E9%99%AA%E4%BC%B4%E6%AF%8D%E8%A6%AA%E8%B5%B0%E6%9C%AA%E4%BE%86%E7%9A%84%E8%B7%AF-">【特首選戰】林鄭長子發言掀高潮　林節思：陪伴母親走未來的路　</a></div>
+                    <div class="latest_news__list__item__date"><span class="clock">3小時後</span></div>
+                  </div>
+                              </div>
+            </div>
+            <div class="article_social_media article_content__module">
+              <div class="article_other float_left">
+                <div class="article_social_media float_left">
+                  <div class="article_share_facebook">
+                    <div class="fb-like fb_iframe_widget" data-href="https://www.hk01.com/sns/article/69335" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335&amp;layout=button_count&amp;locale=zh_HK&amp;sdk=joey&amp;share=true&amp;show_faces=true"><span style="vertical-align: bottom; width: 125px; height: 20px;"><iframe name="f289546814" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df34b316f24%26domain%3Dwww.hk01.com%26origin%3Dhttps%253A%252F%252Fwww.hk01.com%252Ff226d127a%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335&amp;layout=button_count&amp;locale=zh_HK&amp;sdk=joey&amp;share=true&amp;show_faces=true" style="border: none; visibility: visible; width: 125px; height: 20px;" class=""></iframe></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="article_share_twitter">
+                <!-- <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a> -->
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </div>
+            </div>
+                          <div class="article_content__module module_article_tag">
+                <span>標籤：</span>
+                                  <div class="tag_txt">
+                    <a href="https://www.hk01.com/tag/30">
+                      <h4>曾俊華</h4>
+                    </a>
+                    <a href="javascript:void(0)" title="加入我的標籤" data-target-class="mychoice_popup" data-base-url="https://www.hk01.com/" data-class="tag-subscription" data-action="" data-tag-id="30" data-api="https://www.hk01.com/api/mychoice/{ACTION}/30" data-max-count="25">
+                    <btn><span></span><span></span></btn>
+                  </a>
+                </div>
+                                <div class="tag_txt">
+                    <a href="https://www.hk01.com/tag/11377">
+                      <h4>眾籌</h4>
+                    </a>
+                    <a href="javascript:void(0)" title="加入我的標籤" data-target-class="mychoice_popup" data-base-url="https://www.hk01.com/" data-class="tag-subscription" data-action="" data-tag-id="11377" data-api="https://www.hk01.com/api/mychoice/{ACTION}/11377" data-max-count="25">
+                    <btn><span></span><span></span></btn>
+                  </a>
+                </div>
+                                <div class="tag_txt">
+                    <a href="https://www.hk01.com/tag/3730">
+                      <h4>2017特首選舉</h4>
+                    </a>
+                    <a href="javascript:void(0)" title="加入我的標籤" data-target-class="mychoice_popup" data-base-url="https://www.hk01.com/" data-class="tag-subscription" data-action="" data-tag-id="3730" data-api="https://www.hk01.com/api/mychoice/{ACTION}/3730" data-max-count="25">
+                    <btn><span></span><span></span></btn>
+                  </a>
+                </div>
+                                <div class="tag_txt">
+                    <a href="https://www.hk01.com/tag/4059">
+                      <h4>特首選舉</h4>
+                    </a>
+                    <a href="javascript:void(0)" title="加入我的標籤" data-target-class="mychoice_popup" data-base-url="https://www.hk01.com/" data-class="tag-subscription" data-action="" data-tag-id="4059" data-api="https://www.hk01.com/api/mychoice/{ACTION}/4059" data-max-count="25">
+                    <btn><span></span><span></span></btn>
+                  </a>
+                </div>
+                          </div>
+            <div hidden="" data-class="mychoice_popup"><div id="mychoice"><div class="brief add_tag"><h2>加入「我的自選標籤」</h2><div class="points point_1"><img src="https://www.hk01.com/assets/images/img_mychoice_pic1.png"><b>功能一：</b><br>每當有文章與「我的自選標籤」相同，會優先推送給你</div><!-- end of point 1 --><div class="points point_2"><img src="https://www.hk01.com/assets/images/img_mychoice_pic2.png"><b>功能二：</b><br>你可以快速簡易在「我的自選標籤」中找到相關文章</div><!-- end of point 2 --><div class="points point_3"><img src="https://www.hk01.com/assets/images/img_mychoice_pic3.png"><b>功能三：</b><br>你可以在手機或電腦中增加或刪取標籤，自選不同題材的文章</div><!-- end of point 3 --></div><!-- end of brief --><div class="login"><h2>登入或註冊</h2><a href="https://www.hk01.com/member/login" class="alreadymember">登入</a><a href="https://www.hk01.com/member/registration" class="notyetmember">註冊成為會員</a></div></div></div>
+                  </article>
+      </div>
+      <!-- Article: Other Modules -->
+      				<div class="article__body__comment nocontent" data-id="fb_comment">
+                    <div class="channel_tit"><tit>我要回應</tit></div>
+                    <div class="fb-comments fb_iframe_widget fb_iframe_widget_fluid" data-width="100%" data-href="https://www.hk01.com/sns/article/69335" data-numposts="5" fb-xfbml-state="rendered"><span style="height: 284px;"><iframe id="f10b5eef84" name="fb980e4c" scrolling="no" title="Facebook Social Plugin" class="fb_ltr fb_iframe_widget_lift" src="https://www.facebook.com/plugins/comments.php?api_key=&amp;channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FSh-3BhStODe.js%3Fversion%3D42%23cb%3Df3bd659edc%26domain%3Dwww.hk01.com%26origin%3Dhttps%253A%252F%252Fwww.hk01.com%252Ff226d127a%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335&amp;locale=zh_HK&amp;numposts=5&amp;sdk=joey&amp;version=v2.5&amp;width=100%25" style="border: none; overflow: hidden; height: 284px; width: 100%;"></iframe></span></div>
+                </div>              <div class="article_wrapper--other_module image_container nocontent">
+          <div class="channel_tit"><span>你可能感興趣</span></div>
+          <div class="grid_three">
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69506/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%98%9F%E5%85%89%E7%86%A0%E7%86%A0%E8%80%80%E6%9E%97%E9%84%AD-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E8%83%A1%E5%AE%98%E5%87%BA%E6%8B%9B%E5%A4%BE%E6%93%8A">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69506/thumbnail/0ab5ddaf0663dd1b63aeb0ceef58dda7.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【特首選戰】星光熠熠耀林鄭　曾俊華胡官出招夾擊</div>
+                    <div class="item-date"><span class="clock">9小時後</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69455/%E6%9E%97%E9%84%AD%E9%80%A0%E5%8B%A2%E6%9C%83VS%E6%9B%BE%E4%BF%8A%E8%8F%AF%E5%8F%83%E9%81%B8%E6%9C%83-%E8%B4%8F%E9%99%A3%E5%AE%B9%E8%BC%B8%E5%85%A7%E5%AE%B9-%E8%87%B4%E8%BE%AD%E8%A2%AB%E6%8C%87%E6%AC%A0%E7%B2%BE%E5%BD%A9%E4%BD%8D">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69455/thumbnail/f0c4e84cd869f8690e8693e6272f0392.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">林鄭造勢會VS曾俊華參選會　贏陣容輸內容　致辭被指欠精彩位</div>
+                    <div class="item-date"><span class="clock">8小時後</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69460/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E8%91%89%E5%8A%89%E8%AE%9A%E6%9E%97%E9%84%AD%E6%9B%BE%E4%BF%8A%E8%8F%AF%E8%A1%A8%E7%8F%BE%E5%A5%BD-%E4%BF%A1%E8%87%AA%E5%B7%B1%E5%8F%AF-%E5%85%A5%E9%96%98-">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69460/thumbnail/277e689895b795377a51bce7a383710c.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【特首選戰】葉劉讚林鄭曾俊華表現好　信自己可「入閘」</div>
+                    <div class="item-date"><span class="clock">5小時後</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69428/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E6%9B%BE%E4%BF%8A%E8%8F%AF%E7%9C%BE%E7%B1%8C%E9%A6%96%E6%97%A5%E5%B7%B2%E7%A0%B4200%E8%90%AC-%E4%BA%BA%E5%9D%87%E8%AA%B2%E9%87%91%E9%80%BE-200">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69428/thumbnail/6935a8b208efb6a20a7b7909d226a181.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【特首選戰】曾俊華眾籌首日已破200萬　人均課金逾$200</div>
+                    <div class="item-date"><span class="clock">3小時後</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69293/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E5%8D%9A%E8%A9%95-%E4%BB%A5%E6%AD%A6%E8%AB%96%E6%88%B0-%E5%A5%B6%E5%AA%BD%E9%82%84%E6%98%AF%E8%96%AF%E7%89%87%E5%8F%94%E5%8F%94%E5%A5%BD%E6%89%93%E5%95%B2-">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69293/thumbnail/45d970827b9f71af57887a6bf181d493.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【特首選戰．博評】以武論戰，奶媽還是薯片叔叔好打啲？</div>
+                    <div class="item-date"><span class="clock">34分鐘後</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/特首選舉2017/69367/-%E7%89%B9%E9%A6%96%E9%81%B8%E6%88%B0-%E7%9C%BE%E7%B1%8C%E7%B6%B2%E6%AD%BB%E6%A9%9F%E6%9B%BE%E4%BF%8A%E8%8F%AF%E8%87%B4%E6%AD%89-%E4%BB%BB%E5%BF%97%E5%89%9B%E5%8A%A0%E7%9B%9F%E6%9E%97%E9%84%AD-%E4%BB%8D%E7%84%B6%E6%98%AF%E6%9C%8B%E5%8F%8B">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69367/thumbnail/2c1206c075ff2352dd87d2234aae3c96.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【特首選戰】眾籌網死機曾俊華致歉　任志剛加盟林鄭　仍然是朋友</div>
+                    <div class="item-date"><span class="clock">2小時前</span></div>
+                  </div>
+                </a>
+              </div>
+                      </div>
+        </div>
+                    <div class="article_wrapper--other_module image_container nocontent hide_mobile">
+          <div class="channel_tit"><span>01議題</span></div>
+          <div class="grid_three">
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/244/-%E5%B0%88%E9%A0%81-%E5%82%B3%E8%B6%85%E7%B4%9A%E5%AF%8C%E8%B1%AA%E8%82%96%E5%BB%BA%E8%8F%AF%E8%A2%AB%E6%8A%93%E8%BF%94%E5%85%A7%E5%9C%B0-%E6%8E%8C%E6%8E%A7%E8%90%AC%E5%84%84%E7%8E%8B%E5%9C%8B-%E6%B8%AF%E8%AD%A6%E8%B7%9F%E9%80%B2">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/244/thumbnail/b1a45a8cf3909947b9b64c0027376eb1.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【專頁】傳超級富豪肖建華被抓返內地　掌控萬億王國　港警跟進</div>
+                    <div class="item-date"><span class="clock">2017年1月31日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/235/-BIOHAZARD-7%E6%94%BB%E7%95%A5%E5%B0%88%E5%8D%80-%E7%94%9F%E5%8C%96%E5%8D%B1%E6%A9%9F%E5%86%8D%E8%87%A8-%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF%E7%88%86%E6%A9%9F%E6%94%BB%E7%95%A5">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/235/thumbnail/e46a0f3d6c2b40cd45638fc80de40a2b.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【BIOHAZARD 7攻略專區】生化危機再臨　最新消息爆機攻略</div>
+                    <div class="item-date"><span class="clock">2017年1月16日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/250/-%E9%A6%AC%E6%96%90%E6%A3%AE%E8%BE%AD%E8%81%B7-%E5%B0%88%E9%A0%81-%E4%BB%BB%E5%85%A7%E6%B8%AF%E5%A4%A7%E7%88%AD%E8%AD%B0%E4%B8%8D%E7%B5%95-%E5%89%AF%E6%A0%A1%E9%A2%A8%E6%B3%A2%E5%B1%A2%E9%87%80%E8%A1%9D%E7%AA%81%E6%88%90%E7%A3%A8%E5%BF%83">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/250/thumbnail/589f2eda679670be0289c7ed76a7a250.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【馬斐森辭職・專頁】任內港大爭議不絕　副校風波屢釀衝突成磨心</div>
+                    <div class="item-date"><span class="clock">17小時前</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/202/-%E6%80%A7%E4%BA%A4%E8%BD%89%E9%81%8B%E6%A1%88%E5%B0%88%E9%A0%81-%E9%A8%99%E8%B2%A1%E9%A8%99%E8%89%B2-%E5%A0%B1%E5%BE%A9%E7%94%B7%E5%8F%8B%E4%B8%8D%E5%BF%A0-%E5%8D%A0%E5%8D%9C%E5%B8%AB%E8%A2%AB%E8%A3%81%E5%AE%9A%E7%84%A1%E7%BD%AA">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/202/thumbnail/ce075a7426005a95b644fe993b904b66.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【性交轉運案專頁】騙財騙色？報復男友不忠？　占卜師被裁定無罪</div>
+                    <div class="item-date"><span class="clock">2016年11月11日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/239/-%E6%A1%8C%E7%90%83%E5%B0%88%E9%A0%81-%E8%BF%BD%E8%B9%A4%E5%A5%A7%E8%98%87%E5%88%A9%E9%9B%B2-%E9%97%9C%E6%B3%A8%E5%82%85%E5%AE%B6%E4%BF%8A%E5%90%B3%E5%AE%89%E5%84%80-%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF-%E5%BD%B1%E7%89%87-">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/239/thumbnail/e1940a8c6188404925c38a65fc7e57bf.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【桌球專頁】追蹤奧蘇利雲　關注傅家俊吳安儀（最新消息/影片）</div>
+                    <div class="item-date"><span class="clock">2017年1月23日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/issue/245/-%E5%B0%88%E9%A0%81-%E7%89%B9%E6%9C%97%E6%99%AE%E6%8F%90%E5%90%8D%E6%88%88%E8%96%A9%E5%A5%87%E7%82%BA%E6%9C%80%E9%AB%98%E6%B3%95%E9%99%A2%E5%A4%A7%E6%B3%95%E5%AE%98-%E4%B8%89%E6%AC%8A%E5%88%86%E7%AB%8B%E8%AE%8A%E5%90%88%E4%BD%9C-">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/issue/245/thumbnail/df2dfca57f7a4e1bf0838fcb175a7ac2.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【專頁】特朗普提名戈薩奇為最高法院大法官　三權分立變合作？　</div>
+                    <div class="item-date"><span class="clock">2017年1月31日</span></div>
+                  </div>
+                </a>
+              </div>
+                      </div>
+        </div>
+                    <div class="article_wrapper--other_module image_container nocontent hide_mobile">
+          <div class="channel_tit"><span>01影像</span></div>
+          <div class="grid_three">
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/68637/-%E7%A4%BE%E5%8D%80%E5%BD%B1%E5%83%8F-%E6%97%A2%E6%98%AF%E9%81%8A%E6%88%B2%E4%B9%9F%E6%98%AF%E5%B7%A5%E8%97%9D-%E6%89%8B%E9%9B%95%E9%BA%BB%E9%9B%80%E5%88%80%E5%B7%A5%E8%A3%8F%E8%A6%8B%E7%9C%9F%E7%AB%A0">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/68637/thumbnail/6f19788300e06107a1b5bb8dac4e3ddc.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【社區影像】既是遊戲也是工藝　手雕麻雀刀工裏見真章</div>
+                    <div class="item-date"><span class="clock">2017年1月30日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/68645/-%E7%A4%BE%E5%8D%80%E5%BD%B1%E5%83%8F-%E5%B9%B4%E9%BD%A1%E4%B8%8D%E6%98%AF%E9%99%90%E5%88%B6-%E7%86%9F%E5%A5%B3%E6%AD%8C%E8%88%9E%E5%9C%98%E5%9C%98%E9%95%B7-%E7%86%9F%E5%A5%B3%E9%83%BD%E5%8F%AF%E5%8B%81%E6%AD%8C%E7%86%B1%E8%88%9E-">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/68645/thumbnail/fca550e8d40655f78ba222444d2f7403.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【社區影像】年齡不是限制　熟女歌舞團團長：熟女都可勁歌熱舞！</div>
+                    <div class="item-date"><span class="clock">2017年1月31日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/67743/-%E7%A4%BE%E5%8D%80%E5%BD%B1%E5%83%8F-%E6%96%B0%E5%B9%B4%E6%B5%81%E6%B5%81%E9%90%B5%E7%95%AB%E9%8A%80%E9%89%A4-%E6%9B%B8%E6%B3%95%E5%AE%B6%E8%8F%AF%E6%88%88%E9%81%8E%E5%B9%B4%E5%BF%99%E5%AF%AB%E6%8F%AE%E6%98%A5">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/67743/thumbnail/ac57e40fee2dce0727dfcb942a6cccd9.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【社區影像】新年流流鐵畫銀鉤　書法家華戈過年忙寫揮春</div>
+                    <div class="item-date"><span class="clock">2017年1月28日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/68568/-%E8%8A%B1%E8%BB%8A%E5%B7%A1%E9%81%8A%E5%9C%96%E8%BC%AF-%E7%BE%8E%E5%9C%8B%E5%95%A6%E5%95%A6%E9%9A%8A%E7%86%B1%E8%88%9E-%E7%A9%BA%E5%A7%90%E7%A9%BA%E5%B0%91%E5%8C%AF%E6%BC%94-%E8%A7%80%E7%9C%BE%E9%80%BC%E6%BB%BF%E5%BB%A3%E6%9D%B1%E9%81%93">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/68568/thumbnail/81b0e240dd44b5e76a455d50f18dc1a8.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【花車巡遊圖輯】美國啦啦隊熱舞　空姐空少匯演　觀眾逼滿廣東道</div>
+                    <div class="item-date"><span class="clock">2017年1月28日</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/69181/-%E5%9C%96%E8%BC%AF-%E5%9A%B4%E5%AF%92%E4%B8%8B%E9%9B%A3%E6%B0%91%E7%91%9F%E7%B8%AE%E6%BC%86%E9%BB%91%E5%80%89%E5%BA%AB-%E6%BB%AF%E7%95%99%E5%A1%9E%E7%88%BE%E7%B6%AD%E4%BA%9E%E9%9B%A3%E6%B0%91%E7%94%9F%E6%B4%BB%E7%B4%80%E5%AF%A6">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/69181/thumbnail/287fdff5ebaaca8097ee370ada18f4af.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【圖輯】嚴寒下難民瑟縮漆黑倉庫　滯留塞爾維亞難民生活紀實</div>
+                    <div class="item-date"><span class="clock">18小時前</span></div>
+                  </div>
+                </a>
+              </div>
+                          <div class="article_item  cf">
+                <a href="https://www.hk01.com/01影像/68076/-%E5%9C%96%E8%BC%AF-%E7%89%B9%E6%9C%97%E6%99%AE-%E9%87%91%E6%AD%A3%E6%81%A9-%E7%8E%A9%E8%BD%89%E9%A6%99%E6%B8%AF-%E6%90%AD%E6%B8%AF%E9%90%B5-%E7%BE%8E%E9%A0%98%E4%BA%8B%E9%A4%A8%E5%A4%96%E6%8E%A5%E5%90%BB">
+                  <div class="item__img">
+                    <div class="cover">
+                      <img src="https://cdn.hk01.com/media/article/68076/thumbnail/4920c154ba54d92ed3b355cbf9a74b00.jpg">
+                                          </div>
+                  </div>
+                  <div class="item-content">
+                    <div class="item__tit">【圖輯】「特朗普」「金正恩」玩轉香港　搭港鐵、美領事館外接吻</div>
+                    <div class="item-date"><span class="clock">2017年1月26日</span></div>
+                  </div>
+                </a>
+              </div>
+                      </div>
+        </div>
+          </div>
+  </div>
+</section>
+    <footer>
+    	    		<div class="footer__socialshare sticky" style="">
+    			<div class="wrapper">
+    				<ul class="socialshare footer--socialmedia">
+    					<li><a class="comment" href="#" onclick="$.scrollTo($('.fb-comments').parent(), -$('.menu__main--inner').height()); return false;"></a></li>
+    					<li><a class="facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hk01.com%2Fsns%2Farticle%2F69335" onclick="window.open(this.href, '', 'width=670,height=300'); return false;"></a></li>
+              <li>
+                <a class="copylink" href="javascript:void(0)" data-target-class="copylink_popup" data-clipboard-text="https://www.hk01.com/article/69335"></a>
+                <div hidden="" data-class="copylink_popup"></div>
+              </li>
+              
+    					<li><a class="printout" href="javascript:print()"></a></li>
+    					<li><a class="fontsize_adj" href="javascript:switchFontSize()"></a></li>
+    					<li><a class="bookmark" title="加入書簽" href="javascript:void(0)" data-target-class="bookmark_popup" data-base-url="https://www.hk01.com/" data-class="bookmark" data-action="" data-article-id="69335" data-api="https://www.hk01.com/api/bookmark/{ACTION}/69335"></a>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	        <div class="footer__upper sticky"></div>
+        <div class="footer__upper_spacer" style="display: block;"></div>
+    	<div class="footer__lower">
+    		<div class="wrapper">
+    			<div class="footer__lower__link-txt">香港零一媒體有限公司版權所有 © 2016</div>
+    		</div>
+    	</div>
+    </footer>
+    
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?hl=zh-TW"></script>
+<script src="//cdn.hk01.com/bower_components/jquery.event.move/js/jquery.event.move.js"></script>
+<script src="//cdn.hk01.com/bower_components/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+
+<script src="//cdn.hk01.com/bower_components/moment/min/moment.min.js"></script>
+<script src="//cdn.hk01.com/bower_components/moment/locale/zh-tw.js"></script>
+<script src="//cdn.hk01.com/bower_components/swiper/dist/js/swiper.min.js"></script>
+<script src="//cdn.hk01.com/bower_components/photoswipe/dist/photoswipe.min.js"></script>
+<script src="//cdn.hk01.com/bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+<script src="//cdn.hk01.com/bower_components/vticker/jquery.vticker.js"></script>
+<script src="//cdn.hk01.com/assets/scripts/cookie.js"></script>
+<script src="//cdn.hk01.com/assets/scripts/localstorage.js"></script>
+<script src="//cdn.hk01.com/assets/scripts/common.js"></script>
+<script src="//cdn.hk01.com/assets/scripts/search.js"></script>
+<script src="//cdn.hk01.com/assets/scripts/subscribe.js"></script>
+
+
+<script src="//cdn.hk01.com/assets/scripts/dfp_overlay.js"></script> <!-- dfp overlay ads plugin -->
+<script src="//cdn.hk01.com/assets/scripts/dfp.js"></script>
+
+
+<script src="//cdn.hk01.com/assets/scripts/clipboard.js"></script>
+<script src="//cdn.hk01.com/assets/campaigns/2016/ce_election/js/ce_election.js"></script>
+
+  <script>
+      delet_localstorage();
+  </script>
+
+<!-- START Parse.ly Include: Standard -->
+<div id="parsely-root" style="display: none">
+<span id="parsely-cfg" data-parsely-site="hk01.com"></span>
+<script id="parsely-script" async="" src="https://d1z2jf7jlzjs58.cloudfront.net/p.js"></script></div>
+<script>
+(function(s, p, d) {
+var h=d.location.protocol, i=p+"-"+s,
+e=d.getElementById(i), r=d.getElementById(p+"-root"),
+u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+:"static."+p+".com";
+if (e) return;
+e = d.createElement(s); e.id = i; e.async = true;
+e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+</script>
+<!-- END Parse.ly Include: Standard -->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"82652437fb","applicationID":"29124510","transactionName":"Z1QDZkcHC0ACAkdcXV4eIFFBDwpdTCBBQVtTXQQdUQMRUgoN","queueTime":0,"applicationTime":156,"atts":"SxMAEA8dGE4=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe><iframe id="google_osd_static_frame_4671987164765" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body></html>

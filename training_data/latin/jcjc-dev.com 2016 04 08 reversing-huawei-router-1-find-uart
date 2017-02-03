@@ -1,0 +1,407 @@
+<!DOCTYPE html><html lang="en-us"><head>
+  <meta property="og:site_name" content="Hack The World">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Practical Reverse Engineering Part 1 - Hunting for Debug Ports">
+<meta property="og:image" content="http://imgur.com/plg2HBD">
+
+
+
+
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">
+  
+    <meta property="og:see_also" content="http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/">
+  
+
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-46103804-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Practical Reverse Engineering Part 1 - Hunting for Debug Ports · Hack The World
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script src="//jcjc-dev.disqus.com/embed.js" data-timestamp="1486149603735"></script><script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.57411deb997a43b27baa13b432c7631e.js"></script></head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Hack The World
+        </a>
+      </h1>
+      <p class="lead">Projects and learnt lessons on Systems Security, Embedded Development, IoT and anything worth writing about</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/archive/">Archive</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/jekyll_licnse/">Released under MIT License</a>
+          
+        
+      
+        
+          
+        
+      
+
+      <a class="sidebar-nav-item" href="https://uk.linkedin.com/in/juan-carlos-jiménez-bba49033/en">Juan Carlos Jimenez</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/Palantir555">Twitter</a>
+      <a class="sidebar-nav-item" href="https://github.com/Palantir555">GitHub</a>
+      <a href="mailto:jcjc.dev@gmail.com?Subject=Hack%20The%20World!" target="_top">e-mail</a>
+    </nav>
+
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Practical Reverse Engineering Part 1 - Hunting for Debug Ports</h1>
+  <span class="post-date">08 Apr 2016
+  </span>
+  <ul>
+  <li><strong>Part 1</strong>: Hunting for Debug Ports</li>
+  <li><a href="http://jcjc-dev.com/2016/04/29/reversing-huawei-router-2-scouting-firmware/">Part 2</a>:
+Scouting the Firmware</li>
+  <li><a href="http://jcjc-dev.com/2016/05/23/reversing-huawei-3-sniffing/">Part 3</a>:
+Following the Data</li>
+  <li><a href="http://jcjc-dev.com/2016/06/08/reversing-huawei-4-dumping-flash/">Part 4</a>:
+Dumping the Flash</li>
+  <li><a href="http://jcjc-dev.com/2016/12/14/reversing-huawei-5-reversing-firmware/">Part 5</a>:
+Digging Through the Firmware</li>
+</ul>
+
+<p>In this series of posts we’re gonna go through the process of Reverse Engineering
+a router. More specifically, a Huawei HG533.</p>
+
+<p><img src="https://i.imgur.com/UsxvPMo.jpg" alt="Huawei HG533"></p>
+
+<p>At the earliest stages, this is the most basic kind of reverse engineering.
+We’re simple looking for a serial port that the engineers who designed the device
+left in the board for debug and -potentially- technical support purposes.</p>
+
+<p>Even though I’ll be explaining the process using a router, it can be applied to
+tons of household embedded systems. From printers to IP cameras, if
+it’s mildly complex it’s quite likely to be running some form of linux. It will
+also probably have hidden debug ports like the ones we’re gonna be looking for
+in this post.</p>
+
+<h2 id="finding-the-serial-port">Finding the Serial Port</h2>
+
+<p>Most UART ports I’ve found in commercial products are between 4 and 6 pins,
+usually neatly aligned and sometimes marked in the PCB’s silkscreen somehow.
+They’re not for end users, so they almost never have pins or connectors attached.</p>
+
+<p>After taking a quick look at the board, 2 sets of unused pads call my atention
+(they were unused before I soldered those pins in the picture, anyway):</p>
+
+<p><img src="https://i.imgur.com/5gJUa8R.jpg" alt="Pic of the 2 Potential UART Ports"></p>
+
+<p>This device seems to have 2 different serial ports to communicate with
+2 different Integrated Circuits (ICs). Based on the location on the board and
+following their traces we can figure out which one is connected to the main IC.
+That’s the most likely one to have juicy data.</p>
+
+<p>In this case we’re simply gonna try connecting to both of them and find out what
+each of them has to offer.</p>
+
+<h2 id="identifying-useless-pins">Identifying Useless Pins</h2>
+
+<p>So we’ve found 2 rows of pins that -at first sight- could be UART ports. The
+first thing you wanna do is find out if any of those contacts is useless.
+There’s a very simple trick I use to help find useless pads:
+Flash a bright light from the backside of the PCB and look at it from directly
+above. This is what that looks like:</p>
+
+<p><img src="https://i.imgur.com/g0REmPG.jpg" alt="2nd Serial Port - No Headers"></p>
+
+<p>We can see if any of the layers of the PCB is making contact with the solder
+blob in the middle of the pad.</p>
+
+<ol>
+  <li><strong>Connected</strong> to something (we can see a trace “at 2 o’clock”)</li>
+  <li>NOT CONNECTED</li>
+  <li>100% connected to a plane or thick trace. It’s almost certainly a power pin,
+either <strong>GND</strong> or <strong>Vcc</strong></li>
+  <li>Connections at all sides. This one is very likely to be the other power pin.
+There’s no reason for a data pin in a debug port to be connected to 4 different
+traces, but the pad being surrounded by a plane would explain those connections</li>
+  <li><strong>Connected</strong> to something</li>
+</ol>
+
+<h2 id="soldering-pins-for-easy-access-to-the-lines">Soldering Pins for Easy Access to the Lines</h2>
+
+<p>In the picture above we can see both serial ports.</p>
+
+<p>The pads in these ports are through-hole, but the holes themselves are filled in
+with blobs of very hard, very high melting point solder.</p>
+
+<p>I tried soldering the pins over the pads, but the solder they used is not easy
+to work with. For the 2nd serial port I decided to drill through the solder blobs
+with a Dremel and a needle bit. That way we can pass the pins through the holes
+and solder them properly on the back of the PCB. It worked like a charm.</p>
+
+<p><img src="https://i.imgur.com/a8p40yt.jpg" alt="Use a Dremel to Drill Through the Solder Blobs"></p>
+
+<h2 id="identifying-the-pinout">Identifying the Pinout</h2>
+
+<p>So we’ve got 2 connectors with only 3 useful pins each. We still haven’t verified
+the ports are operative or identified the serial protocol used by the device, but
+the number and arrangement of pins hint at UART.</p>
+
+<p>Let’s review the UART protocol. There are 6 pin types in the spec:</p>
+
+<ul>
+  <li>Tx  [Transmitting Pin. Connects to our Rx]</li>
+  <li>Rx  [Receiving Pin. Connects to our Tx]</li>
+  <li>GND [Ground. Connects to our GND]</li>
+  <li>Vcc [The board’s power line. Usually 3.3V or 5V. DO NOT CONNECT]</li>
+  <li>CTS [Typically unused]</li>
+  <li>DTR [Typically unused]</li>
+</ul>
+
+<p>We also know that according to the Standard, Tx and Rx are pulled up (set to 1)
+by default. The Transmitter of the line (Tx) is in charge of pulling it up,
+which means if it’s not connected the line’s voltage will float.</p>
+
+<p>So let’s compile what we know and get to some conclusions:</p>
+
+<ol>
+  <li>Only 3 pins in each header are likely to be connected to anything. <strong>Those
+must be Tx, Rx and GND</strong></li>
+  <li>Two pins look a lot like Vcc and GND</li>
+  <li>One of them -Tx- will be pulled up by default and be transmitting data</li>
+  <li>The 3rd of them, Rx, will be floating until we connect the other end of the
+line</li>
+</ol>
+
+<p>That information seems enough to start trying different combinations with your
+UART-to-USB bridge, but randomly connecting pins you don’t understand is how you
+end up blowing shit up.</p>
+
+<p>Let’s keep digging.</p>
+
+<p>A multimeter or a logic analyser would be enough to figure out which pin is
+which, but if you want to understand what exactly is going on in each pin,
+nothing beats a half decent oscilloscope:</p>
+
+<p><img src="https://i.imgur.com/HuEshXs.png" alt="Channel1=Tx Channel2=Rx"></p>
+
+<p>After checking the pins out with an oscilloscope, this is what we can see in
+each of them:</p>
+
+<ol>
+  <li>GND and Vcc verified - solid 3.3V and 0V in pins 2 and 3, as expected</li>
+  <li>Tx verified - You can clearly see the device is sending information</li>
+  <li>One of the pins floats at near-0V. This must be the device’s Rx, which is
+floating because we haven’t connected the other side yet.</li>
+</ol>
+
+<p>So now we know which pin is which, but if we want to talk to the serial port
+we need to figure out its baudrate. We can find this with a simple
+protocol dump from a logic analyser. If you don’t have one, you’ll have to play
+“guess the baudrate” with a list of the most common ones until you get readable
+text through the serial port.</p>
+
+<p>This is a dump from a logic analyser in which we’ve enabled protocol analysis
+and tried a few different baudrates. When we hit the right one, we start seeing
+readable text in the sniffed serial data (<code class="highlighter-rouge">\n\r\n\rU-Boot 1.1.3 (Aug...</code>)</p>
+
+<p><img src="https://i.imgur.com/OkHJtsA.jpg" alt="Logic Protocol Analyser"></p>
+
+<p>Once we have both the pinout and baudrate, we’re ready to start communicating
+with the device:</p>
+
+<p><img src="https://i.imgur.com/znXRocn.jpg" alt="Documented UART Pinouts"></p>
+
+<h2 id="connecting-to-the-serial-ports">Connecting to the Serial Ports</h2>
+
+<p>Now that we’ve got all the info we need on the hardware side, it’s time to start
+talking to the device. Connect any UART to USB bridge you have around and start
+wandering around. This is my hardware setup to communicate with both serial
+ports at the same time and monitor one of the ports with an oscilloscope:</p>
+
+<p><img src="https://i.imgur.com/aU83qTd.jpg" alt="All Connected"></p>
+
+<p>And when we open a serial terminal in our computer to communicate with the device,
+the primary UART starts spitting out useful info. These are the commands I use
+to connect to each port as well as the first lines they send during the boot
+process:</p>
+
+<p><img src="http://i.imgur.com/t43E8dm.jpg" alt="Boot Sequence"></p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Please choose operation:
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+ 0
+</code></pre>
+</div>
+
+<p>‘Command line interface’?? We’ve found our way into the system! When we press <code class="highlighter-rouge">4</code>
+we get a command line interface to interact with the device’s bootloader.</p>
+
+<p>Furthermore, if we let the device start as the default <code class="highlighter-rouge">3</code>, wait for it to
+finish booting up and press <code class="highlighter-rouge">enter</code>, we get the message <code class="highlighter-rouge">Welcome to ATP Cli</code>
+and a login prompt. If the devs had modified the password this step would be a
+bit of an issue, but it’s very common to find default credentials in embedded
+systems. After a few manual tries, the credentials <code class="highlighter-rouge">admin:admin</code> succeeded and I
+got access into the CLI:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>-------------------------------
+-----Welcome to ATP Cli------
+-------------------------------
+
+Login: admin
+Password:    #Password is ‘admin'
+ATP&gt;shell
+
+BusyBox vv1.9.1 (2013-08-29 11:15:00 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+# ls
+var   usr   tmp   sbin  proc  mnt   lib   init  etc   dev   bin
+</code></pre>
+</div>
+
+<p>Running the <code class="highlighter-rouge">shell</code> command in ATP will take us directly into Linux’s CLI with
+root privileges :)</p>
+
+<p>This router runs BusyBox, a linux-ish interface which I’ll talk about in more
+detail in the next post.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Now that we have access to the BusyBox CLI we can start nosing around the software.
+Depending on what device you’re reversing there could be plain text passwords,
+TLS certificates, useful algorithms, unsecured private APIs, etc. etc. etc.</p>
+
+<p>In the next post we’ll focus on the software side of things. I’ll explain the
+differences between boot modes, how to dump memory, and other fun things
+you can do now that you’ve got direct access to the device’s firmware.</p>
+
+<p>Thanks for reading! :)</p>
+
+</div>
+
+<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="http://platform.twitter.com/widgets/tweet_button.b8b8e09be0884a395c5ae18831ce1cc0.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F08%2Freversing-huawei-router-1-find-uart%2F&amp;size=m&amp;text=Practical%20Reverse%20Engineering%20Part%201%20-%20Hunting%20for%20Debug%20Ports%20%C2%B7%20Hack%20The%20World&amp;time=1486149604356&amp;type=share&amp;url=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F08%2Freversing-huawei-router-1-find-uart%2F&amp;via=Palantir555" style="position: static; visibility: visible; width: 61px; height: 20px;"></iframe>
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2016/12/14/reversing-huawei-5-reversing-firmware/">
+            Practical Reverse Engineering Part 5 - Digging Through the Firmware
+            <small>14 Dec 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/06/08/reversing-huawei-4-dumping-flash/">
+            Practical Reverse Engineering Part 4 - Dumping the Flash
+            <small>08 Jun 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2016/05/23/reversing-huawei-3-sniffing/">
+            Practical Reverse Engineering Part 3 - Following the Data
+            <small>23 May 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<div id="disqus_thread"><iframe id="dsq-app1" name="dsq-app1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;version=e4d6b825474d970581f8906da3f0481c&amp;f=jcjc-dev&amp;t_i=-2016-04-08-reversing-huawei-router-1-find-uart-&amp;t_u=http%3A%2F%2Fjcjc-dev.com%2F2016%2F04%2F08%2Freversing-huawei-router-1-find-uart%2F&amp;t_d=Practical%20Reverse%20Engineering%20Part%201%20-%20Hunting%20for%20Debug%20Ports&amp;t_t=Practical%20Reverse%20Engineering%20Part%201%20-%20Hunting%20for%20Debug%20Ports&amp;s_o=default" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 0px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+this.page.url = "http://jcjc-dev.com/2016/04/08/reversing-huawei-router-1-find-uart/";
+this.page.identifier = "-2016-04-08-reversing-huawei-router-1-find-uart-";
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//jcjc-dev.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+    </div>
+
+  
+
+<iframe style="display: none;"></iframe></body></html>
