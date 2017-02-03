@@ -130,11 +130,11 @@ def get_content_xpaths(browser, domtree=None):
         return medium_com(browser, domtree)
     if host.endswith('.cliffsnotes.com'):
         return cliffsnotes_com(browser, domtree)
-    if any(host.endswith(x) for x in ['.wordpress.com']):
+    if any(host.endswith(x) for x in ['.wordpress.com','.pentoy.hk']):
         return wordpress_com(browser, domtree)
     if any(host.endswith(x) for x in ['.localpresshk.com']):
         return localpresshk_com(browser, domtree)
-    if host.endswith('.theinitium.com'):
+    if host.endswith('theinitium.com'):
         return theinitium_com(browser, domtree)
     if host == 'blog.mailgun.com':
         return blog_mailgun_com(browser, domtree)
@@ -150,7 +150,7 @@ def get_content_xpaths(browser, domtree=None):
         return qz_com(browser, domtree)
     if host == 'jcjc-dev.com' or host == 'research.googleblog.com':
         return jcjcdev_com(browser, domtree)
-    if host.endswith('.thestandnews.com'):
+    if host.endswith('thestandnews.com'):
         return thestandnews_com(browser, domtree)
     if host.endswith('.analyticsvidhya.com'):
         return analyticsvidhya_com(browser, domtree)
@@ -162,6 +162,12 @@ def get_content_xpaths(browser, domtree=None):
         return letscorp_net(browser, domtree)
     if host.endswith('.passiontimes.hk'):
         return passiontimes_hk(browser, domtree)
+    if host.endswith('.rfa.org'):
+        return rfa_org(browser, domtree)
+    if host.endswith('.thn21.com'):
+        return thn21_com(browser, domtree)
+    if host.endswith('vjmedia.com.hk'):
+        return vjmedia_com_hk(browser, domtree)
     raise NotImplemented # all other are not known
 
 medium_com = xpath_extractor_factory(
@@ -209,9 +215,12 @@ localpresshk_com = xpath_extractor_factory(
 
 wordpress_com = xpath_extractor_factory(
         css_selectors=[".entry-title , .entry-meta , .entry-content"
-                      ,".itemhead , .itemtext"]
+                      ,".posttitle , .postmeta , .postentry"
+                      ,".post-title , .post-meta , .post-content"
+                      ,".itemhead , .itemtext"
+                      ,".post h2 , .post .info , .post .content .post h2 , .post .meta , .post .main"]
         ,bad_tags="style script meta ins aside"
-        ,bad_classes="wpa wpcnt sharedaddy comments gp-widget gp-comments gp-related-posts")
+        ,bad_classes="wpa wpcnt sharedaddy comments gp-widget gp-comments gp-related-posts fsb-social-bar")
 
 theinitium_com = xpath_extractor_factory(
         css_selectors=[".article-body h1 , .article-content"]
@@ -247,6 +256,28 @@ passiontimes_hk = xpath_extractor_factory(
         css_selectors=[".article-body , article h1 , article h2 , article h3 article h4 , article h5 , article h6"]
         ,bad_tags="form style script meta"
         ,bad_classes="ad-wrapper share-wrap related-content comments")
+
+rfa_org = xpath_extractor_factory(
+        css_selectors=["#storycontent h1 , #headerimg , #storytext"]
+        ,bad_tags="form style script meta"
+        ,bad_classes="")
+
+thn21_com = xpath_extractor_factory(
+        css_selectors=["#V , .ti"]
+        ,bad_tags="form style script meta"
+        ,bad_classes="")
+
+def vjmedia_upto_author(elem):
+    for x in elem.getparent().iterchildren():
+        if x == elem:
+            return False
+        elif x.get('id') == 'author-spotlight':
+            break
+    return True
+
+vjmedia_com_hk = xpath_extractor_factory(
+        css_selectors=[".hentry"]
+        ,is_bad=vjmedia_upto_author)
 
 ###################################
 # Main modules

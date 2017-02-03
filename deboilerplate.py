@@ -89,6 +89,7 @@ def clean_html(csvfilename, htmlfilename):
     j = header.index('goodness')
     goodxpaths = [row[i] for row in table if int(row[j])]
     logging.debug('%d good element found out of %d' % (len(goodxpaths), len(table)))
+    assert(goodxpaths) # at least something
     assert(all(x and isinstance(x,basestring) for x in goodxpaths))
 
     # read HTML build DOM tree
