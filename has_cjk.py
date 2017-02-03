@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Check if any CJK character on the specified file
 #
 
