@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from __future__ import print_function
+
 import logging
 import argparse
 import codecs
@@ -189,7 +191,7 @@ def main(csv, html):
                         ,stdout=subprocess.PIPE
                         ,stderr=DEVNULL)
     outtext = p.communicate(goodhtml)[0]
-    print outtext
+    print(outtext)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO

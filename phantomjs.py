@@ -4,6 +4,9 @@ from selenium.webdriver.support.expected_conditions import staleness_of
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class phantomjs(object):
+    # Use a lot of Javascript here
+    # Reference: https://developer.mozilla.org/en-US/docs/Web/API
+
     def __init__(self, width=1920, height=1080):
         # PhantomJS config, override user agent string and bug workaround
         DCAP = dict(DesiredCapabilities.PHANTOMJS)
@@ -22,6 +25,7 @@ class phantomjs(object):
         self.browser.quit()
 
     def __getattr__(self, name):
+        # all unknown attributes/methods will pass through to selenium
         return getattr(self.browser, name)
 
     def wait_until_staled(self, element, timeout=30):
@@ -47,3 +51,10 @@ class phantomjs(object):
         '''
         ret = self.browser.execute_script(js, element)
         return ret
+
+    def save_page_source(filename):
+        open(filename, 'wb').write(self.browser.page_source.encode('utf8'))
+
+    def save_rendered_html(filename):
+        html = self.browser.execute_script('return document.documentElement.outerHTML;')
+        open(filename, 'wb').write(html)

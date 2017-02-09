@@ -17,6 +17,7 @@ import selenium.common.exceptions
 #
 
 def escape_url(url):
+    'Convert UTF8-characters-bearing URL into IRI - by HTML quoting non-ASCII parts'
     urlparts = list(urlparse.urlparse(url))
     for i in [2,3,4]:
         if urlparts[i]:
