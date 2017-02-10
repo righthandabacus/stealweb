@@ -52,9 +52,9 @@ class phantomjs(object):
         ret = self.browser.execute_script(js, element)
         return ret
 
-    def save_page_source(filename):
+    def save_page_source(self, filename):
         open(filename, 'wb').write(self.browser.page_source.encode('utf8'))
 
-    def save_rendered_html(filename):
+    def save_rendered_html(self, filename):
         html = self.browser.execute_script('return document.documentElement.outerHTML;')
         open(filename, 'wb').write(html)

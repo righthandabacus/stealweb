@@ -11,7 +11,11 @@ class UTF8Recoder:
         return self
 
     def next(self):
-        return self.reader.next().encode("utf-8")
+        ln = self.reader.next().encode("utf-8")
+        while ln[-1] not in ['\n','\r']:
+            # There is issue with U+2028 (line separator; mandatory break)
+            ln += self.reader.next().encode("utf-8")
+        return ln
 
 def skip_bom(f):
     """

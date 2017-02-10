@@ -29,6 +29,7 @@ def condense_space(string):
         if string is not None:
             logging.critical('condense_space return empty string for %r' % string)
         return ''
+    string = string.replace(u'\u2028', ' ')
     return re.sub(r'\s+', ' ', string).strip()
 
 def abbreviate(string, head=20, tail=10):
@@ -426,7 +427,7 @@ def main():
     logging.info(escape_url(args.url))
     logging.info('Fetched '+args.url)
     # save raw page
-    open(os.path.join(args.dir, html), 'wb').write(browser.page_source.encode('utf8'))
+    browser.save_page_source(os.path.join(args.dir, html))
     # parse page for features, get attribute table
     logging.info('Extracting features')
     if args.debug:
