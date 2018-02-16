@@ -29,7 +29,7 @@ def condense_space(string):
         if string is not None:
             logging.critical('condense_space return empty string for %r' % string)
         return ''
-    string = string.replace(u'\u2028', ' ')
+    string = string.replace(u'\u2028', ' ') # U+2028 = line separator
     return re.sub(r'\s+', ' ', string).strip()
 
 def abbreviate(string, head=20, tail=10):
@@ -215,7 +215,7 @@ def get_content_xpaths(browser, domtree=None):
         return nytimes_com(domtree)
     if samedomain(host,'scmp.com'):
         return scmp_com(domtree)
-    raise NotImplemented # all other are not known
+    raise NotImplementedError # all other are not known
 
 common_bad_tags = bad_tag_checker("style script meta ins aside")
 common_bad_classes = bad_class_checker("social-wrapper ad-wrapper share-wrap share-links sharedaddy "
