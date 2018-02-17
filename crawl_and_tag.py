@@ -1,16 +1,20 @@
 #!/usr/bin/env python
-import logging
-import re
+# -*- coding: utf-8 -*-
+
 import argparse
 import codecs
+import logging
 import os
-import urlparse
+import re
+import threading
 import urllib
+import urlparse
 
+from fakechrome import fakechrome, cef
 from lxml import etree, objectify
 from utf8csv import csv,UnicodeWriter
-from phantomjs import phantomjs
-import selenium.common.exceptions
+
+logger = logging.getLogger('crawler')
 
 ###################################
 # Helper functions
@@ -27,7 +31,7 @@ def escape_url(url):
 def condense_space(string):
     if not isinstance(string,basestring):
         if string is not None:
-            logging.critical('condense_space return empty string for %r' % string)
+            logger.critical('condense_space return empty string for %r' % string)
         return ''
     string = string.replace(u'\u2028', ' ') # U+2028 = line separator
     return re.sub(r'\s+', ' ', string).strip()
@@ -157,7 +161,7 @@ def identifier_factory(selector, checker):
                     badxpaths.add(this_xpath) # decided to skip this
                 else:
                     xpaths.add(this_xpath) # this descendent element is good
-        logging.info('%d content elements found' % len(xpaths))
+        logger.info('%d content elements found' % len(xpaths))
         return xpaths
     return _identifier
 
@@ -165,9 +169,8 @@ def identifier_factory(selector, checker):
 ###################################
 # Site-specific items
 #
-def get_content_xpaths(browser, domtree=None):
+def get_content_xpaths(url, domtree=None):
     "diverter: return set of xpaths string that identifies as main content"
-    url = browser.current_url
     host = gethost(url)
     if samedomain(host,'medium.com') or host.startswith('medium.'):
         return medium_com(domtree)
@@ -328,14 +331,14 @@ vjmedia_com_hk = identifier_factory(css_select_factory(".hentry"),vjmedia_upto_a
 
 def collect_features(browser, debugfile=None):
     '''
-    From the current page loaded by the browser, extract page features
-    TODO all webdriver calls are damn slow, lxml would be much faster
+    Read DOM attributes from the current page loaded by the browser, derive page features
     '''
-    all_elems = browser.get_everything()
-    winwidth = browser.get_window_size()['width']
-    logging.info("%d web elements found" % len(all_elems))
-    page_source = next((x[-1] for x in all_elems if x[1]=='/html/body'),'')
-    assert(page_source) # there must be a body, right?
+    dom = browser.getDOMdata(True) # synchronous get
+    winparam = browser.windowParams
+    winwidth = winparam['innerWidth']
+    logger.debug("%d web elements found" % len(dom))
+    page_source = next((x[-1] for x in dom if x[0]=='/html/body'),'')
+    assert(page_source) # we assumed there must be a body
     domtree = html2dom(page_source) # need to pretty format source before use
     objectify.deannotate(domtree, cleanup_namespaces=True)
     linecount = len(page_source.split("\n"))
@@ -343,7 +346,7 @@ def collect_features(browser, debugfile=None):
         open(debugfile,'w').write(etree.tostring(domtree, encoding='utf8', pretty_print=True, method='xml'))
 
     # populate DOM tree geometry data
-    xpathHash = {attrs[1]:i for i,attrs in enumerate(all_elems)}
+    xpathHash = {attrs[0]:i for i,attrs in enumerate(dom)}
     depthHash = {} # actually "height", distance from node to deepest leaf
     def findElementDepth(e):
         if e not in depthHash:
@@ -356,30 +359,31 @@ def collect_features(browser, debugfile=None):
     # collect element attributes:
     attributes = []
     try:
-        content_xpaths = get_content_xpaths(browser, domtree)
-    except NotImplemented:
-        logging.critical('No content identifier for URL %s' % browser.current_url)
+        # for pages we know where are the main body
+        content_xpaths = get_content_xpaths(winparam.addr, domtree)
+    except NotImplementedError:
+        logger.critical('No content identifier for URL %s' % browser.current_url)
         content_xpaths = []
-    for i,attrs in enumerate(all_elems):
+    for i,attrs in enumerate(dom):
         if i and (i % 1000 == 0):
-            logging.info('...on element #%d' % i)
-        elem, xpath, visible, x, y, wid, hght, fgcolor, bgcolor, textonly, htmlcode = attrs
+            logger.debug('...on element #%d' % i)
+        xpath, display, visible, x, y, wid, hght, fgcolor, bgcolor, fontsize, textonly, htmlcode = attrs
         if not xpath or re.search(r'[^a-z0-9\[\]\/]',xpath) or re.search(r'(?<!\w)(script|head)(?!\w)',xpath):
             continue # skip these to avoid pollution by JS or HTML header
         etreenode  = domtree.xpath(xpath)
         if len(etreenode) != 1:
             if not etreenode:
-                logging.error('WebDriver reported XPath cannot be found in lxml: %s' % xpath)
+                logger.error('WebDriver reported XPath cannot be found in lxml: %s' % xpath)
                 continue
             else:
-                logging.error('XPath not unique for %s. %d elements found.' % (xpath, len(etreenode)))
+                logger.error('XPath not unique for %s. %d elements found.' % (xpath, len(etreenode)))
         parent     = xpathHash.get(xpath.rsplit('/',1)[0])
         tagname    = xpath.rsplit('/',1)[-1].split('[',1)[0]
         depth      = findElementDepth(etreenode[0])
         if etreenode:
             childcount = len(etreenode)
         else:
-            childcount = len(elem.find_elements_by_xpath("*"))
+            childcount = len(x for x in xpathHash if x.startwith(xpath) and '/' not in x[len(xpath):])
         sourceline = etreenode[0].sourceline
         fgcolor    = fgcolor.replace(' ','')
         bgcolor    = bgcolor.replace(' ','')
@@ -391,64 +395,76 @@ def collect_features(browser, debugfile=None):
         textlen, htmllen = len(textonly), len(htmlcode)
         textxws = sum(1 for c in textonly if c and not c.isspace()) # text length excluding whitespaces
         if not htmllen:
-            logging.error('empty HTML for tag %s on line %s at (%s,%s)+(%s,%s)' % (tagname, sourceline, x,y,wid,hght))
+            logger.error('empty HTML for tag %s on line %s at (%s,%s)+(%s,%s)' % (tagname, sourceline, x,y,wid,hght))
         textclip   = abbreviate(textonly)
         sourcepct  = float(sourceline)/linecount
         xpct       = float(x)/winwidth
-        pospct     = float(i+1)/len(all_elems)
-        isgood     = 1 if visible and xpath in content_xpaths else 0
+        pospct     = float(i+1)/len(dom)
+        isgood     = 1 if visible and display and xpath in content_xpaths else 0
         # remember this
         attributes.append([i, parent, tagname, depth, childcount, sourceline, sourcepct, pospct, xpct, x, y,
-            wid, hght, fgcolor, bgcolor, textxws, textlen, htmllen, visible, xpath, textclip, isgood])
+            wid, hght, fgcolor, bgcolor, textxws, textlen, htmllen, min(visible,display), fontsize,
+            xpath, textclip, isgood])
 
     header = ("id parent tagname depth childcount sourceline sourcepct pospct xpct x y "
-        "wid hght fgcolor bgcolor textxws textlen htmllen visible xpath textclip goodness").split()
+        "wid hght fgcolor bgcolor textxws textlen htmllen visible fontsize xpath textclip goodness").split()
     return header, attributes
 
 def parseargs():
     parser = argparse.ArgumentParser(
                 description='Webpage crawler and feature analyser'
                ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("url", help="starting URL to crawl, example: https://www.cliffsnotes.com/literature/p/the-prince/book-summary")
+    parser.add_argument("url", help="URL to crawl")
     parser.add_argument("-d", dest="dir", default='training_data', help="directory to store pages")
     parser.add_argument("-x", dest="debug", action="store_true", default=False, help="debug: to save lxml parsed version of the web page as well")
+    parser.add_argument("-v", dest="verbose", action='store_true', default=False, help="show debug message")
     return parser.parse_args()
 
 ###################################
 # main program
 #
-def main():
-    args = parseargs()
+def mainthread(browser, args):
     html,csv = url2filenames(args.url)
-    # Start PhantomJS, crawl page
-    browser = phantomjs()
-    logging.info('PhantomJS loaded')
-    browser.get(escape_url(args.url))
-    logging.info(escape_url(args.url))
-    logging.info('Fetched '+args.url)
+    logger.debug('Browser loaded')
+    browser.LoadUrl(escape_url(args.url), synchronous=True)
+    logger.info('Fetched '+args.url)
     # save raw page
-    browser.save_page_source(os.path.join(args.dir, html))
+    path = os.path.join(args.dir, html)
+    with open(path, 'wb') as srcfp:
+        html = browser.getSource(True) # synchronous get
+        assert(html)
+        srcfp.write(html)
+        logger.debug('Wrote to %s' % path)
     # parse page for features, get attribute table
-    logging.info('Extracting features')
-    if args.debug:
-        debgufile = os.path.join(args.dir, html)+'.lxml'
-    else:
-        debugfile = None
+    logger.info('Extracting features')
+    debugfile = os.path.join(args.dir, html)+'.lxml' if args.debug else None
     header, attributes = collect_features(browser, debugfile)
-    logging.info('%d elements reported' % len(attributes))
+    logger.info('%d elements reported' % len(attributes))
     # write as CSV
-    with open(os.path.join(args.dir, csv), 'wb') as csvfile:
+    path = os.path.join(args.dir, csv)
+    with open(path, 'wb') as csvfile:
         csvfile.write(codecs.BOM_UTF8) # Excel requires BOM
         csvout = UnicodeWriter(csvfile)
         csvout.writerow(header)
         csvout.writerows([[x if isinstance(x,basestring) else str(x) for x in row] for row in attributes])
-    logging.info('Wrote to %s' % csv)
+    logger.info('Wrote to %s' % path)
+    # close browser, signal MessageLoop to stop
+    browser.CloseBrowser()
+
+def main():
+    args = parseargs()
+    logger.setLevel(logging.DEBUG if args.verbose else logging.INFO)
+    browser = fakechrome(headless=True).getBrowser()
+    mainthread = threading.Thread(target=mainthread, args=(browser, args))
+    mainthread.start()
+    browser.run() # blocking until browser closed
+    mainthread.join()
+    cef.Shutdown()
 
 if __name__ == '__main__':
     from debugger import debugExceptions
     debugExceptions()
-    logging.basicConfig(level=logging.INFO  # level DEBUG will be noisy with selenium
-                       ,format='%(asctime)-15s %(levelname)s:%(name)s:%(message)s')
+    logging.basicConfig(format='%(asctime)-15s %(levelname)s:%(name)s:%(message)s')
     main()
 
 # vim:set nowrap et ts=4 sw=4:

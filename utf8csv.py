@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from __future__ import print_function
 import csv, codecs, cStringIO
 
 class UTF8Recoder:
@@ -24,6 +27,7 @@ def skip_bom(f):
     header = f.read(3)
     if header != codecs.BOM_UTF8:
 	f.seek(0)
+    return f
 
 class UnicodeReader:
     """
@@ -70,3 +74,23 @@ class UnicodeWriter:
     def writerows(self, rows):
         for row in rows:
             self.writerow(row)
+
+if __name__ == '__main__':
+    import tabulate
+    import argparse
+    import sys
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+    parser = argparse.ArgumentParser(
+                description='Print CSV as table to console'
+               ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("csv", help="CSV file")
+    parser.add_argument("-f", dest="format", default='plain', help="table "
+            "format, any of: plain, simple, grid, fancy_grid, pipe, orgtbl, jira, "
+            "presto, psql, rst, mediawiki, moinmoin, youtrack, html, latex, "
+            "latex_raw, latex_booktabs, textile")
+    args = parser.parse_args()
+    with open(args.csv, "rb") as csvfile:
+        csvin = UnicodeReader(skip_bom(csvfile))
+        table = [row for row in csvin]
+        print(tabulate.tabulate(table, headers="firstrow"))

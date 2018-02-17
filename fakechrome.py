@@ -55,7 +55,7 @@ class fakechromehandlers(object):
 class fakechrome(object):
     # https://stackoverflow.com/questions/472000/usage-of-slots
     __slots__ = ('width','height','headless','browser','source','domArray'
-                ,'ready','_handler','__weakref__' # weakref for StringVisitor iface
+                ,'windowParams','ready','_handler','__weakref__' # weakref for StringVisitor iface
                 ,'_getSourceLock','_getDOMLock','_getReadyLock')
 
     def __init__(self, width=1920, height=1080, headless=False):
@@ -67,6 +67,7 @@ class fakechrome(object):
         self.browser = None
         self.source = None
         self.domArray = None
+        self.windowParams = None
         self.ready = True
         self._getSourceLock = threading.Condition()
         self._getDOMLock = threading.Condition()
@@ -105,7 +106,7 @@ class fakechrome(object):
         bindings.SetFunction("get_attr_callback", self._domWalkerCallback)
         self.browser.SetJavascriptBindings(bindings)
         logger.debug('Browser created')
-        return self.browser
+        return self
 
     def run(self):
         "Launch message loop, block until returns"
@@ -136,10 +137,11 @@ class fakechrome(object):
             self._getSourceLock.release()
         return self.source
 
-    def _domWalkerCallback(self, array):
+    def _domWalkerCallback(self, array, windowparams=None):
         "Bound to Javascript as callback function for DOM walker"
         logger.debug('DOM walker called back')
         self.domArray = array
+        self.windowParams = windowparams
         self._getDOMLock.acquire()
         self._getDOMLock.notify()
         self._getDOMLock.release()
@@ -152,7 +154,7 @@ class fakechrome(object):
         logger.debug('Waiting for DOM data ready')
         if synchronous:
             self._getDOMLock.acquire()
-            if not self.domArray:
+            if self.domArray is None:
                 self._getDOMLock.wait() # sleep until JS code callback set self.domArray, no timeout
             self._getDOMLock.release()
         return self.domArray
@@ -179,8 +181,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.verbose:
         logger.setLevel(logging.DEBUG)
-    browser = fakechrome(width=640, height=480, headless=args.headless)
-    browser.getBrowser()
+    browser = fakechrome(width=640, height=480, headless=args.headless).getBrowser()
     def main():
         browser.ready = False
         browser.LoadUrl(args.url, True) # True = synchronous call

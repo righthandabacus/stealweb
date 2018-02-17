@@ -47,7 +47,29 @@
         };
     };
     var nodepath = [];
-    pathwalker(nodepath, document, ''); // return all attributes
-    get_attr_callback(nodepath); // return all attributes
+    pathwalker(nodepath, document, ''); // collect all attributes
+    var windowparam = { // browser geometry parameters
+        addr: window.addr,
+        innerWidth: window.innerWidth,
+        innerHeight: window.innerHeight,
+        outerWidth: window.outerWidth,
+        outerHeight: window.outerHeight,
+        pageXOffset: window.pageXOffset,
+        pageYOffset: window.pageYOffset,
+        scrollX: window.scrollX,
+        scrollY: window.scrollY,
+        screenLeft: window.screenLeft,
+        screenTop: window.screenTop,
+    };
+    if (window.screen) {
+        windowparam.availHeight = window.screen.availHeight;
+        windowparam.availWidth = window.screen.availWidth;
+        windowparam.availLeft = window.screen.availLeft;
+        windowparam.availTop = window.screen.availTop;
+        windowparam.width = window.screen.width;
+        windowparam.height = window.screen.height;
+        windowparam.colorDepth = window.screen.colorDepth;
+    };
+    get_attr_callback(nodepath, windowparam); // return all attributes
 })();
 

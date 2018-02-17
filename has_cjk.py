@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 # Check if any CJK character on the specified file
-#
 
 import sys
 
 def codestat(s):
+    # s = unicode string
     latin = cjk = other = 0
     for c in s:
         codepoint = ord(c)
