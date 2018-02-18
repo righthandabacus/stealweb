@@ -66,7 +66,7 @@ def luminance(rgb):
     assume all elements are put on top of white background
     ref: https://en.wikipedia.org/wiki/YUV
     '''
-    Y = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+    Y = sum(coeff*color for coeff,color in zip([0.2126,0.7152,0.0722],rgb))
     return Y
 
 def html2dom(htmlstr):
@@ -332,6 +332,31 @@ vjmedia_com_hk = identifier_factory(css_select_factory(".hentry"),vjmedia_upto_a
 def collect_features(browser, debugfile=None):
     '''
     Read DOM attributes from the current page loaded by the browser, derive page features
+
+    Data dictionary of collect_features() output:
+      id          [int] seq num of node in JS dom tree
+      parent      [int] id of parent node
+      tagname     [str] HTML tag name
+      depth       [int] node count to its deepest descendent in dom tree (etree-based)
+      childcount  [int] num of children
+      sourceline  [int] line num of source code (etree-based, i.e. start from <body> tag)
+      sourcepct   [float] percentage position of source line in HTML (etree-based, within <body>)
+      pospct      [float] percentage postiion of node in the DOM (depth-first search of JS DOM)
+      xpct        [float] percentage position of element's left edge to window width
+      x           [int] pixel coordinate of left edge of element's bounding box to the page
+      y           [int] pixel coordinate of top edge of element's bounding box to the page
+      width       [int] pixel width of element's bounding box
+      height      [int] pixel height of element's bounding box
+      fgcolor     [str] foreground color, in form of rgb(255,255,255) or rgba(255,255,255,1.0)
+      bgcolor     [str] background color, in form of rgb(255,255,255) or rgba(255,255,255,1.0)
+      textxws     [int] character length of text excluding whitespaces
+      textlen     [int] character length of text
+      htmllen     [int] character length of HTML code
+      visible     [bool] visibility of this element
+      fontsize    [float] font size
+      xpath       [str] xpath of element
+      textclip    [str] starting and ending snippet of text
+      goodness    [bool] is this part of main content
     '''
     dom = browser.getDOMdata(True) # synchronous get
     winparam = browser.windowParams
@@ -347,12 +372,13 @@ def collect_features(browser, debugfile=None):
 
     # populate DOM tree geometry data
     xpathHash = {attrs[0]:i for i,attrs in enumerate(dom)}
-    depthHash = {} # actually "height", distance from node to deepest leaf
+    depthHash = {} # actually "height", distance from node to deepest leaf, based on lxml etree
     def findElementDepth(e):
+        "e: lxml etree element node, find its depth in dom tree"
         if e not in depthHash:
-            if len(e):
+            if len(e): # e has children
                 depthHash[e] = 1 + max(findElementDepth(x) for x in e.iterchildren())
-            else:
+            else: # e has no children, by definition depth=0
                 depthHash[e] = 0
         return depthHash[e]
 
@@ -367,7 +393,7 @@ def collect_features(browser, debugfile=None):
     for i,attrs in enumerate(dom):
         if i and (i % 1000 == 0):
             logger.debug('...on element #%d' % i)
-        xpath, display, visible, x, y, wid, hght, fgcolor, bgcolor, fontsize, textonly, htmlcode = attrs
+        xpath, display, visible, x, y, width, height, fgcolor, bgcolor, fontsize, textonly, htmlcode = attrs
         if not xpath or re.search(r'[^a-z0-9\[\]\/]',xpath) or re.search(r'(?<!\w)(script|head)(?!\w)',xpath):
             continue # skip these to avoid pollution by JS or HTML header
         etreenode  = domtree.xpath(xpath)
@@ -383,53 +409,52 @@ def collect_features(browser, debugfile=None):
         if etreenode:
             childcount = len(etreenode)
         else:
-            childcount = len(x for x in xpathHash if x.startwith(xpath) and '/' not in x[len(xpath):])
+            childcount = len(n for n in xpathHash if n.startwith(xpath) and '/' not in n[len(xpath):])
         sourceline = etreenode[0].sourceline
         fgcolor    = fgcolor.replace(' ','')
         bgcolor    = bgcolor.replace(' ','')
-        textonly   = condense_space(textonly) # phantomjs text is better than etree.tostring() for the former will replace tags with space if necessary while latter is simply removing tags
+        textonly   = condense_space(textonly) # text from JS retains word boundary by replacing tag with space while etree.tostring() just remove tags
         htmlcode   = condense_space(htmlcode)
-        if not htmlcode: # phantomjs cannot give out the HTML, use etree version instead
+        if not htmlcode: # JS cannot give out the HTML, use etree version instead
             htmlcode = condense_space(etree.tostring(etreenode[0], encoding='utf8', method='html').decode('utf8'))
         # derived data
         textlen, htmllen = len(textonly), len(htmlcode)
         textxws = sum(1 for c in textonly if c and not c.isspace()) # text length excluding whitespaces
         if not htmllen:
-            logger.error('empty HTML for tag %s on line %s at (%s,%s)+(%s,%s)' % (tagname, sourceline, x,y,wid,hght))
+            logger.error('empty HTML for tag %s on line %s at (%s,%s)+(%s,%s)' % (tagname, sourceline, x,y,width,height))
         textclip   = abbreviate(textonly)
         sourcepct  = float(sourceline)/linecount
         xpct       = float(x)/winwidth
         pospct     = float(i+1)/len(dom)
-        isgood     = 1 if visible and display and xpath in content_xpaths else 0
+        isgood     = -1 if not content_xpaths else 1 if visible and display and xpath in content_xpaths else 0
         # remember this
         attributes.append([i, parent, tagname, depth, childcount, sourceline, sourcepct, pospct, xpct, x, y,
-            wid, hght, fgcolor, bgcolor, textxws, textlen, htmllen, min(visible,display), fontsize,
+            width, height, fgcolor, bgcolor, textxws, textlen, htmllen, min(visible,display), fontsize,
             xpath, textclip, isgood])
 
-    header = ("id parent tagname depth childcount sourceline sourcepct pospct xpct x y "
-        "wid hght fgcolor bgcolor textxws textlen htmllen visible fontsize xpath textclip goodness").split()
+    header = ("id parent tagname depth childcount sourceline sourcepct pospct xpct x y width height "
+              "fgcolor bgcolor textxws textlen htmllen visible fontsize xpath textclip goodness").split()
     return header, attributes
 
+###################################
+# main program
+#
+
 def parseargs():
-    parser = argparse.ArgumentParser(
-                description='Webpage crawler and feature analyser'
-               ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("url", help="URL to crawl")
+    parser = argparse.ArgumentParser(description='Crawl webpage(s) and analyse for DOM features'
+                                    ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument("url", help="URL to crawl or text file containing URLs in lines")
     parser.add_argument("-d", dest="dir", default='training_data', help="directory to store pages")
     parser.add_argument("-x", dest="debug", action="store_true", default=False, help="debug: to save lxml parsed version of the web page as well")
     parser.add_argument("-v", dest="verbose", action='store_true', default=False, help="show debug message")
     return parser.parse_args()
 
-###################################
-# main program
-#
-def mainthread(browser, args):
-    html,csv = url2filenames(args.url)
-    logger.debug('Browser loaded')
-    browser.LoadUrl(escape_url(args.url), synchronous=True)
-    logger.info('Fetched '+args.url)
+def crawl_and_tag(browser, url , savedir, debug=False):
+    html,csv = url2filenames(url)
+    browser.LoadUrl(escape_url(url), synchronous=True)
+    logger.info('Fetched '+url)
     # save raw page
-    path = os.path.join(args.dir, html)
+    path = os.path.join(savedir, html)
     with open(path, 'wb') as srcfp:
         html = browser.getSource(True) # synchronous get
         assert(html)
@@ -437,17 +462,26 @@ def mainthread(browser, args):
         logger.debug('Wrote to %s' % path)
     # parse page for features, get attribute table
     logger.info('Extracting features')
-    debugfile = os.path.join(args.dir, html)+'.lxml' if args.debug else None
+    debugfile = os.path.join(savedir, html)+'.lxml' if debug else None
     header, attributes = collect_features(browser, debugfile)
     logger.info('%d elements reported' % len(attributes))
     # write as CSV
-    path = os.path.join(args.dir, csv)
+    path = os.path.join(savedir, csv)
+
     with open(path, 'wb') as csvfile:
         csvfile.write(codecs.BOM_UTF8) # Excel requires BOM
         csvout = UnicodeWriter(csvfile)
         csvout.writerow(header)
         csvout.writerows([[x if isinstance(x,basestring) else str(x) for x in row] for row in attributes])
     logger.info('Wrote to %s' % path)
+
+def crawlmain(browser, args):
+    if os.path.exists(args.url):
+        with open(args.url, 'r') as urlfp:
+            for url in urlfp:
+                crawl_and_tag(browser, url, args.dir, args.debug)
+    else:
+        crawl_and_tag(browser, args.url, args.dir, args.debug)
     # close browser, signal MessageLoop to stop
     browser.CloseBrowser()
 
@@ -455,10 +489,11 @@ def main():
     args = parseargs()
     logger.setLevel(logging.DEBUG if args.verbose else logging.INFO)
     browser = fakechrome(headless=True).getBrowser()
-    mainthread = threading.Thread(target=mainthread, args=(browser, args))
-    mainthread.start()
+    logger.debug('Browser loaded')
+    workthread = threading.Thread(target=crawlmain, args=(browser, args))
+    workthread.start()
     browser.run() # blocking until browser closed
-    mainthread.join()
+    workthread.join()
     cef.Shutdown()
 
 if __name__ == '__main__':
