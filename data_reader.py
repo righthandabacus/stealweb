@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function
+from __future__ import division, print_function
 
 import argparse
 import codecs
@@ -140,7 +140,7 @@ def binary_search(data, comparer):
     elif hint > 0:
         return None # no way we can find in this array
     while True:
-        mid = (head + tail) / 2
+        mid = (head + tail) // 2
         if mid == head or mid == tail:
             return None # nothing more to check and not yet found anything
         hint = comparer(data[mid])
@@ -200,7 +200,7 @@ def derivedata(csvfile):
     xpathtok = lambda xpathstr: [re.sub(r'\[\d+\]','',x) for x in xpathstr.split('/') if x] # tokenize components
     # remember page-wide features
     rows = filter(lambda row:cell(row,'xpath').startswith('/html/body') or cell(row,'xpath')=='/html', rows) # keep only those elements in HTML body
-    maxheight = float(max(cell(row,'height') + cell(row,'y') for row in rows)) # scan for largest dimension, more accurate than <html> or <body>
+    maxheight = max(cell(row,'height') + cell(row,'y') for row in rows) # scan for largest dimension, more accurate than <html> or <body>
     htmlelem = next(row for row in rows if cell(row,'xpath')=='/html') # must exist
     bodyelem = next(row for row in rows if cell(row,'xpath')=='/html/body') # must exist
     bodywidth = max(cell(bodyelem,'width'), cell(htmlelem,'width'))
@@ -214,9 +214,9 @@ def derivedata(csvfile):
         # other derived features
         features['ypct'] = cell(row,'y')/maxheight # percentage position in page by geometry
         features['area'] = features['width'] * features['height']
-        features['areapct'] = features['area']/float(maxheight*bodywidth)
-        features['textpct1'] = features['textlen']/float(features['htmllen']) # count with space
-        features['textpct0'] = features['textxws']/float(features['htmllen']) # count without space
+        features['areapct'] = features['area']/(maxheight*bodywidth)
+        features['textpct1'] = features['textlen']/features['htmllen'] # count with space
+        features['textpct0'] = features['textxws']/features['htmllen'] # count without space
         features['fglum'] = cell(row,'fgcolor').get_y()
         features['bglum'] = cell(row,'bgcolor').get_y()
         features['xpath'] = " ".join(sorted(set(xpathtok(cell(row,'xpath')))))
@@ -228,7 +228,7 @@ def derivedata(csvfile):
         children = filter(lambda f:f['parent']==elemid, data.itervalues())
         totaltext = sum(f['textxws'] for f in children if f['visible'])
         data[elemid]['textself'] = data[elemid]['textxws'] - totaltext # num of text bytes immediately inside this element
-        data[elemid]['textpct2'] = data[elemid]['textself']/float(data[elemid]['htmllen']) # count only text belong to itself
+        data[elemid]['textpct2'] = data[elemid]['textself']/data[elemid]['htmllen'] # count only text belong to itself
     # collect features of parents
     for features in data.itervalues():
         if features['parent'] not in data: continue

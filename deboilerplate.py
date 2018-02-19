@@ -120,7 +120,8 @@ def clean_html(csvfilename, htmlfilename):
             if not prune(elem):
                 logger.error('Cannot find parent of %s' % this_xpath)
             else:
-                logger.debug('Removed %s' % this_xpath)
+                #logger.debug('Removed %s' % this_xpath)
+                pass
         elif this_xpath in goodxpaths:
             logger.debug('Keep good element %s' % this_xpath)
             continue # this is not boilerplate, keep it

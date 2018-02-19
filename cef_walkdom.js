@@ -49,7 +49,7 @@
     var nodepath = [];
     pathwalker(nodepath, document, ''); // collect all attributes
     var windowparam = { // browser geometry parameters
-        addr: window.addr,
+        addr: document.location.href,
         innerWidth: window.innerWidth,
         innerHeight: window.innerHeight,
         outerWidth: window.outerWidth,

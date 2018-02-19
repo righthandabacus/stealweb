@@ -30,7 +30,7 @@ class fakechromehandlers(object):
 
     def OnConsoleMessage(self, browser, message, **kwargs):
         "DisplayHandler interface. Intercept all message printted to console"
-        logger.warning("[console] %s" % message)
+        self.chrome.console.append(message)
 
     def OnLoadError(self, browser, frame, error_code, failed_url, **_):
         self.chrome.ready = error_code # like True
@@ -56,7 +56,7 @@ class fakechrome(object):
     # https://stackoverflow.com/questions/472000/usage-of-slots
     __slots__ = ('width','height','headless','browser','source','domArray'
                 ,'windowParams','ready','_handler','__weakref__' # weakref for StringVisitor iface
-                ,'_getSourceLock','_getDOMLock','_getReadyLock')
+                ,'console','_getSourceLock','_getDOMLock','_getReadyLock')
 
     def __init__(self, width=1920, height=1080, headless=False):
         self.width = width
@@ -64,6 +64,7 @@ class fakechrome(object):
         self.headless = headless
 
         # pointer to reusable CEF objects
+        self.console = []
         self.browser = None
         self.source = None
         self.domArray = None
@@ -148,9 +149,14 @@ class fakechrome(object):
 
     def getDOMdata(self, synchronous=False):
         self.domArray = None
+        # read JS code that to be executed
         js_path = os.path.join(os.path.abspath(os.path.dirname(__file__)),"cef_walkdom.js")
         js_code = open(js_path).read()
-        threading.Timer(0, self.browser.GetMainFrame().ExecuteJavascript, [js_code]).start()
+        # make sure the binding is there
+        bindings = self.browser.GetJavascriptBindings()
+        bindings.SetFunction("get_attr_callback", self._domWalkerCallback)
+        bindings.Rebind()
+        threading.Timer(1, self.browser.GetMainFrame().ExecuteJavascript, [js_code]).start()
         logger.debug('Waiting for DOM data ready')
         if synchronous:
             self._getDOMLock.acquire()
