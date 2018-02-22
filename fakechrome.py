@@ -109,12 +109,6 @@ class fakechrome(object):
         logger.debug('Browser created')
         return self
 
-    def run(self):
-        "Launch message loop, block until returns"
-        logger.debug('Running message loop')
-        cef.MessageLoop()
-        logger.debug('Message loop end!')
-
     def LoadUrl(self, url, synchronous=False):
         "Load a URL, pass-through to CEF browser"
         self.ready = False # safe-guard the wait below
@@ -204,7 +198,9 @@ if __name__ == '__main__':
         browser.CloseBrowser()
     mainthread = threading.Thread(target=main)
     mainthread.start()
-    browser.run() # blocking until browser closed
+    logger.debug('Running message loop')
+    cef.MessageLoop() # blocking until browser closed
+    logger.debug('Message loop end!')
     mainthread.join()
     browser = None
     cef.Shutdown()

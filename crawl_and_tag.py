@@ -1,20 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import division
 import argparse
 import codecs
 import logging
 import os
 import re
-import time
 import threading
 import urllib
 import urlparse
 
 from fakechrome import fakechrome, cef
 from lxml import etree, objectify
-from utf8csv import UnicodeWriter
+from utf8csv import csv,UnicodeWriter
 
 logger = logging.getLogger('crawler')
 
@@ -34,9 +32,7 @@ def condense_space(string):
     if not isinstance(string,basestring):
         if string is not None:
             logger.critical('condense_space return empty string for %r' % string)
-        return u''
-    if isinstance(string, str):
-        string = string.decode('utf-8')
+        return ''
     string = string.replace(u'\u2028', ' ') # U+2028 = line separator
     return re.sub(r'\s+', ' ', string).strip()
 
@@ -44,6 +40,34 @@ def abbreviate(string, head=20, tail=10):
     if len(string) <= (head+3+tail):
         return string
     return string[:head] + '...' + string[-tail:]
+
+def parse_rgba(rgba):
+    assert(rgba.startswith('rgba(') or rgba.startswith('rgb('))
+    assert(rgba.endswith(')'))
+    if rgba.startswith('rgba('):
+        return [float(x) for x in rgba[5:-1].split(",")]
+    else:
+        return [float(x) for x in rgba[4:-1].split(",")]
+
+def rgba2rgb(rgba):
+    '''
+    assume a rgba value put on top of white background, find the resulting rgb value
+    ref: https://en.wikipedia.org/wiki/Alpha_compositing
+    '''
+    if len(rgba) == 3: return rgba # pass-thou if no alpha channel
+    white = [255, 255, 255]
+    rgb = rgba[:3]
+    alpha = rgba[3]
+    return [alpha*fg+(1.0-alpha)*bg for fg,bg in zip(rgb,white)]
+
+def luminance(rgb):
+    '''
+    find luminance from rgba color using BT.709 standard, formula: Y = (0.2126R+0.7152G+0.0722B)*alpha
+    assume all elements are put on top of white background
+    ref: https://en.wikipedia.org/wiki/YUV
+    '''
+    Y = sum(coeff*color for coeff,color in zip([0.2126,0.7152,0.0722],rgb))
+    return Y
 
 def html2dom(htmlstr):
     parser = etree.HTMLParser(remove_blank_text=True, remove_comments=True, remove_pis=True)
@@ -64,8 +88,6 @@ def samedomain(domain1, domain2):
     part2 = reversed(filter(None,domain2.lower().split('.')))
     assert(part1 and part2)
     return all(a==b for a,b in zip(part1, part2))
-
-any2unicode = lambda x: x if isinstance(x,unicode) else x.decode('utf-8') if isinstance(x,str) else str(x)
 
 ###################################
 # Content XPath extractor factory
@@ -139,7 +161,7 @@ def identifier_factory(selector, checker):
                     badxpaths.add(this_xpath) # decided to skip this
                 else:
                     xpaths.add(this_xpath) # this descendent element is good
-        logger.debug('%d content elements identified' % len(xpaths))
+        logger.info('%d content elements found' % len(xpaths))
         return xpaths
     return _identifier
 
@@ -166,7 +188,7 @@ def get_content_xpaths(url, domtree=None):
         return blogspot_com(domtree)
     if host == 'opinion.udn.com':
         return opinion_udn_com(domtree)
-    if host in ['hk.apple.nextmedia.com','hk.news.appledaily.com','hk.lifestyle.appledaily.com']:
+    if host == 'hk.apple.nextmedia.com':
         return hk_apple_nextmedia_com(domtree)
     if host == 'commondatastorage.googleapis.com' and 'commondatastorage.googleapis.com/letscorp_archive/archives' in url:
         return wordpress_com(domtree) # same as wordpress although it's not
@@ -307,7 +329,7 @@ vjmedia_com_hk = identifier_factory(css_select_factory(".hentry"),vjmedia_upto_a
 # Main modules
 #
 
-def collect_features(browser, lxmlfile=None, rawdata=None):
+def collect_features(browser, debugfile=None):
     '''
     Read DOM attributes from the current page loaded by the browser, derive page features
 
@@ -337,13 +359,6 @@ def collect_features(browser, lxmlfile=None, rawdata=None):
       goodness    [bool] is this part of main content
     '''
     dom = browser.getDOMdata(True) # synchronous get
-    dom = [[x.decode('utf-8') if isinstance(x,str) else x for x in row] for row in dom] # unicode all strings
-    if rawdata:
-        with open(rawdata, 'wb') as csvfp: # write DOM csv as recognized by JS
-            csvfp.write(codecs.BOM_UTF8) # Excel requires BOM
-            csvout = UnicodeWriter(csvfp)
-            csvout.writerows([[any2unicode(x) for x in row] for row in dom])
-            logger.info('Wrote to %s' % rawdata)
     winparam = browser.windowParams
     winwidth = winparam['innerWidth']
     logger.debug("%d web elements found" % len(dom))
@@ -352,10 +367,8 @@ def collect_features(browser, lxmlfile=None, rawdata=None):
     domtree = html2dom(page_source) # need to pretty format source before use
     objectify.deannotate(domtree, cleanup_namespaces=True)
     linecount = len(page_source.split("\n"))
-    if lxmlfile:
-        with open(lxmlfile, 'wb') as fp:
-            fp.write(etree.tostring(domtree, encoding='utf8', pretty_print=True, method='xml'))
-            logger.info('Wrote to %s' % lxmlfile)
+    if debugfile:
+        open(debugfile,'w').write(etree.tostring(domtree, encoding='utf8', pretty_print=True, method='xml'))
 
     # populate DOM tree geometry data
     xpathHash = {attrs[0]:i for i,attrs in enumerate(dom)}
@@ -373,9 +386,9 @@ def collect_features(browser, lxmlfile=None, rawdata=None):
     attributes = []
     try:
         # for pages we know where are the main body
-        content_xpaths = get_content_xpaths(winparam['addr'], domtree)
+        content_xpaths = get_content_xpaths(winparam.addr, domtree)
     except NotImplementedError:
-        logger.critical('No content identifier defined for URL %s' % browser.GetUrl())
+        logger.critical('No content identifier for URL %s' % browser.current_url)
         content_xpaths = []
     for i,attrs in enumerate(dom):
         if i and (i % 1000 == 0):
@@ -386,7 +399,7 @@ def collect_features(browser, lxmlfile=None, rawdata=None):
         etreenode  = domtree.xpath(xpath)
         if len(etreenode) != 1:
             if not etreenode:
-                logger.error('JS reported XPath cannot be found in lxml: %s' % xpath)
+                logger.error('WebDriver reported XPath cannot be found in lxml: %s' % xpath)
                 continue
             else:
                 logger.error('XPath not unique for %s. %d elements found.' % (xpath, len(etreenode)))
@@ -410,9 +423,9 @@ def collect_features(browser, lxmlfile=None, rawdata=None):
         if not htmllen:
             logger.error('empty HTML for tag %s on line %s at (%s,%s)+(%s,%s)' % (tagname, sourceline, x,y,width,height))
         textclip   = abbreviate(textonly)
-        sourcepct  = sourceline/linecount
-        xpct       = x/winwidth
-        pospct     = (i+1)/len(dom)
+        sourcepct  = float(sourceline)/linecount
+        xpct       = float(x)/winwidth
+        pospct     = float(i+1)/len(dom)
         isgood     = -1 if not content_xpaths else 1 if visible and display and xpath in content_xpaths else 0
         # remember this
         attributes.append([i, parent, tagname, depth, childcount, sourceline, sourcepct, pospct, xpct, x, y,
@@ -432,45 +445,43 @@ def parseargs():
                                     ,formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("url", help="URL to crawl or text file containing URLs in lines")
     parser.add_argument("-d", dest="dir", default='training_data', help="directory to store pages")
-    parser.add_argument("-s", dest="sleep", default=0, type=int, help="delay between page load and processing")
     parser.add_argument("-x", dest="debug", action="store_true", default=False, help="debug: to save lxml parsed version of the web page as well")
     parser.add_argument("-v", dest="verbose", action='store_true', default=False, help="show debug message")
     return parser.parse_args()
 
-def crawl_and_tag(browser, url , savedir, debug=False, delay=0):
-    html, csv = url2filenames(url)
+def crawl_and_tag(browser, url , savedir, debug=False):
+    html,csv = url2filenames(url)
     browser.LoadUrl(escape_url(url), synchronous=True)
     logger.info('Fetched '+url)
-    if delay:
-        time.sleep(delay)
     # save raw page
-    htmlfile = os.path.join(savedir, html)
-    lxmlfile = os.path.join(savedir, html)+'.lxml' if debug else None
-    with open(htmlfile, 'wb') as srcfp:
+    path = os.path.join(savedir, html)
+    with open(path, 'wb') as srcfp:
         html = browser.getSource(True) # synchronous get
         assert(html)
         srcfp.write(html)
-        logger.debug('Wrote to %s' % htmlfile)
+        logger.debug('Wrote to %s' % path)
     # parse page for features, get attribute table
     logger.info('Extracting features')
-    header, attributes = collect_features(browser, lxmlfile)
-    logger.debug('%d elements with features extracted' % len(attributes))
+    debugfile = os.path.join(savedir, html)+'.lxml' if debug else None
+    header, attributes = collect_features(browser, debugfile)
+    logger.info('%d elements reported' % len(attributes))
     # write as CSV
-    csvfile = os.path.join(savedir, csv)
-    with open(csvfile, 'wb') as csvfp:
-        csvfp.write(codecs.BOM_UTF8) # Excel requires BOM
-        csvout = UnicodeWriter(csvfp)
+    path = os.path.join(savedir, csv)
+
+    with open(path, 'wb') as csvfile:
+        csvfile.write(codecs.BOM_UTF8) # Excel requires BOM
+        csvout = UnicodeWriter(csvfile)
         csvout.writerow(header)
         csvout.writerows([[x if isinstance(x,basestring) else str(x) for x in row] for row in attributes])
-    logger.info('Wrote to %s' % csvfile)
+    logger.info('Wrote to %s' % path)
 
 def crawlmain(browser, args):
     if os.path.exists(args.url):
         with open(args.url, 'r') as urlfp:
             for url in urlfp:
-                crawl_and_tag(browser, url.strip(), args.dir, args.debug, args.sleep)
+                crawl_and_tag(browser, url, args.dir, args.debug)
     else:
-        crawl_and_tag(browser, args.url, args.dir, args.debug, args.sleep)
+        crawl_and_tag(browser, args.url, args.dir, args.debug)
     # close browser, signal MessageLoop to stop
     browser.CloseBrowser()
 
@@ -481,15 +492,15 @@ def main():
     logger.debug('Browser loaded')
     workthread = threading.Thread(target=crawlmain, args=(browser, args))
     workthread.start()
-    browser.run() # blocking until browser closed
+    logger.debug('Running message loop')
+    cef.MessageLoop() # blocking until browser closed
+    logger.debug('Message loop end!')
     workthread.join()
     cef.Shutdown()
 
 if __name__ == '__main__':
     from debugger import debugExceptions
-    from utils import configLogger
     debugExceptions()
-    configLogger(debug=True)
     logging.basicConfig(format='%(asctime)-15s %(levelname)s:%(name)s:%(message)s')
     main()
 

@@ -4,8 +4,7 @@ from __future__ import print_function
 import csv, codecs, cStringIO
 
 class UTF8Recoder:
-    """
-    Iterator that reads an encoded stream and reencodes the input to UTF-8
+    """Iterator that reads an encoded stream and reencodes the input to UTF-8
     """
     def __init__(self, f, encoding):
         self.reader = codecs.getreader(encoding)(f)
@@ -21,8 +20,7 @@ class UTF8Recoder:
         return ln
 
 def skip_bom(f):
-    """
-    skip the BOM from a UTF8 file
+    """skip the BOM from a UTF8 file
     """
     header = f.read(3)
     if header != codecs.BOM_UTF8:
@@ -30,9 +28,8 @@ def skip_bom(f):
     return f
 
 class UnicodeReader:
-    """
-    A CSV reader which will iterate over lines in the CSV file "f",
-    which is encoded in the given encoding.
+    """A CSV reader which will iterate over lines in the CSV file "f", which is
+    encoded in the given encoding.
     """
 
     def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
@@ -47,9 +44,8 @@ class UnicodeReader:
         return self
 
 class UnicodeWriter:
-    """
-    A CSV writer which will write rows to CSV file "f",
-    which is encoded in the given encoding.
+    """A CSV writer which will write rows to CSV file "f", which is encoded in
+    the given encoding.
     """
 
     def __init__(self, f, dialect=csv.excel, encoding="utf-8", **kwds):
